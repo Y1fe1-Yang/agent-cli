@@ -84,7 +84,7 @@ function ToolTile({ item, locale }: { item: FeaturedItem; locale: Locale }) {
         </p>
       </div>
       <div className="mt-auto">
-        <AiEnvBadges aiEnv={tool.ai_env} />
+        <AiEnvBadges aiEnv={tool.ai_env} locale={locale} />
       </div>
     </Link>
   );

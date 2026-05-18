@@ -55,7 +55,7 @@ export default function ToolCard({
 
         {agentCount > 0 && (
           <span className="ml-auto">
-            <AiEnvBadges aiEnv={tool.ai_env} />
+            <AiEnvBadges aiEnv={tool.ai_env} locale={locale} />
           </span>
         )}
       </div>

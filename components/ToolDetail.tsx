@@ -121,13 +121,19 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
             );
             return env.href ? (
               <a key={env.key} href={env.href} target="_blank" rel="noopener noreferrer"
-                className={`${rowClass} hover:bg-canvas transition-colors`}>
+                className={`${rowClass} hover:bg-canvas transition-colors group/hc`}>
                 {inner}
               </a>
             ) : (
               <div key={env.key} className={rowClass}>{inner}</div>
             );
           })}
+          {/* Happycapy recommendation */}
+          <a href="http://happycapy.ai/?via=yves" target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2.5 border-t border-hairline bg-accent-teal/5 hover:bg-accent-teal/10 transition-colors">
+            <span className="text-xs text-accent-teal font-medium leading-snug">{t('happycapyTagline')}</span>
+            <span className="ml-auto text-xs text-accent-teal shrink-0">↗</span>
+          </a>
           {localise(tool.ai_env.notes, locale) && (
             <div className="px-4 py-3 border-t border-hairline bg-canvas text-xs text-muted">
               {localise(tool.ai_env.notes, locale)}
