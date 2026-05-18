@@ -5968,7 +5968,8 @@
       "emulator"
     ],
     "install": {
-      "macos": "curl -fsSL https://dl.google.com/android/cli/latest/darwin_arm64/install.sh | bash",
+      "macos-arm": "curl -fsSL https://dl.google.com/android/cli/latest/darwin_arm64/install.sh | bash",
+      "macos-intel": "curl -fsSL https://dl.google.com/android/cli/latest/darwin_x86_64/install.sh | bash",
       "linux": "curl -fsSL https://dl.google.com/android/cli/latest/linux_x86_64/install.sh | bash",
       "windows": "curl.exe -fsSL https://dl.google.com/android/cli/latest/windows_x86_64/install.cmd -o \"%TEMP%i.cmd\" && \"%TEMP%i.cmd\""
     },
