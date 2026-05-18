@@ -4190,5 +4190,129 @@
         "zh": "完全非交互；在脚本中生成横幅时很有用"
       }
     }
+  },
+  {
+    "slug": "lark-cli",
+    "name": "lark-cli",
+    "tagline": {
+      "en": "Official Lark/Feishu CLI built for humans and AI agents",
+      "zh": "飞书官方命令行工具，专为人类和 AI 助手设计"
+    },
+    "description": {
+      "en": "lark-cli is the official CLI maintained by the Lark/Feishu team, covering 17 business domains with 200+ commands: Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more. It ships 24 built-in AI Agent Skills for seamless Claude Code and Cursor integration.",
+      "zh": "lark-cli 是飞书官方维护的命令行工具，覆盖消息、文档、多维表格、日历、邮件、任务、会议等 17 个业务领域，提供 200+ 命令。内置 24 个 AI Agent Skill，可无缝集成 Claude Code、Cursor 等 AI 工具。"
+    },
+    "homepage": "https://github.com/larksuite/cli",
+    "repo": "https://github.com/larksuite/cli",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "feishu",
+      "lark",
+      "ai-agent",
+      "collaboration",
+      "enterprise"
+    ],
+    "install": {
+      "npm": "npx @larksuite/cli@latest install"
+    },
+    "github": {
+      "stars": 11373,
+      "language": "Go",
+      "last_updated": "2026-05-18"
+    },
+    "examples": [
+      {
+        "command": "lark-cli calendar +agenda",
+        "description": {
+          "en": "View today's calendar agenda",
+          "zh": "查看今日日程"
+        }
+      },
+      {
+        "command": "lark-cli message send --to user@example.com --text \"Hello\"",
+        "description": {
+          "en": "Send a message to a Feishu user",
+          "zh": "向飞书用户发送消息"
+        }
+      },
+      {
+        "command": "lark-cli doc create --title \"My Doc\"",
+        "description": {
+          "en": "Create a new Feishu document",
+          "zh": "新建飞书文档"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Ships with 24 AI Agent Skills optimized for Claude Code. Install skills via: npx skills add larksuite/cli -y",
+        "zh": "内置 24 个专为 Claude Code 优化的 AI Agent Skill，通过 npx skills add larksuite/cli -y 安装"
+      }
+    }
+  },
+  {
+    "slug": "ntn",
+    "name": "ntn",
+    "tagline": {
+      "en": "Official Notion CLI for API calls, Workers, and file management",
+      "zh": "Notion 官方命令行工具，支持 API 调用、Workers 和文件管理"
+    },
+    "description": {
+      "en": "ntn is Notion's official CLI for authenticating, calling the Notion API directly, deploying Notion Workers (TypeScript programs that extend Notion functionality), and managing file uploads — all from your terminal. Supports macOS and Linux.",
+      "zh": "ntn 是 Notion 官方命令行工具，支持账号认证、直接调用 Notion API、部署 Notion Workers（用 TypeScript 扩展 Notion 功能）以及文件上传。支持 macOS 和 Linux。"
+    },
+    "homepage": "https://developers.notion.com/cli",
+    "repo": "https://github.com/makenotion/cli",
+    "license": "Proprietary",
+    "category": "productivity",
+    "tags": [
+      "notion",
+      "productivity",
+      "api",
+      "workers",
+      "typescript"
+    ],
+    "install": {
+      "npm": "npm install --global ntn"
+    },
+    "github": {
+      "stars": 0,
+      "language": "TypeScript",
+      "last_updated": "2026-05-18"
+    },
+    "examples": [
+      {
+        "command": "ntn login",
+        "description": {
+          "en": "Authenticate with your Notion account via browser",
+          "zh": "通过浏览器登录 Notion 账号"
+        }
+      },
+      {
+        "command": "ntn api v1/users/me",
+        "description": {
+          "en": "Get current user info via Notion API",
+          "zh": "通过 Notion API 获取当前用户信息"
+        }
+      },
+      {
+        "command": "ntn workers deploy",
+        "description": {
+          "en": "Build and deploy a Notion Worker to extend Notion functionality",
+          "zh": "构建并部署 Notion Worker 以扩展 Notion 功能"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Works in Claude Code terminal; use ntn api for programmatic Notion access in AI workflows",
+        "zh": "可在 Claude Code 终端中使用；通过 ntn api 在 AI 工作流中实现对 Notion 的编程访问"
+      }
+    }
   }
 ]
