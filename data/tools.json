@@ -62,7 +62,8 @@
       "notes": {
         "en": "Works directly in Claude Code terminal",
         "zh": "可在 Claude Code terminal 中直接使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -127,7 +128,8 @@
       "notes": {
         "en": "Icons require a Nerd Font; works in Claude Code terminal",
         "zh": "图标需要 Nerd Font；可在 Claude Code terminal 中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -193,7 +195,8 @@
       "notes": {
         "en": "Ideal for file search in Claude Code; note Debian installs as fdfind",
         "zh": "在 Claude Code 中非常适合文件搜索；注意 Debian 上安装后命令为 fdfind"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -259,7 +262,8 @@
       "notes": {
         "en": "Used internally by Claude Code; excellent for codebase search",
         "zh": "Claude Code 内部使用；非常适合代码库搜索"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -325,7 +329,8 @@
       "notes": {
         "en": "Interactive mode needs a TTY; non-interactive pipe mode works in Claude Code",
         "zh": "交互模式需要 TTY；管道模式可在 Claude Code 中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -390,7 +395,8 @@
       "notes": {
         "en": "Icons require Nerd Font; plain output works in any terminal",
         "zh": "图标需要 Nerd Font；普通输出在任何终端均可用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -454,7 +460,8 @@
       "notes": {
         "en": "Interactive TUI; use non-interactive flags for scripting in Claude Code",
         "zh": "交互式 TUI；在 Claude Code 中脚本使用时加非交互参数"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -520,7 +527,8 @@
       "notes": {
         "en": "Needs shell init (eval); query subcommand works non-interactively in Claude Code",
         "zh": "需要 shell 初始化（eval）；query 子命令可在 Claude Code 中非交互使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -585,7 +593,8 @@
       "notes": {
         "en": "Interactive TUI requiring a real terminal; not usable non-interactively in Claude Code",
         "zh": "需要真实终端的交互式 TUI；在 Claude Code 中无法非交互使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -649,7 +658,8 @@
       "notes": {
         "en": "Interactive TUI; not usable non-interactively in Claude Code",
         "zh": "交互式 TUI；在 Claude Code 中无法非交互使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -714,7 +724,8 @@
       "notes": {
         "en": "Excellent for API testing in Claude Code; cleaner than curl for JSON",
         "zh": "在 Claude Code 中非常适合 API 测试；处理 JSON 比 curl 更简洁"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -779,7 +790,8 @@
       "notes": {
         "en": "Fast startup makes it ideal for scripting in Claude Code",
         "zh": "启动快，非常适合在 Claude Code 中脚本化调用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -842,7 +854,8 @@
       "notes": {
         "en": "JSON output makes it scriptable in Claude Code; note project is no longer actively maintained",
         "zh": "JSON 输出便于在 Claude Code 脚本中使用；注意该项目已停止活跃维护"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -907,7 +920,8 @@
       "notes": {
         "en": "May require root for some scan types; works in Claude Code for authorized network scanning",
         "zh": "某些扫描类型需要 root 权限；在 Claude Code 中可用于授权网络扫描"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -971,7 +985,8 @@
       "notes": {
         "en": "Fully non-interactive; ideal for automated downloads in Claude Code",
         "zh": "完全非交互；非常适合在 Claude Code 中自动化下载"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1035,7 +1050,8 @@
       "notes": {
         "en": "mitmdump works non-interactively in Claude Code; TUI requires a real terminal",
         "zh": "mitmdump 可在 Claude Code 中非交互使用；TUI 需要真实终端"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1100,7 +1116,8 @@
       "notes": {
         "en": "Interactive graph display; run in a proper terminal for best experience",
         "zh": "交互式图表显示；在正式终端中运行效果最佳"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1164,7 +1181,8 @@
       "notes": {
         "en": "Requires root/sudo; --raw mode works non-interactively in Claude Code",
         "zh": "需要 root/sudo；--raw 模式可在 Claude Code 中非交互使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1229,7 +1247,8 @@
       "notes": {
         "en": "Interactive TUI; best used in an interactive terminal session",
         "zh": "交互式 TUI；最适合在交互式终端会话中使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -1294,7 +1313,8 @@
       "notes": {
         "en": "Set as git pager in .gitconfig; works in Claude Code terminal",
         "zh": "在 .gitconfig 中设为 git 分页器；可在 Claude Code terminal 中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1358,7 +1378,8 @@
       "notes": {
         "en": "Interactive ncurses TUI; best used in a real terminal session",
         "zh": "交互式 ncurses TUI；最适合在真实终端会话中使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -1424,7 +1445,8 @@
       "notes": {
         "en": "Used natively in Claude Code for GitHub operations; requires gh auth login first",
         "zh": "Claude Code 原生用于 GitHub 操作；需先执行 gh auth login"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1489,7 +1511,8 @@
       "notes": {
         "en": "Interactive TUI; best used in a real interactive terminal",
         "zh": "交互式 TUI；最适合在真实交互终端中使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -1555,7 +1578,8 @@
       "notes": {
         "en": "Essential tool in Claude Code for API response processing",
         "zh": "在 Claude Code 中处理 API 响应的必备工具"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1620,7 +1644,8 @@
       "notes": {
         "en": "Essential for Kubernetes/Helm file manipulation in Claude Code",
         "zh": "在 Claude Code 中操作 Kubernetes/Helm 文件的必备工具"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1684,7 +1709,8 @@
       "notes": {
         "en": "Interactive mode needs a TTY; pipe mode works in Claude Code scripts",
         "zh": "交互模式需要 TTY；管道模式可在 Claude Code 脚本中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1749,7 +1775,8 @@
       "notes": {
         "en": "Great for quick command reference in Claude Code sessions",
         "zh": "在 Claude Code 会话中快速查阅命令的好帮手"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1813,7 +1840,8 @@
       "notes": {
         "en": "Essential for shell script quality checks in Claude Code",
         "zh": "在 Claude Code 中检查 shell 脚本质量的必备工具"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1878,7 +1906,8 @@
       "notes": {
         "en": "Fully non-interactive; ideal for performance comparisons in Claude Code",
         "zh": "完全非交互；非常适合在 Claude Code 中进行性能对比"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -1942,7 +1971,8 @@
       "notes": {
         "en": "Excellent for codebase analysis in Claude Code; JSON output is scriptable",
         "zh": "在 Claude Code 中分析代码库的好工具；JSON 输出便于脚本处理"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -2004,7 +2034,8 @@
       "notes": {
         "en": "Requires Docker; interactive TUI works in Claude Code terminal",
         "zh": "需要 Docker；交互式 TUI 可在 Claude Code terminal 中使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2068,7 +2099,8 @@
       "notes": {
         "en": "Non-interactive subcommands work in Claude Code; interactive mode requires a real terminal",
         "zh": "非交互子命令可在 Claude Code 中使用；交互模式需要真实终端"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2132,7 +2164,8 @@
       "notes": {
         "en": "Interactive TUI; better for user sessions than Claude Code automation",
         "zh": "交互式 TUI；更适合用户会话，不适合 Claude Code 自动化"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2198,7 +2231,8 @@
       "notes": {
         "en": "Shell prompt tool; works in Claude Code terminal after shell init",
         "zh": "Shell 提示符工具；在 Claude Code terminal 中 shell init 后可用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2262,7 +2296,8 @@
       "notes": {
         "en": "Shell prompt tool; non-init subcommands work in Claude Code",
         "zh": "Shell 提示符工具；非初始化子命令可在 Claude Code 中使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2326,7 +2361,8 @@
       "notes": {
         "en": "Requires shell alias setup; correction logic works in Claude Code terminal",
         "zh": "需要 shell alias 设置；纠正逻辑可在 Claude Code terminal 中工作"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2390,7 +2426,8 @@
       "notes": {
         "en": "search and stats subcommands work non-interactively in Claude Code",
         "zh": "search 和 stats 子命令可在 Claude Code 中非交互使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2454,7 +2491,8 @@
       "notes": {
         "en": "Requires shell init; search subcommand works in Claude Code",
         "zh": "需要 shell 初始化；search 子命令可在 Claude Code 中使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2517,7 +2555,8 @@
       "notes": {
         "en": "Interactive TUI with fzf; --query mode can be used non-interactively in Claude Code",
         "zh": "基于 fzf 的交互式 TUI；--query 模式可在 Claude Code 中非交互使用"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2581,7 +2620,8 @@
       "notes": {
         "en": "exec subcommand works non-interactively in Claude Code",
         "zh": "exec 子命令可在 Claude Code 中非交互使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -2645,7 +2685,8 @@
       "notes": {
         "en": "Interactive TUI; use ps/top for non-interactive monitoring in Claude Code scripts",
         "zh": "交互式 TUI；在 Claude Code 脚本中使用 ps/top 进行非交互监控"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2710,7 +2751,8 @@
       "notes": {
         "en": "Interactive TUI requiring a real terminal; not suitable for Claude Code automation",
         "zh": "需要真实终端的交互式 TUI；不适合 Claude Code 自动化"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -2774,7 +2816,8 @@
       "notes": {
         "en": "REST API and export modes work non-interactively in Claude Code",
         "zh": "REST API 和导出模式可在 Claude Code 中非交互使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -2840,7 +2883,8 @@
       "notes": {
         "en": "Great for disk space checks in Claude Code; JSON output integrates with jq",
         "zh": "在 Claude Code 中非常适合磁盘空间检查；JSON 输出可与 jq 集成"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -2906,7 +2950,8 @@
       "notes": {
         "en": "Fast and visual disk usage analysis; works in any Claude Code terminal",
         "zh": "快速可视化磁盘使用分析；可在任何 Claude Code 终端中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -2971,7 +3016,8 @@
       "notes": {
         "en": "Works in any terminal; useful for process inspection in Claude Code",
         "zh": "可在任何终端使用；适合在 Claude Code 中进行进程检查"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3037,7 +3083,8 @@
       "notes": {
         "en": "Interactive TUI; --basic mode outputs plain text suitable for scripting",
         "zh": "交互式 TUI；--basic 模式输出适合脚本使用的纯文本"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -3100,7 +3147,8 @@
       "notes": {
         "en": "Interactive REPL; works in Claude Code terminal for database exploration",
         "zh": "交互式 REPL；可在 Claude Code 终端中用于数据库探索"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3163,7 +3211,8 @@
       "notes": {
         "en": "Interactive REPL and non-interactive query execution both work in Claude Code",
         "zh": "交互式 REPL 和非交互查询执行均可在 Claude Code 中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3226,7 +3275,8 @@
       "notes": {
         "en": "Ideal for SQLite file inspection in Claude Code; no server required",
         "zh": "在 Claude Code 中非常适合 SQLite 文件检查；无需服务器"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3289,7 +3339,8 @@
       "notes": {
         "en": "Single binary for all databases; great for polyglot environments in Claude Code",
         "zh": "单一二进制文件支持所有数据库；在 Claude Code 的多数据库环境中非常实用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3353,7 +3404,8 @@
       "notes": {
         "en": "Bundled with Redis server; non-interactive commands work well in Claude Code scripts",
         "zh": "与 Redis 服务器捆绑；非交互命令在 Claude Code 脚本中运行良好"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3416,7 +3468,8 @@
       "notes": {
         "en": "--eval and --file modes work non-interactively in Claude Code",
         "zh": "--eval 和 --file 模式可在 Claude Code 中以非交互方式运行"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3482,7 +3535,8 @@
       "notes": {
         "en": "Fully scriptable; ideal for media processing automation in Claude Code",
         "zh": "完全支持脚本化；非常适合在 Claude Code 中进行媒体处理自动化"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3548,7 +3602,8 @@
       "notes": {
         "en": "Fully non-interactive; ideal for media download automation in Claude Code",
         "zh": "完全非交互；非常适合在 Claude Code 中进行媒体下载自动化"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3613,7 +3668,8 @@
       "notes": {
         "en": "Fully scriptable; essential for image automation pipelines in Claude Code",
         "zh": "完全支持脚本化；Claude Code 图像自动化流水线的必备工具"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3676,7 +3732,8 @@
       "notes": {
         "en": "Display quality depends on terminal support; works best in iTerm2 and Kitty",
         "zh": "显示质量取决于终端支持；在 iTerm2 和 Kitty 中效果最佳"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -3740,7 +3797,8 @@
       "notes": {
         "en": "Works in any terminal with graceful quality degradation; no GUI required",
         "zh": "可在任何终端中使用，画质会根据终端能力优雅降级；无需 GUI"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -3805,7 +3863,8 @@
       "notes": {
         "en": "Ideal for reading documentation during Claude Code sessions",
         "zh": "在 Claude Code 会话中阅读文档的理想工具"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3868,7 +3927,8 @@
       "notes": {
         "en": "Works in any color-capable terminal; purely for fun and aesthetics",
         "zh": "可在任何支持颜色的终端中使用；纯粹用于娱乐和美观"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3931,7 +3991,8 @@
       "notes": {
         "en": "Classic fun tool; works in any terminal",
         "zh": "经典趣味工具；可在任何终端中使用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -3995,7 +4056,8 @@
       "notes": {
         "en": "Interactive fullscreen animation; requires a color terminal",
         "zh": "交互式全屏动画；需要支持颜色的终端"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -4059,7 +4121,8 @@
       "notes": {
         "en": "Just for fun; works in any terminal with animation support",
         "zh": "纯粹娱乐；可在任何支持动画的终端中运行"
-      }
+      },
+      "happycapy": false
     }
   },
   {
@@ -4125,7 +4188,8 @@
       "notes": {
         "en": "Recommended neofetch replacement; works in Claude Code terminal",
         "zh": "推荐的 neofetch 替代品；可在 Claude Code 终端中运行"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -4188,7 +4252,8 @@
       "notes": {
         "en": "Fully non-interactive; useful for generating banners in scripts",
         "zh": "完全非交互；在脚本中生成横幅时很有用"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -4250,7 +4315,8 @@
       "notes": {
         "en": "Ships with 24 AI Agent Skills optimized for Claude Code. Install skills via: npx skills add larksuite/cli -y",
         "zh": "内置 24 个专为 Claude Code 优化的 AI Agent Skill，通过 npx skills add larksuite/cli -y 安装"
-      }
+      },
+      "happycapy": true
     }
   },
   {
@@ -4312,7 +4378,8 @@
       "notes": {
         "en": "Works in Claude Code terminal; use ntn api for programmatic Notion access in AI workflows",
         "zh": "可在 Claude Code 终端中使用；通过 ntn api 在 AI 工作流中实现对 Notion 的编程访问"
-      }
+      },
+      "happycapy": true
     }
   }
 ]

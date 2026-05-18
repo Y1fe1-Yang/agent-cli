@@ -91,6 +91,15 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
               </span>
             </div>
           </div>
+          <div className="flex items-center justify-between">
+            <span className="text-sm font-medium">{t('happycapy')}</span>
+            <div className="flex items-center gap-2">
+              <Badge ok={tool.ai_env.happycapy} />
+              <span className="text-xs text-gray-500">
+                {tool.ai_env.happycapy ? t('compatible') : t('notCompatible')}
+              </span>
+            </div>
+          </div>
           {tool.ai_env.notes[locale] && (
             <p className="text-xs text-gray-500 pt-2 border-t border-gray-100 mt-2">
               {tool.ai_env.notes[locale]}

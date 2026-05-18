@@ -34,6 +34,7 @@ export interface Tool {
   ai_env: {
     claude_code: boolean;
     codex: boolean;
+    happycapy: boolean;
     notes: { en: string; zh: string };
   };
 }
