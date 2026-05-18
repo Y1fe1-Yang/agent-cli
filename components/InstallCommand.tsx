@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
-const PM_ORDER = ['brew', 'apt', 'npm', 'cargo', 'pip', 'winget', 'scoop', 'go', 'dnf', 'pacman'];
+const PM_ORDER = ['brew', 'apt', 'npm', 'cargo', 'pip', 'winget', 'scoop', 'go', 'dnf', 'pacman', 'macos', 'linux', 'windows'];
 
 export default function InstallCommand({
   install,
