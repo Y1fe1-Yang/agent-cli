@@ -4,6 +4,9 @@
     "subtitle": "AIエージェントが実際に使える{count}個のCLIツール — 非インタラクティブ、スクリプト化可能、実サービス連携。",
     "badge": "エージェント対応",
     "terminalComment": "# Claude Codeがワークフローを自動化",
+    "happycapyRecLabel": "おすすめ実行環境",
+    "happycapyRecTagline": "クラウドですぐ使える · エージェントネイティブPC",
+    "happycapyRecCta": "無料で試す →",
     "feature1": "非インタラクティブ出力",
     "feature2": "スクリプト化 & パイプ化",
     "feature3": "サービス連携"

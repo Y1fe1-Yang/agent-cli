@@ -53,27 +53,41 @@ export default async function Hero({ locale, count }: { locale: Locale; count: n
               ))}
             </div>
 
-            {/* AI env logos */}
+            {/* Works with */}
             <div className="mt-10 flex flex-wrap items-center gap-2">
               <span className="text-xs text-muted-soft mr-1">Works with</span>
               {[
-                { name: 'Claude Code', logo: asset('/logos/claude-code.svg'),  href: undefined },
-                { name: 'Codex',       logo: asset('/logos/openai-codex.svg'), href: undefined },
-                { name: 'Happycapy',   logo: asset('/logos/happycapy.png'),    href: 'http://happycapy.ai/?via=yves' },
-              ].map(({ name, logo, href }) => {
-                const pill = (
-                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-muted bg-surface-card border border-hairline px-2.5 py-1 rounded-lg hover:border-primary hover:text-ink transition-colors">
-                    <img src={logo} alt="" width={12} height={12} className="w-3 h-3 object-contain opacity-75" />
-                    {name}
-                  </span>
-                );
-                return href ? (
-                  <a key={name} href={href} target="_blank" rel="noopener noreferrer">{pill}</a>
-                ) : (
-                  <span key={name}>{pill}</span>
-                );
-              })}
+                { name: 'Claude Code', logo: asset('/logos/claude-code.svg')  },
+                { name: 'Codex',       logo: asset('/logos/openai-codex.svg') },
+              ].map(({ name, logo }) => (
+                <span key={name} className="inline-flex items-center gap-1.5 text-xs font-medium text-muted bg-surface-card border border-hairline px-2.5 py-1 rounded-lg">
+                  <img src={logo} alt="" width={12} height={12} className="w-3 h-3 object-contain opacity-75" />
+                  {name}
+                </span>
+              ))}
             </div>
+
+            {/* Happycapy spotlight */}
+            <a
+              href="http://happycapy.ai/?via=yves"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 flex items-center gap-3 bg-surface-card border border-hairline rounded-xl px-4 py-3 hover:border-primary hover:shadow-sm transition-all duration-150 group"
+            >
+              <img src={asset('/logos/happycapy.png')} alt="Happycapy" width={28} height={28} className="w-7 h-7 object-contain shrink-0" />
+              <div className="min-w-0">
+                <div className="flex items-center gap-2 mb-0.5">
+                  <span className="text-sm font-semibold text-ink">Happycapy</span>
+                  <span className="text-[10px] font-medium px-1.5 py-0.5 rounded-full bg-accent-teal/15 text-accent-teal">
+                    {t('happycapyRecLabel')}
+                  </span>
+                </div>
+                <p className="text-xs text-muted leading-snug">{t('happycapyRecTagline')}</p>
+              </div>
+              <span className="ml-auto text-xs font-medium text-primary group-hover:translate-x-0.5 transition-transform shrink-0">
+                {t('happycapyRecCta')}
+              </span>
+            </a>
           </div>
 
           {/* Right — terminal mockup */}

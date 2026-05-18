@@ -4,6 +4,9 @@
     "subtitle": "{count} tools your AI agents can actually use — non-interactive, scriptable, and connected to real services.",
     "badge": "Agent-Ready",
     "terminalComment": "# Claude Code automating your workflow",
+    "happycapyRecLabel": "Recommended runtime",
+    "happycapyRecTagline": "Cloud-ready · Agent-native computer",
+    "happycapyRecCta": "Try free →",
     "feature1": "Non-interactive output",
     "feature2": "Scriptable & pipeable",
     "feature3": "Service-connected"

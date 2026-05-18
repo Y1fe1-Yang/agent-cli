@@ -4,6 +4,9 @@
     "subtitle": "精选 {count} 款 AI Agent 真正能用的命令行工具——非交互式、可脚本化、连接外部服务。",
     "badge": "Agent 友好",
     "terminalComment": "# Claude Code 驱动你的工作流",
+    "happycapyRecLabel": "推荐运行环境",
+    "happycapyRecTagline": "云端开箱即用 · Agent 原生电脑",
+    "happycapyRecCta": "免费试用 →",
     "feature1": "非交互式输出",
     "feature2": "可脚本化 & 管道化",
     "feature3": "连接外部服务"
