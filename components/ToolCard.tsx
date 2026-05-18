@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Tool, Locale } from '@/lib/types';
+import AiEnvBadges from './AiEnvBadges';
 
 function formatStars(n: number): string {
   if (n >= 1000) return `${(n / 1000).toFixed(1)}k`;
@@ -51,18 +52,9 @@ export default function ToolCard({
           </span>
         ))}
 
-        {/* Agent compatibility dots */}
         {agentCount > 0 && (
-          <span className="ml-auto flex items-center gap-1">
-            {tool.ai_env.claude_code && (
-              <span title="Claude Code" className="w-1.5 h-1.5 rounded-full bg-accent-teal inline-block" />
-            )}
-            {tool.ai_env.codex && (
-              <span title="GitHub Codex" className="w-1.5 h-1.5 rounded-full bg-accent-amber inline-block" />
-            )}
-            {tool.ai_env.happycapy && (
-              <span title="Happycapy" className="w-1.5 h-1.5 rounded-full bg-primary inline-block" />
-            )}
+          <span className="ml-auto">
+            <AiEnvBadges aiEnv={tool.ai_env} />
           </span>
         )}
       </div>

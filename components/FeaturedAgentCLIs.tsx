@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { tools } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
+import AiEnvBadges from './AiEnvBadges';
 
 type FeaturedItem = {
   slug: string;
@@ -72,10 +73,8 @@ function ToolTile({ item, locale }: { item: FeaturedItem; locale: Locale }) {
           {tool.tagline[locale]}
         </p>
       </div>
-      <div className="mt-auto flex gap-1">
-        {tool.ai_env.claude_code && <span title="Claude Code" className="w-1.5 h-1.5 rounded-full bg-accent-teal" />}
-        {tool.ai_env.codex      && <span title="Codex"        className="w-1.5 h-1.5 rounded-full bg-accent-amber" />}
-        {tool.ai_env.happycapy  && <span title="Happycapy"    className="w-1.5 h-1.5 rounded-full bg-primary" />}
+      <div className="mt-auto">
+        <AiEnvBadges aiEnv={tool.ai_env} />
       </div>
     </Link>
   );
