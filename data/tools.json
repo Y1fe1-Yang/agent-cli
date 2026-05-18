@@ -1386,12 +1386,12 @@
     "slug": "gh",
     "name": "GitHub CLI",
     "tagline": {
-      "en": "GitHub on the command line — manage PRs, issues, and more",
-      "zh": "命令行版 GitHub——管理 PR、Issue 等"
+      "en": "Manage GitHub repos, pull requests, and issues without leaving your terminal",
+      "zh": "不离开终端，直接管理 GitHub 仓库、PR 和 Issue"
     },
     "description": {
-      "en": "gh is the official GitHub CLI that brings GitHub's features directly to the terminal. Create and review pull requests, manage issues, run workflows, create gists, and interact with the GitHub API — all without leaving the terminal.",
-      "zh": "gh 是官方 GitHub CLI，将 GitHub 功能直接带入终端。无需离开终端即可创建和审查 PR、管理 Issue、运行工作流、创建 gist 以及调用 GitHub API。"
+      "en": "GitHub is where most software teams store their code and collaborate — pull requests, code reviews, issue tracking, and CI/CD pipelines all live there. The official GitHub CLI brings all of that into your terminal: create and review pull requests, manage issues, trigger workflows, and interact with the GitHub API. AI agents use it to automate the entire software development lifecycle.",
+      "zh": "GitHub 是全球最大的代码托管平台，团队在这里协作开发——PR 代码审查、Issue 问题追踪、CI/CD 自动化流水线都在上面。官方 GitHub CLI 把这些功能全部带入终端：创建和审查 PR、管理 Issue、触发工作流、调用 GitHub API。AI Agent 可以用它自动化整个开发流程。"
     },
     "homepage": "https://cli.github.com",
     "repo": "https://github.com/cli/cli",
@@ -4299,12 +4299,12 @@
     "slug": "lark-cli",
     "name": "lark-cli",
     "tagline": {
-      "en": "Official Lark/Feishu CLI built for humans and AI agents",
-      "zh": "飞书官方命令行工具，专为人类和 AI 助手设计"
+      "en": "Let your AI agent send messages, manage docs, and schedule meetings on Lark/Feishu",
+      "zh": "让 AI Agent 在飞书收发消息、管理文档、安排会议"
     },
     "description": {
-      "en": "lark-cli is the official CLI maintained by the Lark/Feishu team, covering 17 business domains with 200+ commands: Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more. It ships 24 built-in AI Agent Skills for seamless Claude Code and Cursor integration.",
-      "zh": "lark-cli 是飞书官方维护的命令行工具，覆盖消息、文档、多维表格、日历、邮件、任务、会议等 17 个业务领域，提供 200+ 命令。内置 24 个 AI Agent Skill，可无缝集成 Claude Code、Cursor 等 AI 工具。"
+      "en": "Lark (Feishu) is the enterprise collaboration platform by ByteDance — think Slack + Notion + Google Calendar, all in one. This official CLI covers 17 built-in modules: messaging, documents, spreadsheets, calendar, email, tasks, meetings, wiki, and more. Designed from day one for AI agents, it ships 24 pre-built AI skills ready to use with Claude Code and Cursor.",
+      "zh": "飞书（Lark）是字节跳动推出的企业协作平台，集消息、文档、日历、视频会议于一体。这个官方 CLI 覆盖 17 个业务模块：消息、文档、多维表格、日历、邮件、任务、会议、知识库等，提供 200+ 命令。内置 24 个 AI Agent Skill，专为 Claude Code、Cursor 等 AI 工具设计，开箱即用。"
     },
     "homepage": "https://github.com/larksuite/cli",
     "repo": "https://github.com/larksuite/cli",
@@ -4409,12 +4409,12 @@
     "slug": "ntn",
     "name": "ntn",
     "tagline": {
-      "en": "Official Notion CLI for API calls, Workers, and file management",
-      "zh": "Notion 官方命令行工具，支持 API 调用、Workers 和文件管理"
+      "en": "Search your Notion workspace, create pages, and query databases from the terminal",
+      "zh": "在终端搜索 Notion 内容、新建页面、查询数据库"
     },
     "description": {
-      "en": "ntn is Notion's official CLI for authenticating, calling the Notion API directly, deploying Notion Workers (TypeScript programs that extend Notion functionality), and managing file uploads — all from your terminal. Supports macOS and Linux.",
-      "zh": "ntn 是 Notion 官方命令行工具，支持账号认证、直接调用 Notion API、部署 Notion Workers（用 TypeScript 扩展 Notion 功能）以及文件上传。支持 macOS 和 Linux。"
+      "en": "Notion is an all-in-one workspace for notes, documents, wikis, and databases — used by teams to organize everything from project plans to company knowledge. This official CLI lets you search pages, create new content, and query databases directly from the terminal, so your AI agent can read and write Notion without opening a browser.",
+      "zh": "Notion 是集笔记、文档、Wiki 和数据库于一体的团队协作平台，用来存储项目计划、公司知识库等各类信息。这个官方 CLI 可以直接搜索页面、新建内容、查询数据库，让 AI Agent 读写 Notion 完全不用打开浏览器。"
     },
     "homepage": "https://developers.notion.com/cli",
     "repo": "https://github.com/makenotion/cli",
@@ -4486,12 +4486,12 @@
     "slug": "vercel",
     "name": "Vercel CLI",
     "tagline": {
-      "en": "Deploy and manage Vercel projects from the terminal",
-      "zh": "在终端一键部署和管理 Vercel 项目"
+      "en": "Deploy your website to the internet with one command — no server setup required",
+      "zh": "一条命令把网站发布到互联网，不需要配置服务器"
     },
     "description": {
-      "en": "Official Vercel CLI to deploy web apps, manage projects, pull environment variables, and configure domains. Supports instant preview deployments and production releases with a single command.",
-      "zh": "Vercel 官方 CLI，用于部署 Web 应用、管理项目、拉取环境变量和配置域名。支持一条命令完成预览部署和生产发布。"
+      "en": "Vercel is a hosting platform for websites and web apps — connect your GitHub repo and every code push automatically deploys a new version. The official CLI lets you do all of this from your terminal: deploy to production, create preview links for branches, pull down environment variables for local development, and manage domains. AI agents use it to automate the entire deploy pipeline.",
+      "zh": "Vercel 是一个网站和 Web 应用的托管平台——连接 GitHub 仓库后，每次推送代码都会自动部署新版本。官方 CLI 让你在终端完成所有操作：发布到生产环境、为分支生成预览链接、拉取本地开发所需的环境变量、管理域名。AI Agent 可以用它自动化整个部署流水线。"
     },
     "homepage": "https://vercel.com",
     "repo": "https://github.com/vercel/vercel",
@@ -4583,12 +4583,12 @@
     "slug": "netlify",
     "name": "Netlify CLI",
     "tagline": {
-      "en": "Deploy and manage Netlify sites from the command line",
-      "zh": "在命令行部署和管理 Netlify 站点"
+      "en": "Deploy your website instantly — every git push goes live automatically",
+      "zh": "即时部署网站——每次 git push 自动上线"
     },
     "description": {
-      "en": "Netlify CLI lets you deploy sites, run local dev servers with function emulation, manage environment variables, and trigger builds from the terminal.",
-      "zh": "Netlify CLI 支持部署站点、在本地运行带函数模拟的开发服务器、管理环境变量和触发构建。"
+      "en": "Netlify hosts websites and web apps with automatic deployments — connect your GitHub repo and every code push triggers a new deployment with a unique preview URL. The CLI brings this workflow into your terminal: deploy manually, run a local dev server that emulates Netlify's edge functions, manage environment variables, and trigger builds.",
+      "zh": "Netlify 是一个网站和 Web 应用托管平台，支持自动部署——连接 GitHub 仓库后，每次推送代码都会触发新部署，并生成独立的预览链接。CLI 把这套流程带入终端：手动部署、本地运行带边缘函数模拟的开发服务器、管理环境变量、触发构建。"
     },
     "homepage": "https://cli.netlify.com",
     "repo": "https://github.com/netlify/cli",
@@ -4645,12 +4645,12 @@
     "slug": "flyctl",
     "name": "flyctl",
     "tagline": {
-      "en": "Deploy and manage apps on Fly.io globally",
-      "zh": "全球部署和管理 Fly.io 应用"
+      "en": "Run your app on servers near your users — across 30+ cities worldwide",
+      "zh": "在离用户最近的城市运行你的应用——覆盖全球 30+ 个区域"
     },
     "description": {
-      "en": "flyctl is the official Fly.io CLI. Launch apps across global regions, scale machines, manage secrets, and inspect logs — all from the command line.",
-      "zh": "flyctl 是 Fly.io 官方 CLI，支持在全球多区域启动应用、扩缩容机器、管理密钥和查看日志。"
+      "en": "Fly.io runs your Docker containers on servers in 30+ cities worldwide, automatically routing each user to the nearest location for the lowest latency. flyctl is the official CLI to launch, scale, and monitor your apps from the terminal: deploy a new version, spin up machines in specific regions, inspect logs, and manage secrets. AI agents use it to automate deployment and scaling decisions.",
+      "zh": "Fly.io 在全球 30+ 个城市的服务器上运行你的 Docker 容器，自动把每个用户路由到最近的节点以降低延迟。flyctl 是官方 CLI，在终端启动、扩缩容和监控应用：发布新版本、在指定区域启动实例、查看日志、管理密钥。AI Agent 可用它自动化部署和扩缩容决策。"
     },
     "homepage": "https://fly.io",
     "repo": "https://github.com/superfly/flyctl",
@@ -4708,12 +4708,12 @@
     "slug": "wrangler",
     "name": "Wrangler",
     "tagline": {
-      "en": "Build and deploy Cloudflare Workers from the CLI",
-      "zh": "在 CLI 中构建和部署 Cloudflare Workers"
+      "en": "Deploy code that runs on servers near your users — Cloudflare's global network",
+      "zh": "把你的代码部署到全球 300 个服务器节点——基于 Cloudflare 网络"
     },
     "description": {
-      "en": "Wrangler is the official Cloudflare Workers CLI. Deploy edge functions, manage KV stores, Durable Objects, R2 buckets, and D1 databases from your terminal.",
-      "zh": "Wrangler 是 Cloudflare Workers 官方 CLI，支持在终端部署边缘函数、管理 KV 存储、Durable Objects、R2 和 D1 数据库。"
+      "en": "Cloudflare Workers let you run JavaScript or TypeScript on Cloudflare's network of 300+ servers worldwide — your code runs close to each user, making APIs and dynamic content much faster. Wrangler is the official CLI to write, test, and deploy these programs. It also manages R2 object storage (like S3), D1 serverless databases, and KV key-value stores — all the building blocks for fast, global apps.",
+      "zh": "Cloudflare Workers 让你的 JavaScript 或 TypeScript 代码运行在 Cloudflare 全球 300+ 个服务器节点上——代码在离用户最近的地方运行，让 API 和动态内容快很多。Wrangler 是官方 CLI，用于编写、测试和部署这些程序，同时管理 R2 对象存储（类似 S3）、D1 无服务器数据库和 KV 键值存储。"
     },
     "homepage": "https://developers.cloudflare.com/workers/",
     "repo": "https://github.com/cloudflare/workers-sdk",
@@ -4805,12 +4805,12 @@
     "slug": "railway",
     "name": "Railway CLI",
     "tagline": {
-      "en": "Deploy and manage Railway projects from your terminal",
-      "zh": "在终端部署和管理 Railway 项目"
+      "en": "Deploy any app, API, or database to the cloud in seconds — no DevOps needed",
+      "zh": "几秒钟把应用、API 或数据库部署到云端，不需要运维知识"
     },
     "description": {
-      "en": "Railway CLI connects your local environment to Railway projects. Deploy services, stream logs, run commands inside containers, and manage environment variables without leaving the terminal.",
-      "zh": "Railway CLI 将本地环境连接到 Railway 项目，支持部署服务、查看日志、在容器内执行命令，全程无需离开终端。"
+      "en": "Railway is a cloud platform where you can deploy web apps, APIs, background workers, cron jobs, and databases with minimal setup — no Kubernetes, no complex infrastructure. The CLI connects your local project to Railway: run one command to deploy, stream logs in real time, inject environment variables, and run commands inside your deployed containers.",
+      "zh": "Railway 是一个云部署平台，几乎不需要配置就能运行 Web 应用、API、后台任务和数据库——不需要 Kubernetes，不需要复杂基础设施。CLI 把本地项目连接到 Railway：一条命令部署、实时查看日志、注入环境变量、在容器内执行命令。"
     },
     "homepage": "https://railway.com",
     "repo": "https://github.com/railwayapp/cli",
@@ -4896,12 +4896,12 @@
     "slug": "supabase",
     "name": "Supabase CLI",
     "tagline": {
-      "en": "Manage Supabase projects and run a local dev stack",
-      "zh": "管理 Supabase 项目并运行本地开发环境"
+      "en": "Manage your app's database, user auth, and file storage from the terminal",
+      "zh": "在终端管理你的应用数据库、用户登录和文件存储"
     },
     "description": {
-      "en": "Supabase CLI manages migrations, generates TypeScript types, runs a full local Supabase stack (Postgres + Auth + Storage + Edge Functions), and links to remote projects.",
-      "zh": "Supabase CLI 支持管理数据库迁移、生成 TypeScript 类型、本地运行完整 Supabase 栈，并与远端项目关联。"
+      "en": "Supabase is a backend platform that gives your app a PostgreSQL database, user authentication, file storage, and serverless functions — all without writing backend code. The CLI manages everything from your terminal: push database schema changes, generate TypeScript types from your schema, run a full local Supabase stack for development, and deploy serverless functions.",
+      "zh": "Supabase 是一个后端平台，为你的应用提供 PostgreSQL 数据库、用户认证、文件存储和无服务器函数——无需编写后端代码。CLI 在终端管理所有这些：推送数据库变更、从 schema 生成 TypeScript 类型、本地运行完整 Supabase 环境，以及部署无服务器函数。"
     },
     "homepage": "https://supabase.com/docs/reference/cli",
     "repo": "https://github.com/supabase/cli",
@@ -5493,12 +5493,12 @@
     "slug": "gwcli",
     "name": "Google Workspace CLI",
     "tagline": {
-      "en": "Manage Google Workspace resources from the command line",
-      "zh": "在命令行管理 Google Workspace 资源"
+      "en": "Let your AI agent control Gmail, Calendar, Drive, and more — no browser needed",
+      "zh": "让 AI Agent 直接操控 Gmail、日历、Drive——无需打开浏览器"
     },
     "description": {
-      "en": "Official Google Workspace CLI for managing users, groups, calendars, Drive, Gmail, and more. Automate Google Workspace administration and data export from your terminal or CI pipeline.",
-      "zh": "Google Workspace 官方 CLI，支持管理用户、群组、日历、云端硬盘、Gmail 等，可在终端或 CI 流水线中自动化 Google Workspace 管理。"
+      "en": "Google Workspace is the suite of productivity tools used by millions of organizations: Gmail, Google Drive, Calendar, Docs, Sheets, and more. This official CLI lets you manage all of it from your terminal, or hand control to an AI agent — automate email, schedule meetings, list files, and export data without ever opening a browser tab.",
+      "zh": "Google Workspace 是数百万企业使用的办公套件，包括 Gmail、Google Drive、日历、文档、表格等。这个官方 CLI 让你在终端管理所有服务，或者直接交给 AI Agent 操控——自动收发邮件、安排会议、列出文件，完全不用打开浏览器。"
     },
     "homepage": "https://developers.google.com/workspace",
     "repo": "https://github.com/googleworkspace/cli",
@@ -5887,12 +5887,12 @@
     "slug": "opencli",
     "name": "OpenCLI",
     "tagline": {
-      "en": "Turn any website or app into a scriptable CLI",
-      "zh": "将任意网站或应用变成可脚本化的 CLI"
+      "en": "Turn any website or app into a command an AI agent can run",
+      "zh": "把任意网站或应用变成 AI Agent 可以直接调用的命令"
     },
     "description": {
-      "en": "OpenCLI is an AI-native CLI hub that transforms websites, Electron apps, and local binaries into standardized command-line interfaces. Built-in adapters for 100+ sites (Bilibili, Twitter, Reddit, etc.) let both humans and AI agents interact with any web service through a unified CLI — no API key required.",
-      "zh": "OpenCLI 是 AI 原生 CLI 中枢，能将网站、Electron 应用和本地工具统一转化为标准化命令行接口。内置 100+ 网站适配器（Bilibili、Twitter、Reddit 等），让人类和 AI 智能体都能通过统一 CLI 操作任意 Web 服务，无需 API Key。"
+      "en": "Most websites do not have an API — which means AI agents cannot use them directly. OpenCLI solves this by wrapping websites, desktop apps, and local tools into standard CLI commands. It has built-in support for 100+ sites (Bilibili, Twitter, Reddit, and more), so your AI agent can interact with any web service without needing an API key or writing custom code.",
+      "zh": "大多数网站没有开放 API——这意味着 AI Agent 无法直接操作它们。OpenCLI 通过把网站、桌面应用和本地工具封装成标准 CLI 命令来解决这个问题。内置支持 100+ 网站（Bilibili、Twitter、Reddit 等），让 AI Agent 无需 API Key、无需写代码，就能操作任意 Web 服务。"
     },
     "homepage": "https://github.com/jackwener/opencli",
     "repo": "https://github.com/jackwener/opencli",
@@ -6271,12 +6271,12 @@
     "slug": "agentmail",
     "name": "Agentmail CLI",
     "tagline": {
-      "en": "Create and manage email inboxes for AI agents",
-      "zh": "为 AI Agent 创建和管理邮件收件箱"
+      "en": "Give your AI agent a real email address it can send, receive, and reply from",
+      "zh": "给你的 AI Agent 一个真实邮箱，可以收发邮件、管理对话"
     },
     "description": {
-      "en": "Agentmail CLI creates real email inboxes with webhook delivery and thread management for AI agents. Agents can receive replies, maintain conversation threads, and search inboxes semantically — enabling true async email workflows.",
-      "zh": "Agentmail CLI 为 AI Agent 创建真实邮件收件箱，支持 Webhook 投递和邮件线程管理。Agent 可接收回复、维护对话线程并进行语义搜索，实现真正的异步邮件工作流。"
+      "en": "Agentmail gives AI agents a real email address — agents can send emails, receive replies, and carry on multi-turn email conversations as part of automated workflows. Unlike traditional email APIs, Agentmail is designed specifically for agents: it handles threading, webhooks for incoming mail, and semantic inbox search out of the box.",
+      "zh": "Agentmail 为 AI Agent 提供真实的电子邮箱，让 Agent 可以发送邮件、接收回复、维护多轮邮件对话，成为自动化工作流的一部分。与传统邮件 API 不同，Agentmail 专为 Agent 设计：开箱即支持邮件线程、收件 Webhook 推送和语义搜索。"
     },
     "homepage": "https://agentmail.to",
     "repo": "https://github.com/agentmail-to/agentmail-toolkit",
