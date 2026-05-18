@@ -1,8 +1,10 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
+import Link from 'next/link';
 import { routing } from '@/i18n/routing';
+import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import '@/app/globals.css';
 
 export const metadata: Metadata = {
@@ -28,6 +30,7 @@ export default async function LocaleLayout({
   }
 
   const messages = await getMessages();
+  const t = await getTranslations({ locale, namespace: 'footer' });
 
   return (
     <html lang={locale} className="h-full">
@@ -36,20 +39,17 @@ export default async function LocaleLayout({
           <div className="min-h-full flex flex-col">
             <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
-                <a href={`/${locale}`} className="font-bold text-lg tracking-tight">
+                <Link href={`/${locale}`} className="font-bold text-lg tracking-tight">
                   CLI Tools
-                </a>
-                <div className="flex gap-4 text-sm">
-                  <a href="/zh" className={`hover:text-blue-600 ${locale === 'zh' ? 'text-blue-600 font-medium' : 'text-gray-500'}`}>中文</a>
-                  <a href="/en" className={`hover:text-blue-600 ${locale === 'en' ? 'text-blue-600 font-medium' : 'text-gray-500'}`}>EN</a>
-                </div>
+                </Link>
+                <LocaleSwitcher locale={locale} />
               </div>
             </header>
             <main className="flex-1">
               {children}
             </main>
             <footer className="border-t border-gray-200 py-6 text-center text-sm text-gray-400">
-              Data sourced from awesome-cli-apps and official tool pages
+              {t('credit')}
             </footer>
           </div>
         </NextIntlClientProvider>
