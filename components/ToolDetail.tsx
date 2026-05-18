@@ -6,7 +6,7 @@ import Link from 'next/link';
 const AI_ENVS = [
   { key: 'claude_code' as const, logo: '/logos/claude-code.svg',  labelKey: 'claudeCode' as const },
   { key: 'codex'       as const, logo: '/logos/openai-codex.svg', labelKey: 'codex'      as const },
-  { key: 'happycapy'   as const, logo: '/logos/happycapy.svg',    labelKey: 'happycapy'  as const },
+  { key: 'happycapy'   as const, logo: '/logos/happycapy.png',    labelKey: 'happycapy'  as const },
 ];
 
 export default async function ToolDetail({ tool, locale }: { tool: Tool; locale: Locale }) {

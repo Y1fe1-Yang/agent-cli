@@ -3,7 +3,7 @@ import type { Tool } from '@/lib/types';
 const ENVS = [
   { key: 'claude_code' as const, logo: '/logos/claude-code.svg',  name: 'Claude Code'   },
   { key: 'codex'       as const, logo: '/logos/openai-codex.svg', name: 'OpenAI Codex'  },
-  { key: 'happycapy'   as const, logo: '/logos/happycapy.svg',    name: 'Happycapy'     },
+  { key: 'happycapy'   as const, logo: '/logos/happycapy.png',    name: 'Happycapy'     },
 ];
 
 export default function AiEnvBadges({
