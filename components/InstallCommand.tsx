@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 
 const PM_ORDER = ['brew', 'apt', 'npm', 'cargo', 'pip', 'winget', 'scoop', 'go', 'dnf', 'pacman'];
@@ -14,8 +14,13 @@ export default function InstallCommand({
   const entries = PM_ORDER.map(pm => [pm, install[pm]] as [string, string | undefined])
     .filter((e): e is [string, string] => !!e[1]);
 
-  const [active, setActive] = useState(entries[0]?.[0] ?? '');
+  const firstPm = entries[0]?.[0] ?? '';
+  const [active, setActive] = useState(firstPm);
   const [copied, setCopied] = useState(false);
+
+  useEffect(() => {
+    setActive(firstPm);
+  }, [firstPm]);
 
   if (entries.length === 0) return null;
 
@@ -25,6 +30,8 @@ export default function InstallCommand({
     navigator.clipboard.writeText(currentCmd).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
+    }).catch(() => {
+      // clipboard API unavailable (HTTP or permission denied)
     });
   };
 
