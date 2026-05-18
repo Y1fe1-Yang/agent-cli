@@ -41,7 +41,9 @@
     "happycapy": "Happycapy",
     "compatible": "兼容",
     "notCompatible": "不兼容",
-    "backToList": "← 返回列表"
+    "backToList": "← 返回列表",
+    "agentPrompts": "给你的 Agent 说",
+    "agentPromptsHint": "把这些提示词直接告诉你的 AI Agent，立刻开始使用。"
   },
   "categories": {
     "file-management": "文件管理",

@@ -1,6 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import type { Tool, Locale } from '@/lib/types';
 import InstallCommand from './InstallCommand';
+import CopyablePrompt from './CopyablePrompt';
 import Link from 'next/link';
 
 const AI_ENVS = [
@@ -75,6 +76,19 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
                   {ex.description[locale]}
                 </div>
               </div>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Agent prompts */}
+      {tool.agent_prompts && tool.agent_prompts.length > 0 && (
+        <section className="mb-8">
+          <h2 className="font-serif text-2xl text-ink mb-1">{t('agentPrompts')}</h2>
+          <p className="text-sm text-muted mb-4">{t('agentPromptsHint')}</p>
+          <div className="flex flex-col gap-2">
+            {tool.agent_prompts.map((p, i) => (
+              <CopyablePrompt key={i} text={p[locale]} />
             ))}
           </div>
         </section>

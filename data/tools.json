@@ -1447,7 +1447,25 @@
         "zh": "Claude Code 原生用于 GitHub 操作；需先执行 gh auth login"
       },
       "happycapy": true
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Create a pull request for my current branch with title [xxx]",
+        "zh": "为当前分支创建 PR，标题为 [xxx]"
+      },
+      {
+        "en": "List all open issues assigned to me in this repo",
+        "zh": "列出这个仓库中分配给我的所有 Issue"
+      },
+      {
+        "en": "Show the status of the latest CI run on this branch",
+        "zh": "查看当前分支最新的 CI 运行状态"
+      },
+      {
+        "en": "Create a new GitHub release tagged [vX.X.X] with release notes",
+        "zh": "创建标签为 [vX.X.X] 的 GitHub Release 并生成发布说明"
+      }
+    ]
   },
   {
     "slug": "gitui",
@@ -4317,7 +4335,33 @@
         "zh": "内置 24 个专为 Claude Code 优化的 AI Agent Skill，通过 npx skills add larksuite/cli -y 安装"
       },
       "happycapy": true
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Show my Lark calendar agenda for today",
+        "zh": "查看我今天的飞书日历安排"
+      },
+      {
+        "en": "Send a Lark message to [channel/person]: [content]",
+        "zh": "向飞书 [群名/成员] 发送消息：[内容]"
+      },
+      {
+        "en": "Create a new Lark doc titled [xxx]",
+        "zh": "在飞书上新建一份文档，标题为 [xxx]"
+      },
+      {
+        "en": "Search Lark wiki for [keyword]",
+        "zh": "搜索飞书知识库中关于 [关键词] 的内容"
+      },
+      {
+        "en": "List my pending Lark tasks",
+        "zh": "列出我的飞书待办任务"
+      },
+      {
+        "en": "Schedule a Lark meeting at [time] with [people]",
+        "zh": "帮我在飞书安排一个会议，时间 [xxx]，参与者 [xxx]"
+      }
+    ]
   },
   {
     "slug": "ntn",
@@ -4380,7 +4424,21 @@
         "zh": "可在 Claude Code 终端中使用；通过 ntn api 在 AI 工作流中实现对 Notion 的编程访问"
       },
       "happycapy": true
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Search my Notion workspace for [keyword]",
+        "zh": "在 Notion 工作区搜索 [关键词]"
+      },
+      {
+        "en": "Create a new Notion page titled [xxx] in [workspace/database]",
+        "zh": "在 Notion [工作区/数据库] 中新建页面，标题 [xxx]"
+      },
+      {
+        "en": "List all entries in my Notion database [name]",
+        "zh": "列出 Notion 数据库 [名称] 中的所有条目"
+      }
+    ]
   },
   {
     "slug": "vercel",
@@ -4442,7 +4500,21 @@
         "en": "",
         "zh": ""
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Deploy the current project to Vercel production",
+        "zh": "将当前项目部署到 Vercel 生产环境"
+      },
+      {
+        "en": "Pull environment variables from my Vercel project into .env.local",
+        "zh": "从 Vercel 项目拉取环境变量到本地 .env.local"
+      },
+      {
+        "en": "List recent Vercel deployments and their status",
+        "zh": "列出最近的 Vercel 部署记录及状态"
+      }
+    ]
   },
   {
     "slug": "netlify",
@@ -4629,7 +4701,21 @@
         "en": "",
         "zh": ""
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Deploy my Cloudflare Worker to production",
+        "zh": "将 Cloudflare Worker 部署到生产环境"
+      },
+      {
+        "en": "List all keys in my KV namespace [name]",
+        "zh": "列出 KV 命名空间 [名称] 中的所有键"
+      },
+      {
+        "en": "Tail live logs from my deployed Worker",
+        "zh": "实时查看已部署 Worker 的日志"
+      }
+    ]
   },
   {
     "slug": "railway",
@@ -4692,7 +4778,21 @@
         "en": "",
         "zh": ""
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Deploy my current service to Railway",
+        "zh": "将当前服务部署到 Railway"
+      },
+      {
+        "en": "Stream live logs from my Railway service [name]",
+        "zh": "实时查看 Railway 服务 [名称] 的日志"
+      },
+      {
+        "en": "Set an environment variable on Railway: [KEY]=[VALUE]",
+        "zh": "在 Railway 设置环境变量：[KEY]=[VALUE]"
+      }
+    ]
   },
   {
     "slug": "supabase",
@@ -4755,7 +4855,21 @@
         "en": "",
         "zh": ""
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Run pending Supabase database migrations",
+        "zh": "执行待处理的 Supabase 数据库迁移"
+      },
+      {
+        "en": "Generate TypeScript types from my Supabase schema",
+        "zh": "从 Supabase schema 生成 TypeScript 类型定义"
+      },
+      {
+        "en": "List all tables in my Supabase project",
+        "zh": "列出 Supabase 项目中的所有数据表"
+      }
+    ]
   },
   {
     "slug": "firebase-tools",
@@ -5316,7 +5430,25 @@
         "en": "",
         "zh": ""
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Show my Gmail inbox — latest 10 unread emails",
+        "zh": "查看我的 Gmail 收件箱，显示最新 10 封未读邮件"
+      },
+      {
+        "en": "Create a Google Calendar event: [title] on [date] at [time]",
+        "zh": "在 Google Calendar 创建日程：[标题]，时间 [日期] [时间]"
+      },
+      {
+        "en": "List recent files in my Google Drive",
+        "zh": "列出我 Google Drive 中的最近文件"
+      },
+      {
+        "en": "Send an email to [address] with subject [xxx] and body [xxx]",
+        "zh": "向 [地址] 发送邮件，主题 [xxx]，正文 [xxx]"
+      }
+    ]
   },
   {
     "slug": "shopify-cli",
@@ -6077,7 +6209,21 @@
         "en": "",
         "zh": ""
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Check my Agentmail inbox and summarize new messages",
+        "zh": "检查 Agentmail 收件箱，总结新邮件"
+      },
+      {
+        "en": "Send an email via Agentmail to [address]: [content]",
+        "zh": "通过 Agentmail 向 [地址] 发送邮件：[内容]"
+      },
+      {
+        "en": "Reply to the latest email thread in my Agentmail inbox",
+        "zh": "回复 Agentmail 收件箱中最新的邮件对话"
+      }
+    ]
   },
   {
     "slug": "ramp",

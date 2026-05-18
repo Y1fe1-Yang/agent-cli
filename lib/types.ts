@@ -38,4 +38,5 @@ export interface Tool {
     happycapy: boolean;
     notes: { en: string; zh: string };
   };
+  agent_prompts?: Array<{ en: string; zh: string }>;
 }
