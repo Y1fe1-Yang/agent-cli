@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Cormorant_Garamond, Inter, JetBrains_Mono } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import Link from 'next/link';
 import { routing } from '@/i18n/routing';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
@@ -50,6 +50,7 @@ export default async function LocaleLayout({
     notFound();
   }
 
+  setRequestLocale(locale);
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: 'footer' });
 

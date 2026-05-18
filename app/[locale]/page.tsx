@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { tools, getAllCategories, getCategoryCount } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
 import Hero from '@/components/Hero';
@@ -25,6 +25,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const categories = getAllCategories();
   const counts = getCategoryCount();
 
