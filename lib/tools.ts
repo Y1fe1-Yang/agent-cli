@@ -4,7 +4,7 @@ import type { Tool, Category } from './types';
 export type { Tool, Category };
 export type { Locale } from './types';
 
-export const tools: Tool[] = toolsData as Tool[];
+export const tools: Tool[] = toolsData as unknown as Tool[];
 
 export function getToolBySlug(slug: string): Tool | undefined {
   return tools.find(t => t.slug === slug);
@@ -23,8 +23,12 @@ export function getToolsByCategory(category: Category): Tool[] {
 }
 
 export function getCategoryCount(): Record<Category, number> {
+  const seed = Object.fromEntries(
+    (['file-management', 'network', 'git', 'dev-tools', 'productivity',
+      'database', 'media', 'system', 'fun'] as const).map(c => [c, 0])
+  ) as Record<Category, number>;
   return tools.reduce((acc, t) => {
-    acc[t.category] = (acc[t.category] || 0) + 1;
+    acc[t.category]++;
     return acc;
-  }, {} as Record<Category, number>);
+  }, seed);
 }
