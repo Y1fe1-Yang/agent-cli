@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "allTools": "All Tools"
+  },
+  "hero": {
+    "title": "Discover Great CLI Tools",
+    "subtitle": "{count} command-line tools with bilingual descriptions and AI environment compatibility"
+  },
+  "search": {
+    "placeholder": "Search CLI tools...",
+    "noResults": "No tools found",
+    "resultsCount": "{count} tools"
+  },
+  "filter": {
+    "allCategories": "All Categories"
+  },
+  "tool": {
+    "install": "Install",
+    "examples": "Examples",
+    "copyCommand": "Copy",
+    "copied": "Copied!",
+    "aiEnv": "AI Environment",
+    "stars": "Stars",
+    "license": "License",
+    "language": "Language",
+    "lastUpdated": "Last Updated",
+    "viewRepo": "View Repo",
+    "viewHomepage": "Homepage",
+    "claudeCode": "Claude Code",
+    "codex": "GitHub Codex",
+    "compatible": "Compatible",
+    "notCompatible": "Not compatible",
+    "backToList": "← Back to list"
+  },
+  "categories": {
+    "file-management": "File Management",
+    "network": "Network",
+    "git": "Git",
+    "dev-tools": "Dev Tools",
+    "productivity": "Productivity",
+    "database": "Database",
+    "media": "Media",
+    "system": "System",
+    "fun": "Fun"
+  },
+  "footer": {
+    "credit": "Data sourced from awesome-cli-apps and official tool pages"
+  }
+}

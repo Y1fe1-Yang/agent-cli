@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "首页",
+    "allTools": "全部工具"
+  },
+  "hero": {
+    "title": "发现优质 CLI 工具",
+    "subtitle": "精选 {count} 款命令行工具，带中英双语介绍和 AI 环境兼容性标注"
+  },
+  "search": {
+    "placeholder": "搜索 CLI 工具...",
+    "noResults": "没有找到相关工具",
+    "resultsCount": "{count} 个工具"
+  },
+  "filter": {
+    "allCategories": "全部分类"
+  },
+  "tool": {
+    "install": "安装方式",
+    "examples": "使用示例",
+    "copyCommand": "复制",
+    "copied": "已复制！",
+    "aiEnv": "AI 环境兼容性",
+    "stars": "Stars",
+    "license": "开源协议",
+    "language": "主语言",
+    "lastUpdated": "最后更新",
+    "viewRepo": "查看仓库",
+    "viewHomepage": "官网",
+    "claudeCode": "Claude Code",
+    "codex": "GitHub Codex",
+    "compatible": "兼容",
+    "notCompatible": "不兼容",
+    "backToList": "← 返回列表"
+  },
+  "categories": {
+    "file-management": "文件管理",
+    "network": "网络",
+    "git": "Git 工具",
+    "dev-tools": "开发工具",
+    "productivity": "效率",
+    "database": "数据库",
+    "media": "媒体",
+    "system": "系统",
+    "fun": "娱乐"
+  },
+  "footer": {
+    "credit": "数据来源：awesome-cli-apps 及各工具官方页面"
+  }
+}
