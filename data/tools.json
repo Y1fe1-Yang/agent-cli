@@ -5949,15 +5949,15 @@
     "slug": "android-cli",
     "name": "Android CLI",
     "tagline": {
-      "en": "Google's official CLI for Android — build, test, and inspect apps without Android Studio",
-      "zh": "Google 官方 Android CLI——无需 Android Studio 就能构建、测试和检查应用"
+      "en": "Google's official agent-first CLI — build, test, and automate Android from the terminal",
+      "zh": "Google 官方 Agent 优先 CLI——在终端完成 Android 构建、测试和自动化"
     },
     "description": {
-      "en": "Google's official Android CLI is designed from the ground up for AI agents and automated workflows. It provides non-interactive access to Android development tasks: build APKs, run tests, inspect app state, capture screenshots, and interact with the Android emulator — all from the terminal. Part of Google's agent-first developer tooling initiative.",
-      "zh": "Google 官方 Android CLI 从底层专为 AI Agent 和自动化工作流设计。提供对 Android 开发任务的非交互式访问：构建 APK、运行测试、检查应用状态、截图，以及与 Android 模拟器交互——全部通过终端完成。是 Google Agent 优先开发者工具计划的一部分。"
+      "en": "Android Studio is the standard IDE for building Android apps, but it requires a GUI and manual interaction. Android CLI is Google's official terminal interface designed from the ground up for AI agents: scaffold projects from templates, manage emulators, deploy APKs, capture screenshots, and query the Android knowledge base — all non-interactively. It ships with installable agent skills for Claude Code and other AI tools.",
+      "zh": "Android Studio 是官方 Android 开发 IDE，但它需要图形界面和手动操作。Android CLI 是 Google 专为 AI Agent 设计的官方终端工具：从模板创建项目、管理模拟器、部署 APK、截取界面截图、查询 Android 知识库——全部非交互式执行。内置可安装的 Agent 技能包，支持 Claude Code 等 AI 工具。"
     },
-    "homepage": "https://developer.android.google.com/tools/agents/android-cli",
-    "repo": "https://developer.android.google.com/tools/agents/android-cli",
+    "homepage": "https://developer.android.com/tools/agents/android-cli",
+    "repo": "https://developer.android.com/tools/agents/android-cli",
     "license": "Proprietary",
     "category": "dev-tools",
     "tags": [
@@ -5968,7 +5968,7 @@
       "emulator"
     ],
     "install": {
-      "brew": "android update"
+      "sh": "android update"
     },
     "github": {
       "stars": 0,
@@ -5977,13 +5977,6 @@
     },
     "examples": [
       {
-        "command": "android create list",
-        "description": {
-          "en": "List available project templates",
-          "zh": "列出可用的项目模板"
-        }
-      },
-      {
         "command": "android emulator start medium_phone",
         "description": {
           "en": "Start an Android emulator",
@@ -5991,17 +5984,38 @@
         }
       },
       {
+        "command": "android create empty-activity-agp-9 --output=./my-app",
+        "description": {
+          "en": "Scaffold a new app from a template",
+          "zh": "从模板创建新项目"
+        }
+      },
+      {
+        "command": "android run --apks=app/build/outputs/apk/debug/app-debug.apk",
+        "description": {
+          "en": "Deploy APK to connected device or emulator",
+          "zh": "把 APK 部署到设备或模拟器"
+        }
+      },
+      {
+        "command": "android screen capture --output=ui.png --annotate",
+        "description": {
+          "en": "Screenshot the emulator with UI element annotations",
+          "zh": "截取模拟器截图并标注 UI 元素"
+        }
+      },
+      {
         "command": "android docs search \"performance optimization\"",
         "description": {
           "en": "Query the Android knowledge base",
-          "zh": "查询 Android 知识库"
+          "zh": "查询 Android 官方知识库"
         }
       },
       {
         "command": "android skills add --all",
         "description": {
-          "en": "Install all Android agent skills",
-          "zh": "安装全部 Android Agent 技能包"
+          "en": "Install all Android agent skills for your AI tool",
+          "zh": "为 AI 工具安装全部 Android Agent 技能包"
         }
       }
     ],
@@ -6013,7 +6027,25 @@
         "en": "Designed specifically for AI agent workflows. Run android init to install the android-cli skill.",
         "zh": "专为 AI Agent 工作流设计，运行 android init 可安装 android-cli 技能包。"
       }
-    }
+    },
+    "agent_prompts": [
+      {
+        "en": "Start an Android emulator and deploy the debug APK",
+        "zh": "启动 Android 模拟器，然后部署 debug APK"
+      },
+      {
+        "en": "Take a screenshot of the current emulator screen",
+        "zh": "截取当前模拟器的界面截图"
+      },
+      {
+        "en": "Create a new Android project from the empty-activity template",
+        "zh": "从 empty-activity 模板创建新的 Android 项目"
+      },
+      {
+        "en": "Search the Android docs for how to implement push notifications",
+        "zh": "查询 Android 文档，了解如何实现推送通知"
+      }
+    ]
   },
   {
     "slug": "firecrawl",

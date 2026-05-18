@@ -30,6 +30,15 @@ const CLOUD: FeaturedItem[] = [
   { slug: 'netlify',       logo: 'netlify',    service: 'Netlify' },
 ];
 
+const DEV: FeaturedItem[] = [
+  { slug: 'android-cli',  logo: 'android',   service: 'Android' },
+  { slug: 'firecrawl',    letter: 'F', letterColor: '#f97316', service: 'Firecrawl' },
+  { slug: 'stripe',       logo: 'stripe',    service: 'Stripe' },
+  { slug: 'shopify-cli',  logo: 'shopify',   service: 'Shopify' },
+  { slug: 'sentry-cli',   logo: 'sentry',    service: 'Sentry' },
+  { slug: 'posthog',      logo: 'posthog',   service: 'PostHog' },
+];
+
 function ToolLogo({ item }: { item: FeaturedItem }) {
   if (item.logo) {
     return (
@@ -123,6 +132,28 @@ export default async function FeaturedAgentCLIs({ locale }: { locale: Locale }) 
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
             {CLOUD.map(item => (
+              <ToolTile key={item.slug} item={item} locale={locale} />
+            ))}
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="border-t border-hairline" />
+
+        {/* Dev Platform CLIs */}
+        <div>
+          <div className="mb-6">
+            <div className="flex items-center gap-2 mb-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-accent-amber inline-block" />
+              <span className="text-xs font-medium text-accent-amber uppercase tracking-widest">
+                {t('devLabel')}
+              </span>
+            </div>
+            <h2 className="font-serif text-3xl text-ink tracking-[-0.5px]">{t('devTitle')}</h2>
+            <p className="text-body text-sm mt-2 max-w-xl">{t('devSubtitle')}</p>
+          </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3">
+            {DEV.map(item => (
               <ToolTile key={item.slug} item={item} locale={locale} />
             ))}
           </div>

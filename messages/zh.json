@@ -14,7 +14,10 @@
     "subtitle": "这些工具让你的 AI Agent 直接操控工作区服务——无需浏览器、无需控制台，完全可脚本化。",
     "cloudLabel": "云服务 & 部署",
     "cloudTitle": "一条命令，掌控云端全栈",
-    "cloudSubtitle": "主流云平台官方 CLI——部署、管理密钥、执行迁移、弹性扩缩容，全程不离终端。"
+    "cloudSubtitle": "主流云平台官方 CLI——部署、管理密钥、执行迁移、弹性扩缩容，全程不离终端。",
+    "devLabel": "开发者平台 CLI",
+    "devTitle": "自动化开发者工作流",
+    "devSubtitle": "开发者日常使用平台的 Agent 就绪 CLI——移动开发、支付、网页抓取、错误监控等。"
   },
   "search": {
     "placeholder": "搜索 CLI 工具...",

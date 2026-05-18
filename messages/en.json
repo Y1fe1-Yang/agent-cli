@@ -14,7 +14,10 @@
     "subtitle": "These tools let your AI agents directly operate workspace services — no browser, no dashboard, fully scriptable.",
     "cloudLabel": "Cloud & Deploy",
     "cloudTitle": "Deploy and Scale with One Command",
-    "cloudSubtitle": "Official CLIs for every major cloud platform — deploy, manage secrets, run migrations, and scale services without leaving the terminal."
+    "cloudSubtitle": "Official CLIs for every major cloud platform — deploy, manage secrets, run migrations, and scale services without leaving the terminal.",
+    "devLabel": "Dev Platform CLIs",
+    "devTitle": "Automate Developer Workflows",
+    "devSubtitle": "Agent-ready CLIs for the platforms developers actually use — mobile, payments, scraping, monitoring, and more."
   },
   "search": {
     "placeholder": "Search CLI tools...",
