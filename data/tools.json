@@ -1,0 +1,4194 @@
+[
+  {
+    "slug": "bat",
+    "name": "bat",
+    "tagline": {
+      "en": "A cat clone with syntax highlighting and Git integration",
+      "zh": "带语法高亮和 Git 集成的现代 cat 替代品"
+    },
+    "description": {
+      "en": "bat is a modern replacement for cat with syntax highlighting, line numbers, Git change markers, and a built-in pager. It supports over 100 languages and integrates seamlessly with other tools.",
+      "zh": "bat 是 cat 的现代替代品，支持 100+ 种语言的语法高亮、行号显示、Git 变更标注，内置分页器，可与其他工具无缝集成。"
+    },
+    "homepage": "https://github.com/sharkdp/bat",
+    "repo": "https://github.com/sharkdp/bat",
+    "license": "MIT",
+    "category": "file-management",
+    "tags": [
+      "cat-replacement",
+      "syntax-highlight",
+      "pager",
+      "rust",
+      "git"
+    ],
+    "install": {
+      "brew": "brew install bat",
+      "apt": "apt install bat",
+      "cargo": "cargo install bat",
+      "winget": "winget install sharkdp.bat",
+      "scoop": "scoop install bat"
+    },
+    "github": {
+      "stars": 51000,
+      "language": "Rust",
+      "last_updated": "2025-11-20"
+    },
+    "examples": [
+      {
+        "command": "bat file.js",
+        "description": {
+          "en": "View file with syntax highlighting",
+          "zh": "带语法高亮查看文件"
+        }
+      },
+      {
+        "command": "bat -A file.txt",
+        "description": {
+          "en": "Show invisible characters",
+          "zh": "显示不可见字符"
+        }
+      },
+      {
+        "command": "bat --diff file.py",
+        "description": {
+          "en": "Show only changed lines (Git diff)",
+          "zh": "只显示 Git 变更行"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Works directly in Claude Code terminal",
+        "zh": "可在 Claude Code terminal 中直接使用"
+      }
+    }
+  },
+  {
+    "slug": "eza",
+    "name": "eza",
+    "tagline": {
+      "en": "A modern replacement for ls with color and icons",
+      "zh": "带颜色和图标的现代 ls 替代品"
+    },
+    "description": {
+      "en": "eza is an actively maintained modern replacement for ls (successor to exa) with color-coded output, file type icons, Git status indicators, and tree view. It supports extended attributes and timestamps.",
+      "zh": "eza 是 exa 的继承者，是 ls 的现代替代品，提供彩色输出、文件类型图标、Git 状态标注和树形视图，支持扩展属性和时间戳显示。"
+    },
+    "homepage": "https://eza.rocks",
+    "repo": "https://github.com/eza-community/eza",
+    "license": "MIT",
+    "category": "file-management",
+    "tags": [
+      "ls-replacement",
+      "icons",
+      "colors",
+      "git",
+      "rust"
+    ],
+    "install": {
+      "brew": "brew install eza",
+      "cargo": "cargo install eza",
+      "scoop": "scoop install eza",
+      "pacman": "pacman -S eza"
+    },
+    "github": {
+      "stars": 14000,
+      "language": "Rust",
+      "last_updated": "2026-01-15"
+    },
+    "examples": [
+      {
+        "command": "eza -la",
+        "description": {
+          "en": "List all files with details",
+          "zh": "显示所有文件详细信息"
+        }
+      },
+      {
+        "command": "eza --tree --level=2",
+        "description": {
+          "en": "Show directory tree (2 levels)",
+          "zh": "显示目录树（2 层）"
+        }
+      },
+      {
+        "command": "eza -la --git",
+        "description": {
+          "en": "Show files with Git status",
+          "zh": "显示文件及 Git 状态"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Icons require a Nerd Font; works in Claude Code terminal",
+        "zh": "图标需要 Nerd Font；可在 Claude Code terminal 中使用"
+      }
+    }
+  },
+  {
+    "slug": "fd",
+    "name": "fd",
+    "tagline": {
+      "en": "A simple, fast and user-friendly alternative to find",
+      "zh": "简单、快速、友好的 find 替代品"
+    },
+    "description": {
+      "en": "fd is a fast alternative to the find command. It uses intuitive syntax, respects .gitignore, supports colored output, parallel execution, and regular expressions. It is significantly faster than find on most workloads.",
+      "zh": "fd 是 find 命令的快速替代品，语法直观，自动遵守 .gitignore，支持彩色输出、并行执行和正则表达式，在大多数工作负载下比 find 快得多。"
+    },
+    "homepage": "https://github.com/sharkdp/fd",
+    "repo": "https://github.com/sharkdp/fd",
+    "license": "MIT",
+    "category": "file-management",
+    "tags": [
+      "find-replacement",
+      "search",
+      "fast",
+      "rust",
+      "gitignore"
+    ],
+    "install": {
+      "brew": "brew install fd",
+      "apt": "apt install fd-find",
+      "cargo": "cargo install fd-find",
+      "winget": "winget install sharkdp.fd",
+      "scoop": "scoop install fd"
+    },
+    "github": {
+      "stars": 36000,
+      "language": "Rust",
+      "last_updated": "2025-12-01"
+    },
+    "examples": [
+      {
+        "command": "fd pattern",
+        "description": {
+          "en": "Find files matching pattern",
+          "zh": "查找匹配模式的文件"
+        }
+      },
+      {
+        "command": "fd -e js -x prettier --write",
+        "description": {
+          "en": "Find JS files and format them",
+          "zh": "查找 JS 文件并格式化"
+        }
+      },
+      {
+        "command": "fd --type f --hidden",
+        "description": {
+          "en": "Find all files including hidden ones",
+          "zh": "查找所有文件包括隐藏文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Ideal for file search in Claude Code; note Debian installs as fdfind",
+        "zh": "在 Claude Code 中非常适合文件搜索；注意 Debian 上安装后命令为 fdfind"
+      }
+    }
+  },
+  {
+    "slug": "ripgrep",
+    "name": "ripgrep",
+    "tagline": {
+      "en": "Recursively search directories for a regex pattern, blazing fast",
+      "zh": "极速递归正则搜索工具"
+    },
+    "description": {
+      "en": "ripgrep (rg) is an extremely fast regex search tool that recursively searches directories while respecting .gitignore rules. It is often faster than both grep and ag, and supports Unicode, multiline matching, and many file type filters.",
+      "zh": "ripgrep（rg）是极速正则搜索工具，递归搜索时自动遵守 .gitignore 规则，通常比 grep 和 ag 都快，支持 Unicode、多行匹配和丰富的文件类型过滤。"
+    },
+    "homepage": "https://github.com/BurntSushi/ripgrep",
+    "repo": "https://github.com/BurntSushi/ripgrep",
+    "license": "MIT",
+    "category": "file-management",
+    "tags": [
+      "grep-replacement",
+      "search",
+      "regex",
+      "rust",
+      "fast"
+    ],
+    "install": {
+      "brew": "brew install ripgrep",
+      "apt": "apt install ripgrep",
+      "cargo": "cargo install ripgrep",
+      "winget": "winget install BurntSushi.ripgrep.MSVC",
+      "scoop": "scoop install ripgrep"
+    },
+    "github": {
+      "stars": 51000,
+      "language": "Rust",
+      "last_updated": "2025-10-15"
+    },
+    "examples": [
+      {
+        "command": "rg 'pattern' src/",
+        "description": {
+          "en": "Search for pattern in src directory",
+          "zh": "在 src 目录下搜索模式"
+        }
+      },
+      {
+        "command": "rg -t js 'import'",
+        "description": {
+          "en": "Search only in JS files",
+          "zh": "仅在 JS 文件中搜索"
+        }
+      },
+      {
+        "command": "rg -l 'TODO'",
+        "description": {
+          "en": "List files containing TODO",
+          "zh": "列出含 TODO 的文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Used internally by Claude Code; excellent for codebase search",
+        "zh": "Claude Code 内部使用；非常适合代码库搜索"
+      }
+    }
+  },
+  {
+    "slug": "fzf",
+    "name": "fzf",
+    "tagline": {
+      "en": "A command-line fuzzy finder for everything",
+      "zh": "万能命令行模糊查找器"
+    },
+    "description": {
+      "en": "fzf is a general-purpose command-line fuzzy finder that can be used with any list — files, command history, processes, git commits, and more. It integrates with shells to supercharge Ctrl+R, Ctrl+T, and Alt+C shortcuts.",
+      "zh": "fzf 是通用命令行模糊查找器，可处理任何列表——文件、命令历史、进程、git 提交等。与 shell 集成后可增强 Ctrl+R、Ctrl+T、Alt+C 等快捷键。"
+    },
+    "homepage": "https://github.com/junegunn/fzf",
+    "repo": "https://github.com/junegunn/fzf",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "fuzzy-finder",
+      "search",
+      "interactive",
+      "go",
+      "shell-integration"
+    ],
+    "install": {
+      "brew": "brew install fzf",
+      "apt": "apt install fzf",
+      "winget": "winget install junegunn.fzf",
+      "scoop": "scoop install fzf",
+      "pacman": "pacman -S fzf"
+    },
+    "github": {
+      "stars": 71000,
+      "language": "Go",
+      "last_updated": "2026-02-10"
+    },
+    "examples": [
+      {
+        "command": "fzf",
+        "description": {
+          "en": "Fuzzy search files in current directory",
+          "zh": "模糊搜索当前目录文件"
+        }
+      },
+      {
+        "command": "git log --oneline | fzf",
+        "description": {
+          "en": "Interactively select a git commit",
+          "zh": "交互式选择 git 提交"
+        }
+      },
+      {
+        "command": "ps aux | fzf | awk '{print $2}' | xargs kill",
+        "description": {
+          "en": "Interactively kill a process",
+          "zh": "交互式终止进程"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive mode needs a TTY; non-interactive pipe mode works in Claude Code",
+        "zh": "交互模式需要 TTY；管道模式可在 Claude Code 中使用"
+      }
+    }
+  },
+  {
+    "slug": "lsd",
+    "name": "lsd",
+    "tagline": {
+      "en": "The next gen ls command with icons and colors",
+      "zh": "带图标和颜色的下一代 ls 命令"
+    },
+    "description": {
+      "en": "lsd (LSDeluxe) is a rewrite of the classic ls command with added features like file type icons, color-coded output, tree listing, and comprehensive metadata display. It requires a Nerd Font for icons.",
+      "zh": "lsd（LSDeluxe）是对经典 ls 命令的重写，新增文件类型图标、彩色输出、树形列表和全面的元数据显示。图标功能需要 Nerd Font。"
+    },
+    "homepage": "https://github.com/lsd-rs/lsd",
+    "repo": "https://github.com/lsd-rs/lsd",
+    "license": "Apache-2.0",
+    "category": "file-management",
+    "tags": [
+      "ls-replacement",
+      "icons",
+      "colors",
+      "rust",
+      "tree"
+    ],
+    "install": {
+      "brew": "brew install lsd",
+      "cargo": "cargo install lsd",
+      "scoop": "scoop install lsd",
+      "winget": "winget install lsd-rs.lsd"
+    },
+    "github": {
+      "stars": 15000,
+      "language": "Rust",
+      "last_updated": "2025-09-20"
+    },
+    "examples": [
+      {
+        "command": "lsd -la",
+        "description": {
+          "en": "List all files with details and icons",
+          "zh": "带图标显示所有文件详情"
+        }
+      },
+      {
+        "command": "lsd --tree",
+        "description": {
+          "en": "Show directory as a tree",
+          "zh": "以树形显示目录"
+        }
+      },
+      {
+        "command": "lsd --total-size",
+        "description": {
+          "en": "Show total size of directories",
+          "zh": "显示目录总大小"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Icons require Nerd Font; plain output works in any terminal",
+        "zh": "图标需要 Nerd Font；普通输出在任何终端均可用"
+      }
+    }
+  },
+  {
+    "slug": "broot",
+    "name": "broot",
+    "tagline": {
+      "en": "A new way to see and navigate directory trees",
+      "zh": "全新的目录树查看与导航方式"
+    },
+    "description": {
+      "en": "broot is a TUI tool for navigating directory trees. It shows an overview of the whole tree even in large directories, allows fuzzy search, previews files, and can be used to navigate and launch commands interactively.",
+      "zh": "broot 是用于导航目录树的 TUI 工具，即使在大型目录中也能显示整棵树的概览，支持模糊搜索、文件预览，并可交互式导航和执行命令。"
+    },
+    "homepage": "https://dystroy.org/broot/",
+    "repo": "https://github.com/Canop/broot",
+    "license": "MIT",
+    "category": "file-management",
+    "tags": [
+      "directory-tree",
+      "tui",
+      "navigation",
+      "rust",
+      "fuzzy"
+    ],
+    "install": {
+      "brew": "brew install broot",
+      "cargo": "cargo install broot",
+      "scoop": "scoop install broot"
+    },
+    "github": {
+      "stars": 10000,
+      "language": "Rust",
+      "last_updated": "2026-01-05"
+    },
+    "examples": [
+      {
+        "command": "broot",
+        "description": {
+          "en": "Open interactive directory navigator",
+          "zh": "打开交互式目录导航器"
+        }
+      },
+      {
+        "command": "broot -s",
+        "description": {
+          "en": "Show sizes alongside files",
+          "zh": "显示文件大小"
+        }
+      },
+      {
+        "command": "broot --sizes --dates",
+        "description": {
+          "en": "Show sizes and modification dates",
+          "zh": "显示大小和修改日期"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; use non-interactive flags for scripting in Claude Code",
+        "zh": "交互式 TUI；在 Claude Code 中脚本使用时加非交互参数"
+      }
+    }
+  },
+  {
+    "slug": "zoxide",
+    "name": "zoxide",
+    "tagline": {
+      "en": "A smarter cd command that learns your habits",
+      "zh": "能学习你使用习惯的智能 cd 命令"
+    },
+    "description": {
+      "en": "zoxide is a smarter alternative to the cd command that tracks your most-used directories and lets you jump to them by typing just a few characters. It supports interactive selection with fzf and integrates with all major shells.",
+      "zh": "zoxide 是 cd 命令的智能替代品，追踪你最常访问的目录，只需输入几个字符即可跳转。支持与 fzf 配合交互式选择，兼容所有主流 shell。"
+    },
+    "homepage": "https://github.com/ajeetdsouza/zoxide",
+    "repo": "https://github.com/ajeetdsouza/zoxide",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "cd-replacement",
+      "navigation",
+      "smart",
+      "rust",
+      "shell-integration"
+    ],
+    "install": {
+      "brew": "brew install zoxide",
+      "cargo": "cargo install zoxide",
+      "winget": "winget install ajeetdsouza.zoxide",
+      "scoop": "scoop install zoxide",
+      "pacman": "pacman -S zoxide"
+    },
+    "github": {
+      "stars": 26000,
+      "language": "Rust",
+      "last_updated": "2026-01-20"
+    },
+    "examples": [
+      {
+        "command": "z proj",
+        "description": {
+          "en": "Jump to most-used directory matching 'proj'",
+          "zh": "跳转到最常用的含 'proj' 的目录"
+        }
+      },
+      {
+        "command": "zi",
+        "description": {
+          "en": "Interactively select a directory with fzf",
+          "zh": "用 fzf 交互式选择目录"
+        }
+      },
+      {
+        "command": "zoxide query -l",
+        "description": {
+          "en": "List all tracked directories",
+          "zh": "列出所有已记录的目录"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Needs shell init (eval); query subcommand works non-interactively in Claude Code",
+        "zh": "需要 shell 初始化（eval）；query 子命令可在 Claude Code 中非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "ranger",
+    "name": "ranger",
+    "tagline": {
+      "en": "A VIM-inspired file manager for the terminal",
+      "zh": "受 VIM 启发的终端文件管理器"
+    },
+    "description": {
+      "en": "ranger is a console file manager with VI key bindings. It provides a multi-pane interface with file previews, supports custom commands, and integrates with external tools like fzf, bat, and image viewers.",
+      "zh": "ranger 是具有 VI 键绑定的控制台文件管理器，提供多面板界面和文件预览，支持自定义命令，可与 fzf、bat 和图像查看器等外部工具集成。"
+    },
+    "homepage": "https://ranger.github.io/",
+    "repo": "https://github.com/ranger/ranger",
+    "license": "GPL-3.0",
+    "category": "file-management",
+    "tags": [
+      "file-manager",
+      "vim",
+      "tui",
+      "python",
+      "preview"
+    ],
+    "install": {
+      "brew": "brew install ranger",
+      "apt": "apt install ranger",
+      "pip": "pip install ranger-fm",
+      "pacman": "pacman -S ranger"
+    },
+    "github": {
+      "stars": 15000,
+      "language": "Python",
+      "last_updated": "2024-11-10"
+    },
+    "examples": [
+      {
+        "command": "ranger",
+        "description": {
+          "en": "Open the file manager",
+          "zh": "打开文件管理器"
+        }
+      },
+      {
+        "command": "ranger --copy-config=all",
+        "description": {
+          "en": "Copy default config files for customization",
+          "zh": "复制默认配置文件以便自定义"
+        }
+      },
+      {
+        "command": "ranger /path/to/dir",
+        "description": {
+          "en": "Open ranger in a specific directory",
+          "zh": "在指定目录打开 ranger"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI requiring a real terminal; not usable non-interactively in Claude Code",
+        "zh": "需要真实终端的交互式 TUI；在 Claude Code 中无法非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "nnn",
+    "name": "nnn",
+    "tagline": {
+      "en": "The fastest terminal file manager — featherweight and feature-rich",
+      "zh": "最快的终端文件管理器——轻量且功能丰富"
+    },
+    "description": {
+      "en": "nnn is an extremely fast and resource-efficient terminal file manager. It has near-zero configuration, uses no color by default for speed, and supports plugins for tasks like bulk renaming, preview, and git integration.",
+      "zh": "nnn 是极速且资源占用极低的终端文件管理器。几乎零配置，默认不使用颜色以提高速度，支持批量重命名、预览、git 集成等插件。"
+    },
+    "homepage": "https://github.com/jarun/nnn",
+    "repo": "https://github.com/jarun/nnn",
+    "license": "BSD-2-Clause",
+    "category": "file-management",
+    "tags": [
+      "file-manager",
+      "fast",
+      "lightweight",
+      "tui",
+      "c"
+    ],
+    "install": {
+      "brew": "brew install nnn",
+      "apt": "apt install nnn",
+      "pacman": "pacman -S nnn"
+    },
+    "github": {
+      "stars": 20000,
+      "language": "C",
+      "last_updated": "2025-08-15"
+    },
+    "examples": [
+      {
+        "command": "nnn",
+        "description": {
+          "en": "Open the file manager",
+          "zh": "打开文件管理器"
+        }
+      },
+      {
+        "command": "nnn -d",
+        "description": {
+          "en": "Show detailed mode with file info",
+          "zh": "显示详细模式含文件信息"
+        }
+      },
+      {
+        "command": "nnn -H",
+        "description": {
+          "en": "Show hidden files",
+          "zh": "显示隐藏文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; not usable non-interactively in Claude Code",
+        "zh": "交互式 TUI；在 Claude Code 中无法非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "httpie",
+    "name": "HTTPie",
+    "tagline": {
+      "en": "Human-friendly command-line HTTP client",
+      "zh": "对人类友好的命令行 HTTP 客户端"
+    },
+    "description": {
+      "en": "HTTPie is a user-friendly command-line HTTP client with intuitive syntax, JSON support, syntax highlighting, sessions, and authentication. Its clean design makes API interaction and debugging much simpler than curl.",
+      "zh": "HTTPie 是用户友好的命令行 HTTP 客户端，语法直观，支持 JSON、语法高亮、会话和身份验证，比 curl 更易用于 API 交互和调试。"
+    },
+    "homepage": "https://httpie.io/cli",
+    "repo": "https://github.com/httpie/cli",
+    "license": "BSD-3-Clause",
+    "category": "network",
+    "tags": [
+      "http-client",
+      "api",
+      "json",
+      "python",
+      "debugging"
+    ],
+    "install": {
+      "brew": "brew install httpie",
+      "apt": "apt install httpie",
+      "pip": "pip install httpie",
+      "winget": "winget install HTTPie.HTTPie"
+    },
+    "github": {
+      "stars": 35000,
+      "language": "Python",
+      "last_updated": "2025-07-20"
+    },
+    "examples": [
+      {
+        "command": "http GET api.example.com/users",
+        "description": {
+          "en": "Make a GET request",
+          "zh": "发起 GET 请求"
+        }
+      },
+      {
+        "command": "http POST api.example.com/users name=John age:=30",
+        "description": {
+          "en": "POST JSON data",
+          "zh": "POST JSON 数据"
+        }
+      },
+      {
+        "command": "http -a user:pass GET api.example.com/secure",
+        "description": {
+          "en": "Request with basic authentication",
+          "zh": "带基础认证的请求"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Excellent for API testing in Claude Code; cleaner than curl for JSON",
+        "zh": "在 Claude Code 中非常适合 API 测试；处理 JSON 比 curl 更简洁"
+      }
+    }
+  },
+  {
+    "slug": "xh",
+    "name": "xh",
+    "tagline": {
+      "en": "Friendly and fast HTTP client, a HTTPie-compatible Rust rewrite",
+      "zh": "友好快速的 HTTP 客户端，HTTPie 的 Rust 重写版"
+    },
+    "description": {
+      "en": "xh is a friendly and fast HTTP client that re-implements HTTPie's interface in Rust for better performance. It is HTTPie-compatible, starts up significantly faster, and uses a single binary with no Python dependency.",
+      "zh": "xh 是用 Rust 重写的 HTTPie 替代品，接口兼容 HTTPie，启动速度更快，单二进制无 Python 依赖。"
+    },
+    "homepage": "https://github.com/ducaale/xh",
+    "repo": "https://github.com/ducaale/xh",
+    "license": "MIT",
+    "category": "network",
+    "tags": [
+      "http-client",
+      "api",
+      "fast",
+      "rust",
+      "httpie-compatible"
+    ],
+    "install": {
+      "brew": "brew install xh",
+      "cargo": "cargo install xh",
+      "scoop": "scoop install xh",
+      "pacman": "pacman -S xh"
+    },
+    "github": {
+      "stars": 6000,
+      "language": "Rust",
+      "last_updated": "2025-12-05"
+    },
+    "examples": [
+      {
+        "command": "xh GET httpbin.org/get",
+        "description": {
+          "en": "Make a GET request",
+          "zh": "发起 GET 请求"
+        }
+      },
+      {
+        "command": "xh POST httpbin.org/post name=Alice",
+        "description": {
+          "en": "POST JSON data",
+          "zh": "POST JSON 数据"
+        }
+      },
+      {
+        "command": "xh --download example.com/file.zip",
+        "description": {
+          "en": "Download a file with progress bar",
+          "zh": "带进度条下载文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fast startup makes it ideal for scripting in Claude Code",
+        "zh": "启动快，非常适合在 Claude Code 中脚本化调用"
+      }
+    }
+  },
+  {
+    "slug": "dog",
+    "name": "dog",
+    "tagline": {
+      "en": "A user-friendly command-line DNS client",
+      "zh": "用户友好的命令行 DNS 客户端"
+    },
+    "description": {
+      "en": "dog is a command-line DNS client with colorful output, support for DNS-over-TLS and DNS-over-HTTPS, multiple record types, and JSON output. It is a user-friendly alternative to dig and nslookup.",
+      "zh": "dog 是命令行 DNS 客户端，输出彩色化，支持 DNS-over-TLS 和 DNS-over-HTTPS、多种记录类型以及 JSON 输出，是 dig 和 nslookup 的友好替代品。"
+    },
+    "homepage": "https://dns.lookup.dog",
+    "repo": "https://github.com/ogham/dog",
+    "license": "EUPL-1.2",
+    "category": "network",
+    "tags": [
+      "dns",
+      "dig-replacement",
+      "rust",
+      "dns-over-tls",
+      "json"
+    ],
+    "install": {
+      "brew": "brew install dog",
+      "cargo": "cargo install dog"
+    },
+    "github": {
+      "stars": 1800,
+      "language": "Rust",
+      "last_updated": "2022-06-30"
+    },
+    "examples": [
+      {
+        "command": "dog example.com",
+        "description": {
+          "en": "Look up DNS records for a domain",
+          "zh": "查询域名的 DNS 记录"
+        }
+      },
+      {
+        "command": "dog example.com MX",
+        "description": {
+          "en": "Query MX records",
+          "zh": "查询 MX 记录"
+        }
+      },
+      {
+        "command": "dog example.com --json",
+        "description": {
+          "en": "Output results as JSON",
+          "zh": "以 JSON 格式输出结果"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "JSON output makes it scriptable in Claude Code; note project is no longer actively maintained",
+        "zh": "JSON 输出便于在 Claude Code 脚本中使用；注意该项目已停止活跃维护"
+      }
+    }
+  },
+  {
+    "slug": "nmap",
+    "name": "nmap",
+    "tagline": {
+      "en": "Network exploration tool and security scanner",
+      "zh": "网络探测工具和安全扫描器"
+    },
+    "description": {
+      "en": "nmap (Network Mapper) is the industry-standard tool for network discovery and security auditing. It supports host discovery, port scanning, service detection, OS detection, and can be scripted with the Nmap Scripting Engine (NSE).",
+      "zh": "nmap（网络映射器）是网络发现和安全审计的行业标准工具，支持主机发现、端口扫描、服务检测、OS 检测，并可通过 Nmap 脚本引擎（NSE）进行脚本化。"
+    },
+    "homepage": "https://nmap.org",
+    "repo": "https://github.com/nmap/nmap",
+    "license": "NPSL",
+    "category": "network",
+    "tags": [
+      "scanner",
+      "security",
+      "port-scan",
+      "c",
+      "network-discovery"
+    ],
+    "install": {
+      "brew": "brew install nmap",
+      "apt": "apt install nmap",
+      "winget": "winget install Insecure.Nmap",
+      "pacman": "pacman -S nmap"
+    },
+    "github": {
+      "stars": 10000,
+      "language": "C",
+      "last_updated": "2025-09-01"
+    },
+    "examples": [
+      {
+        "command": "nmap 192.168.1.1",
+        "description": {
+          "en": "Scan a host for open ports",
+          "zh": "扫描主机开放端口"
+        }
+      },
+      {
+        "command": "nmap -sV -p 80,443 example.com",
+        "description": {
+          "en": "Detect service versions on specific ports",
+          "zh": "检测指定端口的服务版本"
+        }
+      },
+      {
+        "command": "nmap -A -T4 192.168.1.0/24",
+        "description": {
+          "en": "Aggressive scan of a subnet",
+          "zh": "对子网进行深度扫描"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "May require root for some scan types; works in Claude Code for authorized network scanning",
+        "zh": "某些扫描类型需要 root 权限；在 Claude Code 中可用于授权网络扫描"
+      }
+    }
+  },
+  {
+    "slug": "aria2",
+    "name": "aria2",
+    "tagline": {
+      "en": "Lightweight multi-protocol download utility",
+      "zh": "轻量级多协议下载工具"
+    },
+    "description": {
+      "en": "aria2 is a lightweight, multi-protocol download utility supporting HTTP/HTTPS, FTP, SFTP, BitTorrent, and Metalink. It can download from multiple sources simultaneously, supports resume, and provides a JSON-RPC interface for automation.",
+      "zh": "aria2 是轻量级多协议下载工具，支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink，可同时从多个来源下载、支持断点续传，并提供 JSON-RPC 接口用于自动化。"
+    },
+    "homepage": "https://aria2.github.io",
+    "repo": "https://github.com/aria2/aria2",
+    "license": "GPL-2.0",
+    "category": "network",
+    "tags": [
+      "downloader",
+      "bittorrent",
+      "multi-source",
+      "c++",
+      "rpc"
+    ],
+    "install": {
+      "brew": "brew install aria2",
+      "apt": "apt install aria2",
+      "scoop": "scoop install aria2"
+    },
+    "github": {
+      "stars": 35000,
+      "language": "C++",
+      "last_updated": "2023-12-20"
+    },
+    "examples": [
+      {
+        "command": "aria2c https://example.com/file.zip",
+        "description": {
+          "en": "Download a file",
+          "zh": "下载文件"
+        }
+      },
+      {
+        "command": "aria2c -x 16 -s 16 https://example.com/large.iso",
+        "description": {
+          "en": "Download with 16 connections for speed",
+          "zh": "用 16 个连接加速下载"
+        }
+      },
+      {
+        "command": "aria2c --input-file=urls.txt",
+        "description": {
+          "en": "Download multiple URLs from a file",
+          "zh": "从文件批量下载多个 URL"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fully non-interactive; ideal for automated downloads in Claude Code",
+        "zh": "完全非交互；非常适合在 Claude Code 中自动化下载"
+      }
+    }
+  },
+  {
+    "slug": "mitmproxy",
+    "name": "mitmproxy",
+    "tagline": {
+      "en": "An interactive TLS-capable intercepting HTTP proxy for security testing",
+      "zh": "用于安全测试的交互式 TLS 拦截 HTTP 代理"
+    },
+    "description": {
+      "en": "mitmproxy is a free and open-source interactive HTTPS proxy that lets you intercept, inspect, modify, and replay HTTP traffic. It includes three interfaces: mitmproxy (TUI), mitmweb (browser UI), and mitmdump (command-line).",
+      "zh": "mitmproxy 是免费开源的交互式 HTTPS 代理，可拦截、检查、修改和重放 HTTP 流量。提供三种界面：mitmproxy（TUI）、mitmweb（浏览器 UI）和 mitmdump（命令行）。"
+    },
+    "homepage": "https://mitmproxy.org",
+    "repo": "https://github.com/mitmproxy/mitmproxy",
+    "license": "MIT",
+    "category": "network",
+    "tags": [
+      "proxy",
+      "http-intercept",
+      "security",
+      "python",
+      "tls"
+    ],
+    "install": {
+      "brew": "brew install mitmproxy",
+      "pip": "pip install mitmproxy",
+      "winget": "mitmproxy.mitmproxy"
+    },
+    "github": {
+      "stars": 38000,
+      "language": "Python",
+      "last_updated": "2026-02-20"
+    },
+    "examples": [
+      {
+        "command": "mitmproxy",
+        "description": {
+          "en": "Start interactive TUI proxy on port 8080",
+          "zh": "在 8080 端口启动交互式 TUI 代理"
+        }
+      },
+      {
+        "command": "mitmweb",
+        "description": {
+          "en": "Start proxy with browser-based UI",
+          "zh": "启动基于浏览器 UI 的代理"
+        }
+      },
+      {
+        "command": "mitmdump -w traffic.log",
+        "description": {
+          "en": "Capture traffic to a file non-interactively",
+          "zh": "非交互式将流量捕获到文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "mitmdump works non-interactively in Claude Code; TUI requires a real terminal",
+        "zh": "mitmdump 可在 Claude Code 中非交互使用；TUI 需要真实终端"
+      }
+    }
+  },
+  {
+    "slug": "gping",
+    "name": "gping",
+    "tagline": {
+      "en": "Ping, but with a graph",
+      "zh": "带实时图表的 ping 工具"
+    },
+    "description": {
+      "en": "gping is a ping tool that displays results as a real-time line graph in your terminal. It can ping multiple hosts simultaneously and compare their latencies visually, making network diagnostics much more intuitive.",
+      "zh": "gping 是以实时折线图展示结果的 ping 工具，可同时 ping 多台主机并直观比较延迟，让网络诊断更加直观。"
+    },
+    "homepage": "https://github.com/orf/gping",
+    "repo": "https://github.com/orf/gping",
+    "license": "MIT",
+    "category": "network",
+    "tags": [
+      "ping",
+      "network",
+      "graph",
+      "rust",
+      "latency"
+    ],
+    "install": {
+      "brew": "brew install gping",
+      "cargo": "cargo install gping",
+      "scoop": "scoop install gping",
+      "winget": "orf.gping"
+    },
+    "github": {
+      "stars": 10000,
+      "language": "Rust",
+      "last_updated": "2025-10-01"
+    },
+    "examples": [
+      {
+        "command": "gping google.com",
+        "description": {
+          "en": "Ping with real-time graph",
+          "zh": "带实时图表 ping"
+        }
+      },
+      {
+        "command": "gping google.com cloudflare.com 1.1.1.1",
+        "description": {
+          "en": "Compare latency of multiple hosts",
+          "zh": "对比多个主机的延迟"
+        }
+      },
+      {
+        "command": "gping --cmd 'curl -o /dev/null https://example.com'",
+        "description": {
+          "en": "Graph the latency of a command",
+          "zh": "图表化显示命令的执行延迟"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive graph display; run in a proper terminal for best experience",
+        "zh": "交互式图表显示；在正式终端中运行效果最佳"
+      }
+    }
+  },
+  {
+    "slug": "bandwhich",
+    "name": "bandwhich",
+    "tagline": {
+      "en": "Terminal bandwidth utilization tool",
+      "zh": "终端网络带宽使用监控工具"
+    },
+    "description": {
+      "en": "bandwhich displays current network utilization by process, connection, and remote IP/hostname. It sniffs your network interfaces and provides a live TUI dashboard to help identify which processes are using the most bandwidth.",
+      "zh": "bandwhich 按进程、连接和远程 IP/主机名显示当前网络利用率，实时嗅探网络接口并提供 TUI 仪表盘，帮助识别占用最多带宽的进程。"
+    },
+    "homepage": "https://github.com/imsnif/bandwhich",
+    "repo": "https://github.com/imsnif/bandwhich",
+    "license": "MIT",
+    "category": "network",
+    "tags": [
+      "bandwidth",
+      "network-monitor",
+      "tui",
+      "rust",
+      "process"
+    ],
+    "install": {
+      "brew": "brew install bandwhich",
+      "cargo": "cargo install bandwhich",
+      "pacman": "pacman -S bandwhich"
+    },
+    "github": {
+      "stars": 9000,
+      "language": "Rust",
+      "last_updated": "2025-06-15"
+    },
+    "examples": [
+      {
+        "command": "sudo bandwhich",
+        "description": {
+          "en": "Monitor bandwidth usage (requires root)",
+          "zh": "监控带宽使用（需要 root）"
+        }
+      },
+      {
+        "command": "bandwhich --raw",
+        "description": {
+          "en": "Output raw data for scripting",
+          "zh": "输出原始数据供脚本使用"
+        }
+      },
+      {
+        "command": "bandwhich -n",
+        "description": {
+          "en": "Show only numeric IPs (faster startup)",
+          "zh": "仅显示数字 IP（启动更快）"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Requires root/sudo; --raw mode works non-interactively in Claude Code",
+        "zh": "需要 root/sudo；--raw 模式可在 Claude Code 中非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "lazygit",
+    "name": "lazygit",
+    "tagline": {
+      "en": "Simple terminal UI for git commands",
+      "zh": "简单的 git 命令终端 UI"
+    },
+    "description": {
+      "en": "lazygit is a simple terminal UI for git that makes it easy to stage files, view diffs, resolve conflicts, cherry-pick, rebase interactively, and more — all from a keyboard-driven TUI without memorizing git command syntax.",
+      "zh": "lazygit 是 git 的简单终端 UI，无需记忆 git 命令语法，通过键盘驱动的 TUI 即可轻松完成暂存文件、查看差异、解决冲突、cherry-pick 和交互式 rebase 等操作。"
+    },
+    "homepage": "https://github.com/jesseduffield/lazygit",
+    "repo": "https://github.com/jesseduffield/lazygit",
+    "license": "MIT",
+    "category": "git",
+    "tags": [
+      "git",
+      "tui",
+      "interactive",
+      "go",
+      "visual"
+    ],
+    "install": {
+      "brew": "brew install lazygit",
+      "winget": "winget install JesseDuffield.lazygit",
+      "scoop": "scoop install lazygit",
+      "pacman": "pacman -S lazygit"
+    },
+    "github": {
+      "stars": 58000,
+      "language": "Go",
+      "last_updated": "2026-03-01"
+    },
+    "examples": [
+      {
+        "command": "lazygit",
+        "description": {
+          "en": "Open the TUI git interface",
+          "zh": "打开 TUI git 界面"
+        }
+      },
+      {
+        "command": "lazygit -p /path/to/repo",
+        "description": {
+          "en": "Open lazygit for a specific repo",
+          "zh": "为指定仓库打开 lazygit"
+        }
+      },
+      {
+        "command": "lazygit log",
+        "description": {
+          "en": "Open directly to the log view",
+          "zh": "直接打开日志视图"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; best used in an interactive terminal session",
+        "zh": "交互式 TUI；最适合在交互式终端会话中使用"
+      }
+    }
+  },
+  {
+    "slug": "delta",
+    "name": "delta",
+    "tagline": {
+      "en": "A syntax-highlighting pager for git, diff, and grep output",
+      "zh": "用于 git、diff 和 grep 输出的语法高亮分页器"
+    },
+    "description": {
+      "en": "delta is a syntax-highlighting pager for git diff and grep outputs. It provides side-by-side diffs, line numbers, themes, and a navigation mode with word-level diff highlighting, making code reviews much easier in the terminal.",
+      "zh": "delta 是 git diff 和 grep 输出的语法高亮分页器，提供并排对比、行号、主题和单词级差异高亮的导航模式，让终端代码审查更加轻松。"
+    },
+    "homepage": "https://dandavison.github.io/delta/",
+    "repo": "https://github.com/dandavison/delta",
+    "license": "MIT",
+    "category": "git",
+    "tags": [
+      "git-diff",
+      "syntax-highlight",
+      "pager",
+      "rust",
+      "side-by-side"
+    ],
+    "install": {
+      "brew": "brew install git-delta",
+      "cargo": "cargo install git-delta",
+      "scoop": "scoop install delta",
+      "winget": "winget install dandavison.delta"
+    },
+    "github": {
+      "stars": 25000,
+      "language": "Rust",
+      "last_updated": "2025-11-15"
+    },
+    "examples": [
+      {
+        "command": "git diff | delta",
+        "description": {
+          "en": "View diff with syntax highlighting",
+          "zh": "用语法高亮查看差异"
+        }
+      },
+      {
+        "command": "delta --side-by-side file1 file2",
+        "description": {
+          "en": "Side-by-side diff of two files",
+          "zh": "两文件的并排差异对比"
+        }
+      },
+      {
+        "command": "git show HEAD | delta",
+        "description": {
+          "en": "View latest commit changes with delta",
+          "zh": "用 delta 查看最新提交变更"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Set as git pager in .gitconfig; works in Claude Code terminal",
+        "zh": "在 .gitconfig 中设为 git 分页器；可在 Claude Code terminal 中使用"
+      }
+    }
+  },
+  {
+    "slug": "tig",
+    "name": "tig",
+    "tagline": {
+      "en": "Text-mode interface for git",
+      "zh": "git 的文本模式界面"
+    },
+    "description": {
+      "en": "tig is an ncurses-based text-mode interface for git that provides a visual overview of the repository. It allows browsing commit history, diffs, stashes, and refs with a keyboard-driven interface, and can also be used as a git add interactive tool.",
+      "zh": "tig 是基于 ncurses 的 git 文本模式界面，提供仓库的可视化概览，可用键盘浏览提交历史、差异、stash 和引用，也可作为交互式 git add 工具。"
+    },
+    "homepage": "https://jonas.github.io/tig/",
+    "repo": "https://github.com/jonas/tig",
+    "license": "GPL-2.0",
+    "category": "git",
+    "tags": [
+      "git",
+      "tui",
+      "ncurses",
+      "c",
+      "log-viewer"
+    ],
+    "install": {
+      "brew": "brew install tig",
+      "apt": "apt install tig",
+      "pacman": "pacman -S tig"
+    },
+    "github": {
+      "stars": 12000,
+      "language": "C",
+      "last_updated": "2025-05-10"
+    },
+    "examples": [
+      {
+        "command": "tig",
+        "description": {
+          "en": "Browse git log interactively",
+          "zh": "交互式浏览 git 日志"
+        }
+      },
+      {
+        "command": "tig status",
+        "description": {
+          "en": "View git status and stage files",
+          "zh": "查看 git 状态并暂存文件"
+        }
+      },
+      {
+        "command": "tig blame file.js",
+        "description": {
+          "en": "Blame view for a specific file",
+          "zh": "查看文件的 blame 视图"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive ncurses TUI; best used in a real terminal session",
+        "zh": "交互式 ncurses TUI；最适合在真实终端会话中使用"
+      }
+    }
+  },
+  {
+    "slug": "gh",
+    "name": "GitHub CLI",
+    "tagline": {
+      "en": "GitHub on the command line — manage PRs, issues, and more",
+      "zh": "命令行版 GitHub——管理 PR、Issue 等"
+    },
+    "description": {
+      "en": "gh is the official GitHub CLI that brings GitHub's features directly to the terminal. Create and review pull requests, manage issues, run workflows, create gists, and interact with the GitHub API — all without leaving the terminal.",
+      "zh": "gh 是官方 GitHub CLI，将 GitHub 功能直接带入终端。无需离开终端即可创建和审查 PR、管理 Issue、运行工作流、创建 gist 以及调用 GitHub API。"
+    },
+    "homepage": "https://cli.github.com",
+    "repo": "https://github.com/cli/cli",
+    "license": "MIT",
+    "category": "git",
+    "tags": [
+      "github",
+      "pr",
+      "issues",
+      "go",
+      "workflow"
+    ],
+    "install": {
+      "brew": "brew install gh",
+      "winget": "winget install GitHub.cli",
+      "scoop": "scoop install gh",
+      "apt": "apt install gh",
+      "pacman": "pacman -S github-cli"
+    },
+    "github": {
+      "stars": 38000,
+      "language": "Go",
+      "last_updated": "2026-04-15"
+    },
+    "examples": [
+      {
+        "command": "gh pr create --title 'feat: new feature' --body 'Description'",
+        "description": {
+          "en": "Create a pull request",
+          "zh": "创建 Pull Request"
+        }
+      },
+      {
+        "command": "gh issue list --assignee @me",
+        "description": {
+          "en": "List issues assigned to you",
+          "zh": "列出分配给自己的 Issue"
+        }
+      },
+      {
+        "command": "gh run watch",
+        "description": {
+          "en": "Watch a GitHub Actions run in real-time",
+          "zh": "实时监看 GitHub Actions 运行"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Used natively in Claude Code for GitHub operations; requires gh auth login first",
+        "zh": "Claude Code 原生用于 GitHub 操作；需先执行 gh auth login"
+      }
+    }
+  },
+  {
+    "slug": "gitui",
+    "name": "gitui",
+    "tagline": {
+      "en": "Blazing fast TUI for git written in Rust",
+      "zh": "用 Rust 编写的极速 git TUI"
+    },
+    "description": {
+      "en": "gitui is a fast, reliable, and user-friendly TUI for git written in Rust. It focuses on performance and provides features like staging hunks, interactive rebase, stash management, branch operations, and a diff viewer.",
+      "zh": "gitui 是用 Rust 编写的快速可靠的 git TUI，专注性能，提供分块暂存、交互式 rebase、stash 管理、分支操作和差异查看器等功能。"
+    },
+    "homepage": "https://github.com/extrawurst/gitui",
+    "repo": "https://github.com/extrawurst/gitui",
+    "license": "MIT",
+    "category": "git",
+    "tags": [
+      "git",
+      "tui",
+      "fast",
+      "rust",
+      "interactive"
+    ],
+    "install": {
+      "brew": "brew install gitui",
+      "cargo": "cargo install gitui",
+      "scoop": "scoop install gitui",
+      "winget": "winget install extrawurst.gitui"
+    },
+    "github": {
+      "stars": 18000,
+      "language": "Rust",
+      "last_updated": "2026-02-01"
+    },
+    "examples": [
+      {
+        "command": "gitui",
+        "description": {
+          "en": "Open the TUI git interface",
+          "zh": "打开 TUI git 界面"
+        }
+      },
+      {
+        "command": "gitui -t theme.ron",
+        "description": {
+          "en": "Use a custom theme",
+          "zh": "使用自定义主题"
+        }
+      },
+      {
+        "command": "gitui -d /path/to/repo",
+        "description": {
+          "en": "Open gitui for a specific directory",
+          "zh": "为指定目录打开 gitui"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; best used in a real interactive terminal",
+        "zh": "交互式 TUI；最适合在真实交互终端中使用"
+      }
+    }
+  },
+  {
+    "slug": "jq",
+    "name": "jq",
+    "tagline": {
+      "en": "Lightweight and flexible command-line JSON processor",
+      "zh": "轻量灵活的命令行 JSON 处理器"
+    },
+    "description": {
+      "en": "jq is a lightweight and flexible command-line JSON processor that lets you slice, filter, map, and transform structured JSON data. It is like sed for JSON and is an essential tool for working with APIs and data pipelines.",
+      "zh": "jq 是轻量灵活的命令行 JSON 处理器，可对 JSON 数据进行切片、过滤、映射和转换，相当于 JSON 的 sed，是处理 API 和数据管道的必备工具。"
+    },
+    "homepage": "https://jqlang.github.io/jq/",
+    "repo": "https://github.com/jqlang/jq",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "json",
+      "data-processing",
+      "filter",
+      "c",
+      "api"
+    ],
+    "install": {
+      "brew": "brew install jq",
+      "apt": "apt install jq",
+      "winget": "winget install jqlang.jq",
+      "scoop": "scoop install jq",
+      "pacman": "pacman -S jq"
+    },
+    "github": {
+      "stars": 30000,
+      "language": "C",
+      "last_updated": "2025-08-20"
+    },
+    "examples": [
+      {
+        "command": "curl -s api.github.com/repos/cli/cli | jq '.stargazers_count'",
+        "description": {
+          "en": "Extract a field from JSON API response",
+          "zh": "从 JSON API 响应中提取字段"
+        }
+      },
+      {
+        "command": "cat data.json | jq '.[] | select(.age > 30)'",
+        "description": {
+          "en": "Filter array items by condition",
+          "zh": "按条件过滤数组项"
+        }
+      },
+      {
+        "command": "echo '{\"name\":\"Alice\"}' | jq -r '.name'",
+        "description": {
+          "en": "Output raw string without quotes",
+          "zh": "输出不带引号的原始字符串"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Essential tool in Claude Code for API response processing",
+        "zh": "在 Claude Code 中处理 API 响应的必备工具"
+      }
+    }
+  },
+  {
+    "slug": "yq",
+    "name": "yq",
+    "tagline": {
+      "en": "A portable command-line YAML, JSON, XML, CSV processor",
+      "zh": "可移植的命令行 YAML/JSON/XML/CSV 处理器"
+    },
+    "description": {
+      "en": "yq is a lightweight and portable command-line tool for processing YAML, JSON, XML, CSV, and TOML. It uses a jq-like syntax, supports in-place editing, multi-document files, and can convert between formats.",
+      "zh": "yq 是轻量可移植的命令行工具，用于处理 YAML、JSON、XML、CSV 和 TOML。使用类 jq 语法，支持就地编辑、多文档文件以及格式间转换。"
+    },
+    "homepage": "https://mikefarah.gitbook.io/yq/",
+    "repo": "https://github.com/mikefarah/yq",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "yaml",
+      "json",
+      "xml",
+      "go",
+      "data-processing"
+    ],
+    "install": {
+      "brew": "brew install yq",
+      "winget": "winget install MikeFarah.yq",
+      "scoop": "scoop install yq",
+      "go": "go install github.com/mikefarah/yq/v4@latest"
+    },
+    "github": {
+      "stars": 12000,
+      "language": "Go",
+      "last_updated": "2026-03-10"
+    },
+    "examples": [
+      {
+        "command": "yq '.metadata.name' deployment.yaml",
+        "description": {
+          "en": "Read a value from YAML",
+          "zh": "从 YAML 读取值"
+        }
+      },
+      {
+        "command": "yq -i '.image.tag = \"v2.0\"' values.yaml",
+        "description": {
+          "en": "Update a value in-place",
+          "zh": "就地更新 YAML 中的值"
+        }
+      },
+      {
+        "command": "yq -o=json config.yaml",
+        "description": {
+          "en": "Convert YAML to JSON",
+          "zh": "将 YAML 转换为 JSON"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Essential for Kubernetes/Helm file manipulation in Claude Code",
+        "zh": "在 Claude Code 中操作 Kubernetes/Helm 文件的必备工具"
+      }
+    }
+  },
+  {
+    "slug": "fx",
+    "name": "fx",
+    "tagline": {
+      "en": "Terminal JSON viewer with interactive TUI and streaming support",
+      "zh": "支持交互 TUI 和流式处理的终端 JSON 查看器"
+    },
+    "description": {
+      "en": "fx is a command-line tool for processing and viewing JSON. It supports interactive browsing with a collapsible TUI, JavaScript functions for transformations, streaming JSON, and can also work as a simple JSON formatter.",
+      "zh": "fx 是命令行 JSON 处理和查看工具，支持可折叠 TUI 的交互式浏览、JavaScript 函数转换、流式 JSON，也可作为简单的 JSON 格式化工具使用。"
+    },
+    "homepage": "https://fx.wtf",
+    "repo": "https://github.com/antonmedv/fx",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "json",
+      "viewer",
+      "interactive",
+      "go",
+      "javascript"
+    ],
+    "install": {
+      "brew": "brew install fx",
+      "npm": "npm install -g fx",
+      "go": "go install github.com/antonmedv/fx@latest"
+    },
+    "github": {
+      "stars": 19000,
+      "language": "Go",
+      "last_updated": "2025-12-01"
+    },
+    "examples": [
+      {
+        "command": "fx data.json",
+        "description": {
+          "en": "Interactively browse JSON",
+          "zh": "交互式浏览 JSON"
+        }
+      },
+      {
+        "command": "curl -s api.github.com/repos/cli/cli | fx .stargazers_count",
+        "description": {
+          "en": "Extract a field using dot notation",
+          "zh": "用点记法提取字段"
+        }
+      },
+      {
+        "command": "cat data.json | fx 'x => x.users.filter(u => u.active)'",
+        "description": {
+          "en": "Transform JSON with a JS function",
+          "zh": "用 JavaScript 函数转换 JSON"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive mode needs a TTY; pipe mode works in Claude Code scripts",
+        "zh": "交互模式需要 TTY；管道模式可在 Claude Code 脚本中使用"
+      }
+    }
+  },
+  {
+    "slug": "tldr",
+    "name": "tldr",
+    "tagline": {
+      "en": "Simplified man pages with practical examples",
+      "zh": "带实用示例的精简版 man 页面"
+    },
+    "description": {
+      "en": "tldr (tlrc) provides simplified, community-maintained man pages focused on practical examples rather than exhaustive documentation. It covers thousands of commands across all platforms and is available in many languages.",
+      "zh": "tldr（tlrc）提供由社区维护的精简版 man 页面，聚焦实用示例而非详尽文档，覆盖所有平台的数千个命令，支持多种语言。"
+    },
+    "homepage": "https://tldr.sh",
+    "repo": "https://github.com/tldr-pages/tldr",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "documentation",
+      "man-pages",
+      "examples",
+      "rust",
+      "community"
+    ],
+    "install": {
+      "brew": "brew install tlrc",
+      "npm": "npm install -g tldr",
+      "cargo": "cargo install tlrc",
+      "pip": "pip install tldr"
+    },
+    "github": {
+      "stars": 53000,
+      "language": "Markdown",
+      "last_updated": "2026-05-10"
+    },
+    "examples": [
+      {
+        "command": "tldr tar",
+        "description": {
+          "en": "Show practical tar examples",
+          "zh": "显示 tar 的实用示例"
+        }
+      },
+      {
+        "command": "tldr --update",
+        "description": {
+          "en": "Update the local page cache",
+          "zh": "更新本地页面缓存"
+        }
+      },
+      {
+        "command": "tldr -p linux curl",
+        "description": {
+          "en": "Show Linux-specific curl examples",
+          "zh": "显示 Linux 专属的 curl 示例"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Great for quick command reference in Claude Code sessions",
+        "zh": "在 Claude Code 会话中快速查阅命令的好帮手"
+      }
+    }
+  },
+  {
+    "slug": "shellcheck",
+    "name": "ShellCheck",
+    "tagline": {
+      "en": "A static analysis tool for shell scripts",
+      "zh": "Shell 脚本静态分析工具"
+    },
+    "description": {
+      "en": "ShellCheck is a static analysis and linting tool for shell scripts. It detects bugs, style issues, and common mistakes in bash/sh scripts, provides clear error messages with explanations, and integrates with most editors and CI pipelines.",
+      "zh": "ShellCheck 是 shell 脚本的静态分析和 lint 工具，检测 bash/sh 脚本中的 bug、风格问题和常见错误，提供带解释的清晰错误信息，可集成到大多数编辑器和 CI 流水线。"
+    },
+    "homepage": "https://www.shellcheck.net",
+    "repo": "https://github.com/koalaman/shellcheck",
+    "license": "GPL-3.0",
+    "category": "dev-tools",
+    "tags": [
+      "shell",
+      "linter",
+      "static-analysis",
+      "haskell",
+      "bash"
+    ],
+    "install": {
+      "brew": "brew install shellcheck",
+      "apt": "apt install shellcheck",
+      "scoop": "scoop install shellcheck"
+    },
+    "github": {
+      "stars": 36000,
+      "language": "Haskell",
+      "last_updated": "2025-09-15"
+    },
+    "examples": [
+      {
+        "command": "shellcheck script.sh",
+        "description": {
+          "en": "Lint a shell script",
+          "zh": "检查 shell 脚本"
+        }
+      },
+      {
+        "command": "shellcheck -x script.sh",
+        "description": {
+          "en": "Follow and check sourced files",
+          "zh": "跟踪并检查 source 的文件"
+        }
+      },
+      {
+        "command": "shellcheck --format=json script.sh",
+        "description": {
+          "en": "Output results as JSON",
+          "zh": "以 JSON 格式输出结果"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Essential for shell script quality checks in Claude Code",
+        "zh": "在 Claude Code 中检查 shell 脚本质量的必备工具"
+      }
+    }
+  },
+  {
+    "slug": "hyperfine",
+    "name": "hyperfine",
+    "tagline": {
+      "en": "A command-line benchmarking tool",
+      "zh": "命令行性能基准测试工具"
+    },
+    "description": {
+      "en": "hyperfine is a statistical command-line benchmarking tool that runs commands multiple times, performs statistical analysis, detects outliers, supports warmup runs, and can export results to JSON, CSV, or Markdown tables.",
+      "zh": "hyperfine 是统计性命令行基准测试工具，可多次运行命令并进行统计分析、检测异常值、支持预热运行，结果可导出为 JSON、CSV 或 Markdown 表格。"
+    },
+    "homepage": "https://github.com/sharkdp/hyperfine",
+    "repo": "https://github.com/sharkdp/hyperfine",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "benchmark",
+      "performance",
+      "timing",
+      "rust",
+      "statistics"
+    ],
+    "install": {
+      "brew": "brew install hyperfine",
+      "cargo": "cargo install hyperfine",
+      "scoop": "scoop install hyperfine",
+      "winget": "winget install sharkdp.hyperfine"
+    },
+    "github": {
+      "stars": 22000,
+      "language": "Rust",
+      "last_updated": "2025-10-20"
+    },
+    "examples": [
+      {
+        "command": "hyperfine 'sleep 0.3'",
+        "description": {
+          "en": "Benchmark a command",
+          "zh": "对命令进行基准测试"
+        }
+      },
+      {
+        "command": "hyperfine 'fd -e py' 'find . -name \"*.py\"'",
+        "description": {
+          "en": "Compare two commands",
+          "zh": "对比两个命令的性能"
+        }
+      },
+      {
+        "command": "hyperfine --export-json results.json 'make build'",
+        "description": {
+          "en": "Export benchmark results to JSON",
+          "zh": "将基准测试结果导出为 JSON"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fully non-interactive; ideal for performance comparisons in Claude Code",
+        "zh": "完全非交互；非常适合在 Claude Code 中进行性能对比"
+      }
+    }
+  },
+  {
+    "slug": "tokei",
+    "name": "tokei",
+    "tagline": {
+      "en": "Count code statistics — lines, blanks, comments, by language",
+      "zh": "统计代码行数——按语言分类显示代码/空行/注释"
+    },
+    "description": {
+      "en": "tokei is a program that displays statistics about your code. It shows the number of files, total lines, code lines, comments, and blank lines broken down by programming language. It is extremely fast thanks to parallelism.",
+      "zh": "tokei 是一款显示代码统计信息的程序，按编程语言分类显示文件数、总行数、代码行数、注释行数和空白行数。得益于并行处理，速度极快。"
+    },
+    "homepage": "https://github.com/XAMPPRocky/tokei",
+    "repo": "https://github.com/XAMPPRocky/tokei",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "code-stats",
+      "lines-of-code",
+      "analysis",
+      "rust",
+      "fast"
+    ],
+    "install": {
+      "brew": "brew install tokei",
+      "cargo": "cargo install tokei",
+      "scoop": "scoop install tokei"
+    },
+    "github": {
+      "stars": 11000,
+      "language": "Rust",
+      "last_updated": "2025-07-10"
+    },
+    "examples": [
+      {
+        "command": "tokei",
+        "description": {
+          "en": "Count code stats in current directory",
+          "zh": "统计当前目录的代码信息"
+        }
+      },
+      {
+        "command": "tokei --output json",
+        "description": {
+          "en": "Output stats as JSON",
+          "zh": "以 JSON 格式输出统计数据"
+        }
+      },
+      {
+        "command": "tokei --exclude target --exclude node_modules",
+        "description": {
+          "en": "Exclude specific directories",
+          "zh": "排除指定目录"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Excellent for codebase analysis in Claude Code; JSON output is scriptable",
+        "zh": "在 Claude Code 中分析代码库的好工具；JSON 输出便于脚本处理"
+      }
+    }
+  },
+  {
+    "slug": "ctop",
+    "name": "ctop",
+    "tagline": {
+      "en": "Top-like interface for Docker container metrics",
+      "zh": "类 top 的 Docker 容器指标界面"
+    },
+    "description": {
+      "en": "ctop provides a top-like interface for real-time Docker container metrics including CPU, memory, network I/O, and block I/O. It supports filtering, sorting, single container views, and can execute commands inside containers.",
+      "zh": "ctop 提供类 top 的 Docker 容器实时指标界面，包括 CPU、内存、网络 I/O 和块 I/O，支持过滤、排序、单容器视图，以及在容器内执行命令。"
+    },
+    "homepage": "https://ctop.sh",
+    "repo": "https://github.com/bcicen/ctop",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "docker",
+      "containers",
+      "monitoring",
+      "go",
+      "tui"
+    ],
+    "install": {
+      "brew": "brew install ctop"
+    },
+    "github": {
+      "stars": 15000,
+      "language": "Go",
+      "last_updated": "2024-03-01"
+    },
+    "examples": [
+      {
+        "command": "ctop",
+        "description": {
+          "en": "Open interactive container monitor",
+          "zh": "打开交互式容器监控"
+        }
+      },
+      {
+        "command": "ctop -f running",
+        "description": {
+          "en": "Filter to show only running containers",
+          "zh": "过滤仅显示运行中的容器"
+        }
+      },
+      {
+        "command": "ctop -i",
+        "description": {
+          "en": "Show only active (non-idle) containers",
+          "zh": "仅显示活跃（非空闲）的容器"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Requires Docker; interactive TUI works in Claude Code terminal",
+        "zh": "需要 Docker；交互式 TUI 可在 Claude Code terminal 中使用"
+      }
+    }
+  },
+  {
+    "slug": "tmux",
+    "name": "tmux",
+    "tagline": {
+      "en": "Terminal multiplexer — split, persist, and share terminal sessions",
+      "zh": "终端多路复用器——分割、持久化和共享终端会话"
+    },
+    "description": {
+      "en": "tmux is a terminal multiplexer that lets you run multiple terminal sessions inside a single window, detach from sessions (keeping them running), and reattach later. It is essential for remote work and managing long-running processes.",
+      "zh": "tmux 是终端多路复用器，可在单个窗口内运行多个终端会话，断开会话（保持运行）并在之后重新连接。对于远程工作和管理长时间运行的进程至关重要。"
+    },
+    "homepage": "https://github.com/tmux/tmux",
+    "repo": "https://github.com/tmux/tmux",
+    "license": "ISC",
+    "category": "productivity",
+    "tags": [
+      "multiplexer",
+      "sessions",
+      "split-panes",
+      "c",
+      "remote"
+    ],
+    "install": {
+      "brew": "brew install tmux",
+      "apt": "apt install tmux",
+      "pacman": "pacman -S tmux"
+    },
+    "github": {
+      "stars": 36000,
+      "language": "C",
+      "last_updated": "2025-12-15"
+    },
+    "examples": [
+      {
+        "command": "tmux new -s mysession",
+        "description": {
+          "en": "Create a new named session",
+          "zh": "创建新的命名会话"
+        }
+      },
+      {
+        "command": "tmux attach -t mysession",
+        "description": {
+          "en": "Attach to an existing session",
+          "zh": "连接到已有会话"
+        }
+      },
+      {
+        "command": "tmux ls",
+        "description": {
+          "en": "List all sessions",
+          "zh": "列出所有会话"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Non-interactive subcommands work in Claude Code; interactive mode requires a real terminal",
+        "zh": "非交互子命令可在 Claude Code 中使用；交互模式需要真实终端"
+      }
+    }
+  },
+  {
+    "slug": "zellij",
+    "name": "zellij",
+    "tagline": {
+      "en": "A modern terminal workspace with batteries included",
+      "zh": "开箱即用的现代终端工作区"
+    },
+    "description": {
+      "en": "zellij is a modern terminal multiplexer designed with a focus on user experience. It includes a built-in plugin system, layouts, and floating panes. Unlike tmux, it does not require memorizing key bindings thanks to a persistent UI bar.",
+      "zh": "zellij 是注重用户体验的现代终端多路复用器，内置插件系统、布局和浮动面板。不同于 tmux，它有持久 UI 栏，无需记忆键绑定。"
+    },
+    "homepage": "https://zellij.dev",
+    "repo": "https://github.com/zellij-org/zellij",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "multiplexer",
+      "sessions",
+      "plugins",
+      "rust",
+      "layouts"
+    ],
+    "install": {
+      "brew": "brew install zellij",
+      "cargo": "cargo install zellij",
+      "pacman": "pacman -S zellij"
+    },
+    "github": {
+      "stars": 24000,
+      "language": "Rust",
+      "last_updated": "2026-03-20"
+    },
+    "examples": [
+      {
+        "command": "zellij",
+        "description": {
+          "en": "Start a new zellij session",
+          "zh": "启动新的 zellij 会话"
+        }
+      },
+      {
+        "command": "zellij attach mysession",
+        "description": {
+          "en": "Attach to an existing session",
+          "zh": "连接到已有会话"
+        }
+      },
+      {
+        "command": "zellij --layout compact",
+        "description": {
+          "en": "Start with a compact layout",
+          "zh": "以紧凑布局启动"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; better for user sessions than Claude Code automation",
+        "zh": "交互式 TUI；更适合用户会话，不适合 Claude Code 自动化"
+      }
+    }
+  },
+  {
+    "slug": "starship",
+    "name": "starship",
+    "tagline": {
+      "en": "The minimal, blazing-fast shell prompt for any shell",
+      "zh": "适用于任何 shell 的极简超快提示符"
+    },
+    "description": {
+      "en": "starship is a minimal, blazing-fast, infinitely customizable shell prompt written in Rust. It works with bash, zsh, fish, PowerShell, and more, showing context-relevant info like git status, language versions, and cloud context.",
+      "zh": "starship 是用 Rust 编写的极简、超快、可无限自定义的 shell 提示符，支持 bash、zsh、fish、PowerShell 等，显示 git 状态、语言版本和云环境等上下文信息。"
+    },
+    "homepage": "https://starship.rs",
+    "repo": "https://github.com/starship/starship",
+    "license": "ISC",
+    "category": "productivity",
+    "tags": [
+      "prompt",
+      "shell",
+      "rust",
+      "customizable",
+      "cross-shell"
+    ],
+    "install": {
+      "brew": "brew install starship",
+      "cargo": "cargo install starship",
+      "scoop": "scoop install starship",
+      "winget": "winget install Starship.Starship",
+      "pacman": "pacman -S starship"
+    },
+    "github": {
+      "stars": 48000,
+      "language": "Rust",
+      "last_updated": "2026-04-01"
+    },
+    "examples": [
+      {
+        "command": "eval \"$(starship init bash)\"",
+        "description": {
+          "en": "Initialize starship for bash",
+          "zh": "为 bash 初始化 starship"
+        }
+      },
+      {
+        "command": "starship preset nerd-font-symbols -o ~/.config/starship.toml",
+        "description": {
+          "en": "Apply a Nerd Font preset",
+          "zh": "应用 Nerd Font 预设"
+        }
+      },
+      {
+        "command": "starship explain",
+        "description": {
+          "en": "Explain the current prompt segments",
+          "zh": "解释当前提示符各模块"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Shell prompt tool; works in Claude Code terminal after shell init",
+        "zh": "Shell 提示符工具；在 Claude Code terminal 中 shell init 后可用"
+      }
+    }
+  },
+  {
+    "slug": "oh-my-posh",
+    "name": "Oh My Posh",
+    "tagline": {
+      "en": "A prompt theme engine for any shell, optimized for Windows",
+      "zh": "适用于任何 shell 的提示主题引擎，尤其适合 Windows"
+    },
+    "description": {
+      "en": "Oh My Posh is a custom prompt engine for any shell, particularly popular on Windows. It features hundreds of themes, segment-based configuration, color schemes, Nerd Font icons, and native support for PowerShell, bash, zsh, and fish.",
+      "zh": "Oh My Posh 是适用于任何 shell 的自定义提示引擎，在 Windows 上尤为流行。提供数百种主题、基于模块的配置、配色方案、Nerd Font 图标，以及对 PowerShell、bash、zsh、fish 的原生支持。"
+    },
+    "homepage": "https://ohmyposh.dev",
+    "repo": "https://github.com/JanDeDobbeleer/oh-my-posh",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "prompt",
+      "shell",
+      "windows",
+      "themes",
+      "go"
+    ],
+    "install": {
+      "brew": "brew install oh-my-posh",
+      "winget": "winget install JanDeDobbeleer.OhMyPosh",
+      "scoop": "scoop install oh-my-posh"
+    },
+    "github": {
+      "stars": 18000,
+      "language": "Go",
+      "last_updated": "2026-05-01"
+    },
+    "examples": [
+      {
+        "command": "oh-my-posh init bash --config ~/.poshthemes/jandedobbeleer.omp.json | source",
+        "description": {
+          "en": "Initialize for bash with a theme",
+          "zh": "为 bash 使用指定主题初始化"
+        }
+      },
+      {
+        "command": "oh-my-posh font install",
+        "description": {
+          "en": "Install a Nerd Font interactively",
+          "zh": "交互式安装 Nerd Font"
+        }
+      },
+      {
+        "command": "oh-my-posh get shell",
+        "description": {
+          "en": "Get the current shell name",
+          "zh": "获取当前 shell 名称"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Shell prompt tool; non-init subcommands work in Claude Code",
+        "zh": "Shell 提示符工具；非初始化子命令可在 Claude Code 中使用"
+      }
+    }
+  },
+  {
+    "slug": "thefuck",
+    "name": "thefuck",
+    "tagline": {
+      "en": "Corrects your previous console command automatically",
+      "zh": "自动纠正上一条控制台命令"
+    },
+    "description": {
+      "en": "thefuck is a tool that corrects mistyped console commands. When you type a wrong command and see an error, just type 'fuck' and it suggests and runs the corrected version. It supports dozens of built-in rules and custom ones.",
+      "zh": "thefuck 是自动纠正输入错误命令的工具。当你输入错误命令并看到报错时，只需输入 'fuck'，它就会建议并执行正确的版本，支持数十条内置规则和自定义规则。"
+    },
+    "homepage": "https://github.com/nvbn/thefuck",
+    "repo": "https://github.com/nvbn/thefuck",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "autocorrect",
+      "shell",
+      "python",
+      "productivity",
+      "fun"
+    ],
+    "install": {
+      "brew": "brew install thefuck",
+      "pip": "pip install thefuck",
+      "pacman": "pacman -S thefuck"
+    },
+    "github": {
+      "stars": 88000,
+      "language": "Python",
+      "last_updated": "2024-10-15"
+    },
+    "examples": [
+      {
+        "command": "fuck",
+        "description": {
+          "en": "Correct the previous command",
+          "zh": "纠正上一条命令"
+        }
+      },
+      {
+        "command": "fuck --yeah",
+        "description": {
+          "en": "Correct and run without confirmation",
+          "zh": "纠正并无需确认直接运行"
+        }
+      },
+      {
+        "command": "thefuck --alias",
+        "description": {
+          "en": "Show the alias setup command",
+          "zh": "显示 alias 设置命令"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Requires shell alias setup; correction logic works in Claude Code terminal",
+        "zh": "需要 shell alias 设置；纠正逻辑可在 Claude Code terminal 中工作"
+      }
+    }
+  },
+  {
+    "slug": "atuin",
+    "name": "atuin",
+    "tagline": {
+      "en": "Magical shell history — sync, search, and stats across machines",
+      "zh": "魔法 shell 历史——跨机器同步、搜索和统计"
+    },
+    "description": {
+      "en": "atuin replaces your existing shell history with a SQLite database, provides a full-text search interface, syncs across machines via an encrypted server, records exit codes and durations, and gives shell history statistics.",
+      "zh": "atuin 用 SQLite 数据库替换现有 shell 历史，提供全文搜索界面，通过加密服务器跨机器同步，记录退出码和执行时长，并提供 shell 历史统计信息。"
+    },
+    "homepage": "https://atuin.sh",
+    "repo": "https://github.com/atuinsh/atuin",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "shell-history",
+      "search",
+      "sync",
+      "rust",
+      "sqlite"
+    ],
+    "install": {
+      "brew": "brew install atuin",
+      "cargo": "cargo install atuin",
+      "pacman": "pacman -S atuin"
+    },
+    "github": {
+      "stars": 24000,
+      "language": "Rust",
+      "last_updated": "2026-04-20"
+    },
+    "examples": [
+      {
+        "command": "atuin search 'git commit'",
+        "description": {
+          "en": "Search command history",
+          "zh": "搜索命令历史"
+        }
+      },
+      {
+        "command": "atuin stats",
+        "description": {
+          "en": "Show shell usage statistics",
+          "zh": "显示 shell 使用统计"
+        }
+      },
+      {
+        "command": "atuin sync",
+        "description": {
+          "en": "Sync history with the server",
+          "zh": "与服务器同步历史记录"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "search and stats subcommands work non-interactively in Claude Code",
+        "zh": "search 和 stats 子命令可在 Claude Code 中非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "mcfly",
+    "name": "mcfly",
+    "tagline": {
+      "en": "Smart shell history search powered by a neural network",
+      "zh": "由神经网络驱动的智能 shell 历史搜索"
+    },
+    "description": {
+      "en": "mcfly replaces Ctrl+R with an intelligent search interface powered by a small neural network. It ranks commands based on context (current directory, exit codes, frequency) rather than just recency, making it much smarter than default reverse search.",
+      "zh": "mcfly 用由小型神经网络驱动的智能搜索界面替换 Ctrl+R，根据上下文（当前目录、退出码、频率）而非仅时间顺序对命令排序，比默认的反向搜索更智能。"
+    },
+    "homepage": "https://github.com/cantino/mcfly",
+    "repo": "https://github.com/cantino/mcfly",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "shell-history",
+      "neural-network",
+      "search",
+      "rust",
+      "ctrl-r"
+    ],
+    "install": {
+      "brew": "brew install mcfly",
+      "cargo": "cargo install mcfly",
+      "scoop": "scoop install mcfly"
+    },
+    "github": {
+      "stars": 7000,
+      "language": "Rust",
+      "last_updated": "2025-08-10"
+    },
+    "examples": [
+      {
+        "command": "eval \"$(mcfly init bash)\"",
+        "description": {
+          "en": "Initialize mcfly for bash",
+          "zh": "为 bash 初始化 mcfly"
+        }
+      },
+      {
+        "command": "mcfly search 'docker'",
+        "description": {
+          "en": "Search history non-interactively",
+          "zh": "非交互式搜索历史"
+        }
+      },
+      {
+        "command": "MCFLY_RESULTS=50 mcfly search 'npm'",
+        "description": {
+          "en": "Search with more results",
+          "zh": "搜索并显示更多结果"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Requires shell init; search subcommand works in Claude Code",
+        "zh": "需要 shell 初始化；search 子命令可在 Claude Code 中使用"
+      }
+    }
+  },
+  {
+    "slug": "navi",
+    "name": "navi",
+    "tagline": {
+      "en": "An interactive cheatsheet tool for the command line",
+      "zh": "命令行交互式速查表工具"
+    },
+    "description": {
+      "en": "navi is an interactive cheatsheet tool for the terminal. It displays commands from cheatsheet files in a searchable fzf interface, allows parameterizing commands, and integrates with tldr, cheat.sh, and custom cheatsheet files.",
+      "zh": "navi 是终端交互式速查表工具，以可搜索的 fzf 界面显示速查表文件中的命令，支持命令参数化，可与 tldr、cheat.sh 和自定义速查表文件集成。"
+    },
+    "homepage": "https://github.com/denisidoro/navi",
+    "repo": "https://github.com/denisidoro/navi",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "cheatsheet",
+      "interactive",
+      "fzf",
+      "rust",
+      "snippets"
+    ],
+    "install": {
+      "brew": "brew install navi",
+      "cargo": "cargo install navi"
+    },
+    "github": {
+      "stars": 15000,
+      "language": "Rust",
+      "last_updated": "2025-06-20"
+    },
+    "examples": [
+      {
+        "command": "navi",
+        "description": {
+          "en": "Open interactive cheatsheet browser",
+          "zh": "打开交互式速查表浏览器"
+        }
+      },
+      {
+        "command": "navi --query 'docker'",
+        "description": {
+          "en": "Search cheatsheets for docker commands",
+          "zh": "搜索 docker 相关速查表"
+        }
+      },
+      {
+        "command": "navi repo add https://github.com/user/cheats",
+        "description": {
+          "en": "Add a custom cheatsheet repository",
+          "zh": "添加自定义速查表仓库"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI with fzf; --query mode can be used non-interactively in Claude Code",
+        "zh": "基于 fzf 的交互式 TUI；--query 模式可在 Claude Code 中非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "direnv",
+    "name": "direnv",
+    "tagline": {
+      "en": "Load and unload environment variables based on the current directory",
+      "zh": "根据当前目录自动加载和卸载环境变量"
+    },
+    "description": {
+      "en": "direnv is a shell extension that automatically loads and unloads environment variables when you enter or leave a directory. It supports .envrc files, per-project environment isolation, integration with secret managers, and all major shells.",
+      "zh": "direnv 是 shell 扩展，在进入或离开目录时自动加载和卸载环境变量，支持 .envrc 文件、每个项目的环境隔离、与密钥管理器集成，兼容所有主流 shell。"
+    },
+    "homepage": "https://direnv.net",
+    "repo": "https://github.com/direnv/direnv",
+    "license": "MIT",
+    "category": "dev-tools",
+    "tags": [
+      "environment",
+      "dotenv",
+      "shell",
+      "go",
+      "per-project"
+    ],
+    "install": {
+      "brew": "brew install direnv",
+      "apt": "apt install direnv",
+      "pacman": "pacman -S direnv"
+    },
+    "github": {
+      "stars": 13000,
+      "language": "Go",
+      "last_updated": "2026-01-10"
+    },
+    "examples": [
+      {
+        "command": "eval \"$(direnv hook bash)\"",
+        "description": {
+          "en": "Initialize direnv for bash",
+          "zh": "为 bash 初始化 direnv"
+        }
+      },
+      {
+        "command": "echo 'export API_KEY=secret' > .envrc && direnv allow",
+        "description": {
+          "en": "Create and allow an .envrc file",
+          "zh": "创建并允许 .envrc 文件"
+        }
+      },
+      {
+        "command": "direnv exec . env | grep MY_VAR",
+        "description": {
+          "en": "Execute a command with direnv environment",
+          "zh": "在 direnv 环境下执行命令"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "exec subcommand works non-interactively in Claude Code",
+        "zh": "exec 子命令可在 Claude Code 中非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "htop",
+    "name": "htop",
+    "tagline": {
+      "en": "Interactive process viewer — a better top",
+      "zh": "交互式进程查看器——更好的 top"
+    },
+    "description": {
+      "en": "htop is an interactive process viewer for Unix systems. It displays a frequently updated list of processes running on the system, shows CPU/memory bars, supports mouse input, and provides color-coded output with sorting and filtering.",
+      "zh": "htop 是 Unix 系统的交互式进程查看器，频繁更新显示系统运行进程列表，带 CPU/内存进度条，支持鼠标输入，提供彩色输出以及排序和过滤功能。"
+    },
+    "homepage": "https://htop.dev",
+    "repo": "https://github.com/htop-dev/htop",
+    "license": "GPL-2.0",
+    "category": "system",
+    "tags": [
+      "process-monitor",
+      "top-replacement",
+      "tui",
+      "c",
+      "interactive"
+    ],
+    "install": {
+      "brew": "brew install htop",
+      "apt": "apt install htop",
+      "pacman": "pacman -S htop"
+    },
+    "github": {
+      "stars": 6500,
+      "language": "C",
+      "last_updated": "2025-05-20"
+    },
+    "examples": [
+      {
+        "command": "htop",
+        "description": {
+          "en": "Open interactive process monitor",
+          "zh": "打开交互式进程监控"
+        }
+      },
+      {
+        "command": "htop -u username",
+        "description": {
+          "en": "Show only processes for a specific user",
+          "zh": "仅显示指定用户的进程"
+        }
+      },
+      {
+        "command": "htop -p 1234,5678",
+        "description": {
+          "en": "Monitor specific processes by PID",
+          "zh": "按 PID 监控特定进程"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; use ps/top for non-interactive monitoring in Claude Code scripts",
+        "zh": "交互式 TUI；在 Claude Code 脚本中使用 ps/top 进行非交互监控"
+      }
+    }
+  },
+  {
+    "slug": "btop",
+    "name": "btop++",
+    "tagline": {
+      "en": "Resource monitor with beautiful TUI — CPU, memory, disk, network",
+      "zh": "精美 TUI 的资源监控器——CPU、内存、磁盘、网络"
+    },
+    "description": {
+      "en": "btop++ is a resource monitor with a beautiful TUI that shows CPU, memory, disk, and network usage. It features responsive layouts, mouse support, process management, and colorful graphs — the most visually impressive system monitor.",
+      "zh": "btop++ 是带精美 TUI 的资源监控器，显示 CPU、内存、磁盘和网络使用情况，具有响应式布局、鼠标支持、进程管理和彩色图表，是视觉效果最出色的系统监控器。"
+    },
+    "homepage": "https://github.com/aristocratos/btop",
+    "repo": "https://github.com/aristocratos/btop",
+    "license": "Apache-2.0",
+    "category": "system",
+    "tags": [
+      "system-monitor",
+      "tui",
+      "cpu",
+      "c++",
+      "beautiful"
+    ],
+    "install": {
+      "brew": "brew install btop",
+      "apt": "apt install btop",
+      "scoop": "scoop install btop",
+      "pacman": "pacman -S btop"
+    },
+    "github": {
+      "stars": 24000,
+      "language": "C++",
+      "last_updated": "2026-02-15"
+    },
+    "examples": [
+      {
+        "command": "btop",
+        "description": {
+          "en": "Open the resource monitor",
+          "zh": "打开资源监控器"
+        }
+      },
+      {
+        "command": "btop --utf-force",
+        "description": {
+          "en": "Force UTF-8 output for better rendering",
+          "zh": "强制 UTF-8 输出以获得更好显示"
+        }
+      },
+      {
+        "command": "btop -p /proc",
+        "description": {
+          "en": "Specify a custom /proc path",
+          "zh": "指定自定义 /proc 路径"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI requiring a real terminal; not suitable for Claude Code automation",
+        "zh": "需要真实终端的交互式 TUI；不适合 Claude Code 自动化"
+      }
+    }
+  },
+  {
+    "slug": "glances",
+    "name": "glances",
+    "tagline": {
+      "en": "A cross-platform top/htop alternative with web and API modes",
+      "zh": "跨平台 top/htop 替代品，支持 Web 和 API 模式"
+    },
+    "description": {
+      "en": "glances is a cross-platform system monitoring tool with a curses-based TUI, web server mode, REST API, and client/server architecture. It monitors CPU, memory, load, network, disk I/O, processes, Docker containers, and more.",
+      "zh": "glances 是跨平台系统监控工具，具有基于 curses 的 TUI、Web 服务器模式、REST API 和客户端/服务器架构，监控 CPU、内存、负载、网络、磁盘 I/O、进程、Docker 容器等。"
+    },
+    "homepage": "https://nicolargo.github.io/glances/",
+    "repo": "https://github.com/nicolargo/glances",
+    "license": "LGPL-3.0",
+    "category": "system",
+    "tags": [
+      "system-monitor",
+      "api",
+      "web",
+      "python",
+      "cross-platform"
+    ],
+    "install": {
+      "brew": "brew install glances",
+      "pip": "pip install glances",
+      "apt": "apt install glances"
+    },
+    "github": {
+      "stars": 27000,
+      "language": "Python",
+      "last_updated": "2026-04-10"
+    },
+    "examples": [
+      {
+        "command": "glances",
+        "description": {
+          "en": "Start interactive monitor",
+          "zh": "启动交互式监控"
+        }
+      },
+      {
+        "command": "glances -w",
+        "description": {
+          "en": "Start as a web server on port 61208",
+          "zh": "以 Web 服务器模式启动（端口 61208）"
+        }
+      },
+      {
+        "command": "glances --export json --output /tmp/stats.json",
+        "description": {
+          "en": "Export stats to JSON once and exit",
+          "zh": "导出一次统计数据到 JSON 并退出"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "REST API and export modes work non-interactively in Claude Code",
+        "zh": "REST API 和导出模式可在 Claude Code 中非交互使用"
+      }
+    }
+  },
+  {
+    "slug": "duf",
+    "name": "duf",
+    "tagline": {
+      "en": "Disk Usage/Free utility — a better df alternative",
+      "zh": "磁盘使用/空闲工具——更好的 df 替代品"
+    },
+    "description": {
+      "en": "duf is a modern replacement for the df command that displays disk usage and free space in a colorful, user-friendly table. It groups devices by type, supports filtering and sorting, and outputs JSON for scripting.",
+      "zh": "duf 是 df 命令的现代替代品，以彩色用户友好的表格显示磁盘使用情况和空闲空间，按设备类型分组，支持过滤和排序，并可输出 JSON 供脚本使用。"
+    },
+    "homepage": "https://github.com/muesli/duf",
+    "repo": "https://github.com/muesli/duf",
+    "license": "MIT",
+    "category": "system",
+    "tags": [
+      "disk-usage",
+      "df-replacement",
+      "storage",
+      "go",
+      "cross-platform"
+    ],
+    "install": {
+      "brew": "brew install duf",
+      "apt": "apt install duf",
+      "winget": "winget install muesli.duf",
+      "scoop": "scoop install duf",
+      "pacman": "pacman -S duf"
+    },
+    "github": {
+      "stars": 15100,
+      "language": "Go",
+      "last_updated": "2025-09-08"
+    },
+    "examples": [
+      {
+        "command": "duf",
+        "description": {
+          "en": "Show disk usage for all mounted filesystems",
+          "zh": "显示所有已挂载文件系统的磁盘使用情况"
+        }
+      },
+      {
+        "command": "duf --only local",
+        "description": {
+          "en": "Show only local devices",
+          "zh": "仅显示本地设备"
+        }
+      },
+      {
+        "command": "duf --json",
+        "description": {
+          "en": "Output in JSON format for scripting",
+          "zh": "以 JSON 格式输出供脚本使用"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Great for disk space checks in Claude Code; JSON output integrates with jq",
+        "zh": "在 Claude Code 中非常适合磁盘空间检查；JSON 输出可与 jq 集成"
+      }
+    }
+  },
+  {
+    "slug": "dust",
+    "name": "dust",
+    "tagline": {
+      "en": "du + Rust = dust — a more intuitive disk usage tool",
+      "zh": "du + Rust = dust——更直观的磁盘使用工具"
+    },
+    "description": {
+      "en": "dust (du + rust) is an intuitive alternative to du that shows which directories use the most space without extra flags. It displays a visual tree of disk usage, respects .gitignore, and is significantly faster than du.",
+      "zh": "dust（du + rust）是 du 命令的直观替代品，无需额外参数即可显示哪些目录占用最多空间。以可视化树形图显示磁盘使用情况，遵守 .gitignore，速度远超 du。"
+    },
+    "homepage": "https://github.com/bootandy/dust",
+    "repo": "https://github.com/bootandy/dust",
+    "license": "Apache-2.0",
+    "category": "system",
+    "tags": [
+      "disk-usage",
+      "du-replacement",
+      "tree",
+      "rust",
+      "visualization"
+    ],
+    "install": {
+      "brew": "brew install dust",
+      "cargo": "cargo install du-dust",
+      "winget": "winget install bootandy.dust",
+      "scoop": "scoop install dust",
+      "pacman": "pacman -S dust"
+    },
+    "github": {
+      "stars": 11700,
+      "language": "Rust",
+      "last_updated": "2026-01-08"
+    },
+    "examples": [
+      {
+        "command": "dust",
+        "description": {
+          "en": "Show disk usage tree for current directory",
+          "zh": "显示当前目录的磁盘使用树"
+        }
+      },
+      {
+        "command": "dust -d 2",
+        "description": {
+          "en": "Limit tree depth to 2 levels",
+          "zh": "将树深度限制为 2 层"
+        }
+      },
+      {
+        "command": "dust -n 20 /",
+        "description": {
+          "en": "Show top 20 largest items from root",
+          "zh": "显示根目录下最大的 20 个条目"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fast and visual disk usage analysis; works in any Claude Code terminal",
+        "zh": "快速可视化磁盘使用分析；可在任何 Claude Code 终端中使用"
+      }
+    }
+  },
+  {
+    "slug": "procs",
+    "name": "procs",
+    "tagline": {
+      "en": "A modern replacement for ps written in Rust",
+      "zh": "用 Rust 编写的现代 ps 替代品"
+    },
+    "description": {
+      "en": "procs is a modern ps replacement with colored, human-readable output and multi-column keyword searching. It shows TCP/UDP ports, Docker container names, read/write throughput, and memory details not available in standard ps.",
+      "zh": "procs 是具有彩色易读输出和多列关键词搜索的现代 ps 替代品。显示 TCP/UDP 端口、Docker 容器名称、读写吞吐量以及标准 ps 中无法显示的内存详细信息。"
+    },
+    "homepage": "https://github.com/dalance/procs",
+    "repo": "https://github.com/dalance/procs",
+    "license": "MIT",
+    "category": "system",
+    "tags": [
+      "ps-replacement",
+      "process",
+      "system-monitor",
+      "rust",
+      "ports"
+    ],
+    "install": {
+      "brew": "brew install procs",
+      "cargo": "cargo install procs",
+      "scoop": "scoop install procs",
+      "pacman": "pacman -S procs"
+    },
+    "github": {
+      "stars": 6000,
+      "language": "Rust",
+      "last_updated": "2026-02-27"
+    },
+    "examples": [
+      {
+        "command": "procs",
+        "description": {
+          "en": "List all processes with enhanced info",
+          "zh": "列出所有进程及增强信息"
+        }
+      },
+      {
+        "command": "procs nginx",
+        "description": {
+          "en": "Search processes by name keyword",
+          "zh": "按名称关键词搜索进程"
+        }
+      },
+      {
+        "command": "procs --watch",
+        "description": {
+          "en": "Watch processes in real-time like top",
+          "zh": "像 top 一样实时监控进程"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Works in any terminal; useful for process inspection in Claude Code",
+        "zh": "可在任何终端使用；适合在 Claude Code 中进行进程检查"
+      }
+    }
+  },
+  {
+    "slug": "bottom",
+    "name": "bottom",
+    "tagline": {
+      "en": "A customizable cross-platform graphical process and system monitor",
+      "zh": "可定制的跨平台图形化进程和系统监视器"
+    },
+    "description": {
+      "en": "bottom (btm) is a customizable graphical process and system monitor for Linux, macOS, and Windows. Inspired by htop and gotop, it offers CPU, memory, network, and disk widgets with customizable themes and layouts via TOML config.",
+      "zh": "bottom（btm）是适用于 Linux、macOS 和 Windows 的可定制图形化进程和系统监视器。受 htop 和 gotop 启发，提供 CPU、内存、网络和磁盘组件，支持通过 TOML 配置自定义主题和布局。"
+    },
+    "homepage": "https://bottom.pages.dev",
+    "repo": "https://github.com/ClementTsang/bottom",
+    "license": "MIT",
+    "category": "system",
+    "tags": [
+      "system-monitor",
+      "tui",
+      "process",
+      "rust",
+      "customizable"
+    ],
+    "install": {
+      "brew": "brew install bottom",
+      "cargo": "cargo install bottom",
+      "winget": "winget install Clement.bottom",
+      "scoop": "scoop install bottom",
+      "pacman": "pacman -S bottom"
+    },
+    "github": {
+      "stars": 13300,
+      "language": "Rust",
+      "last_updated": "2026-01-01"
+    },
+    "examples": [
+      {
+        "command": "btm",
+        "description": {
+          "en": "Open bottom system monitor",
+          "zh": "打开 bottom 系统监视器"
+        }
+      },
+      {
+        "command": "btm --basic",
+        "description": {
+          "en": "Use the basic non-graphical mode",
+          "zh": "使用基础非图形化模式"
+        }
+      },
+      {
+        "command": "btm --config my-config.toml",
+        "description": {
+          "en": "Use a custom TOML configuration",
+          "zh": "使用自定义 TOML 配置"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive TUI; --basic mode outputs plain text suitable for scripting",
+        "zh": "交互式 TUI；--basic 模式输出适合脚本使用的纯文本"
+      }
+    }
+  },
+  {
+    "slug": "pgcli",
+    "name": "pgcli",
+    "tagline": {
+      "en": "Postgres CLI with autocompletion and syntax highlighting",
+      "zh": "带自动补全和语法高亮的 Postgres CLI"
+    },
+    "description": {
+      "en": "pgcli is a PostgreSQL command-line client with intelligent autocompletion and syntax highlighting. It remembers your queries, suggests table and column names contextually, and provides a much better developer experience than the standard psql.",
+      "zh": "pgcli 是具有智能自动补全和语法高亮的 PostgreSQL 命令行客户端，能记住查询历史，按上下文建议表名和列名，体验远优于标准 psql。"
+    },
+    "homepage": "https://pgcli.com",
+    "repo": "https://github.com/dbcli/pgcli",
+    "license": "BSD-3-Clause",
+    "category": "database",
+    "tags": [
+      "postgresql",
+      "database",
+      "sql",
+      "autocomplete",
+      "python"
+    ],
+    "install": {
+      "brew": "brew install pgcli",
+      "pip": "pip install pgcli"
+    },
+    "github": {
+      "stars": 13200,
+      "language": "Python",
+      "last_updated": "2025-06-01"
+    },
+    "examples": [
+      {
+        "command": "pgcli postgres://user:pass@localhost/mydb",
+        "description": {
+          "en": "Connect using a connection string",
+          "zh": "使用连接字符串连接数据库"
+        }
+      },
+      {
+        "command": "pgcli -h localhost -U postgres -d mydb",
+        "description": {
+          "en": "Connect with individual parameters",
+          "zh": "使用各独立参数连接"
+        }
+      },
+      {
+        "command": "pgcli --list",
+        "description": {
+          "en": "List all databases",
+          "zh": "列出所有数据库"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive REPL; works in Claude Code terminal for database exploration",
+        "zh": "交互式 REPL；可在 Claude Code 终端中用于数据库探索"
+      }
+    }
+  },
+  {
+    "slug": "mycli",
+    "name": "mycli",
+    "tagline": {
+      "en": "MySQL CLI with autocompletion and syntax highlighting",
+      "zh": "带自动补全和语法高亮的 MySQL CLI"
+    },
+    "description": {
+      "en": "mycli is a MySQL and MariaDB command-line client featuring smart autocompletion and syntax highlighting. It supports SSL connections, output formats including CSV and JSON, and provides a dramatically improved experience over the default mysql client.",
+      "zh": "mycli 是功能强大的 MySQL 和 MariaDB 命令行客户端，具有智能自动补全和语法高亮。支持 SSL 连接、CSV 和 JSON 等输出格式，体验大幅优于默认 mysql 客户端。"
+    },
+    "homepage": "https://mycli.net",
+    "repo": "https://github.com/dbcli/mycli",
+    "license": "BSD-3-Clause",
+    "category": "database",
+    "tags": [
+      "mysql",
+      "mariadb",
+      "database",
+      "sql",
+      "python"
+    ],
+    "install": {
+      "brew": "brew install mycli",
+      "pip": "pip install mycli"
+    },
+    "github": {
+      "stars": 11900,
+      "language": "Python",
+      "last_updated": "2026-05-11"
+    },
+    "examples": [
+      {
+        "command": "mycli -u root -p mypassword mydb",
+        "description": {
+          "en": "Connect to a MySQL database",
+          "zh": "连接到 MySQL 数据库"
+        }
+      },
+      {
+        "command": "mycli mysql://user:pass@host/db",
+        "description": {
+          "en": "Connect using a DSN URL",
+          "zh": "使用 DSN URL 连接"
+        }
+      },
+      {
+        "command": "mycli --execute 'SELECT * FROM users LIMIT 10' mydb",
+        "description": {
+          "en": "Execute a query non-interactively",
+          "zh": "以非交互方式执行查询"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive REPL and non-interactive query execution both work in Claude Code",
+        "zh": "交互式 REPL 和非交互查询执行均可在 Claude Code 中使用"
+      }
+    }
+  },
+  {
+    "slug": "litecli",
+    "name": "litecli",
+    "tagline": {
+      "en": "SQLite CLI with autocompletion and syntax highlighting",
+      "zh": "带自动补全和语法高亮的 SQLite CLI"
+    },
+    "description": {
+      "en": "litecli is a SQLite command-line client with intelligent autocompletion, syntax highlighting, and a pleasant user experience. It is part of the dbcli family of tools and serves as a superior replacement for the standard sqlite3 client.",
+      "zh": "litecli 是具有智能自动补全、语法高亮和良好用户体验的 SQLite 命令行客户端，是 dbcli 工具家族成员，是标准 sqlite3 客户端的优秀替代品。"
+    },
+    "homepage": "https://litecli.com",
+    "repo": "https://github.com/dbcli/litecli",
+    "license": "BSD-3-Clause",
+    "category": "database",
+    "tags": [
+      "sqlite",
+      "database",
+      "sql",
+      "autocomplete",
+      "python"
+    ],
+    "install": {
+      "brew": "brew install litecli",
+      "pip": "pip install litecli"
+    },
+    "github": {
+      "stars": 3200,
+      "language": "Python",
+      "last_updated": "2026-01-31"
+    },
+    "examples": [
+      {
+        "command": "litecli mydb.sqlite",
+        "description": {
+          "en": "Open a SQLite database file",
+          "zh": "打开 SQLite 数据库文件"
+        }
+      },
+      {
+        "command": "litecli --execute 'SELECT * FROM users' mydb.sqlite",
+        "description": {
+          "en": "Execute a query non-interactively",
+          "zh": "以非交互方式执行查询"
+        }
+      },
+      {
+        "command": "litecli :memory:",
+        "description": {
+          "en": "Open an in-memory SQLite database",
+          "zh": "打开内存 SQLite 数据库"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Ideal for SQLite file inspection in Claude Code; no server required",
+        "zh": "在 Claude Code 中非常适合 SQLite 文件检查；无需服务器"
+      }
+    }
+  },
+  {
+    "slug": "usql",
+    "name": "usql",
+    "tagline": {
+      "en": "Universal command-line interface for SQL and NoSQL databases",
+      "zh": "SQL 和 NoSQL 数据库的通用命令行界面"
+    },
+    "description": {
+      "en": "usql is a universal CLI for PostgreSQL, MySQL, Oracle, SQLite, SQL Server, and many other databases. It provides a unified psql-inspired interface with syntax highlighting, context completion, and the ability to copy data between different database systems.",
+      "zh": "usql 是适用于 PostgreSQL、MySQL、Oracle、SQLite、SQL Server 和众多其他数据库的通用 CLI，提供受 psql 启发的统一界面，具有语法高亮、上下文补全以及在不同数据库系统间复制数据的能力。"
+    },
+    "homepage": "https://github.com/xo/usql",
+    "repo": "https://github.com/xo/usql",
+    "license": "MIT",
+    "category": "database",
+    "tags": [
+      "database",
+      "universal",
+      "sql",
+      "nosql",
+      "go"
+    ],
+    "install": {
+      "brew": "brew install usql",
+      "go": "go install github.com/xo/usql@latest"
+    },
+    "github": {
+      "stars": 9900,
+      "language": "Go",
+      "last_updated": "2026-03-26"
+    },
+    "examples": [
+      {
+        "command": "usql pg://user:pass@localhost/mydb",
+        "description": {
+          "en": "Connect to PostgreSQL",
+          "zh": "连接到 PostgreSQL"
+        }
+      },
+      {
+        "command": "usql mysql://user:pass@localhost/mydb",
+        "description": {
+          "en": "Connect to MySQL",
+          "zh": "连接到 MySQL"
+        }
+      },
+      {
+        "command": "usql sq:myfile.db",
+        "description": {
+          "en": "Open a local SQLite file",
+          "zh": "打开本地 SQLite 文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Single binary for all databases; great for polyglot environments in Claude Code",
+        "zh": "单一二进制文件支持所有数据库；在 Claude Code 的多数据库环境中非常实用"
+      }
+    }
+  },
+  {
+    "slug": "redis-cli",
+    "name": "redis-cli",
+    "tagline": {
+      "en": "The official Redis command-line interface",
+      "zh": "官方 Redis 命令行界面"
+    },
+    "description": {
+      "en": "redis-cli is the built-in command-line interface bundled with Redis, providing interactive REPL access, pipe mode for bulk inserts, cluster management commands, and latency/performance diagnostics for Redis servers.",
+      "zh": "redis-cli 是 Redis 内置的命令行界面，提供交互式 REPL 访问、用于批量插入的管道模式、集群管理命令以及 Redis 服务器的延迟/性能诊断。"
+    },
+    "homepage": "https://redis.io",
+    "repo": "https://github.com/redis/redis",
+    "license": "RSALv2",
+    "category": "database",
+    "tags": [
+      "redis",
+      "cache",
+      "nosql",
+      "key-value",
+      "c"
+    ],
+    "install": {
+      "brew": "brew install redis",
+      "apt": "apt install redis-tools",
+      "pacman": "pacman -S redis"
+    },
+    "github": {
+      "stars": 74400,
+      "language": "C",
+      "last_updated": "2026-05-05"
+    },
+    "examples": [
+      {
+        "command": "redis-cli -h localhost -p 6379 ping",
+        "description": {
+          "en": "Check if Redis server is running",
+          "zh": "检查 Redis 服务器是否运行"
+        }
+      },
+      {
+        "command": "redis-cli --scan --pattern 'user:*'",
+        "description": {
+          "en": "Scan for keys matching a pattern",
+          "zh": "扫描匹配模式的键"
+        }
+      },
+      {
+        "command": "redis-cli monitor",
+        "description": {
+          "en": "Real-time monitor of all commands",
+          "zh": "实时监控所有命令"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Bundled with Redis server; non-interactive commands work well in Claude Code scripts",
+        "zh": "与 Redis 服务器捆绑；非交互命令在 Claude Code 脚本中运行良好"
+      }
+    }
+  },
+  {
+    "slug": "mongosh",
+    "name": "mongosh",
+    "tagline": {
+      "en": "The official MongoDB Shell with modern JavaScript support",
+      "zh": "支持现代 JavaScript 的官方 MongoDB Shell"
+    },
+    "description": {
+      "en": "mongosh is the official MongoDB Shell that provides a Node.js REPL environment for interacting with MongoDB servers. It supports modern JavaScript syntax, syntax highlighting, autocomplete, and scripting for automation tasks.",
+      "zh": "mongosh 是官方 MongoDB Shell，提供与 MongoDB 服务器交互的 Node.js REPL 环境，支持现代 JavaScript 语法、语法高亮、自动补全以及用于自动化任务的脚本功能。"
+    },
+    "homepage": "https://www.mongodb.com/try/download/shell",
+    "repo": "https://github.com/mongodb-js/mongosh",
+    "license": "Apache-2.0",
+    "category": "database",
+    "tags": [
+      "mongodb",
+      "nosql",
+      "javascript",
+      "repl",
+      "typescript"
+    ],
+    "install": {
+      "brew": "brew install mongosh",
+      "winget": "winget install MongoDB.Shell"
+    },
+    "github": {
+      "stars": 3850,
+      "language": "TypeScript",
+      "last_updated": "2026-05-01"
+    },
+    "examples": [
+      {
+        "command": "mongosh 'mongodb://localhost:27017/mydb'",
+        "description": {
+          "en": "Connect to a local MongoDB database",
+          "zh": "连接到本地 MongoDB 数据库"
+        }
+      },
+      {
+        "command": "mongosh --eval 'db.users.countDocuments()'",
+        "description": {
+          "en": "Run a query non-interactively",
+          "zh": "以非交互方式运行查询"
+        }
+      },
+      {
+        "command": "mongosh --file migrate.js",
+        "description": {
+          "en": "Execute a JavaScript migration script",
+          "zh": "执行 JavaScript 迁移脚本"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "--eval and --file modes work non-interactively in Claude Code",
+        "zh": "--eval 和 --file 模式可在 Claude Code 中以非交互方式运行"
+      }
+    }
+  },
+  {
+    "slug": "ffmpeg",
+    "name": "FFmpeg",
+    "tagline": {
+      "en": "The complete solution for recording, converting, and streaming audio/video",
+      "zh": "录制、转换和流式传输音视频的完整解决方案"
+    },
+    "description": {
+      "en": "FFmpeg is the industry-standard multimedia framework for processing audio, video, subtitles, and metadata. It includes command-line tools (ffmpeg, ffplay, ffprobe) and libraries supporting virtually every codec and container format.",
+      "zh": "FFmpeg 是处理音频、视频、字幕和元数据的行业标准多媒体框架，包含命令行工具（ffmpeg、ffplay、ffprobe）和支持几乎所有编解码器和容器格式的库。"
+    },
+    "homepage": "https://ffmpeg.org/",
+    "repo": "https://github.com/FFmpeg/FFmpeg",
+    "license": "LGPL-2.1",
+    "category": "media",
+    "tags": [
+      "video",
+      "audio",
+      "transcoding",
+      "streaming",
+      "c"
+    ],
+    "install": {
+      "brew": "brew install ffmpeg",
+      "apt": "apt install ffmpeg",
+      "winget": "winget install Gyan.FFmpeg",
+      "scoop": "scoop install ffmpeg",
+      "pacman": "pacman -S ffmpeg"
+    },
+    "github": {
+      "stars": 60200,
+      "language": "C",
+      "last_updated": "2026-05-01"
+    },
+    "examples": [
+      {
+        "command": "ffmpeg -i input.mp4 output.webm",
+        "description": {
+          "en": "Convert video to WebM format",
+          "zh": "将视频转换为 WebM 格式"
+        }
+      },
+      {
+        "command": "ffmpeg -i input.mp4 -ss 00:01:00 -t 30 clip.mp4",
+        "description": {
+          "en": "Extract a 30-second clip starting at 1 minute",
+          "zh": "从第 1 分钟开始截取 30 秒片段"
+        }
+      },
+      {
+        "command": "ffprobe -v quiet -print_format json -show_format input.mp4",
+        "description": {
+          "en": "Get video metadata as JSON",
+          "zh": "以 JSON 格式获取视频元数据"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fully scriptable; ideal for media processing automation in Claude Code",
+        "zh": "完全支持脚本化；非常适合在 Claude Code 中进行媒体处理自动化"
+      }
+    }
+  },
+  {
+    "slug": "yt-dlp",
+    "name": "yt-dlp",
+    "tagline": {
+      "en": "Feature-rich command-line audio/video downloader for thousands of sites",
+      "zh": "支持数千个网站的功能丰富命令行音视频下载工具"
+    },
+    "description": {
+      "en": "yt-dlp is a maintained fork of youtube-dl with additional features and fixes. It supports downloading from thousands of websites, selecting quality/format, extracting audio, embedding subtitles, and integrating with SponsorBlock.",
+      "zh": "yt-dlp 是 youtube-dl 的活跃维护分支，新增了大量功能和修复，支持从数千个网站下载，可选择画质/格式、提取音频、嵌入字幕，并支持与 SponsorBlock 集成。"
+    },
+    "homepage": "https://github.com/yt-dlp/yt-dlp",
+    "repo": "https://github.com/yt-dlp/yt-dlp",
+    "license": "Unlicense",
+    "category": "media",
+    "tags": [
+      "video-download",
+      "youtube",
+      "audio",
+      "python",
+      "streaming"
+    ],
+    "install": {
+      "brew": "brew install yt-dlp",
+      "pip": "pip install yt-dlp",
+      "winget": "winget install yt-dlp.yt-dlp",
+      "scoop": "scoop install yt-dlp",
+      "pacman": "pacman -S yt-dlp"
+    },
+    "github": {
+      "stars": 163000,
+      "language": "Python",
+      "last_updated": "2026-05-01"
+    },
+    "examples": [
+      {
+        "command": "yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "description": {
+          "en": "Download a YouTube video",
+          "zh": "下载 YouTube 视频"
+        }
+      },
+      {
+        "command": "yt-dlp -x --audio-format mp3 URL",
+        "description": {
+          "en": "Extract audio as MP3",
+          "zh": "提取音频为 MP3"
+        }
+      },
+      {
+        "command": "yt-dlp -f 'bestvideo+bestaudio' URL",
+        "description": {
+          "en": "Download best quality video and audio",
+          "zh": "下载最佳画质和音质"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fully non-interactive; ideal for media download automation in Claude Code",
+        "zh": "完全非交互；非常适合在 Claude Code 中进行媒体下载自动化"
+      }
+    }
+  },
+  {
+    "slug": "imagemagick",
+    "name": "ImageMagick",
+    "tagline": {
+      "en": "Create, edit, convert, and display images from the command line",
+      "zh": "从命令行创建、编辑、转换和显示图像"
+    },
+    "description": {
+      "en": "ImageMagick is a powerful open-source suite for creating, editing, compositing, and converting images. It supports 200+ formats and provides extensive command-line tools (convert, mogrify, identify, composite) for image manipulation and automation.",
+      "zh": "ImageMagick 是强大的开源套件，用于创建、编辑、合成和转换图像，支持 200 多种格式，提供广泛的命令行工具（convert、mogrify、identify、composite）用于图像处理和自动化。"
+    },
+    "homepage": "https://imagemagick.org",
+    "repo": "https://github.com/ImageMagick/ImageMagick",
+    "license": "ImageMagick",
+    "category": "media",
+    "tags": [
+      "image-processing",
+      "convert",
+      "resize",
+      "c",
+      "automation"
+    ],
+    "install": {
+      "brew": "brew install imagemagick",
+      "apt": "apt install imagemagick",
+      "winget": "winget install ImageMagick.ImageMagick",
+      "pacman": "pacman -S imagemagick"
+    },
+    "github": {
+      "stars": 16500,
+      "language": "C",
+      "last_updated": "2026-05-17"
+    },
+    "examples": [
+      {
+        "command": "convert input.png -resize 800x600 output.jpg",
+        "description": {
+          "en": "Resize and convert an image",
+          "zh": "调整大小并转换图像格式"
+        }
+      },
+      {
+        "command": "mogrify -format webp *.jpg",
+        "description": {
+          "en": "Batch convert all JPGs to WebP",
+          "zh": "批量将所有 JPG 转换为 WebP"
+        }
+      },
+      {
+        "command": "identify -format '%wx%h' image.png",
+        "description": {
+          "en": "Get image dimensions",
+          "zh": "获取图像尺寸"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fully scriptable; essential for image automation pipelines in Claude Code",
+        "zh": "完全支持脚本化；Claude Code 图像自动化流水线的必备工具"
+      }
+    }
+  },
+  {
+    "slug": "viu",
+    "name": "viu",
+    "tagline": {
+      "en": "View images in the terminal using iTerm/Kitty protocols or Unicode",
+      "zh": "使用 iTerm/Kitty 协议或 Unicode 在终端查看图像"
+    },
+    "description": {
+      "en": "viu is a small command-line tool written in Rust for viewing images directly in the terminal. It leverages iTerm2 or Kitty graphics protocols for high-quality display when available, falling back to Unicode block characters otherwise.",
+      "zh": "viu 是用 Rust 编写的小型命令行工具，可直接在终端中查看图像。在支持的情况下利用 iTerm2 或 Kitty 图形协议实现高质量显示，否则回退到 Unicode 块字符。"
+    },
+    "homepage": "https://github.com/atanunq/viu",
+    "repo": "https://github.com/atanunq/viu",
+    "license": "MIT",
+    "category": "media",
+    "tags": [
+      "image-viewer",
+      "terminal",
+      "rust",
+      "kitty",
+      "unicode"
+    ],
+    "install": {
+      "brew": "brew install viu",
+      "cargo": "cargo install viu"
+    },
+    "github": {
+      "stars": 3200,
+      "language": "Rust",
+      "last_updated": "2025-12-15"
+    },
+    "examples": [
+      {
+        "command": "viu image.png",
+        "description": {
+          "en": "Display an image in the terminal",
+          "zh": "在终端中显示图像"
+        }
+      },
+      {
+        "command": "viu -w 80 image.jpg",
+        "description": {
+          "en": "Display image with specific width",
+          "zh": "以指定宽度显示图像"
+        }
+      },
+      {
+        "command": "viu *.png",
+        "description": {
+          "en": "View multiple images as a slideshow",
+          "zh": "以幻灯片方式查看多张图像"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Display quality depends on terminal support; works best in iTerm2 and Kitty",
+        "zh": "显示质量取决于终端支持；在 iTerm2 和 Kitty 中效果最佳"
+      }
+    }
+  },
+  {
+    "slug": "chafa",
+    "name": "chafa",
+    "tagline": {
+      "en": "Terminal graphics — display images and animations in any terminal",
+      "zh": "终端图形——在任何终端中显示图像和动画"
+    },
+    "description": {
+      "en": "chafa converts image data into text-based graphics for display in any terminal. It supports animated GIFs, provides a C library with public API, and handles everything from Unicode braille to sixels with graceful quality degradation.",
+      "zh": "chafa 将图像数据转换为基于文本的图形，可在任何终端中显示。支持动态 GIF，提供带公开 API 的 C 库，处理从 Unicode 盲文到 Sixel 的各种格式，并优雅地根据终端能力降级。"
+    },
+    "homepage": "https://hpjansson.org/chafa/",
+    "repo": "https://github.com/hpjansson/chafa",
+    "license": "LGPL-3.0",
+    "category": "media",
+    "tags": [
+      "image-viewer",
+      "terminal-graphics",
+      "animated-gif",
+      "c",
+      "sixel"
+    ],
+    "install": {
+      "brew": "brew install chafa",
+      "apt": "apt install chafa",
+      "pacman": "pacman -S chafa"
+    },
+    "github": {
+      "stars": 4800,
+      "language": "C",
+      "last_updated": "2026-04-29"
+    },
+    "examples": [
+      {
+        "command": "chafa image.png",
+        "description": {
+          "en": "Display an image using best available method",
+          "zh": "使用最佳可用方式显示图像"
+        }
+      },
+      {
+        "command": "chafa --format sixel image.gif",
+        "description": {
+          "en": "Display an animated GIF using sixels",
+          "zh": "使用 Sixel 格式显示动态 GIF"
+        }
+      },
+      {
+        "command": "chafa -s 60x30 image.jpg",
+        "description": {
+          "en": "Display image at specific dimensions",
+          "zh": "以指定尺寸显示图像"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Works in any terminal with graceful quality degradation; no GUI required",
+        "zh": "可在任何终端中使用，画质会根据终端能力优雅降级；无需 GUI"
+      }
+    }
+  },
+  {
+    "slug": "glow",
+    "name": "glow",
+    "tagline": {
+      "en": "Render Markdown on the CLI with style",
+      "zh": "在命令行中优雅渲染 Markdown"
+    },
+    "description": {
+      "en": "glow is a terminal Markdown reader that renders documentation and README files with beautiful formatting directly in the CLI. It supports local files, URLs, and a TUI stash for saving and organizing Markdown documents.",
+      "zh": "glow 是终端 Markdown 阅读器，可在 CLI 中以精美格式直接渲染文档和 README 文件，支持本地文件、URL 以及用于保存和整理 Markdown 文档的 TUI 收藏夹。"
+    },
+    "homepage": "https://github.com/charmbracelet/glow",
+    "repo": "https://github.com/charmbracelet/glow",
+    "license": "MIT",
+    "category": "productivity",
+    "tags": [
+      "markdown",
+      "documentation",
+      "reader",
+      "tui",
+      "go"
+    ],
+    "install": {
+      "brew": "brew install glow",
+      "scoop": "scoop install glow",
+      "pacman": "pacman -S glow",
+      "go": "go install github.com/charmbracelet/glow@latest"
+    },
+    "github": {
+      "stars": 25300,
+      "language": "Go",
+      "last_updated": "2026-04-09"
+    },
+    "examples": [
+      {
+        "command": "glow README.md",
+        "description": {
+          "en": "Render a local Markdown file",
+          "zh": "渲染本地 Markdown 文件"
+        }
+      },
+      {
+        "command": "glow https://raw.githubusercontent.com/user/repo/main/README.md",
+        "description": {
+          "en": "Render a remote Markdown file",
+          "zh": "渲染远程 Markdown 文件"
+        }
+      },
+      {
+        "command": "glow -p CHANGELOG.md",
+        "description": {
+          "en": "Render Markdown with pager support",
+          "zh": "以分页器模式渲染 Markdown"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Ideal for reading documentation during Claude Code sessions",
+        "zh": "在 Claude Code 会话中阅读文档的理想工具"
+      }
+    }
+  },
+  {
+    "slug": "lolcat",
+    "name": "lolcat",
+    "tagline": {
+      "en": "Rainbows and unicorns — adds rainbow colors to terminal output",
+      "zh": "彩虹和独角兽——为终端输出添加彩虹色"
+    },
+    "description": {
+      "en": "lolcat is a fun command-line tool that adds rainbow color gradients to any text piped through it. It supports animation, horizontal and diagonal gradients, and frequency control — the classic way to make your terminal more colorful.",
+      "zh": "lolcat 是有趣的命令行工具，为通过管道传入的任何文本添加彩虹色渐变，支持动画、水平和对角渐变以及频率控制，是让终端更加丰富多彩的经典方式。"
+    },
+    "homepage": "https://github.com/busyloop/lolcat",
+    "repo": "https://github.com/busyloop/lolcat",
+    "license": "BSD-3-Clause",
+    "category": "fun",
+    "tags": [
+      "colors",
+      "rainbow",
+      "fun",
+      "pipe",
+      "ruby"
+    ],
+    "install": {
+      "brew": "brew install lolcat",
+      "apt": "apt install lolcat"
+    },
+    "github": {
+      "stars": 6500,
+      "language": "Ruby",
+      "last_updated": "2023-01-01"
+    },
+    "examples": [
+      {
+        "command": "fortune | lolcat",
+        "description": {
+          "en": "Display a fortune with rainbow colors",
+          "zh": "用彩虹色显示一条格言"
+        }
+      },
+      {
+        "command": "ls | lolcat",
+        "description": {
+          "en": "List files with rainbow coloring",
+          "zh": "用彩虹色列出文件"
+        }
+      },
+      {
+        "command": "lolcat -a -d 5 banner.txt",
+        "description": {
+          "en": "Animate text with 5 second delay",
+          "zh": "以 5 秒延迟动画显示文本"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Works in any color-capable terminal; purely for fun and aesthetics",
+        "zh": "可在任何支持颜色的终端中使用；纯粹用于娱乐和美观"
+      }
+    }
+  },
+  {
+    "slug": "cowsay",
+    "name": "cowsay",
+    "tagline": {
+      "en": "A configurable talking cow for your terminal",
+      "zh": "终端中可配置的会说话的奶牛"
+    },
+    "description": {
+      "en": "cowsay generates ASCII art of a cow (or other characters) with a speech bubble containing your message. A classic Unix fun tool, it supports dozens of character files and pairs perfectly with fortune and lolcat.",
+      "zh": "cowsay 生成带有包含你的消息的说话气泡的奶牛（或其他角色）ASCII 艺术，是经典的 Unix 趣味工具，支持数十种角色文件，与 fortune 和 lolcat 搭配效果极佳。"
+    },
+    "homepage": "https://cowsay.diamonds",
+    "repo": "https://github.com/cowsay-org/cowsay",
+    "license": "GPL-3.0",
+    "category": "fun",
+    "tags": [
+      "ascii-art",
+      "fun",
+      "classic",
+      "perl",
+      "terminal"
+    ],
+    "install": {
+      "brew": "brew install cowsay",
+      "apt": "apt install cowsay"
+    },
+    "github": {
+      "stars": 245,
+      "language": "Perl",
+      "last_updated": "2024-12-01"
+    },
+    "examples": [
+      {
+        "command": "cowsay 'Hello, World!'",
+        "description": {
+          "en": "Make a cow say a message",
+          "zh": "让奶牛说一条消息"
+        }
+      },
+      {
+        "command": "fortune | cowsay",
+        "description": {
+          "en": "Display a random fortune in a speech bubble",
+          "zh": "在说话气泡中显示随机格言"
+        }
+      },
+      {
+        "command": "cowsay -f tux 'Linux!'",
+        "description": {
+          "en": "Use the Tux penguin character",
+          "zh": "使用 Tux 企鹅角色"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Classic fun tool; works in any terminal",
+        "zh": "经典趣味工具；可在任何终端中使用"
+      }
+    }
+  },
+  {
+    "slug": "cmatrix",
+    "name": "cmatrix",
+    "tagline": {
+      "en": "Terminal screensaver inspired by The Matrix",
+      "zh": "受《黑客帝国》启发的终端屏幕保护程序"
+    },
+    "description": {
+      "en": "cmatrix displays a scrolling Matrix-style green text animation in your terminal. It is a classic terminal screensaver that recreates the iconic visual effect from the Matrix film using ncurses.",
+      "zh": "cmatrix 在终端中显示滚动的黑客帝国风格绿色文字动画，是使用 ncurses 重现电影《黑客帝国》中标志性视觉效果的经典终端屏幕保护程序。"
+    },
+    "homepage": "https://github.com/abishekvashok/cmatrix",
+    "repo": "https://github.com/abishekvashok/cmatrix",
+    "license": "GPL-3.0",
+    "category": "fun",
+    "tags": [
+      "matrix",
+      "screensaver",
+      "ascii-animation",
+      "ncurses",
+      "c"
+    ],
+    "install": {
+      "brew": "brew install cmatrix",
+      "apt": "apt install cmatrix",
+      "pacman": "pacman -S cmatrix"
+    },
+    "github": {
+      "stars": 5100,
+      "language": "C",
+      "last_updated": "2019-03-27"
+    },
+    "examples": [
+      {
+        "command": "cmatrix",
+        "description": {
+          "en": "Start the Matrix screensaver",
+          "zh": "启动黑客帝国屏幕保护程序"
+        }
+      },
+      {
+        "command": "cmatrix -b",
+        "description": {
+          "en": "Show bold characters",
+          "zh": "显示粗体字符"
+        }
+      },
+      {
+        "command": "cmatrix -C red",
+        "description": {
+          "en": "Use a different color",
+          "zh": "使用不同的颜色"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Interactive fullscreen animation; requires a color terminal",
+        "zh": "交互式全屏动画；需要支持颜色的终端"
+      }
+    }
+  },
+  {
+    "slug": "sl",
+    "name": "sl",
+    "tagline": {
+      "en": "Steam Locomotive — a prank for mistyping 'ls' as 'sl'",
+      "zh": "蒸汽机车——将 ls 错打成 sl 时的恶作剧"
+    },
+    "description": {
+      "en": "sl (Steam Locomotive) is a classic prank command that displays an ASCII art steam locomotive animation when you accidentally type 'sl' instead of 'ls'. Intentionally useless but universally beloved by Unix users.",
+      "zh": "sl（蒸汽机车）是经典的恶作剧命令，当你意外地将 'ls' 输成 'sl' 时，会显示一列 ASCII 艺术蒸汽机车动画。有意设计成没有实用价值，但深受 Unix 用户喜爱。"
+    },
+    "homepage": "https://github.com/mtoyoda/sl",
+    "repo": "https://github.com/mtoyoda/sl",
+    "license": "Unlicense",
+    "category": "fun",
+    "tags": [
+      "ascii-art",
+      "fun",
+      "prank",
+      "classic",
+      "c"
+    ],
+    "install": {
+      "brew": "brew install sl",
+      "apt": "apt install sl",
+      "pacman": "pacman -S sl"
+    },
+    "github": {
+      "stars": 3300,
+      "language": "C",
+      "last_updated": "2014-09-02"
+    },
+    "examples": [
+      {
+        "command": "sl",
+        "description": {
+          "en": "Watch a steam locomotive cross your terminal",
+          "zh": "观看蒸汽机车穿越你的终端"
+        }
+      },
+      {
+        "command": "sl -a",
+        "description": {
+          "en": "Show a locomotive with people screaming for help",
+          "zh": "显示一列载有求救乘客的机车"
+        }
+      },
+      {
+        "command": "sl -F",
+        "description": {
+          "en": "Make the locomotive fly",
+          "zh": "让机车飞起来"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Just for fun; works in any terminal with animation support",
+        "zh": "纯粹娱乐；可在任何支持动画的终端中运行"
+      }
+    }
+  },
+  {
+    "slug": "fastfetch",
+    "name": "fastfetch",
+    "tagline": {
+      "en": "A fast, maintained neofetch-like system information tool",
+      "zh": "快速且持续维护的类 neofetch 系统信息工具"
+    },
+    "description": {
+      "en": "fastfetch is a feature-rich, performance-oriented neofetch alternative written in C. It is actively maintained, supports Linux, macOS, Windows, Android, and BSDs, and offers extensive customization via JSONC configuration files.",
+      "zh": "fastfetch 是用 C 编写的功能丰富、性能优先的 neofetch 替代品，持续活跃维护，支持 Linux、macOS、Windows、Android 和 BSD 系统，通过 JSONC 配置文件提供广泛的自定义选项。"
+    },
+    "homepage": "https://github.com/fastfetch-cli/fastfetch",
+    "repo": "https://github.com/fastfetch-cli/fastfetch",
+    "license": "MIT",
+    "category": "fun",
+    "tags": [
+      "system-info",
+      "ascii-art",
+      "screenshot",
+      "c",
+      "fast"
+    ],
+    "install": {
+      "brew": "brew install fastfetch",
+      "apt": "apt install fastfetch",
+      "winget": "winget install Fastfetch-cli.Fastfetch",
+      "scoop": "scoop install fastfetch",
+      "pacman": "pacman -S fastfetch"
+    },
+    "github": {
+      "stars": 22700,
+      "language": "C",
+      "last_updated": "2026-05-13"
+    },
+    "examples": [
+      {
+        "command": "fastfetch",
+        "description": {
+          "en": "Display system info with logo",
+          "zh": "显示带徽标的系统信息"
+        }
+      },
+      {
+        "command": "fastfetch --logo none",
+        "description": {
+          "en": "Display system info without logo",
+          "zh": "显示不带徽标的系统信息"
+        }
+      },
+      {
+        "command": "fastfetch --gen-config",
+        "description": {
+          "en": "Generate a default config file",
+          "zh": "生成默认配置文件"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Recommended neofetch replacement; works in Claude Code terminal",
+        "zh": "推荐的 neofetch 替代品；可在 Claude Code 终端中运行"
+      }
+    }
+  },
+  {
+    "slug": "figlet",
+    "name": "figlet",
+    "tagline": {
+      "en": "Generate large ASCII art text banners from the command line",
+      "zh": "从命令行生成大型 ASCII 艺术文字横幅"
+    },
+    "description": {
+      "en": "figlet is a program that creates large characters made up of ordinary screen characters. It can render text in many different fonts and is often used in shell scripts, READMEs, and terminal welcome messages.",
+      "zh": "figlet 是一款用普通屏幕字符组成大字符的程序，可以多种字体渲染文字，常用于 shell 脚本、README 和终端欢迎消息中。"
+    },
+    "homepage": "http://www.figlet.org",
+    "repo": "https://github.com/cmatsuoka/figlet",
+    "license": "BSD-3-Clause",
+    "category": "fun",
+    "tags": [
+      "ascii-art",
+      "banner",
+      "text",
+      "fun",
+      "c"
+    ],
+    "install": {
+      "brew": "brew install figlet",
+      "apt": "apt install figlet"
+    },
+    "github": {
+      "stars": 1100,
+      "language": "C",
+      "last_updated": "2022-01-05"
+    },
+    "examples": [
+      {
+        "command": "figlet Hello",
+        "description": {
+          "en": "Generate ASCII art for 'Hello'",
+          "zh": "为 'Hello' 生成 ASCII 艺术"
+        }
+      },
+      {
+        "command": "figlet -f slant 'Cool'",
+        "description": {
+          "en": "Use the slant font",
+          "zh": "使用斜体字体"
+        }
+      },
+      {
+        "command": "figlet -c 'Centered'",
+        "description": {
+          "en": "Center the output",
+          "zh": "居中输出"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "notes": {
+        "en": "Fully non-interactive; useful for generating banners in scripts",
+        "zh": "完全非交互；在脚本中生成横幅时很有用"
+      }
+    }
+  }
+]
