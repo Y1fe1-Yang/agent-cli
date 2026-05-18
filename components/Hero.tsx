@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import type { Locale } from '@/lib/types';
+import { asset } from '@/lib/assetPath';
 
 const TERMINAL_LINES = [
   { cmd: 'gh pr create --title "feat: add stripe payments"', out: '✓  Pull request #47 created' },
@@ -53,16 +54,25 @@ export default async function Hero({ locale, count }: { locale: Locale; count: n
             </div>
 
             {/* AI env logos */}
-            <div className="mt-10 flex items-center gap-3">
-              <span className="text-xs text-muted-soft">Works with</span>
-              {['Claude Code', 'Codex', 'Happycapy'].map(name => (
-                <span
-                  key={name}
-                  className="text-xs font-medium text-muted bg-surface-card border border-hairline px-2.5 py-1 rounded-md"
-                >
-                  {name}
-                </span>
-              ))}
+            <div className="mt-10 flex flex-wrap items-center gap-2">
+              <span className="text-xs text-muted-soft mr-1">Works with</span>
+              {[
+                { name: 'Claude Code', logo: asset('/logos/claude-code.svg'),  href: undefined },
+                { name: 'Codex',       logo: asset('/logos/openai-codex.svg'), href: undefined },
+                { name: 'Happycapy',   logo: asset('/logos/happycapy.png'),    href: 'http://happycapy.ai/?via=yves' },
+              ].map(({ name, logo, href }) => {
+                const pill = (
+                  <span className="inline-flex items-center gap-1.5 text-xs font-medium text-muted bg-surface-card border border-hairline px-2.5 py-1 rounded-lg hover:border-primary hover:text-ink transition-colors">
+                    <img src={logo} alt="" width={12} height={12} className="w-3 h-3 object-contain opacity-75" />
+                    {name}
+                  </span>
+                );
+                return href ? (
+                  <a key={name} href={href} target="_blank" rel="noopener noreferrer">{pill}</a>
+                ) : (
+                  <span key={name}>{pill}</span>
+                );
+              })}
             </div>
           </div>
 
