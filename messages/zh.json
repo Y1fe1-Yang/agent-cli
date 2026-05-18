@@ -1,8 +1,4 @@
 {
-  "nav": {
-    "home": "首页",
-    "allTools": "全部工具"
-  },
   "hero": {
     "title": "发现优质 CLI 工具",
     "subtitle": "精选 {count} 款命令行工具，带中英双语介绍和 AI 环境兼容性标注"

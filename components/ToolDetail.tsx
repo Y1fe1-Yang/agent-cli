@@ -1,4 +1,4 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import type { Tool, Locale } from '@/lib/types';
 import InstallCommand from './InstallCommand';
 
@@ -12,9 +12,9 @@ function Badge({ ok }: { ok: boolean }) {
   );
 }
 
-export default function ToolDetail({ tool, locale }: { tool: Tool; locale: Locale }) {
-  const t = useTranslations('tool');
-  const catT = useTranslations('categories');
+export default async function ToolDetail({ tool, locale }: { tool: Tool; locale: Locale }) {
+  const t = await getTranslations('tool');
+  const catT = await getTranslations('categories');
 
   return (
     <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -31,7 +31,7 @@ export default function ToolDetail({ tool, locale }: { tool: Tool; locale: Local
       {/* GitHub meta */}
       <div className="flex flex-wrap gap-4 mb-8 text-sm text-gray-500">
         <span>⭐ {tool.github.stars.toLocaleString()} {t('stars')}</span>
-        <span>🔤 {tool.github.language}</span>
+        <span>🔤 {t('language')}: {tool.github.language}</span>
         <span>📅 {t('lastUpdated')}: {tool.github.last_updated}</span>
         <span>📄 {tool.license}</span>
         <a href={tool.repo} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">

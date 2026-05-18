@@ -1,8 +1,4 @@
 {
-  "nav": {
-    "home": "Home",
-    "allTools": "All Tools"
-  },
   "hero": {
     "title": "Discover Great CLI Tools",
     "subtitle": "{count} command-line tools with bilingual descriptions and AI environment compatibility"
