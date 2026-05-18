@@ -3,6 +3,7 @@ import { getTranslations } from 'next-intl/server';
 import { tools, getAllCategories, getCategoryCount } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
 import Hero from '@/components/Hero';
+import FeaturedAgentCLIs from '@/components/FeaturedAgentCLIs';
 import ToolListClient from '@/components/ToolListClient';
 
 export async function generateMetadata({
@@ -30,6 +31,7 @@ export default async function HomePage({
   return (
     <>
       <Hero locale={locale as Locale} count={tools.length} />
+      <FeaturedAgentCLIs locale={locale as Locale} />
       <ToolListClient
         tools={tools}
         locale={locale as Locale}

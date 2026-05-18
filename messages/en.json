@@ -8,6 +8,11 @@
     "feature2": "Scriptable & pipeable",
     "feature3": "Service-connected"
   },
+  "featured": {
+    "label": "Agent Collaboration",
+    "title": "CLIs Built for Agent Collaboration",
+    "subtitle": "These tools let your AI agents directly operate workspace services — no browser, no dashboard, fully scriptable."
+  },
   "search": {
     "placeholder": "Search CLI tools...",
     "noResults": "No tools found",

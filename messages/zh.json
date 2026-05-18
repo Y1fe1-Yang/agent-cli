@@ -8,6 +8,11 @@
     "feature2": "可脚本化 & 管道化",
     "feature3": "连接外部服务"
   },
+  "featured": {
+    "label": "Agent 协作",
+    "title": "专为 Agent 协作而生的 CLI",
+    "subtitle": "这些工具让你的 AI Agent 直接操控工作区服务——无需浏览器、无需控制台，完全可脚本化。"
+  },
   "search": {
     "placeholder": "搜索 CLI 工具...",
     "noResults": "没有找到相关工具",
