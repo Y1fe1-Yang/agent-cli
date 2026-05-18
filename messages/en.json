@@ -12,12 +12,12 @@
     "label": "Agent Collaboration",
     "title": "CLIs Built for Agent Collaboration",
     "subtitle": "These tools let your AI agents directly operate workspace services — no browser, no dashboard, fully scriptable.",
-    "cloudLabel": "Cloud & Deploy",
+    "cloudLabel": "Agent-Driven Deploy",
     "cloudTitle": "Deploy and Scale with One Command",
-    "cloudSubtitle": "Official CLIs for every major cloud platform — deploy, manage secrets, run migrations, and scale services without leaving the terminal.",
-    "devLabel": "Dev Platform CLIs",
-    "devTitle": "Automate Developer Workflows",
-    "devSubtitle": "Agent-ready CLIs for the platforms developers actually use — mobile, payments, scraping, monitoring, and more."
+    "cloudSubtitle": "Let your AI agent deploy, scale, and manage secrets with one command — official CLIs for every major cloud platform, no dashboard required.",
+    "devLabel": "Agent Dev Workflows",
+    "devTitle": "Let Your Agent Own the Dev Stack",
+    "devSubtitle": "Let your AI agent control developer platforms directly — build mobile apps, test payments, scrape the web, and monitor errors, all scriptable."
   },
   "search": {
     "placeholder": "Search CLI tools...",
