@@ -11,7 +11,10 @@
   "featured": {
     "label": "Agent 协作",
     "title": "专为 Agent 协作而生的 CLI",
-    "subtitle": "这些工具让你的 AI Agent 直接操控工作区服务——无需浏览器、无需控制台，完全可脚本化。"
+    "subtitle": "这些工具让你的 AI Agent 直接操控工作区服务——无需浏览器、无需控制台，完全可脚本化。",
+    "cloudLabel": "云服务 & 部署",
+    "cloudTitle": "一条命令，掌控云端全栈",
+    "cloudSubtitle": "主流云平台官方 CLI——部署、管理密钥、执行迁移、弹性扩缩容，全程不离终端。"
   },
   "search": {
     "placeholder": "搜索 CLI 工具...",

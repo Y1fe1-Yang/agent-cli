@@ -11,7 +11,10 @@
   "featured": {
     "label": "Agent Collaboration",
     "title": "CLIs Built for Agent Collaboration",
-    "subtitle": "These tools let your AI agents directly operate workspace services — no browser, no dashboard, fully scriptable."
+    "subtitle": "These tools let your AI agents directly operate workspace services — no browser, no dashboard, fully scriptable.",
+    "cloudLabel": "Cloud & Deploy",
+    "cloudTitle": "Deploy and Scale with One Command",
+    "cloudSubtitle": "Official CLIs for every major cloud platform — deploy, manage secrets, run migrations, and scale services without leaving the terminal."
   },
   "search": {
     "placeholder": "Search CLI tools...",
