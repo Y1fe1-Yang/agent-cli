@@ -55,7 +55,7 @@ export default async function Hero({ locale, count }: { locale: Locale; count: n
             {/* AI env logos */}
             <div className="mt-10 flex items-center gap-3">
               <span className="text-xs text-muted-soft">Works with</span>
-              {['Claude Code', 'GitHub Codex', 'Happycapy'].map(name => (
+              {['Claude Code', 'Codex', 'Happycapy'].map(name => (
                 <span
                   key={name}
                   className="text-xs font-medium text-muted bg-surface-card border border-hairline px-2.5 py-1 rounded-md"

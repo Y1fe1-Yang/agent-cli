@@ -6,4 +6,7 @@ export default withNextIntl({
   output: 'export',
   basePath: '/agent-cli',
   images: { unoptimized: true },
+  env: {
+    NEXT_PUBLIC_BASE_PATH: '/agent-cli',
+  },
 });

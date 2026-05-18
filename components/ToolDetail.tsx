@@ -3,7 +3,7 @@ import type { Tool, Locale } from '@/lib/types';
 import InstallCommand from './InstallCommand';
 import CopyablePrompt from './CopyablePrompt';
 import Link from 'next/link';
-import Image from 'next/image';
+import { asset } from '@/lib/assetPath';
 
 const AI_ENVS = [
   { key: 'claude_code' as const, logo: '/logos/claude-code.svg',  labelKey: 'claudeCode' as const },
@@ -105,7 +105,7 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
               <div key={env.key}
                 className={`flex items-center justify-between px-4 py-3 ${i > 0 ? 'border-t border-hairline' : ''} bg-surface-card`}>
                 <div className="flex items-center gap-2.5">
-                  <Image src={env.logo} alt={t(env.labelKey)} width={18} height={18}
+                  <img src={asset(env.logo)} alt={t(env.labelKey)} width={18} height={18}
                     className={`w-4.5 h-4.5 object-contain ${ok ? '' : 'opacity-30 grayscale'}`} />
                   <span className="text-sm font-medium text-ink">{t(env.labelKey)}</span>
                 </div>

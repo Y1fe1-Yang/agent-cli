@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import { asset } from '@/lib/assetPath';
 import { getTranslations } from 'next-intl/server';
 import { tools } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
@@ -43,8 +43,8 @@ const DEV: FeaturedItem[] = [
 function ToolLogo({ item }: { item: FeaturedItem }) {
   if (item.logo) {
     return (
-      <Image
-        src={`/logos/${item.logo}.svg`}
+      <img
+        src={asset(`/logos/${item.logo}.svg`)}
         alt={item.service}
         width={28}
         height={28}
