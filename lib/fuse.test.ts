@@ -21,4 +21,11 @@ describe('createFuse', () => {
     const results = fuse.search('git');
     expect(results.some(r => r.item.category === 'git')).toBe(true);
   });
+
+  it('finds bat when searching Chinese term in zh locale', () => {
+    const fuse = createFuse(tools, 'zh');
+    const results = fuse.search('语法高亮');
+    expect(results.length).toBeGreaterThan(0);
+    expect(results.some(r => r.item.slug === 'bat')).toBe(true);
+  });
 });
