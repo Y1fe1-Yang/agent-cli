@@ -27,7 +27,7 @@ export default function ToolCard({
   locale: Locale;
   categoryLabel: string;
 }) {
-  const topInstall = Object.keys(tool.install).slice(0, 2);
+  const topInstall = Object.entries(tool.install).slice(0, 2);
 
   return (
     <Link
@@ -50,7 +50,7 @@ export default function ToolCard({
         <span className="text-xs text-gray-300">·</span>
         <span className="text-xs text-gray-400">{tool.github.language}</span>
 
-        {topInstall.map(pm => (
+        {topInstall.map(([pm]) => (
           <span key={pm} className="text-xs font-mono bg-gray-100 text-gray-600 px-1.5 py-0.5 rounded">
             {pm}
           </span>
