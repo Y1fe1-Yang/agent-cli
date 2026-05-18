@@ -1,5 +1,9 @@
 import toolsData from '@/data/tools.json';
-import type { Tool, Category } from './types';
+import type { Tool, Category, Locale } from './types';
+
+export function localise(field: { en: string; zh: string; ja?: string }, locale: Locale): string {
+  return (field as Record<string, string>)[locale] ?? field.en;
+}
 
 export type { Tool, Category };
 export type { Locale } from './types';

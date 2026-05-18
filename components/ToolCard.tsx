@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Tool, Locale } from '@/lib/types';
+import { localise } from '@/lib/tools';
 import AiEnvBadges from './AiEnvBadges';
 
 function formatStars(n: number): string {
@@ -36,7 +37,7 @@ export default function ToolCard({
 
       {/* Tagline */}
       <p className="text-sm text-body leading-relaxed mb-4 line-clamp-2">
-        {tool.tagline[locale]}
+        {localise(tool.tagline, locale)}
       </p>
 
       {/* Meta row */}

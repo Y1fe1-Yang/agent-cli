@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { asset } from '@/lib/assetPath';
 import { getTranslations } from 'next-intl/server';
-import { tools } from '@/lib/tools';
+import { tools, localise } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
 import AiEnvBadges from './AiEnvBadges';
 
@@ -80,7 +80,7 @@ function ToolTile({ item, locale }: { item: FeaturedItem; locale: Locale }) {
           {tool.name}
         </p>
         <p className="text-xs text-muted mt-1 line-clamp-2 leading-relaxed">
-          {tool.tagline[locale]}
+          {localise(tool.tagline, locale)}
         </p>
       </div>
       <div className="mt-auto">

@@ -1,4 +1,4 @@
-export type Locale = 'en' | 'zh';
+export type Locale = 'en' | 'zh' | 'ja';
 
 export type Category =
   | 'file-management'
@@ -12,11 +12,13 @@ export type Category =
   | 'fun'
   | 'cloud';
 
+type L10n = { en: string; zh: string; ja?: string };
+
 export interface Tool {
   slug: string;
   name: string;
-  tagline: { en: string; zh: string };
-  description: { en: string; zh: string };
+  tagline: L10n;
+  description: L10n;
   homepage: string;
   repo: string;
   license: string;
@@ -30,13 +32,13 @@ export interface Tool {
   };
   examples: Array<{
     command: string;
-    description: { en: string; zh: string };
+    description: L10n;
   }>;
   ai_env: {
     claude_code: boolean;
     codex: boolean;
     happycapy: boolean;
-    notes: { en: string; zh: string };
+    notes: L10n;
   };
-  agent_prompts?: Array<{ en: string; zh: string }>;
+  agent_prompts?: Array<L10n>;
 }

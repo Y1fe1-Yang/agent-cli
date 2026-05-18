@@ -1,14 +1,15 @@
 import { getTranslations } from 'next-intl/server';
 import type { Tool, Locale } from '@/lib/types';
+import { localise } from '@/lib/tools';
 import InstallCommand from './InstallCommand';
 import CopyablePrompt from './CopyablePrompt';
 import Link from 'next/link';
 import { asset } from '@/lib/assetPath';
 
 const AI_ENVS = [
-  { key: 'claude_code' as const, logo: '/logos/claude-code.svg',  labelKey: 'claudeCode' as const },
-  { key: 'codex'       as const, logo: '/logos/openai-codex.svg', labelKey: 'codex'      as const },
-  { key: 'happycapy'   as const, logo: '/logos/happycapy.png',    labelKey: 'happycapy'  as const },
+  { key: 'claude_code' as const, logo: '/logos/claude-code.svg',  labelKey: 'claudeCode' as const, href: undefined },
+  { key: 'codex'       as const, logo: '/logos/openai-codex.svg', labelKey: 'codex'      as const, href: undefined },
+  { key: 'happycapy'   as const, logo: '/logos/happycapy.png',    labelKey: 'happycapy'  as const, href: 'http://happycapy.ai/?via=yves' },
 ];
 
 export default async function ToolDetail({ tool, locale }: { tool: Tool; locale: Locale }) {
@@ -33,8 +34,8 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
             {catT(tool.category)}
           </span>
         </div>
-        <p className="text-lg text-body">{tool.tagline[locale]}</p>
-        <p className="mt-3 text-body leading-relaxed">{tool.description[locale]}</p>
+        <p className="text-lg text-body">{localise(tool.tagline, locale)}</p>
+        <p className="mt-3 text-body leading-relaxed">{localise(tool.description, locale)}</p>
       </div>
 
       {/* GitHub meta */}
@@ -74,7 +75,7 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
                   <code className="text-sm text-accent-teal font-mono">{ex.command}</code>
                 </div>
                 <div className="px-4 py-2 text-sm text-body bg-surface-card">
-                  {ex.description[locale]}
+                  {localise(ex.description, locale)}
                 </div>
               </div>
             ))}
@@ -89,7 +90,7 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
           <p className="text-sm text-muted mb-4">{t('agentPromptsHint')}</p>
           <div className="flex flex-col gap-2">
             {tool.agent_prompts.map((p, i) => (
-              <CopyablePrompt key={i} text={p[locale]} />
+              <CopyablePrompt key={i} text={localise(p, locale)} />
             ))}
           </div>
         </section>
@@ -101,9 +102,9 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
         <div className="rounded-xl border border-hairline overflow-hidden">
           {AI_ENVS.map((env, i) => {
             const ok = tool.ai_env[env.key];
-            return (
-              <div key={env.key}
-                className={`flex items-center justify-between px-4 py-3 ${i > 0 ? 'border-t border-hairline' : ''} bg-surface-card`}>
+            const rowClass = `flex items-center justify-between px-4 py-3 ${i > 0 ? 'border-t border-hairline' : ''} bg-surface-card`;
+            const inner = (
+              <>
                 <div className="flex items-center gap-2.5">
                   <img src={asset(env.logo)} alt={t(env.labelKey)} width={18} height={18}
                     className={`w-4.5 h-4.5 object-contain ${ok ? '' : 'opacity-30 grayscale'}`} />
@@ -116,12 +117,20 @@ export default async function ToolDetail({ tool, locale }: { tool: Tool; locale:
                 }`}>
                   {ok ? t('compatible') : t('notCompatible')}
                 </span>
-              </div>
+              </>
+            );
+            return env.href ? (
+              <a key={env.key} href={env.href} target="_blank" rel="noopener noreferrer"
+                className={`${rowClass} hover:bg-canvas transition-colors`}>
+                {inner}
+              </a>
+            ) : (
+              <div key={env.key} className={rowClass}>{inner}</div>
             );
           })}
-          {tool.ai_env.notes[locale] && (
+          {localise(tool.ai_env.notes, locale) && (
             <div className="px-4 py-3 border-t border-hairline bg-canvas text-xs text-muted">
-              {tool.ai_env.notes[locale]}
+              {localise(tool.ai_env.notes, locale)}
             </div>
           )}
         </div>

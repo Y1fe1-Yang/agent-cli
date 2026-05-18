@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "title": "AIエージェント時代の\nCLIツールキット。",
+    "subtitle": "AIエージェントが実際に使える{count}個のCLIツール — 非インタラクティブ、スクリプト化可能、実サービス連携。",
+    "badge": "エージェント対応",
+    "terminalComment": "# Claude Codeがワークフローを自動化",
+    "feature1": "非インタラクティブ出力",
+    "feature2": "スクリプト化 & パイプ化",
+    "feature3": "サービス連携"
+  },
+  "featured": {
+    "label": "エージェント連携",
+    "title": "エージェント連携のために作られたCLI",
+    "subtitle": "これらのツールはAIエージェントがワークスペースサービスを直接操作できます — ブラウザ不要、ダッシュボード不要、完全スクリプト化。",
+    "cloudLabel": "エージェント駆動デプロイ",
+    "cloudTitle": "一コマンドでデプロイ＆スケール",
+    "cloudSubtitle": "AIエージェントが一コマンドでデプロイ、スケール、シークレット管理 — 主要クラウドプラットフォームの公式CLI、ダッシュボード不要。",
+    "devLabel": "エージェント開発ワークフロー",
+    "devTitle": "開発スタックをエージェントに任せる",
+    "devSubtitle": "AIエージェントが開発者プラットフォームを直接操作 — モバイルアプリ構築、決済テスト、Webスクレイピング、エラー監視、すべてスクリプト化。"
+  },
+  "search": {
+    "placeholder": "CLIツールを検索...",
+    "noResults": "ツールが見つかりませんでした",
+    "resultsCount": "{count}個のツール"
+  },
+  "filter": {
+    "allCategories": "全カテゴリー"
+  },
+  "tool": {
+    "install": "インストール",
+    "examples": "使用例",
+    "copyCommand": "コピー",
+    "copied": "コピーしました！",
+    "aiEnv": "AI環境",
+    "stars": "スター",
+    "license": "ライセンス",
+    "language": "言語",
+    "lastUpdated": "最終更新",
+    "viewRepo": "リポジトリを見る",
+    "viewHomepage": "ホームページ",
+    "claudeCode": "Claude Code",
+    "codex": "Codex",
+    "happycapy": "Happycapy",
+    "compatible": "対応",
+    "notCompatible": "非対応",
+    "backToList": "← 一覧に戻る",
+    "agentPrompts": "エージェントに伝える",
+    "agentPromptsHint": "これらのプロンプトをAIエージェントに貼り付けてすぐに始められます。"
+  },
+  "categories": {
+    "file-management": "ファイル管理",
+    "network": "ネットワーク",
+    "git": "Git",
+    "dev-tools": "開発ツール",
+    "productivity": "生産性",
+    "database": "データベース",
+    "media": "メディア",
+    "system": "システム",
+    "fun": "エンタメ",
+    "cloud": "クラウド & デプロイ"
+  },
+  "footer": {
+    "credit": "データ出典：awesome-cli-appsと各ツール公式ページ"
+  }
+}

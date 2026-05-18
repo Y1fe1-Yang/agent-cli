@@ -23,6 +23,9 @@ export function LocaleSwitcher({ locale, dark }: { locale: string; dark?: boolea
       <Link href={getLocalePath('en')} className={`transition-colors ${locale === 'en' ? activeClass : inactiveClass}`}>
         EN
       </Link>
+      <Link href={getLocalePath('ja')} className={`transition-colors ${locale === 'ja' ? activeClass : inactiveClass}`}>
+        日本語
+      </Link>
     </div>
   );
 }
