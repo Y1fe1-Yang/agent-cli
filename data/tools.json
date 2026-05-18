@@ -5631,5 +5631,67 @@
         "zh": ""
       }
     }
+  },
+  {
+    "slug": "opencli",
+    "name": "OpenCLI",
+    "tagline": {
+      "en": "Turn any website or app into a scriptable CLI",
+      "zh": "将任意网站或应用变成可脚本化的 CLI"
+    },
+    "description": {
+      "en": "OpenCLI is an AI-native CLI hub that transforms websites, Electron apps, and local binaries into standardized command-line interfaces. Built-in adapters for 100+ sites (Bilibili, Twitter, Reddit, etc.) let both humans and AI agents interact with any web service through a unified CLI — no API key required.",
+      "zh": "OpenCLI 是 AI 原生 CLI 中枢，能将网站、Electron 应用和本地工具统一转化为标准化命令行接口。内置 100+ 网站适配器（Bilibili、Twitter、Reddit 等），让人类和 AI 智能体都能通过统一 CLI 操作任意 Web 服务，无需 API Key。"
+    },
+    "homepage": "https://github.com/jackwener/opencli",
+    "repo": "https://github.com/jackwener/opencli",
+    "license": "Apache-2.0",
+    "category": "dev-tools",
+    "tags": [
+      "ai-native",
+      "browser-automation",
+      "cli-hub",
+      "agents"
+    ],
+    "install": {
+      "npm": "npm install -g @jackwener/opencli"
+    },
+    "github": {
+      "stars": 21700,
+      "language": "TypeScript",
+      "last_updated": "2025-05"
+    },
+    "examples": [
+      {
+        "command": "opencli bilibili hot",
+        "description": {
+          "en": "Get Bilibili trending videos",
+          "zh": "获取 B 站热门视频"
+        }
+      },
+      {
+        "command": "opencli twitter timeline",
+        "description": {
+          "en": "Fetch your Twitter timeline",
+          "zh": "获取 Twitter 时间线"
+        }
+      },
+      {
+        "command": "opencli doctor",
+        "description": {
+          "en": "Verify OpenCLI setup and browser bridge",
+          "zh": "检查 OpenCLI 和浏览器扩展的安装状态"
+        }
+      }
+    ],
+    "ai_env": {
+      "claude_code": true,
+      "codex": true,
+      "happycapy": true,
+      "notes": {
+        "en": "Requires Browser Bridge extension and a logged-in browser for web adapters.",
+        "zh": "使用网站适配器时需安装浏览器扩展并保持登录状态。"
+      }
+    }
   }
 ]
