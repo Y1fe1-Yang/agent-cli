@@ -1,0 +1,1483 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CLI Tools" [ref=e5] [cursor=pointer]:
+        - /url: /zh
+      - generic [ref=e6]:
+        - link "中文" [ref=e7] [cursor=pointer]:
+          - /url: /zh
+        - link "EN" [ref=e8] [cursor=pointer]:
+          - /url: /en
+  - main [ref=e9]:
+    - generic [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]: Agent 友好
+        - heading "AI Agent 时代 的 CLI 工具箱。" [level=1] [ref=e16]:
+          - generic [ref=e17]: AI Agent 时代
+          - text: 的 CLI 工具箱。
+        - paragraph [ref=e18]: 精选 95 款 AI Agent 真正能用的命令行工具——非交互式、可脚本化、连接外部服务。
+        - generic [ref=e19]:
+          - generic [ref=e20]: 非交互式输出
+          - generic [ref=e21]: 可脚本化 & 管道化
+          - generic [ref=e22]: 连接外部服务
+        - generic [ref=e23]:
+          - generic [ref=e24]: Works with
+          - generic [ref=e25]: Claude Code
+          - generic [ref=e26]: GitHub Codex
+          - generic [ref=e27]: Happycapy
+      - generic [ref=e28]:
+        - generic [ref=e33]: "# Claude Code 驱动你的工作流"
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e36]:
+              - generic [ref=e37]: $
+              - generic [ref=e38]: "gh pr create --title \"feat: add stripe payments\""
+            - generic [ref=e39]: "✓ Pull request #47 created"
+          - generic [ref=e40]:
+            - generic [ref=e41]:
+              - generic [ref=e42]: $
+              - generic [ref=e43]: vercel deploy --prod
+            - generic [ref=e44]: ✓ Deployed → https://myapp.vercel.app
+          - generic [ref=e45]:
+            - generic [ref=e46]:
+              - generic [ref=e47]: $
+              - generic [ref=e48]: stripe trigger payment_intent.succeeded
+            - generic [ref=e49]: ✓ Webhook delivered to localhost
+          - generic [ref=e50]:
+            - generic [ref=e51]:
+              - generic [ref=e52]: $
+              - generic [ref=e53]: supabase db push
+            - generic [ref=e54]: ✓ 3 migrations applied successfully
+          - generic [ref=e56]: $
+    - generic [ref=e58]:
+      - generic [ref=e60]:
+        - img [ref=e61]
+        - searchbox "搜索 CLI 工具..." [ref=e63]
+      - generic [ref=e64]:
+        - complementary [ref=e65]:
+          - navigation [ref=e66]:
+            - button "全部分类 95" [ref=e67]:
+              - generic [ref=e68]: 全部分类
+              - generic [ref=e69]: "95"
+            - button "云服务 & 部署 10" [ref=e70]:
+              - generic [ref=e71]: 云服务 & 部署
+              - generic [ref=e72]: "10"
+            - button "数据库 8" [ref=e73]:
+              - generic [ref=e74]: 数据库
+              - generic [ref=e75]: "8"
+            - button "开发工具 21" [ref=e76]:
+              - generic [ref=e77]: 开发工具
+              - generic [ref=e78]: "21"
+            - button "文件管理 8" [ref=e79]:
+              - generic [ref=e80]: 文件管理
+              - generic [ref=e81]: "8"
+            - button "娱乐 6" [ref=e82]:
+              - generic [ref=e83]: 娱乐
+              - generic [ref=e84]: "6"
+            - button "Git 工具 5" [ref=e85]:
+              - generic [ref=e86]: Git 工具
+              - generic [ref=e87]: "5"
+            - button "媒体 6" [ref=e88]:
+              - generic [ref=e89]: 媒体
+              - generic [ref=e90]: "6"
+            - button "网络 8" [ref=e91]:
+              - generic [ref=e92]: 网络
+              - generic [ref=e93]: "8"
+            - button "效率 16" [ref=e94]:
+              - generic [ref=e95]: 效率
+              - generic [ref=e96]: "16"
+            - button "系统 7" [ref=e97]:
+              - generic [ref=e98]: 系统
+              - generic [ref=e99]: "7"
+        - generic [ref=e100]:
+          - paragraph [ref=e101]: 95 个工具
+          - generic [ref=e102]:
+            - link "bat 文件管理 带语法高亮和 Git 集成的现代 cat 替代品 ★ 51.0k Rust brew apt Claude Code GitHub Codex Happycapy" [ref=e103] [cursor=pointer]:
+              - /url: /zh/tools/bat
+              - generic [ref=e104]:
+                - heading "bat" [level=2] [ref=e105]
+                - generic [ref=e106]: 文件管理
+              - paragraph [ref=e107]: 带语法高亮和 Git 集成的现代 cat 替代品
+              - generic [ref=e108]:
+                - generic [ref=e109]: ★ 51.0k
+                - generic [ref=e110]: Rust
+                - generic [ref=e111]: brew
+                - generic [ref=e112]: apt
+                - generic [ref=e113]:
+                  - generic "Claude Code" [ref=e114]
+                  - generic "GitHub Codex" [ref=e115]
+                  - generic "Happycapy" [ref=e116]
+            - link "eza 文件管理 带颜色和图标的现代 ls 替代品 ★ 14.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e117] [cursor=pointer]:
+              - /url: /zh/tools/eza
+              - generic [ref=e118]:
+                - heading "eza" [level=2] [ref=e119]
+                - generic [ref=e120]: 文件管理
+              - paragraph [ref=e121]: 带颜色和图标的现代 ls 替代品
+              - generic [ref=e122]:
+                - generic [ref=e123]: ★ 14.0k
+                - generic [ref=e124]: Rust
+                - generic [ref=e125]: brew
+                - generic [ref=e126]: cargo
+                - generic [ref=e127]:
+                  - generic "Claude Code" [ref=e128]
+                  - generic "GitHub Codex" [ref=e129]
+                  - generic "Happycapy" [ref=e130]
+            - link "fd 文件管理 简单、快速、友好的 find 替代品 ★ 36.0k Rust brew apt Claude Code GitHub Codex Happycapy" [ref=e131] [cursor=pointer]:
+              - /url: /zh/tools/fd
+              - generic [ref=e132]:
+                - heading "fd" [level=2] [ref=e133]
+                - generic [ref=e134]: 文件管理
+              - paragraph [ref=e135]: 简单、快速、友好的 find 替代品
+              - generic [ref=e136]:
+                - generic [ref=e137]: ★ 36.0k
+                - generic [ref=e138]: Rust
+                - generic [ref=e139]: brew
+                - generic [ref=e140]: apt
+                - generic [ref=e141]:
+                  - generic "Claude Code" [ref=e142]
+                  - generic "GitHub Codex" [ref=e143]
+                  - generic "Happycapy" [ref=e144]
+            - link "ripgrep 文件管理 极速递归正则搜索工具 ★ 51.0k Rust brew apt Claude Code GitHub Codex Happycapy" [ref=e145] [cursor=pointer]:
+              - /url: /zh/tools/ripgrep
+              - generic [ref=e146]:
+                - heading "ripgrep" [level=2] [ref=e147]
+                - generic [ref=e148]: 文件管理
+              - paragraph [ref=e149]: 极速递归正则搜索工具
+              - generic [ref=e150]:
+                - generic [ref=e151]: ★ 51.0k
+                - generic [ref=e152]: Rust
+                - generic [ref=e153]: brew
+                - generic [ref=e154]: apt
+                - generic [ref=e155]:
+                  - generic "Claude Code" [ref=e156]
+                  - generic "GitHub Codex" [ref=e157]
+                  - generic "Happycapy" [ref=e158]
+            - link "fzf 效率 万能命令行模糊查找器 ★ 71.0k Go brew apt Claude Code GitHub Codex Happycapy" [ref=e159] [cursor=pointer]:
+              - /url: /zh/tools/fzf
+              - generic [ref=e160]:
+                - heading "fzf" [level=2] [ref=e161]
+                - generic [ref=e162]: 效率
+              - paragraph [ref=e163]: 万能命令行模糊查找器
+              - generic [ref=e164]:
+                - generic [ref=e165]: ★ 71.0k
+                - generic [ref=e166]: Go
+                - generic [ref=e167]: brew
+                - generic [ref=e168]: apt
+                - generic [ref=e169]:
+                  - generic "Claude Code" [ref=e170]
+                  - generic "GitHub Codex" [ref=e171]
+                  - generic "Happycapy" [ref=e172]
+            - link "lsd 文件管理 带图标和颜色的下一代 ls 命令 ★ 15.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e173] [cursor=pointer]:
+              - /url: /zh/tools/lsd
+              - generic [ref=e174]:
+                - heading "lsd" [level=2] [ref=e175]
+                - generic [ref=e176]: 文件管理
+              - paragraph [ref=e177]: 带图标和颜色的下一代 ls 命令
+              - generic [ref=e178]:
+                - generic [ref=e179]: ★ 15.0k
+                - generic [ref=e180]: Rust
+                - generic [ref=e181]: brew
+                - generic [ref=e182]: cargo
+                - generic [ref=e183]:
+                  - generic "Claude Code" [ref=e184]
+                  - generic "GitHub Codex" [ref=e185]
+                  - generic "Happycapy" [ref=e186]
+            - link "broot 文件管理 全新的目录树查看与导航方式 ★ 10.0k Rust brew cargo Claude Code GitHub Codex" [ref=e187] [cursor=pointer]:
+              - /url: /zh/tools/broot
+              - generic [ref=e188]:
+                - heading "broot" [level=2] [ref=e189]
+                - generic [ref=e190]: 文件管理
+              - paragraph [ref=e191]: 全新的目录树查看与导航方式
+              - generic [ref=e192]:
+                - generic [ref=e193]: ★ 10.0k
+                - generic [ref=e194]: Rust
+                - generic [ref=e195]: brew
+                - generic [ref=e196]: cargo
+                - generic [ref=e197]:
+                  - generic "Claude Code" [ref=e198]
+                  - generic "GitHub Codex" [ref=e199]
+            - link "zoxide 效率 能学习你使用习惯的智能 cd 命令 ★ 26.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e200] [cursor=pointer]:
+              - /url: /zh/tools/zoxide
+              - generic [ref=e201]:
+                - heading "zoxide" [level=2] [ref=e202]
+                - generic [ref=e203]: 效率
+              - paragraph [ref=e204]: 能学习你使用习惯的智能 cd 命令
+              - generic [ref=e205]:
+                - generic [ref=e206]: ★ 26.0k
+                - generic [ref=e207]: Rust
+                - generic [ref=e208]: brew
+                - generic [ref=e209]: cargo
+                - generic [ref=e210]:
+                  - generic "Claude Code" [ref=e211]
+                  - generic "GitHub Codex" [ref=e212]
+                  - generic "Happycapy" [ref=e213]
+            - link "ranger 文件管理 受 VIM 启发的终端文件管理器 ★ 15.0k Python brew apt Claude Code GitHub Codex" [ref=e214] [cursor=pointer]:
+              - /url: /zh/tools/ranger
+              - generic [ref=e215]:
+                - heading "ranger" [level=2] [ref=e216]
+                - generic [ref=e217]: 文件管理
+              - paragraph [ref=e218]: 受 VIM 启发的终端文件管理器
+              - generic [ref=e219]:
+                - generic [ref=e220]: ★ 15.0k
+                - generic [ref=e221]: Python
+                - generic [ref=e222]: brew
+                - generic [ref=e223]: apt
+                - generic [ref=e224]:
+                  - generic "Claude Code" [ref=e225]
+                  - generic "GitHub Codex" [ref=e226]
+            - link "nnn 文件管理 最快的终端文件管理器——轻量且功能丰富 ★ 20.0k C brew apt Claude Code GitHub Codex" [ref=e227] [cursor=pointer]:
+              - /url: /zh/tools/nnn
+              - generic [ref=e228]:
+                - heading "nnn" [level=2] [ref=e229]
+                - generic [ref=e230]: 文件管理
+              - paragraph [ref=e231]: 最快的终端文件管理器——轻量且功能丰富
+              - generic [ref=e232]:
+                - generic [ref=e233]: ★ 20.0k
+                - generic [ref=e234]: C
+                - generic [ref=e235]: brew
+                - generic [ref=e236]: apt
+                - generic [ref=e237]:
+                  - generic "Claude Code" [ref=e238]
+                  - generic "GitHub Codex" [ref=e239]
+            - link "HTTPie 网络 对人类友好的命令行 HTTP 客户端 ★ 35.0k Python brew apt Claude Code GitHub Codex Happycapy" [ref=e240] [cursor=pointer]:
+              - /url: /zh/tools/httpie
+              - generic [ref=e241]:
+                - heading "HTTPie" [level=2] [ref=e242]
+                - generic [ref=e243]: 网络
+              - paragraph [ref=e244]: 对人类友好的命令行 HTTP 客户端
+              - generic [ref=e245]:
+                - generic [ref=e246]: ★ 35.0k
+                - generic [ref=e247]: Python
+                - generic [ref=e248]: brew
+                - generic [ref=e249]: apt
+                - generic [ref=e250]:
+                  - generic "Claude Code" [ref=e251]
+                  - generic "GitHub Codex" [ref=e252]
+                  - generic "Happycapy" [ref=e253]
+            - link "xh 网络 友好快速的 HTTP 客户端，HTTPie 的 Rust 重写版 ★ 6.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e254] [cursor=pointer]:
+              - /url: /zh/tools/xh
+              - generic [ref=e255]:
+                - heading "xh" [level=2] [ref=e256]
+                - generic [ref=e257]: 网络
+              - paragraph [ref=e258]: 友好快速的 HTTP 客户端，HTTPie 的 Rust 重写版
+              - generic [ref=e259]:
+                - generic [ref=e260]: ★ 6.0k
+                - generic [ref=e261]: Rust
+                - generic [ref=e262]: brew
+                - generic [ref=e263]: cargo
+                - generic [ref=e264]:
+                  - generic "Claude Code" [ref=e265]
+                  - generic "GitHub Codex" [ref=e266]
+                  - generic "Happycapy" [ref=e267]
+            - link "dog 网络 用户友好的命令行 DNS 客户端 ★ 1.8k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e268] [cursor=pointer]:
+              - /url: /zh/tools/dog
+              - generic [ref=e269]:
+                - heading "dog" [level=2] [ref=e270]
+                - generic [ref=e271]: 网络
+              - paragraph [ref=e272]: 用户友好的命令行 DNS 客户端
+              - generic [ref=e273]:
+                - generic [ref=e274]: ★ 1.8k
+                - generic [ref=e275]: Rust
+                - generic [ref=e276]: brew
+                - generic [ref=e277]: cargo
+                - generic [ref=e278]:
+                  - generic "Claude Code" [ref=e279]
+                  - generic "GitHub Codex" [ref=e280]
+                  - generic "Happycapy" [ref=e281]
+            - link "nmap 网络 网络探测工具和安全扫描器 ★ 10.0k C brew apt Claude Code GitHub Codex Happycapy" [ref=e282] [cursor=pointer]:
+              - /url: /zh/tools/nmap
+              - generic [ref=e283]:
+                - heading "nmap" [level=2] [ref=e284]
+                - generic [ref=e285]: 网络
+              - paragraph [ref=e286]: 网络探测工具和安全扫描器
+              - generic [ref=e287]:
+                - generic [ref=e288]: ★ 10.0k
+                - generic [ref=e289]: C
+                - generic [ref=e290]: brew
+                - generic [ref=e291]: apt
+                - generic [ref=e292]:
+                  - generic "Claude Code" [ref=e293]
+                  - generic "GitHub Codex" [ref=e294]
+                  - generic "Happycapy" [ref=e295]
+            - link "aria2 网络 轻量级多协议下载工具 ★ 35.0k C++ brew apt Claude Code GitHub Codex Happycapy" [ref=e296] [cursor=pointer]:
+              - /url: /zh/tools/aria2
+              - generic [ref=e297]:
+                - heading "aria2" [level=2] [ref=e298]
+                - generic [ref=e299]: 网络
+              - paragraph [ref=e300]: 轻量级多协议下载工具
+              - generic [ref=e301]:
+                - generic [ref=e302]: ★ 35.0k
+                - generic [ref=e303]: C++
+                - generic [ref=e304]: brew
+                - generic [ref=e305]: apt
+                - generic [ref=e306]:
+                  - generic "Claude Code" [ref=e307]
+                  - generic "GitHub Codex" [ref=e308]
+                  - generic "Happycapy" [ref=e309]
+            - link "mitmproxy 网络 用于安全测试的交互式 TLS 拦截 HTTP 代理 ★ 38.0k Python brew pip Claude Code GitHub Codex Happycapy" [ref=e310] [cursor=pointer]:
+              - /url: /zh/tools/mitmproxy
+              - generic [ref=e311]:
+                - heading "mitmproxy" [level=2] [ref=e312]
+                - generic [ref=e313]: 网络
+              - paragraph [ref=e314]: 用于安全测试的交互式 TLS 拦截 HTTP 代理
+              - generic [ref=e315]:
+                - generic [ref=e316]: ★ 38.0k
+                - generic [ref=e317]: Python
+                - generic [ref=e318]: brew
+                - generic [ref=e319]: pip
+                - generic [ref=e320]:
+                  - generic "Claude Code" [ref=e321]
+                  - generic "GitHub Codex" [ref=e322]
+                  - generic "Happycapy" [ref=e323]
+            - link "gping 网络 带实时图表的 ping 工具 ★ 10.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e324] [cursor=pointer]:
+              - /url: /zh/tools/gping
+              - generic [ref=e325]:
+                - heading "gping" [level=2] [ref=e326]
+                - generic [ref=e327]: 网络
+              - paragraph [ref=e328]: 带实时图表的 ping 工具
+              - generic [ref=e329]:
+                - generic [ref=e330]: ★ 10.0k
+                - generic [ref=e331]: Rust
+                - generic [ref=e332]: brew
+                - generic [ref=e333]: cargo
+                - generic [ref=e334]:
+                  - generic "Claude Code" [ref=e335]
+                  - generic "GitHub Codex" [ref=e336]
+                  - generic "Happycapy" [ref=e337]
+            - link "bandwhich 网络 终端网络带宽使用监控工具 ★ 9.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e338] [cursor=pointer]:
+              - /url: /zh/tools/bandwhich
+              - generic [ref=e339]:
+                - heading "bandwhich" [level=2] [ref=e340]
+                - generic [ref=e341]: 网络
+              - paragraph [ref=e342]: 终端网络带宽使用监控工具
+              - generic [ref=e343]:
+                - generic [ref=e344]: ★ 9.0k
+                - generic [ref=e345]: Rust
+                - generic [ref=e346]: brew
+                - generic [ref=e347]: cargo
+                - generic [ref=e348]:
+                  - generic "Claude Code" [ref=e349]
+                  - generic "GitHub Codex" [ref=e350]
+                  - generic "Happycapy" [ref=e351]
+            - link "lazygit Git 工具 简单的 git 命令终端 UI ★ 58.0k Go brew winget Claude Code GitHub Codex" [ref=e352] [cursor=pointer]:
+              - /url: /zh/tools/lazygit
+              - generic [ref=e353]:
+                - heading "lazygit" [level=2] [ref=e354]
+                - generic [ref=e355]: Git 工具
+              - paragraph [ref=e356]: 简单的 git 命令终端 UI
+              - generic [ref=e357]:
+                - generic [ref=e358]: ★ 58.0k
+                - generic [ref=e359]: Go
+                - generic [ref=e360]: brew
+                - generic [ref=e361]: winget
+                - generic [ref=e362]:
+                  - generic "Claude Code" [ref=e363]
+                  - generic "GitHub Codex" [ref=e364]
+            - link "delta Git 工具 用于 git、diff 和 grep 输出的语法高亮分页器 ★ 25.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e365] [cursor=pointer]:
+              - /url: /zh/tools/delta
+              - generic [ref=e366]:
+                - heading "delta" [level=2] [ref=e367]
+                - generic [ref=e368]: Git 工具
+              - paragraph [ref=e369]: 用于 git、diff 和 grep 输出的语法高亮分页器
+              - generic [ref=e370]:
+                - generic [ref=e371]: ★ 25.0k
+                - generic [ref=e372]: Rust
+                - generic [ref=e373]: brew
+                - generic [ref=e374]: cargo
+                - generic [ref=e375]:
+                  - generic "Claude Code" [ref=e376]
+                  - generic "GitHub Codex" [ref=e377]
+                  - generic "Happycapy" [ref=e378]
+            - link "tig Git 工具 git 的文本模式界面 ★ 12.0k C brew apt Claude Code GitHub Codex" [ref=e379] [cursor=pointer]:
+              - /url: /zh/tools/tig
+              - generic [ref=e380]:
+                - heading "tig" [level=2] [ref=e381]
+                - generic [ref=e382]: Git 工具
+              - paragraph [ref=e383]: git 的文本模式界面
+              - generic [ref=e384]:
+                - generic [ref=e385]: ★ 12.0k
+                - generic [ref=e386]: C
+                - generic [ref=e387]: brew
+                - generic [ref=e388]: apt
+                - generic [ref=e389]:
+                  - generic "Claude Code" [ref=e390]
+                  - generic "GitHub Codex" [ref=e391]
+            - link "GitHub CLI Git 工具 命令行版 GitHub——管理 PR、Issue 等 ★ 38.0k Go brew winget Claude Code GitHub Codex Happycapy" [ref=e392] [cursor=pointer]:
+              - /url: /zh/tools/gh
+              - generic [ref=e393]:
+                - heading "GitHub CLI" [level=2] [ref=e394]
+                - generic [ref=e395]: Git 工具
+              - paragraph [ref=e396]: 命令行版 GitHub——管理 PR、Issue 等
+              - generic [ref=e397]:
+                - generic [ref=e398]: ★ 38.0k
+                - generic [ref=e399]: Go
+                - generic [ref=e400]: brew
+                - generic [ref=e401]: winget
+                - generic [ref=e402]:
+                  - generic "Claude Code" [ref=e403]
+                  - generic "GitHub Codex" [ref=e404]
+                  - generic "Happycapy" [ref=e405]
+            - link "gitui Git 工具 用 Rust 编写的极速 git TUI ★ 18.0k Rust brew cargo Claude Code GitHub Codex" [ref=e406] [cursor=pointer]:
+              - /url: /zh/tools/gitui
+              - generic [ref=e407]:
+                - heading "gitui" [level=2] [ref=e408]
+                - generic [ref=e409]: Git 工具
+              - paragraph [ref=e410]: 用 Rust 编写的极速 git TUI
+              - generic [ref=e411]:
+                - generic [ref=e412]: ★ 18.0k
+                - generic [ref=e413]: Rust
+                - generic [ref=e414]: brew
+                - generic [ref=e415]: cargo
+                - generic [ref=e416]:
+                  - generic "Claude Code" [ref=e417]
+                  - generic "GitHub Codex" [ref=e418]
+            - link "jq 开发工具 轻量灵活的命令行 JSON 处理器 ★ 30.0k C brew apt Claude Code GitHub Codex Happycapy" [ref=e419] [cursor=pointer]:
+              - /url: /zh/tools/jq
+              - generic [ref=e420]:
+                - heading "jq" [level=2] [ref=e421]
+                - generic [ref=e422]: 开发工具
+              - paragraph [ref=e423]: 轻量灵活的命令行 JSON 处理器
+              - generic [ref=e424]:
+                - generic [ref=e425]: ★ 30.0k
+                - generic [ref=e426]: C
+                - generic [ref=e427]: brew
+                - generic [ref=e428]: apt
+                - generic [ref=e429]:
+                  - generic "Claude Code" [ref=e430]
+                  - generic "GitHub Codex" [ref=e431]
+                  - generic "Happycapy" [ref=e432]
+            - link "yq 开发工具 可移植的命令行 YAML/JSON/XML/CSV 处理器 ★ 12.0k Go brew winget Claude Code GitHub Codex Happycapy" [ref=e433] [cursor=pointer]:
+              - /url: /zh/tools/yq
+              - generic [ref=e434]:
+                - heading "yq" [level=2] [ref=e435]
+                - generic [ref=e436]: 开发工具
+              - paragraph [ref=e437]: 可移植的命令行 YAML/JSON/XML/CSV 处理器
+              - generic [ref=e438]:
+                - generic [ref=e439]: ★ 12.0k
+                - generic [ref=e440]: Go
+                - generic [ref=e441]: brew
+                - generic [ref=e442]: winget
+                - generic [ref=e443]:
+                  - generic "Claude Code" [ref=e444]
+                  - generic "GitHub Codex" [ref=e445]
+                  - generic "Happycapy" [ref=e446]
+            - link "fx 开发工具 支持交互 TUI 和流式处理的终端 JSON 查看器 ★ 19.0k Go brew npm Claude Code GitHub Codex Happycapy" [ref=e447] [cursor=pointer]:
+              - /url: /zh/tools/fx
+              - generic [ref=e448]:
+                - heading "fx" [level=2] [ref=e449]
+                - generic [ref=e450]: 开发工具
+              - paragraph [ref=e451]: 支持交互 TUI 和流式处理的终端 JSON 查看器
+              - generic [ref=e452]:
+                - generic [ref=e453]: ★ 19.0k
+                - generic [ref=e454]: Go
+                - generic [ref=e455]: brew
+                - generic [ref=e456]: npm
+                - generic [ref=e457]:
+                  - generic "Claude Code" [ref=e458]
+                  - generic "GitHub Codex" [ref=e459]
+                  - generic "Happycapy" [ref=e460]
+            - link "tldr 开发工具 带实用示例的精简版 man 页面 ★ 53.0k Markdown brew npm Claude Code GitHub Codex Happycapy" [ref=e461] [cursor=pointer]:
+              - /url: /zh/tools/tldr
+              - generic [ref=e462]:
+                - heading "tldr" [level=2] [ref=e463]
+                - generic [ref=e464]: 开发工具
+              - paragraph [ref=e465]: 带实用示例的精简版 man 页面
+              - generic [ref=e466]:
+                - generic [ref=e467]: ★ 53.0k
+                - generic [ref=e468]: Markdown
+                - generic [ref=e469]: brew
+                - generic [ref=e470]: npm
+                - generic [ref=e471]:
+                  - generic "Claude Code" [ref=e472]
+                  - generic "GitHub Codex" [ref=e473]
+                  - generic "Happycapy" [ref=e474]
+            - link "ShellCheck 开发工具 Shell 脚本静态分析工具 ★ 36.0k Haskell brew apt Claude Code GitHub Codex Happycapy" [ref=e475] [cursor=pointer]:
+              - /url: /zh/tools/shellcheck
+              - generic [ref=e476]:
+                - heading "ShellCheck" [level=2] [ref=e477]
+                - generic [ref=e478]: 开发工具
+              - paragraph [ref=e479]: Shell 脚本静态分析工具
+              - generic [ref=e480]:
+                - generic [ref=e481]: ★ 36.0k
+                - generic [ref=e482]: Haskell
+                - generic [ref=e483]: brew
+                - generic [ref=e484]: apt
+                - generic [ref=e485]:
+                  - generic "Claude Code" [ref=e486]
+                  - generic "GitHub Codex" [ref=e487]
+                  - generic "Happycapy" [ref=e488]
+            - link "hyperfine 开发工具 命令行性能基准测试工具 ★ 22.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e489] [cursor=pointer]:
+              - /url: /zh/tools/hyperfine
+              - generic [ref=e490]:
+                - heading "hyperfine" [level=2] [ref=e491]
+                - generic [ref=e492]: 开发工具
+              - paragraph [ref=e493]: 命令行性能基准测试工具
+              - generic [ref=e494]:
+                - generic [ref=e495]: ★ 22.0k
+                - generic [ref=e496]: Rust
+                - generic [ref=e497]: brew
+                - generic [ref=e498]: cargo
+                - generic [ref=e499]:
+                  - generic "Claude Code" [ref=e500]
+                  - generic "GitHub Codex" [ref=e501]
+                  - generic "Happycapy" [ref=e502]
+            - link "tokei 开发工具 统计代码行数——按语言分类显示代码/空行/注释 ★ 11.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e503] [cursor=pointer]:
+              - /url: /zh/tools/tokei
+              - generic [ref=e504]:
+                - heading "tokei" [level=2] [ref=e505]
+                - generic [ref=e506]: 开发工具
+              - paragraph [ref=e507]: 统计代码行数——按语言分类显示代码/空行/注释
+              - generic [ref=e508]:
+                - generic [ref=e509]: ★ 11.0k
+                - generic [ref=e510]: Rust
+                - generic [ref=e511]: brew
+                - generic [ref=e512]: cargo
+                - generic [ref=e513]:
+                  - generic "Claude Code" [ref=e514]
+                  - generic "GitHub Codex" [ref=e515]
+                  - generic "Happycapy" [ref=e516]
+            - link "ctop 开发工具 类 top 的 Docker 容器指标界面 ★ 15.0k Go brew Claude Code GitHub Codex" [ref=e517] [cursor=pointer]:
+              - /url: /zh/tools/ctop
+              - generic [ref=e518]:
+                - heading "ctop" [level=2] [ref=e519]
+                - generic [ref=e520]: 开发工具
+              - paragraph [ref=e521]: 类 top 的 Docker 容器指标界面
+              - generic [ref=e522]:
+                - generic [ref=e523]: ★ 15.0k
+                - generic [ref=e524]: Go
+                - generic [ref=e525]: brew
+                - generic [ref=e526]:
+                  - generic "Claude Code" [ref=e527]
+                  - generic "GitHub Codex" [ref=e528]
+            - link "tmux 效率 终端多路复用器——分割、持久化和共享终端会话 ★ 36.0k C brew apt Claude Code GitHub Codex" [ref=e529] [cursor=pointer]:
+              - /url: /zh/tools/tmux
+              - generic [ref=e530]:
+                - heading "tmux" [level=2] [ref=e531]
+                - generic [ref=e532]: 效率
+              - paragraph [ref=e533]: 终端多路复用器——分割、持久化和共享终端会话
+              - generic [ref=e534]:
+                - generic [ref=e535]: ★ 36.0k
+                - generic [ref=e536]: C
+                - generic [ref=e537]: brew
+                - generic [ref=e538]: apt
+                - generic [ref=e539]:
+                  - generic "Claude Code" [ref=e540]
+                  - generic "GitHub Codex" [ref=e541]
+            - link "zellij 效率 开箱即用的现代终端工作区 ★ 24.0k Rust brew cargo Claude Code GitHub Codex" [ref=e542] [cursor=pointer]:
+              - /url: /zh/tools/zellij
+              - generic [ref=e543]:
+                - heading "zellij" [level=2] [ref=e544]
+                - generic [ref=e545]: 效率
+              - paragraph [ref=e546]: 开箱即用的现代终端工作区
+              - generic [ref=e547]:
+                - generic [ref=e548]: ★ 24.0k
+                - generic [ref=e549]: Rust
+                - generic [ref=e550]: brew
+                - generic [ref=e551]: cargo
+                - generic [ref=e552]:
+                  - generic "Claude Code" [ref=e553]
+                  - generic "GitHub Codex" [ref=e554]
+            - link "starship 效率 适用于任何 shell 的极简超快提示符 ★ 48.0k Rust brew cargo Claude Code GitHub Codex" [ref=e555] [cursor=pointer]:
+              - /url: /zh/tools/starship
+              - generic [ref=e556]:
+                - heading "starship" [level=2] [ref=e557]
+                - generic [ref=e558]: 效率
+              - paragraph [ref=e559]: 适用于任何 shell 的极简超快提示符
+              - generic [ref=e560]:
+                - generic [ref=e561]: ★ 48.0k
+                - generic [ref=e562]: Rust
+                - generic [ref=e563]: brew
+                - generic [ref=e564]: cargo
+                - generic [ref=e565]:
+                  - generic "Claude Code" [ref=e566]
+                  - generic "GitHub Codex" [ref=e567]
+            - link "Oh My Posh 效率 适用于任何 shell 的提示主题引擎，尤其适合 Windows ★ 18.0k Go brew winget Claude Code GitHub Codex" [ref=e568] [cursor=pointer]:
+              - /url: /zh/tools/oh-my-posh
+              - generic [ref=e569]:
+                - heading "Oh My Posh" [level=2] [ref=e570]
+                - generic [ref=e571]: 效率
+              - paragraph [ref=e572]: 适用于任何 shell 的提示主题引擎，尤其适合 Windows
+              - generic [ref=e573]:
+                - generic [ref=e574]: ★ 18.0k
+                - generic [ref=e575]: Go
+                - generic [ref=e576]: brew
+                - generic [ref=e577]: winget
+                - generic [ref=e578]:
+                  - generic "Claude Code" [ref=e579]
+                  - generic "GitHub Codex" [ref=e580]
+            - link "thefuck 效率 自动纠正上一条控制台命令 ★ 88.0k Python brew pip Claude Code GitHub Codex" [ref=e581] [cursor=pointer]:
+              - /url: /zh/tools/thefuck
+              - generic [ref=e582]:
+                - heading "thefuck" [level=2] [ref=e583]
+                - generic [ref=e584]: 效率
+              - paragraph [ref=e585]: 自动纠正上一条控制台命令
+              - generic [ref=e586]:
+                - generic [ref=e587]: ★ 88.0k
+                - generic [ref=e588]: Python
+                - generic [ref=e589]: brew
+                - generic [ref=e590]: pip
+                - generic [ref=e591]:
+                  - generic "Claude Code" [ref=e592]
+                  - generic "GitHub Codex" [ref=e593]
+            - link "atuin 效率 魔法 shell 历史——跨机器同步、搜索和统计 ★ 24.0k Rust brew cargo Claude Code GitHub Codex" [ref=e594] [cursor=pointer]:
+              - /url: /zh/tools/atuin
+              - generic [ref=e595]:
+                - heading "atuin" [level=2] [ref=e596]
+                - generic [ref=e597]: 效率
+              - paragraph [ref=e598]: 魔法 shell 历史——跨机器同步、搜索和统计
+              - generic [ref=e599]:
+                - generic [ref=e600]: ★ 24.0k
+                - generic [ref=e601]: Rust
+                - generic [ref=e602]: brew
+                - generic [ref=e603]: cargo
+                - generic [ref=e604]:
+                  - generic "Claude Code" [ref=e605]
+                  - generic "GitHub Codex" [ref=e606]
+            - link "mcfly 效率 由神经网络驱动的智能 shell 历史搜索 ★ 7.0k Rust brew cargo Claude Code GitHub Codex" [ref=e607] [cursor=pointer]:
+              - /url: /zh/tools/mcfly
+              - generic [ref=e608]:
+                - heading "mcfly" [level=2] [ref=e609]
+                - generic [ref=e610]: 效率
+              - paragraph [ref=e611]: 由神经网络驱动的智能 shell 历史搜索
+              - generic [ref=e612]:
+                - generic [ref=e613]: ★ 7.0k
+                - generic [ref=e614]: Rust
+                - generic [ref=e615]: brew
+                - generic [ref=e616]: cargo
+                - generic [ref=e617]:
+                  - generic "Claude Code" [ref=e618]
+                  - generic "GitHub Codex" [ref=e619]
+            - link "navi 效率 命令行交互式速查表工具 ★ 15.0k Rust brew cargo Claude Code GitHub Codex" [ref=e620] [cursor=pointer]:
+              - /url: /zh/tools/navi
+              - generic [ref=e621]:
+                - heading "navi" [level=2] [ref=e622]
+                - generic [ref=e623]: 效率
+              - paragraph [ref=e624]: 命令行交互式速查表工具
+              - generic [ref=e625]:
+                - generic [ref=e626]: ★ 15.0k
+                - generic [ref=e627]: Rust
+                - generic [ref=e628]: brew
+                - generic [ref=e629]: cargo
+                - generic [ref=e630]:
+                  - generic "Claude Code" [ref=e631]
+                  - generic "GitHub Codex" [ref=e632]
+            - link "direnv 开发工具 根据当前目录自动加载和卸载环境变量 ★ 13.0k Go brew apt Claude Code GitHub Codex Happycapy" [ref=e633] [cursor=pointer]:
+              - /url: /zh/tools/direnv
+              - generic [ref=e634]:
+                - heading "direnv" [level=2] [ref=e635]
+                - generic [ref=e636]: 开发工具
+              - paragraph [ref=e637]: 根据当前目录自动加载和卸载环境变量
+              - generic [ref=e638]:
+                - generic [ref=e639]: ★ 13.0k
+                - generic [ref=e640]: Go
+                - generic [ref=e641]: brew
+                - generic [ref=e642]: apt
+                - generic [ref=e643]:
+                  - generic "Claude Code" [ref=e644]
+                  - generic "GitHub Codex" [ref=e645]
+                  - generic "Happycapy" [ref=e646]
+            - link "htop 系统 交互式进程查看器——更好的 top ★ 6.5k C brew apt Claude Code GitHub Codex" [ref=e647] [cursor=pointer]:
+              - /url: /zh/tools/htop
+              - generic [ref=e648]:
+                - heading "htop" [level=2] [ref=e649]
+                - generic [ref=e650]: 系统
+              - paragraph [ref=e651]: 交互式进程查看器——更好的 top
+              - generic [ref=e652]:
+                - generic [ref=e653]: ★ 6.5k
+                - generic [ref=e654]: C
+                - generic [ref=e655]: brew
+                - generic [ref=e656]: apt
+                - generic [ref=e657]:
+                  - generic "Claude Code" [ref=e658]
+                  - generic "GitHub Codex" [ref=e659]
+            - link "btop++ 系统 精美 TUI 的资源监控器——CPU、内存、磁盘、网络 ★ 24.0k C++ brew apt Claude Code GitHub Codex" [ref=e660] [cursor=pointer]:
+              - /url: /zh/tools/btop
+              - generic [ref=e661]:
+                - heading "btop++" [level=2] [ref=e662]
+                - generic [ref=e663]: 系统
+              - paragraph [ref=e664]: 精美 TUI 的资源监控器——CPU、内存、磁盘、网络
+              - generic [ref=e665]:
+                - generic [ref=e666]: ★ 24.0k
+                - generic [ref=e667]: C++
+                - generic [ref=e668]: brew
+                - generic [ref=e669]: apt
+                - generic [ref=e670]:
+                  - generic "Claude Code" [ref=e671]
+                  - generic "GitHub Codex" [ref=e672]
+            - link "glances 系统 跨平台 top/htop 替代品，支持 Web 和 API 模式 ★ 27.0k Python brew pip Claude Code GitHub Codex Happycapy" [ref=e673] [cursor=pointer]:
+              - /url: /zh/tools/glances
+              - generic [ref=e674]:
+                - heading "glances" [level=2] [ref=e675]
+                - generic [ref=e676]: 系统
+              - paragraph [ref=e677]: 跨平台 top/htop 替代品，支持 Web 和 API 模式
+              - generic [ref=e678]:
+                - generic [ref=e679]: ★ 27.0k
+                - generic [ref=e680]: Python
+                - generic [ref=e681]: brew
+                - generic [ref=e682]: pip
+                - generic [ref=e683]:
+                  - generic "Claude Code" [ref=e684]
+                  - generic "GitHub Codex" [ref=e685]
+                  - generic "Happycapy" [ref=e686]
+            - link "duf 系统 磁盘使用/空闲工具——更好的 df 替代品 ★ 15.1k Go brew apt Claude Code GitHub Codex Happycapy" [ref=e687] [cursor=pointer]:
+              - /url: /zh/tools/duf
+              - generic [ref=e688]:
+                - heading "duf" [level=2] [ref=e689]
+                - generic [ref=e690]: 系统
+              - paragraph [ref=e691]: 磁盘使用/空闲工具——更好的 df 替代品
+              - generic [ref=e692]:
+                - generic [ref=e693]: ★ 15.1k
+                - generic [ref=e694]: Go
+                - generic [ref=e695]: brew
+                - generic [ref=e696]: apt
+                - generic [ref=e697]:
+                  - generic "Claude Code" [ref=e698]
+                  - generic "GitHub Codex" [ref=e699]
+                  - generic "Happycapy" [ref=e700]
+            - link "dust 系统 du + Rust = dust——更直观的磁盘使用工具 ★ 11.7k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e701] [cursor=pointer]:
+              - /url: /zh/tools/dust
+              - generic [ref=e702]:
+                - heading "dust" [level=2] [ref=e703]
+                - generic [ref=e704]: 系统
+              - paragraph [ref=e705]: du + Rust = dust——更直观的磁盘使用工具
+              - generic [ref=e706]:
+                - generic [ref=e707]: ★ 11.7k
+                - generic [ref=e708]: Rust
+                - generic [ref=e709]: brew
+                - generic [ref=e710]: cargo
+                - generic [ref=e711]:
+                  - generic "Claude Code" [ref=e712]
+                  - generic "GitHub Codex" [ref=e713]
+                  - generic "Happycapy" [ref=e714]
+            - link "procs 系统 用 Rust 编写的现代 ps 替代品 ★ 6.0k Rust brew cargo Claude Code GitHub Codex Happycapy" [ref=e715] [cursor=pointer]:
+              - /url: /zh/tools/procs
+              - generic [ref=e716]:
+                - heading "procs" [level=2] [ref=e717]
+                - generic [ref=e718]: 系统
+              - paragraph [ref=e719]: 用 Rust 编写的现代 ps 替代品
+              - generic [ref=e720]:
+                - generic [ref=e721]: ★ 6.0k
+                - generic [ref=e722]: Rust
+                - generic [ref=e723]: brew
+                - generic [ref=e724]: cargo
+                - generic [ref=e725]:
+                  - generic "Claude Code" [ref=e726]
+                  - generic "GitHub Codex" [ref=e727]
+                  - generic "Happycapy" [ref=e728]
+            - link "bottom 系统 可定制的跨平台图形化进程和系统监视器 ★ 13.3k Rust brew cargo Claude Code GitHub Codex" [ref=e729] [cursor=pointer]:
+              - /url: /zh/tools/bottom
+              - generic [ref=e730]:
+                - heading "bottom" [level=2] [ref=e731]
+                - generic [ref=e732]: 系统
+              - paragraph [ref=e733]: 可定制的跨平台图形化进程和系统监视器
+              - generic [ref=e734]:
+                - generic [ref=e735]: ★ 13.3k
+                - generic [ref=e736]: Rust
+                - generic [ref=e737]: brew
+                - generic [ref=e738]: cargo
+                - generic [ref=e739]:
+                  - generic "Claude Code" [ref=e740]
+                  - generic "GitHub Codex" [ref=e741]
+            - link "pgcli 数据库 带自动补全和语法高亮的 Postgres CLI ★ 13.2k Python brew pip Claude Code GitHub Codex Happycapy" [ref=e742] [cursor=pointer]:
+              - /url: /zh/tools/pgcli
+              - generic [ref=e743]:
+                - heading "pgcli" [level=2] [ref=e744]
+                - generic [ref=e745]: 数据库
+              - paragraph [ref=e746]: 带自动补全和语法高亮的 Postgres CLI
+              - generic [ref=e747]:
+                - generic [ref=e748]: ★ 13.2k
+                - generic [ref=e749]: Python
+                - generic [ref=e750]: brew
+                - generic [ref=e751]: pip
+                - generic [ref=e752]:
+                  - generic "Claude Code" [ref=e753]
+                  - generic "GitHub Codex" [ref=e754]
+                  - generic "Happycapy" [ref=e755]
+            - link "mycli 数据库 带自动补全和语法高亮的 MySQL CLI ★ 11.9k Python brew pip Claude Code GitHub Codex Happycapy" [ref=e756] [cursor=pointer]:
+              - /url: /zh/tools/mycli
+              - generic [ref=e757]:
+                - heading "mycli" [level=2] [ref=e758]
+                - generic [ref=e759]: 数据库
+              - paragraph [ref=e760]: 带自动补全和语法高亮的 MySQL CLI
+              - generic [ref=e761]:
+                - generic [ref=e762]: ★ 11.9k
+                - generic [ref=e763]: Python
+                - generic [ref=e764]: brew
+                - generic [ref=e765]: pip
+                - generic [ref=e766]:
+                  - generic "Claude Code" [ref=e767]
+                  - generic "GitHub Codex" [ref=e768]
+                  - generic "Happycapy" [ref=e769]
+            - link "litecli 数据库 带自动补全和语法高亮的 SQLite CLI ★ 3.2k Python brew pip Claude Code GitHub Codex Happycapy" [ref=e770] [cursor=pointer]:
+              - /url: /zh/tools/litecli
+              - generic [ref=e771]:
+                - heading "litecli" [level=2] [ref=e772]
+                - generic [ref=e773]: 数据库
+              - paragraph [ref=e774]: 带自动补全和语法高亮的 SQLite CLI
+              - generic [ref=e775]:
+                - generic [ref=e776]: ★ 3.2k
+                - generic [ref=e777]: Python
+                - generic [ref=e778]: brew
+                - generic [ref=e779]: pip
+                - generic [ref=e780]:
+                  - generic "Claude Code" [ref=e781]
+                  - generic "GitHub Codex" [ref=e782]
+                  - generic "Happycapy" [ref=e783]
+            - link "usql 数据库 SQL 和 NoSQL 数据库的通用命令行界面 ★ 9.9k Go brew go Claude Code GitHub Codex Happycapy" [ref=e784] [cursor=pointer]:
+              - /url: /zh/tools/usql
+              - generic [ref=e785]:
+                - heading "usql" [level=2] [ref=e786]
+                - generic [ref=e787]: 数据库
+              - paragraph [ref=e788]: SQL 和 NoSQL 数据库的通用命令行界面
+              - generic [ref=e789]:
+                - generic [ref=e790]: ★ 9.9k
+                - generic [ref=e791]: Go
+                - generic [ref=e792]: brew
+                - generic [ref=e793]: go
+                - generic [ref=e794]:
+                  - generic "Claude Code" [ref=e795]
+                  - generic "GitHub Codex" [ref=e796]
+                  - generic "Happycapy" [ref=e797]
+            - link "redis-cli 数据库 官方 Redis 命令行界面 ★ 74.4k C brew apt Claude Code GitHub Codex Happycapy" [ref=e798] [cursor=pointer]:
+              - /url: /zh/tools/redis-cli
+              - generic [ref=e799]:
+                - heading "redis-cli" [level=2] [ref=e800]
+                - generic [ref=e801]: 数据库
+              - paragraph [ref=e802]: 官方 Redis 命令行界面
+              - generic [ref=e803]:
+                - generic [ref=e804]: ★ 74.4k
+                - generic [ref=e805]: C
+                - generic [ref=e806]: brew
+                - generic [ref=e807]: apt
+                - generic [ref=e808]:
+                  - generic "Claude Code" [ref=e809]
+                  - generic "GitHub Codex" [ref=e810]
+                  - generic "Happycapy" [ref=e811]
+            - link "mongosh 数据库 支持现代 JavaScript 的官方 MongoDB Shell ★ 3.9k TypeScript brew winget Claude Code GitHub Codex Happycapy" [ref=e812] [cursor=pointer]:
+              - /url: /zh/tools/mongosh
+              - generic [ref=e813]:
+                - heading "mongosh" [level=2] [ref=e814]
+                - generic [ref=e815]: 数据库
+              - paragraph [ref=e816]: 支持现代 JavaScript 的官方 MongoDB Shell
+              - generic [ref=e817]:
+                - generic [ref=e818]: ★ 3.9k
+                - generic [ref=e819]: TypeScript
+                - generic [ref=e820]: brew
+                - generic [ref=e821]: winget
+                - generic [ref=e822]:
+                  - generic "Claude Code" [ref=e823]
+                  - generic "GitHub Codex" [ref=e824]
+                  - generic "Happycapy" [ref=e825]
+            - link "FFmpeg 媒体 录制、转换和流式传输音视频的完整解决方案 ★ 60.2k C brew apt Claude Code GitHub Codex Happycapy" [ref=e826] [cursor=pointer]:
+              - /url: /zh/tools/ffmpeg
+              - generic [ref=e827]:
+                - heading "FFmpeg" [level=2] [ref=e828]
+                - generic [ref=e829]: 媒体
+              - paragraph [ref=e830]: 录制、转换和流式传输音视频的完整解决方案
+              - generic [ref=e831]:
+                - generic [ref=e832]: ★ 60.2k
+                - generic [ref=e833]: C
+                - generic [ref=e834]: brew
+                - generic [ref=e835]: apt
+                - generic [ref=e836]:
+                  - generic "Claude Code" [ref=e837]
+                  - generic "GitHub Codex" [ref=e838]
+                  - generic "Happycapy" [ref=e839]
+            - link "yt-dlp 媒体 支持数千个网站的功能丰富命令行音视频下载工具 ★ 163.0k Python brew pip Claude Code GitHub Codex Happycapy" [ref=e840] [cursor=pointer]:
+              - /url: /zh/tools/yt-dlp
+              - generic [ref=e841]:
+                - heading "yt-dlp" [level=2] [ref=e842]
+                - generic [ref=e843]: 媒体
+              - paragraph [ref=e844]: 支持数千个网站的功能丰富命令行音视频下载工具
+              - generic [ref=e845]:
+                - generic [ref=e846]: ★ 163.0k
+                - generic [ref=e847]: Python
+                - generic [ref=e848]: brew
+                - generic [ref=e849]: pip
+                - generic [ref=e850]:
+                  - generic "Claude Code" [ref=e851]
+                  - generic "GitHub Codex" [ref=e852]
+                  - generic "Happycapy" [ref=e853]
+            - link "ImageMagick 媒体 从命令行创建、编辑、转换和显示图像 ★ 16.5k C brew apt Claude Code GitHub Codex Happycapy" [ref=e854] [cursor=pointer]:
+              - /url: /zh/tools/imagemagick
+              - generic [ref=e855]:
+                - heading "ImageMagick" [level=2] [ref=e856]
+                - generic [ref=e857]: 媒体
+              - paragraph [ref=e858]: 从命令行创建、编辑、转换和显示图像
+              - generic [ref=e859]:
+                - generic [ref=e860]: ★ 16.5k
+                - generic [ref=e861]: C
+                - generic [ref=e862]: brew
+                - generic [ref=e863]: apt
+                - generic [ref=e864]:
+                  - generic "Claude Code" [ref=e865]
+                  - generic "GitHub Codex" [ref=e866]
+                  - generic "Happycapy" [ref=e867]
+            - link "viu 媒体 使用 iTerm/Kitty 协议或 Unicode 在终端查看图像 ★ 3.2k Rust brew cargo Claude Code GitHub Codex" [ref=e868] [cursor=pointer]:
+              - /url: /zh/tools/viu
+              - generic [ref=e869]:
+                - heading "viu" [level=2] [ref=e870]
+                - generic [ref=e871]: 媒体
+              - paragraph [ref=e872]: 使用 iTerm/Kitty 协议或 Unicode 在终端查看图像
+              - generic [ref=e873]:
+                - generic [ref=e874]: ★ 3.2k
+                - generic [ref=e875]: Rust
+                - generic [ref=e876]: brew
+                - generic [ref=e877]: cargo
+                - generic [ref=e878]:
+                  - generic "Claude Code" [ref=e879]
+                  - generic "GitHub Codex" [ref=e880]
+            - link "chafa 媒体 终端图形——在任何终端中显示图像和动画 ★ 4.8k C brew apt Claude Code GitHub Codex" [ref=e881] [cursor=pointer]:
+              - /url: /zh/tools/chafa
+              - generic [ref=e882]:
+                - heading "chafa" [level=2] [ref=e883]
+                - generic [ref=e884]: 媒体
+              - paragraph [ref=e885]: 终端图形——在任何终端中显示图像和动画
+              - generic [ref=e886]:
+                - generic [ref=e887]: ★ 4.8k
+                - generic [ref=e888]: C
+                - generic [ref=e889]: brew
+                - generic [ref=e890]: apt
+                - generic [ref=e891]:
+                  - generic "Claude Code" [ref=e892]
+                  - generic "GitHub Codex" [ref=e893]
+            - link "glow 效率 在命令行中优雅渲染 Markdown ★ 25.3k Go brew scoop Claude Code GitHub Codex Happycapy" [ref=e894] [cursor=pointer]:
+              - /url: /zh/tools/glow
+              - generic [ref=e895]:
+                - heading "glow" [level=2] [ref=e896]
+                - generic [ref=e897]: 效率
+              - paragraph [ref=e898]: 在命令行中优雅渲染 Markdown
+              - generic [ref=e899]:
+                - generic [ref=e900]: ★ 25.3k
+                - generic [ref=e901]: Go
+                - generic [ref=e902]: brew
+                - generic [ref=e903]: scoop
+                - generic [ref=e904]:
+                  - generic "Claude Code" [ref=e905]
+                  - generic "GitHub Codex" [ref=e906]
+                  - generic "Happycapy" [ref=e907]
+            - link "lolcat 娱乐 彩虹和独角兽——为终端输出添加彩虹色 ★ 6.5k Ruby brew apt Claude Code GitHub Codex Happycapy" [ref=e908] [cursor=pointer]:
+              - /url: /zh/tools/lolcat
+              - generic [ref=e909]:
+                - heading "lolcat" [level=2] [ref=e910]
+                - generic [ref=e911]: 娱乐
+              - paragraph [ref=e912]: 彩虹和独角兽——为终端输出添加彩虹色
+              - generic [ref=e913]:
+                - generic [ref=e914]: ★ 6.5k
+                - generic [ref=e915]: Ruby
+                - generic [ref=e916]: brew
+                - generic [ref=e917]: apt
+                - generic [ref=e918]:
+                  - generic "Claude Code" [ref=e919]
+                  - generic "GitHub Codex" [ref=e920]
+                  - generic "Happycapy" [ref=e921]
+            - link "cowsay 娱乐 终端中可配置的会说话的奶牛 ★ 245 Perl brew apt Claude Code GitHub Codex Happycapy" [ref=e922] [cursor=pointer]:
+              - /url: /zh/tools/cowsay
+              - generic [ref=e923]:
+                - heading "cowsay" [level=2] [ref=e924]
+                - generic [ref=e925]: 娱乐
+              - paragraph [ref=e926]: 终端中可配置的会说话的奶牛
+              - generic [ref=e927]:
+                - generic [ref=e928]: ★ 245
+                - generic [ref=e929]: Perl
+                - generic [ref=e930]: brew
+                - generic [ref=e931]: apt
+                - generic [ref=e932]:
+                  - generic "Claude Code" [ref=e933]
+                  - generic "GitHub Codex" [ref=e934]
+                  - generic "Happycapy" [ref=e935]
+            - link "cmatrix 娱乐 受《黑客帝国》启发的终端屏幕保护程序 ★ 5.1k C brew apt Claude Code GitHub Codex" [ref=e936] [cursor=pointer]:
+              - /url: /zh/tools/cmatrix
+              - generic [ref=e937]:
+                - heading "cmatrix" [level=2] [ref=e938]
+                - generic [ref=e939]: 娱乐
+              - paragraph [ref=e940]: 受《黑客帝国》启发的终端屏幕保护程序
+              - generic [ref=e941]:
+                - generic [ref=e942]: ★ 5.1k
+                - generic [ref=e943]: C
+                - generic [ref=e944]: brew
+                - generic [ref=e945]: apt
+                - generic [ref=e946]:
+                  - generic "Claude Code" [ref=e947]
+                  - generic "GitHub Codex" [ref=e948]
+            - link "sl 娱乐 蒸汽机车——将 ls 错打成 sl 时的恶作剧 ★ 3.3k C brew apt Claude Code GitHub Codex" [ref=e949] [cursor=pointer]:
+              - /url: /zh/tools/sl
+              - generic [ref=e950]:
+                - heading "sl" [level=2] [ref=e951]
+                - generic [ref=e952]: 娱乐
+              - paragraph [ref=e953]: 蒸汽机车——将 ls 错打成 sl 时的恶作剧
+              - generic [ref=e954]:
+                - generic [ref=e955]: ★ 3.3k
+                - generic [ref=e956]: C
+                - generic [ref=e957]: brew
+                - generic [ref=e958]: apt
+                - generic [ref=e959]:
+                  - generic "Claude Code" [ref=e960]
+                  - generic "GitHub Codex" [ref=e961]
+            - link "fastfetch 娱乐 快速且持续维护的类 neofetch 系统信息工具 ★ 22.7k C brew apt Claude Code GitHub Codex Happycapy" [ref=e962] [cursor=pointer]:
+              - /url: /zh/tools/fastfetch
+              - generic [ref=e963]:
+                - heading "fastfetch" [level=2] [ref=e964]
+                - generic [ref=e965]: 娱乐
+              - paragraph [ref=e966]: 快速且持续维护的类 neofetch 系统信息工具
+              - generic [ref=e967]:
+                - generic [ref=e968]: ★ 22.7k
+                - generic [ref=e969]: C
+                - generic [ref=e970]: brew
+                - generic [ref=e971]: apt
+                - generic [ref=e972]:
+                  - generic "Claude Code" [ref=e973]
+                  - generic "GitHub Codex" [ref=e974]
+                  - generic "Happycapy" [ref=e975]
+            - link "figlet 娱乐 从命令行生成大型 ASCII 艺术文字横幅 ★ 1.1k C brew apt Claude Code GitHub Codex Happycapy" [ref=e976] [cursor=pointer]:
+              - /url: /zh/tools/figlet
+              - generic [ref=e977]:
+                - heading "figlet" [level=2] [ref=e978]
+                - generic [ref=e979]: 娱乐
+              - paragraph [ref=e980]: 从命令行生成大型 ASCII 艺术文字横幅
+              - generic [ref=e981]:
+                - generic [ref=e982]: ★ 1.1k
+                - generic [ref=e983]: C
+                - generic [ref=e984]: brew
+                - generic [ref=e985]: apt
+                - generic [ref=e986]:
+                  - generic "Claude Code" [ref=e987]
+                  - generic "GitHub Codex" [ref=e988]
+                  - generic "Happycapy" [ref=e989]
+            - link "lark-cli 效率 飞书官方命令行工具，专为人类和 AI 助手设计 ★ 11.4k Go npm Claude Code GitHub Codex Happycapy" [ref=e990] [cursor=pointer]:
+              - /url: /zh/tools/lark-cli
+              - generic [ref=e991]:
+                - heading "lark-cli" [level=2] [ref=e992]
+                - generic [ref=e993]: 效率
+              - paragraph [ref=e994]: 飞书官方命令行工具，专为人类和 AI 助手设计
+              - generic [ref=e995]:
+                - generic [ref=e996]: ★ 11.4k
+                - generic [ref=e997]: Go
+                - generic [ref=e998]: npm
+                - generic [ref=e999]:
+                  - generic "Claude Code" [ref=e1000]
+                  - generic "GitHub Codex" [ref=e1001]
+                  - generic "Happycapy" [ref=e1002]
+            - link "ntn 效率 Notion 官方命令行工具，支持 API 调用、Workers 和文件管理 TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1003] [cursor=pointer]:
+              - /url: /zh/tools/ntn
+              - generic [ref=e1004]:
+                - heading "ntn" [level=2] [ref=e1005]
+                - generic [ref=e1006]: 效率
+              - paragraph [ref=e1007]: Notion 官方命令行工具，支持 API 调用、Workers 和文件管理
+              - generic [ref=e1008]:
+                - generic [ref=e1009]: TypeScript
+                - generic [ref=e1010]: npm
+                - generic [ref=e1011]:
+                  - generic "Claude Code" [ref=e1012]
+                  - generic "GitHub Codex" [ref=e1013]
+                  - generic "Happycapy" [ref=e1014]
+            - link "Vercel CLI 云服务 & 部署 在终端一键部署和管理 Vercel 项目 ★ 15.5k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1015] [cursor=pointer]:
+              - /url: /zh/tools/vercel
+              - generic [ref=e1016]:
+                - heading "Vercel CLI" [level=2] [ref=e1017]
+                - generic [ref=e1018]: 云服务 & 部署
+              - paragraph [ref=e1019]: 在终端一键部署和管理 Vercel 项目
+              - generic [ref=e1020]:
+                - generic [ref=e1021]: ★ 15.5k
+                - generic [ref=e1022]: TypeScript
+                - generic [ref=e1023]: npm
+                - generic [ref=e1024]:
+                  - generic "Claude Code" [ref=e1025]
+                  - generic "GitHub Codex" [ref=e1026]
+                  - generic "Happycapy" [ref=e1027]
+            - link "Netlify CLI 云服务 & 部署 在命令行部署和管理 Netlify 站点 ★ 1.9k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1028] [cursor=pointer]:
+              - /url: /zh/tools/netlify
+              - generic [ref=e1029]:
+                - heading "Netlify CLI" [level=2] [ref=e1030]
+                - generic [ref=e1031]: 云服务 & 部署
+              - paragraph [ref=e1032]: 在命令行部署和管理 Netlify 站点
+              - generic [ref=e1033]:
+                - generic [ref=e1034]: ★ 1.9k
+                - generic [ref=e1035]: TypeScript
+                - generic [ref=e1036]: npm
+                - generic [ref=e1037]:
+                  - generic "Claude Code" [ref=e1038]
+                  - generic "GitHub Codex" [ref=e1039]
+                  - generic "Happycapy" [ref=e1040]
+            - link "flyctl 云服务 & 部署 全球部署和管理 Fly.io 应用 ★ 1.7k Go brew npm Claude Code GitHub Codex Happycapy" [ref=e1041] [cursor=pointer]:
+              - /url: /zh/tools/flyctl
+              - generic [ref=e1042]:
+                - heading "flyctl" [level=2] [ref=e1043]
+                - generic [ref=e1044]: 云服务 & 部署
+              - paragraph [ref=e1045]: 全球部署和管理 Fly.io 应用
+              - generic [ref=e1046]:
+                - generic [ref=e1047]: ★ 1.7k
+                - generic [ref=e1048]: Go
+                - generic [ref=e1049]: brew
+                - generic [ref=e1050]: npm
+                - generic [ref=e1051]:
+                  - generic "Claude Code" [ref=e1052]
+                  - generic "GitHub Codex" [ref=e1053]
+                  - generic "Happycapy" [ref=e1054]
+            - link "Wrangler 云服务 & 部署 在 CLI 中构建和部署 Cloudflare Workers ★ 4.1k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1055] [cursor=pointer]:
+              - /url: /zh/tools/wrangler
+              - generic [ref=e1056]:
+                - heading "Wrangler" [level=2] [ref=e1057]
+                - generic [ref=e1058]: 云服务 & 部署
+              - paragraph [ref=e1059]: 在 CLI 中构建和部署 Cloudflare Workers
+              - generic [ref=e1060]:
+                - generic [ref=e1061]: ★ 4.1k
+                - generic [ref=e1062]: TypeScript
+                - generic [ref=e1063]: npm
+                - generic [ref=e1064]:
+                  - generic "Claude Code" [ref=e1065]
+                  - generic "GitHub Codex" [ref=e1066]
+                  - generic "Happycapy" [ref=e1067]
+            - link "Railway CLI 云服务 & 部署 在终端部署和管理 Railway 项目 ★ 544 Rust npm brew Claude Code GitHub Codex Happycapy" [ref=e1068] [cursor=pointer]:
+              - /url: /zh/tools/railway
+              - generic [ref=e1069]:
+                - heading "Railway CLI" [level=2] [ref=e1070]
+                - generic [ref=e1071]: 云服务 & 部署
+              - paragraph [ref=e1072]: 在终端部署和管理 Railway 项目
+              - generic [ref=e1073]:
+                - generic [ref=e1074]: ★ 544
+                - generic [ref=e1075]: Rust
+                - generic [ref=e1076]: npm
+                - generic [ref=e1077]: brew
+                - generic [ref=e1078]:
+                  - generic "Claude Code" [ref=e1079]
+                  - generic "GitHub Codex" [ref=e1080]
+                  - generic "Happycapy" [ref=e1081]
+            - link "Supabase CLI 云服务 & 部署 管理 Supabase 项目并运行本地开发环境 ★ 2.2k Go npm brew Claude Code GitHub Codex Happycapy" [ref=e1082] [cursor=pointer]:
+              - /url: /zh/tools/supabase
+              - generic [ref=e1083]:
+                - heading "Supabase CLI" [level=2] [ref=e1084]
+                - generic [ref=e1085]: 云服务 & 部署
+              - paragraph [ref=e1086]: 管理 Supabase 项目并运行本地开发环境
+              - generic [ref=e1087]:
+                - generic [ref=e1088]: ★ 2.2k
+                - generic [ref=e1089]: Go
+                - generic [ref=e1090]: npm
+                - generic [ref=e1091]: brew
+                - generic [ref=e1092]:
+                  - generic "Claude Code" [ref=e1093]
+                  - generic "GitHub Codex" [ref=e1094]
+                  - generic "Happycapy" [ref=e1095]
+            - link "Firebase CLI 云服务 & 部署 在终端部署和管理 Firebase 项目 ★ 4.4k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1096] [cursor=pointer]:
+              - /url: /zh/tools/firebase-tools
+              - generic [ref=e1097]:
+                - heading "Firebase CLI" [level=2] [ref=e1098]
+                - generic [ref=e1099]: 云服务 & 部署
+              - paragraph [ref=e1100]: 在终端部署和管理 Firebase 项目
+              - generic [ref=e1101]:
+                - generic [ref=e1102]: ★ 4.4k
+                - generic [ref=e1103]: TypeScript
+                - generic [ref=e1104]: npm
+                - generic [ref=e1105]:
+                  - generic "Claude Code" [ref=e1106]
+                  - generic "GitHub Codex" [ref=e1107]
+                  - generic "Happycapy" [ref=e1108]
+            - link "Stripe CLI 开发工具 在终端测试 Stripe 集成并管理账户 ★ 2.0k Go brew npm Claude Code GitHub Codex Happycapy" [ref=e1109] [cursor=pointer]:
+              - /url: /zh/tools/stripe
+              - generic [ref=e1110]:
+                - heading "Stripe CLI" [level=2] [ref=e1111]
+                - generic [ref=e1112]: 开发工具
+              - paragraph [ref=e1113]: 在终端测试 Stripe 集成并管理账户
+              - generic [ref=e1114]:
+                - generic [ref=e1115]: ★ 2.0k
+                - generic [ref=e1116]: Go
+                - generic [ref=e1117]: brew
+                - generic [ref=e1118]: npm
+                - generic [ref=e1119]:
+                  - generic "Claude Code" [ref=e1120]
+                  - generic "GitHub Codex" [ref=e1121]
+                  - generic "Happycapy" [ref=e1122]
+            - link "doctl 云服务 & 部署 在命令行管理 DigitalOcean 资源 ★ 3.4k Go brew Claude Code GitHub Codex Happycapy" [ref=e1123] [cursor=pointer]:
+              - /url: /zh/tools/doctl
+              - generic [ref=e1124]:
+                - heading "doctl" [level=2] [ref=e1125]
+                - generic [ref=e1126]: 云服务 & 部署
+              - paragraph [ref=e1127]: 在命令行管理 DigitalOcean 资源
+              - generic [ref=e1128]:
+                - generic [ref=e1129]: ★ 3.4k
+                - generic [ref=e1130]: Go
+                - generic [ref=e1131]: brew
+                - generic [ref=e1132]:
+                  - generic "Claude Code" [ref=e1133]
+                  - generic "GitHub Codex" [ref=e1134]
+                  - generic "Happycapy" [ref=e1135]
+            - link "Heroku CLI 云服务 & 部署 在终端创建和管理 Heroku 应用 ★ 886 TypeScript brew npm Claude Code GitHub Codex Happycapy" [ref=e1136] [cursor=pointer]:
+              - /url: /zh/tools/heroku
+              - generic [ref=e1137]:
+                - heading "Heroku CLI" [level=2] [ref=e1138]
+                - generic [ref=e1139]: 云服务 & 部署
+              - paragraph [ref=e1140]: 在终端创建和管理 Heroku 应用
+              - generic [ref=e1141]:
+                - generic [ref=e1142]: ★ 886
+                - generic [ref=e1143]: TypeScript
+                - generic [ref=e1144]: brew
+                - generic [ref=e1145]: npm
+                - generic [ref=e1146]:
+                  - generic "Claude Code" [ref=e1147]
+                  - generic "GitHub Codex" [ref=e1148]
+                  - generic "Happycapy" [ref=e1149]
+            - link "Auth0 CLI 开发工具 在终端管理 Auth0 租户和资源 ★ 312 Go brew Claude Code GitHub Codex Happycapy" [ref=e1150] [cursor=pointer]:
+              - /url: /zh/tools/auth0
+              - generic [ref=e1151]:
+                - heading "Auth0 CLI" [level=2] [ref=e1152]
+                - generic [ref=e1153]: 开发工具
+              - paragraph [ref=e1154]: 在终端管理 Auth0 租户和资源
+              - generic [ref=e1155]:
+                - generic [ref=e1156]: ★ 312
+                - generic [ref=e1157]: Go
+                - generic [ref=e1158]: brew
+                - generic [ref=e1159]:
+                  - generic "Claude Code" [ref=e1160]
+                  - generic "GitHub Codex" [ref=e1161]
+                  - generic "Happycapy" [ref=e1162]
+            - link "Pulumi 云服务 & 部署 用真实编程语言编写基础设施即代码 ★ 25.2k Go brew npm Claude Code GitHub Codex Happycapy" [ref=e1163] [cursor=pointer]:
+              - /url: /zh/tools/pulumi
+              - generic [ref=e1164]:
+                - heading "Pulumi" [level=2] [ref=e1165]
+                - generic [ref=e1166]: 云服务 & 部署
+              - paragraph [ref=e1167]: 用真实编程语言编写基础设施即代码
+              - generic [ref=e1168]:
+                - generic [ref=e1169]: ★ 25.2k
+                - generic [ref=e1170]: Go
+                - generic [ref=e1171]: brew
+                - generic [ref=e1172]: npm
+                - generic [ref=e1173]:
+                  - generic "Claude Code" [ref=e1174]
+                  - generic "GitHub Codex" [ref=e1175]
+                  - generic "Happycapy" [ref=e1176]
+            - link "Doppler CLI 开发工具 从 Doppler 同步和注入密钥到任意环境 ★ 372 Go brew Claude Code GitHub Codex Happycapy" [ref=e1177] [cursor=pointer]:
+              - /url: /zh/tools/doppler
+              - generic [ref=e1178]:
+                - heading "Doppler CLI" [level=2] [ref=e1179]
+                - generic [ref=e1180]: 开发工具
+              - paragraph [ref=e1181]: 从 Doppler 同步和注入密钥到任意环境
+              - generic [ref=e1182]:
+                - generic [ref=e1183]: ★ 372
+                - generic [ref=e1184]: Go
+                - generic [ref=e1185]: brew
+                - generic [ref=e1186]:
+                  - generic "Claude Code" [ref=e1187]
+                  - generic "GitHub Codex" [ref=e1188]
+                  - generic "Happycapy" [ref=e1189]
+            - link "Resend CLI 开发工具 在终端发送邮件并管理 Resend 资源 ★ 369 TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1190] [cursor=pointer]:
+              - /url: /zh/tools/resend
+              - generic [ref=e1191]:
+                - heading "Resend CLI" [level=2] [ref=e1192]
+                - generic [ref=e1193]: 开发工具
+              - paragraph [ref=e1194]: 在终端发送邮件并管理 Resend 资源
+              - generic [ref=e1195]:
+                - generic [ref=e1196]: ★ 369
+                - generic [ref=e1197]: TypeScript
+                - generic [ref=e1198]: npm
+                - generic [ref=e1199]:
+                  - generic "Claude Code" [ref=e1200]
+                  - generic "GitHub Codex" [ref=e1201]
+                  - generic "Happycapy" [ref=e1202]
+            - link "Google Workspace CLI 效率 在命令行管理 Google Workspace 资源 ★ 26.3k Rust npm Claude Code GitHub Codex Happycapy" [ref=e1203] [cursor=pointer]:
+              - /url: /zh/tools/gwcli
+              - generic [ref=e1204]:
+                - heading "Google Workspace CLI" [level=2] [ref=e1205]
+                - generic [ref=e1206]: 效率
+              - paragraph [ref=e1207]: 在命令行管理 Google Workspace 资源
+              - generic [ref=e1208]:
+                - generic [ref=e1209]: ★ 26.3k
+                - generic [ref=e1210]: Rust
+                - generic [ref=e1211]: npm
+                - generic [ref=e1212]:
+                  - generic "Claude Code" [ref=e1213]
+                  - generic "GitHub Codex" [ref=e1214]
+                  - generic "Happycapy" [ref=e1215]
+            - link "Shopify CLI 开发工具 在终端构建和部署 Shopify 主题和应用 ★ 691 TypeScript npm brew Claude Code GitHub Codex Happycapy" [ref=e1216] [cursor=pointer]:
+              - /url: /zh/tools/shopify-cli
+              - generic [ref=e1217]:
+                - heading "Shopify CLI" [level=2] [ref=e1218]
+                - generic [ref=e1219]: 开发工具
+              - paragraph [ref=e1220]: 在终端构建和部署 Shopify 主题和应用
+              - generic [ref=e1221]:
+                - generic [ref=e1222]: ★ 691
+                - generic [ref=e1223]: TypeScript
+                - generic [ref=e1224]: npm
+                - generic [ref=e1225]: brew
+                - generic [ref=e1226]:
+                  - generic "Claude Code" [ref=e1227]
+                  - generic "GitHub Codex" [ref=e1228]
+                  - generic "Happycapy" [ref=e1229]
+            - link "Sentry CLI 开发工具 在终端管理 Sentry 发布版本和 Source Maps ★ 1.0k Rust npm brew Claude Code GitHub Codex Happycapy" [ref=e1230] [cursor=pointer]:
+              - /url: /zh/tools/sentry-cli
+              - generic [ref=e1231]:
+                - heading "Sentry CLI" [level=2] [ref=e1232]
+                - generic [ref=e1233]: 开发工具
+              - paragraph [ref=e1234]: 在终端管理 Sentry 发布版本和 Source Maps
+              - generic [ref=e1235]:
+                - generic [ref=e1236]: ★ 1.0k
+                - generic [ref=e1237]: Rust
+                - generic [ref=e1238]: npm
+                - generic [ref=e1239]: brew
+                - generic [ref=e1240]:
+                  - generic "Claude Code" [ref=e1241]
+                  - generic "GitHub Codex" [ref=e1242]
+                  - generic "Happycapy" [ref=e1243]
+            - link "PlanetScale CLI 数据库 在终端管理 PlanetScale 数据库和分支 ★ 652 Go brew Claude Code GitHub Codex Happycapy" [ref=e1244] [cursor=pointer]:
+              - /url: /zh/tools/pscale
+              - generic [ref=e1245]:
+                - heading "PlanetScale CLI" [level=2] [ref=e1246]
+                - generic [ref=e1247]: 数据库
+              - paragraph [ref=e1248]: 在终端管理 PlanetScale 数据库和分支
+              - generic [ref=e1249]:
+                - generic [ref=e1250]: ★ 652
+                - generic [ref=e1251]: Go
+                - generic [ref=e1252]: brew
+                - generic [ref=e1253]:
+                  - generic "Claude Code" [ref=e1254]
+                  - generic "GitHub Codex" [ref=e1255]
+                  - generic "Happycapy" [ref=e1256]
+            - link "Turso CLI 数据库 在命令行管理 Turso 边缘数据库 ★ 300 Go brew npm Claude Code GitHub Codex Happycapy" [ref=e1257] [cursor=pointer]:
+              - /url: /zh/tools/turso
+              - generic [ref=e1258]:
+                - heading "Turso CLI" [level=2] [ref=e1259]
+                - generic [ref=e1260]: 数据库
+              - paragraph [ref=e1261]: 在命令行管理 Turso 边缘数据库
+              - generic [ref=e1262]:
+                - generic [ref=e1263]: ★ 300
+                - generic [ref=e1264]: Go
+                - generic [ref=e1265]: brew
+                - generic [ref=e1266]: npm
+                - generic [ref=e1267]:
+                  - generic "Claude Code" [ref=e1268]
+                  - generic "GitHub Codex" [ref=e1269]
+                  - generic "Happycapy" [ref=e1270]
+            - link "Twilio CLI 开发工具 在终端发送短信、拨打电话并管理 Twilio 资源 ★ 189 JavaScript npm brew Claude Code GitHub Codex Happycapy" [ref=e1271] [cursor=pointer]:
+              - /url: /zh/tools/twilio
+              - generic [ref=e1272]:
+                - heading "Twilio CLI" [level=2] [ref=e1273]
+                - generic [ref=e1274]: 开发工具
+              - paragraph [ref=e1275]: 在终端发送短信、拨打电话并管理 Twilio 资源
+              - generic [ref=e1276]:
+                - generic [ref=e1277]: ★ 189
+                - generic [ref=e1278]: JavaScript
+                - generic [ref=e1279]: npm
+                - generic [ref=e1280]: brew
+                - generic [ref=e1281]:
+                  - generic "Claude Code" [ref=e1282]
+                  - generic "GitHub Codex" [ref=e1283]
+                  - generic "Happycapy" [ref=e1284]
+            - link "OpenCLI 开发工具 将任意网站或应用变成可脚本化的 CLI ★ 21.7k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1285] [cursor=pointer]:
+              - /url: /zh/tools/opencli
+              - generic [ref=e1286]:
+                - heading "OpenCLI" [level=2] [ref=e1287]
+                - generic [ref=e1288]: 开发工具
+              - paragraph [ref=e1289]: 将任意网站或应用变成可脚本化的 CLI
+              - generic [ref=e1290]:
+                - generic [ref=e1291]: ★ 21.7k
+                - generic [ref=e1292]: TypeScript
+                - generic [ref=e1293]: npm
+                - generic [ref=e1294]:
+                  - generic "Claude Code" [ref=e1295]
+                  - generic "GitHub Codex" [ref=e1296]
+                  - generic "Happycapy" [ref=e1297]
+            - link "Android CLI 开发工具 Google 官方面向 AI Agent 的 Android 开发 CLI Java brew Claude Code GitHub Codex Happycapy" [ref=e1298] [cursor=pointer]:
+              - /url: /zh/tools/android-cli
+              - generic [ref=e1299]:
+                - heading "Android CLI" [level=2] [ref=e1300]
+                - generic [ref=e1301]: 开发工具
+              - paragraph [ref=e1302]: Google 官方面向 AI Agent 的 Android 开发 CLI
+              - generic [ref=e1303]:
+                - generic [ref=e1304]: Java
+                - generic [ref=e1305]: brew
+                - generic [ref=e1306]:
+                  - generic "Claude Code" [ref=e1307]
+                  - generic "GitHub Codex" [ref=e1308]
+                  - generic "Happycapy" [ref=e1309]
+            - link "Firecrawl CLI 开发工具 为 AI Agent 提供网页搜索、抓取和清洗能力 ★ 121.0k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1310] [cursor=pointer]:
+              - /url: /zh/tools/firecrawl
+              - generic [ref=e1311]:
+                - heading "Firecrawl CLI" [level=2] [ref=e1312]
+                - generic [ref=e1313]: 开发工具
+              - paragraph [ref=e1314]: 为 AI Agent 提供网页搜索、抓取和清洗能力
+              - generic [ref=e1315]:
+                - generic [ref=e1316]: ★ 121.0k
+                - generic [ref=e1317]: TypeScript
+                - generic [ref=e1318]: npm
+                - generic [ref=e1319]:
+                  - generic "Claude Code" [ref=e1320]
+                  - generic "GitHub Codex" [ref=e1321]
+                  - generic "Happycapy" [ref=e1322]
+            - link "Valyu CLI 开发工具 为 AI Agent 提供实时网络与专有数据搜索 ★ 8 TypeScript npm brew Claude Code GitHub Codex Happycapy" [ref=e1323] [cursor=pointer]:
+              - /url: /zh/tools/valyu
+              - generic [ref=e1324]:
+                - heading "Valyu CLI" [level=2] [ref=e1325]
+                - generic [ref=e1326]: 开发工具
+              - paragraph [ref=e1327]: 为 AI Agent 提供实时网络与专有数据搜索
+              - generic [ref=e1328]:
+                - generic [ref=e1329]: ★ 8
+                - generic [ref=e1330]: TypeScript
+                - generic [ref=e1331]: npm
+                - generic [ref=e1332]: brew
+                - generic [ref=e1333]:
+                  - generic "Claude Code" [ref=e1334]
+                  - generic "GitHub Codex" [ref=e1335]
+                  - generic "Happycapy" [ref=e1336]
+            - link "PostHog CLI 开发工具 在终端设置和管理产品分析 ★ 24.0k TypeScript brew Claude Code GitHub Codex Happycapy" [ref=e1337] [cursor=pointer]:
+              - /url: /zh/tools/posthog
+              - generic [ref=e1338]:
+                - heading "PostHog CLI" [level=2] [ref=e1339]
+                - generic [ref=e1340]: 开发工具
+              - paragraph [ref=e1341]: 在终端设置和管理产品分析
+              - generic [ref=e1342]:
+                - generic [ref=e1343]: ★ 24.0k
+                - generic [ref=e1344]: TypeScript
+                - generic [ref=e1345]: brew
+                - generic [ref=e1346]:
+                  - generic "Claude Code" [ref=e1347]
+                  - generic "GitHub Codex" [ref=e1348]
+                  - generic "Happycapy" [ref=e1349]
+            - link "ElevenLabs CLI 媒体 在终端实现文字转语音、语音转文字和声音克隆 ★ 1.2k TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1350] [cursor=pointer]:
+              - /url: /zh/tools/elevenlabs
+              - generic [ref=e1351]:
+                - heading "ElevenLabs CLI" [level=2] [ref=e1352]
+                - generic [ref=e1353]: 媒体
+              - paragraph [ref=e1354]: 在终端实现文字转语音、语音转文字和声音克隆
+              - generic [ref=e1355]:
+                - generic [ref=e1356]: ★ 1.2k
+                - generic [ref=e1357]: TypeScript
+                - generic [ref=e1358]: npm
+                - generic [ref=e1359]:
+                  - generic "Claude Code" [ref=e1360]
+                  - generic "GitHub Codex" [ref=e1361]
+                  - generic "Happycapy" [ref=e1362]
+            - link "Agentmail CLI 效率 为 AI Agent 创建和管理邮件收件箱 ★ 120 TypeScript npm Claude Code GitHub Codex Happycapy" [ref=e1363] [cursor=pointer]:
+              - /url: /zh/tools/agentmail
+              - generic [ref=e1364]:
+                - heading "Agentmail CLI" [level=2] [ref=e1365]
+                - generic [ref=e1366]: 效率
+              - paragraph [ref=e1367]: 为 AI Agent 创建和管理邮件收件箱
+              - generic [ref=e1368]:
+                - generic [ref=e1369]: ★ 120
+                - generic [ref=e1370]: TypeScript
+                - generic [ref=e1371]: npm
+                - generic [ref=e1372]:
+                  - generic "Claude Code" [ref=e1373]
+                  - generic "GitHub Codex" [ref=e1374]
+                  - generic "Happycapy" [ref=e1375]
+            - link "Ramp CLI 效率 在终端查询交易记录并管理企业卡 Go brew Claude Code GitHub Codex Happycapy" [ref=e1376] [cursor=pointer]:
+              - /url: /zh/tools/ramp
+              - generic [ref=e1377]:
+                - heading "Ramp CLI" [level=2] [ref=e1378]
+                - generic [ref=e1379]: 效率
+              - paragraph [ref=e1380]: 在终端查询交易记录并管理企业卡
+              - generic [ref=e1381]:
+                - generic [ref=e1382]: Go
+                - generic [ref=e1383]: brew
+                - generic [ref=e1384]:
+                  - generic "Claude Code" [ref=e1385]
+                  - generic "GitHub Codex" [ref=e1386]
+                  - generic "Happycapy" [ref=e1387]
+  - contentinfo [ref=e1388]:
+    - generic [ref=e1389]:
+      - generic [ref=e1390]: CLI Tools
+      - paragraph [ref=e1391]: 数据来源：awesome-cli-apps 及各工具官方页面
+      - generic [ref=e1392]:
+        - link "中文" [ref=e1393] [cursor=pointer]:
+          - /url: /zh
+        - link "EN" [ref=e1394] [cursor=pointer]:
+          - /url: /en

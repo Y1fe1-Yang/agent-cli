@@ -1,0 +1,676 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsupabase%2Fcli
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=supabase%2Fcli
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "supabase" [ref=e70] [cursor=pointer]:
+            - /url: /supabase
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "cli" [ref=e73] [cursor=pointer]:
+              - /url: /supabase/cli
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsupabase%2Fcli
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 465" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsupabase%2Fcli
+                - img [ref=e82]
+                - text: Fork
+                - generic "465" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsupabase%2Fcli
+                - img [ref=e88]
+                - text: Star
+                - generic "2225 users starred this repository" [ref=e90]: 2.2k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /supabase/cli
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 309" [ref=e99] [cursor=pointer]:
+              - /url: /supabase/cli/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "309" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 87" [ref=e106] [cursor=pointer]:
+              - /url: /supabase/cli/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "87" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /supabase/cli/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Security and quality" [ref=e117] [cursor=pointer]:
+              - /url: /supabase/cli/security
+              - img [ref=e118]
+              - generic [ref=e120]: Security and quality
+          - listitem [ref=e121]:
+            - link "Insights" [ref=e122] [cursor=pointer]:
+              - /url: /supabase/cli/pulse
+              - img [ref=e123]
+              - generic [ref=e125]: Insights
+    - generic [ref=e138]:
+      - heading "supabase/cli" [level=1] [ref=e140]
+      - generic [ref=e141]:
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - button "develop branch" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]:
+                  - generic [ref=e151]:
+                    - img [ref=e153]
+                    - generic [ref=e156]: develop
+                  - generic:
+                    - img
+              - generic [ref=e157]:
+                - link "Go to Branches page" [ref=e158] [cursor=pointer]:
+                  - /url: /supabase/cli/branches
+                  - img [ref=e159]
+                - link "Go to Tags page" [ref=e161] [cursor=pointer]:
+                  - /url: /supabase/cli/tags
+                  - img [ref=e162]
+            - generic [ref=e164]:
+              - generic [ref=e168]:
+                - img [ref=e170]
+                - combobox "Go to file" [ref=e172]
+              - button "Code" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]:
+                  - generic:
+                    - img
+                  - generic [ref=e175]: Code
+                  - generic:
+                    - img
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - heading "Folders and files" [level=2] [ref=e178]
+              - table "Folders and files" [ref=e179]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e180]:
+                  - row "Latest commit History 4,340 Commits" [ref=e181]:
+                    - cell "Latest commit History 4,340 Commits" [ref=e182]:
+                      - generic [ref=e183]:
+                        - heading "Latest commit" [level=2] [ref=e184]
+                        - generic [ref=e187]:
+                          - heading "History" [level=2] [ref=e188]
+                          - link "4,340 Commits" [ref=e189] [cursor=pointer]:
+                            - /url: /supabase/cli/commits/develop/
+                            - generic [ref=e190]:
+                              - generic:
+                                - img
+                              - generic [ref=e191]: 4,340 Commits
+                  - row ".github, (Directory)" [ref=e192]:
+                    - cell ".github, (Directory)" [ref=e193]:
+                      - generic [ref=e194]:
+                        - img [ref=e195]
+                        - link ".github, (Directory)" [ref=e200] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/.github
+                          - text: .github
+                    - cell [ref=e201]
+                    - cell [ref=e203]
+                  - row ".repos, (Directory)" [ref=e206]:
+                    - cell ".repos, (Directory)" [ref=e207]:
+                      - generic [ref=e208]:
+                        - img [ref=e209]
+                        - link ".repos, (Directory)" [ref=e214] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/.repos
+                          - text: .repos
+                    - cell [ref=e215]
+                    - cell [ref=e217]
+                  - row ".vscode, (Directory)" [ref=e220]:
+                    - cell ".vscode, (Directory)" [ref=e221]:
+                      - generic [ref=e222]:
+                        - img [ref=e223]
+                        - link ".vscode, (Directory)" [ref=e228] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/.vscode
+                          - text: .vscode
+                    - cell [ref=e229]
+                    - cell [ref=e231]
+                  - row "apps, (Directory)" [ref=e234]:
+                    - cell "apps, (Directory)" [ref=e235]:
+                      - generic [ref=e236]:
+                        - img [ref=e237]
+                        - link "apps, (Directory)" [ref=e242] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/apps
+                          - text: apps
+                    - cell [ref=e243]
+                    - cell [ref=e245]
+                  - row "docs, (Directory)" [ref=e248]:
+                    - cell "docs, (Directory)" [ref=e249]:
+                      - generic [ref=e250]:
+                        - img [ref=e251]
+                        - link "docs, (Directory)" [ref=e256] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/docs
+                          - text: docs
+                    - cell [ref=e257]
+                    - cell [ref=e259]
+                  - row "packages, (Directory)" [ref=e262]:
+                    - cell "packages, (Directory)" [ref=e263]:
+                      - generic [ref=e264]:
+                        - img [ref=e265]
+                        - link "packages, (Directory)" [ref=e270] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/packages
+                          - text: packages
+                    - cell [ref=e271]
+                    - cell [ref=e273]
+                  - row "tools, (Directory)" [ref=e276]:
+                    - cell "tools, (Directory)" [ref=e277]:
+                      - generic [ref=e278]:
+                        - img [ref=e279]
+                        - link "tools, (Directory)" [ref=e284] [cursor=pointer]:
+                          - /url: /supabase/cli/tree/develop/tools
+                          - text: tools
+                    - cell [ref=e285]
+                    - cell [ref=e287]
+                  - row ".gitignore, (File)" [ref=e290]:
+                    - cell ".gitignore, (File)" [ref=e291]:
+                      - generic [ref=e292]:
+                        - img [ref=e293]
+                        - link ".gitignore, (File)" [ref=e298] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e299]
+                    - cell [ref=e301]
+                  - row ".gitmodules, (File)" [ref=e304]:
+                    - cell ".gitmodules, (File)" [ref=e305]:
+                      - generic [ref=e306]:
+                        - img [ref=e307]
+                        - link ".gitmodules, (File)" [ref=e312] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/.gitmodules
+                          - text: .gitmodules
+                    - cell [ref=e313]
+                    - cell [ref=e315]
+                  - row ".nvmrc, (File)" [ref=e318]:
+                    - cell ".nvmrc, (File)" [ref=e319]:
+                      - generic [ref=e320]:
+                        - img [ref=e321]
+                        - link ".nvmrc, (File)" [ref=e326] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/.nvmrc
+                          - text: .nvmrc
+                    - cell [ref=e327]
+                    - cell [ref=e329]
+                  - row "AGENTS.md, (File)" [ref=e332]:
+                    - cell "AGENTS.md, (File)" [ref=e333]:
+                      - generic [ref=e334]:
+                        - img [ref=e335]
+                        - link "AGENTS.md, (File)" [ref=e340] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/AGENTS.md
+                          - text: AGENTS.md
+                    - cell [ref=e341]
+                    - cell [ref=e343]
+                  - row "CLAUDE.md, (Symlink to file)" [ref=e346]:
+                    - cell "CLAUDE.md, (Symlink to file)" [ref=e347]:
+                      - generic [ref=e348]:
+                        - img [ref=e349]
+                        - link "CLAUDE.md, (Symlink to file)" [ref=e354] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/CLAUDE.md
+                          - text: CLAUDE.md
+                    - cell [ref=e355]
+                    - cell [ref=e357]
+                  - row "CONTRIBUTING.md, (File)" [ref=e360]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e361]:
+                      - generic [ref=e362]:
+                        - img [ref=e363]
+                        - link "CONTRIBUTING.md, (File)" [ref=e368] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell [ref=e369]
+                    - cell [ref=e371]
+                  - row "README.md, (File)" [ref=e374]:
+                    - cell "README.md, (File)" [ref=e375]:
+                      - generic [ref=e376]:
+                        - img [ref=e377]
+                        - link "README.md, (File)" [ref=e382] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/README.md
+                          - text: README.md
+                    - cell [ref=e383]
+                    - cell [ref=e385]
+                  - row "nx.json, (File)" [ref=e388]:
+                    - cell "nx.json, (File)" [ref=e389]:
+                      - generic [ref=e390]:
+                        - img [ref=e391]
+                        - link "nx.json, (File)" [ref=e396] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/nx.json
+                          - text: nx.json
+                    - cell [ref=e397]
+                    - cell [ref=e399]
+                  - row "package.json, (File)" [ref=e402]:
+                    - cell "package.json, (File)" [ref=e403]:
+                      - generic [ref=e404]:
+                        - img [ref=e405]
+                        - link "package.json, (File)" [ref=e410] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/package.json
+                          - text: package.json
+                    - cell [ref=e411]
+                    - cell [ref=e413]
+                  - row "pnpm-lock.yaml, (File)" [ref=e416]:
+                    - cell "pnpm-lock.yaml, (File)" [ref=e417]:
+                      - generic [ref=e418]:
+                        - img [ref=e419]
+                        - link "pnpm-lock.yaml, (File)" [ref=e424] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/pnpm-lock.yaml
+                          - text: pnpm-lock.yaml
+                    - cell [ref=e425]
+                    - cell [ref=e427]
+                  - row "pnpm-workspace.yaml, (File)" [ref=e430]:
+                    - cell "pnpm-workspace.yaml, (File)" [ref=e431]:
+                      - generic [ref=e432]:
+                        - img [ref=e433]
+                        - link "pnpm-workspace.yaml, (File)" [ref=e438] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/pnpm-workspace.yaml
+                          - text: pnpm-workspace.yaml
+                    - cell [ref=e439]
+                    - cell [ref=e441]
+                  - row "tsconfig.json, (File)" [ref=e444]:
+                    - cell "tsconfig.json, (File)" [ref=e445]:
+                      - generic [ref=e446]:
+                        - img [ref=e447]
+                        - link "tsconfig.json, (File)" [ref=e452] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/tsconfig.json
+                          - text: tsconfig.json
+                    - cell [ref=e453]
+                    - cell [ref=e455]
+                  - row "verdaccio.yaml, (File)" [ref=e458]:
+                    - cell "verdaccio.yaml, (File)" [ref=e459]:
+                      - generic [ref=e460]:
+                        - img [ref=e461]
+                        - link "verdaccio.yaml, (File)" [ref=e466] [cursor=pointer]:
+                          - /url: /supabase/cli/blob/develop/verdaccio.yaml
+                          - text: verdaccio.yaml
+                    - cell [ref=e467]
+                    - cell [ref=e469]
+            - generic [ref=e473]:
+              - generic [ref=e474]:
+                - heading "Repository files navigation" [level=2] [ref=e475]
+                - navigation "Repository files" [ref=e476]:
+                  - list [ref=e477]:
+                    - listitem [ref=e478]:
+                      - link "README" [ref=e479] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e481]
+                        - generic [ref=e483]: README
+                    - listitem [ref=e484]:
+                      - link "Code of conduct" [ref=e485] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e487]
+                        - generic [ref=e489]: Code of conduct
+                    - listitem [ref=e490]:
+                      - link "Contributing" [ref=e491] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e493]
+                        - generic [ref=e495]: Contributing
+                - button "Outline" [ref=e496] [cursor=pointer]:
+                  - img [ref=e497]
+              - article [ref=e500]:
+                - generic [ref=e501]:
+                  - heading "Supabase CLI" [level=1] [ref=e502]
+                  - 'link "Permalink: Supabase CLI" [ref=e503] [cursor=pointer]':
+                    - /url: "#supabase-cli"
+                    - img [ref=e504]
+                - paragraph [ref=e506]:
+                  - link "Coverage Status" [ref=e507] [cursor=pointer]:
+                    - /url: https://coveralls.io/github/supabase/cli?branch=develop
+                    - img "Coverage Status" [ref=e508]
+                  - link "Bitbucket Pipelines" [ref=e509] [cursor=pointer]:
+                    - /url: https://bitbucket.org/supabase-cli/setup-cli/pipelines
+                    - img "Bitbucket Pipelines" [ref=e510]
+                  - link "Gitlab Pipeline Status" [ref=e511] [cursor=pointer]:
+                    - /url: https://gitlab.com/sweatybridge/setup-cli/-/pipelines
+                    - img "Gitlab Pipeline Status" [ref=e512]
+                - paragraph [ref=e513]:
+                  - link "Supabase" [ref=e514] [cursor=pointer]:
+                    - /url: https://supabase.io
+                  - text: is an open source Firebase alternative. We're building the features of Firebase using enterprise-grade open source tools.
+                - paragraph [ref=e515]: This repository contains all the functionality for Supabase CLI.
+                - list [ref=e516]:
+                  - listitem [ref=e517]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e518]
+                    - text: Running Supabase locally
+                  - listitem [ref=e519]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e520]
+                    - text: Managing database migrations
+                  - listitem [ref=e521]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e522]
+                    - text: Creating and deploying Supabase Functions
+                  - listitem [ref=e523]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e524]
+                    - text: Generating types directly from your database schema
+                  - listitem [ref=e525]:
+                    - checkbox "Completed task" [checked] [disabled] [ref=e526]
+                    - text: Making authenticated HTTP requests to
+                    - link "Management API" [ref=e527] [cursor=pointer]:
+                      - /url: https://supabase.com/docs/reference/api/introduction
+                - generic [ref=e528]:
+                  - heading "Getting started" [level=2] [ref=e529]
+                  - 'link "Permalink: Getting started" [ref=e530] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e531]
+                - generic [ref=e533]:
+                  - heading "Install the CLI" [level=3] [ref=e534]
+                  - 'link "Permalink: Install the CLI" [ref=e535] [cursor=pointer]':
+                    - /url: "#install-the-cli"
+                    - img [ref=e536]
+                - paragraph [ref=e538]:
+                  - text: Available via
+                  - link "NPM" [ref=e539] [cursor=pointer]:
+                    - /url: https://www.npmjs.com
+                  - text: "as dev dependency. To install:"
+                - generic [ref=e540]:
+                  - generic [ref=e541]: npm i supabase --save-dev
+                  - button "Copy code to clipboard" [ref=e543] [cursor=pointer]:
+                    - img [ref=e544]
+                - paragraph [ref=e547]: "To install the beta release channel:"
+                - generic [ref=e548]:
+                  - generic [ref=e549]: npm i supabase@beta --save-dev
+                  - button "Copy code to clipboard" [ref=e551] [cursor=pointer]:
+                    - img [ref=e552]
+                - paragraph [ref=e555]: When installing with yarn 4, you need to disable experimental fetch with the following nodejs config.
+                - generic [ref=e556]:
+                  - code [ref=e558]: NODE_OPTIONS=--no-experimental-fetch yarn add supabase
+                  - button "Copy code to clipboard" [ref=e560] [cursor=pointer]:
+                    - img [ref=e561]
+                - blockquote [ref=e564]:
+                  - paragraph [ref=e565]:
+                    - strong [ref=e566]: Note
+                    - text: For Bun versions below v1.0.17, you must add
+                    - code [ref=e567]: supabase
+                    - text: as a
+                    - link "trusted dependency" [ref=e568] [cursor=pointer]:
+                      - /url: https://bun.sh/guides/install/trusted
+                    - text: before running
+                    - code [ref=e569]: bun add -D supabase
+                    - text: .
+                - group [ref=e570]:
+                  - generic "macOS" [ref=e571] [cursor=pointer]
+                - group [ref=e572]:
+                  - generic "Windows" [ref=e573] [cursor=pointer]
+                - group [ref=e574]:
+                  - generic "Linux" [ref=e575] [cursor=pointer]
+                - group [ref=e576]:
+                  - generic "Other Platforms" [ref=e577] [cursor=pointer]
+                - group [ref=e578]:
+                  - generic "Community Maintained Packages" [ref=e579] [cursor=pointer]
+                - generic [ref=e580]:
+                  - heading "Run the CLI" [level=3] [ref=e581]
+                  - 'link "Permalink: Run the CLI" [ref=e582] [cursor=pointer]':
+                    - /url: "#run-the-cli"
+                    - img [ref=e583]
+                - generic [ref=e585]:
+                  - generic [ref=e586]: supabase bootstrap
+                  - button "Copy code to clipboard" [ref=e588] [cursor=pointer]:
+                    - img [ref=e589]
+                - paragraph [ref=e592]: "Or using npx:"
+                - generic [ref=e593]:
+                  - generic [ref=e594]: npx supabase bootstrap
+                  - button "Copy code to clipboard" [ref=e596] [cursor=pointer]:
+                    - img [ref=e597]
+                - paragraph [ref=e600]:
+                  - text: The bootstrap command will guide you through the process of setting up a Supabase project using one of the
+                  - link "starter" [ref=e601] [cursor=pointer]:
+                    - /url: https://github.com/supabase-community/supabase-samples/blob/main/samples.json
+                  - text: templates.
+                - generic [ref=e602]:
+                  - heading "Docs" [level=2] [ref=e603]
+                  - 'link "Permalink: Docs" [ref=e604] [cursor=pointer]':
+                    - /url: "#docs"
+                    - img [ref=e605]
+                - paragraph [ref=e607]:
+                  - text: Command & config reference can be found
+                  - link "here" [ref=e608] [cursor=pointer]:
+                    - /url: https://supabase.com/docs/reference/cli/about
+                  - text: .
+                - generic [ref=e609]:
+                  - heading "Breaking changes" [level=2] [ref=e610]
+                  - 'link "Permalink: Breaking changes" [ref=e611] [cursor=pointer]':
+                    - /url: "#breaking-changes"
+                    - img [ref=e612]
+                - paragraph [ref=e614]: We follow semantic versioning for changes that directly impact CLI commands, flags, and configurations.
+                - paragraph [ref=e615]: However, due to dependencies on other service images, we cannot guarantee that schema migrations, seed.sql, and generated types will always work for the same CLI major version. If you need such guarantees, we encourage you to pin a specific version of CLI in package.json.
+                - generic [ref=e616]:
+                  - heading "Developing" [level=2] [ref=e617]
+                  - 'link "Permalink: Developing" [ref=e618] [cursor=pointer]':
+                    - /url: "#developing"
+                    - img [ref=e619]
+                - paragraph [ref=e621]: "To run from source:"
+                - generic [ref=e622]:
+                  - generic [ref=e623]:
+                    - generic [ref=e624]: "# Go >= 1.22"
+                    - text: go run . help
+                  - button "Copy code to clipboard" [ref=e626] [cursor=pointer]:
+                    - img [ref=e627]
+        - generic [ref=e633]:
+          - generic [ref=e636]:
+            - heading "About" [level=2] [ref=e637]
+            - paragraph [ref=e638]: Supabase CLI. Manage postgres migrations, run Supabase locally, deploy edge functions. Postgres backups. Generating types from your database schema.
+            - generic [ref=e639]:
+              - img [ref=e640]
+              - link "supabase.com/docs/reference/cli/about" [ref=e643] [cursor=pointer]:
+                - /url: https://supabase.com/docs/reference/cli/about
+            - heading "Topics" [level=3] [ref=e644]
+            - generic [ref=e646]:
+              - link "cli" [ref=e647] [cursor=pointer]:
+                - /url: /topics/cli
+              - link "postgres" [ref=e648] [cursor=pointer]:
+                - /url: /topics/postgres
+              - link "environment" [ref=e649] [cursor=pointer]:
+                - /url: /topics/environment
+              - link "database" [ref=e650] [cursor=pointer]:
+                - /url: /topics/database
+              - link "local" [ref=e651] [cursor=pointer]:
+                - /url: /topics/local
+              - link "dbms" [ref=e652] [cursor=pointer]:
+                - /url: /topics/dbms
+              - link "postgresql" [ref=e653] [cursor=pointer]:
+                - /url: /topics/postgresql
+              - link "database-management" [ref=e654] [cursor=pointer]:
+                - /url: /topics/database-management
+              - link "supabase" [ref=e655] [cursor=pointer]:
+                - /url: /topics/supabase
+            - heading "Resources" [level=3] [ref=e656]
+            - link "Readme" [ref=e658] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e659]
+              - text: Readme
+            - heading "Code of conduct" [level=3] [ref=e661]
+            - link "Code of conduct" [ref=e663] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+              - img [ref=e664]
+              - text: Code of conduct
+            - heading "Contributing" [level=3] [ref=e666]
+            - link "Contributing" [ref=e668] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e669]
+              - text: Contributing
+            - link "Activity" [ref=e672] [cursor=pointer]:
+              - /url: /supabase/cli/activity
+              - img [ref=e673]
+              - text: Activity
+            - link "Custom properties" [ref=e676] [cursor=pointer]:
+              - /url: /supabase/cli/custom-properties
+              - img [ref=e677]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e679]
+            - link "2.2k stars" [ref=e681] [cursor=pointer]:
+              - /url: /supabase/cli/stargazers
+              - img [ref=e682]
+              - strong [ref=e684]: 2.2k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e685]
+            - link "28 watching" [ref=e687] [cursor=pointer]:
+              - /url: /supabase/cli/watchers
+              - img [ref=e688]
+              - strong [ref=e690]: "28"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e691]
+            - link "465 forks" [ref=e693] [cursor=pointer]:
+              - /url: /supabase/cli/forks
+              - img [ref=e694]
+              - strong [ref=e696]: "465"
+              - text: forks
+            - link "Report repository" [ref=e698] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fsupabase%2Fcli&report=supabase+%28user%29
+          - generic [ref=e700]:
+            - heading "Releases 1,559" [level=2] [ref=e701]:
+              - link "Releases 1,559" [ref=e702] [cursor=pointer]:
+                - /url: /supabase/cli/releases
+                - text: Releases
+                - generic "1,559" [ref=e703]
+            - link "v2.99.0 Latest May 18, 20266 minutes ago" [ref=e704] [cursor=pointer]:
+              - /url: /supabase/cli/releases/tag/v2.99.0
+              - img [ref=e705]
+              - generic [ref=e707]:
+                - generic [ref=e708]:
+                  - generic [ref=e709]: v2.99.0
+                  - 'generic "Label: Latest" [ref=e710]': Latest
+                - generic [ref=e711]: May 18, 20266 minutes ago
+            - link "+ 1,558 releases" [ref=e713] [cursor=pointer]:
+              - /url: /supabase/cli/releases
+          - generic "Loading contributors" [ref=e716]:
+            - generic:
+              - heading "Contributors" [level=2] [ref=e717]:
+                - link "Contributors" [ref=e718] [cursor=pointer]:
+                  - /url: /supabase/cli/graphs/contributors
+              - list [ref=e719]:
+                - listitem [ref=e720]
+                - listitem [ref=e722]
+                - listitem [ref=e724]
+          - generic [ref=e727]:
+            - heading "Languages" [level=2] [ref=e728]
+            - list [ref=e735]:
+              - listitem [ref=e736]:
+                - link "TypeScript 58.6%" [ref=e737] [cursor=pointer]:
+                  - /url: /supabase/cli/search?l=typescript
+                  - img [ref=e738]
+                  - generic [ref=e740]: TypeScript
+                  - generic [ref=e741]: 58.6%
+              - listitem [ref=e742]:
+                - link "Go 36.8%" [ref=e743] [cursor=pointer]:
+                  - /url: /supabase/cli/search?l=go
+                  - img [ref=e744]
+                  - generic [ref=e746]: Go
+                  - generic [ref=e747]: 36.8%
+              - listitem [ref=e748]:
+                - link "PLpgSQL 4.2%" [ref=e749] [cursor=pointer]:
+                  - /url: /supabase/cli/search?l=plpgsql
+                  - img [ref=e750]
+                  - generic [ref=e752]: PLpgSQL
+                  - generic [ref=e753]: 4.2%
+              - listitem [ref=e754]:
+                - link "Shell 0.4%" [ref=e755] [cursor=pointer]:
+                  - /url: /supabase/cli/search?l=shell
+                  - img [ref=e756]
+                  - generic [ref=e758]: Shell
+                  - generic [ref=e759]: 0.4%
+              - listitem [ref=e760]:
+                - link "JavaScript 0.0%" [ref=e761] [cursor=pointer]:
+                  - /url: /supabase/cli/search?l=javascript
+                  - img [ref=e762]
+                  - generic [ref=e764]: JavaScript
+                  - generic [ref=e765]: 0.0%
+              - listitem [ref=e766]:
+                - link "MDX 0.0%" [ref=e767] [cursor=pointer]:
+                  - /url: /supabase/cli/search?l=mdx
+                  - img [ref=e768]
+                  - generic [ref=e770]: MDX
+                  - generic [ref=e771]: 0.0%
+  - contentinfo [ref=e773]:
+    - heading "Footer" [level=2] [ref=e774]
+    - generic [ref=e775]:
+      - generic [ref=e776]:
+        - link "GitHub Homepage" [ref=e777] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e778]
+        - generic [ref=e780]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e781]:
+        - heading "Footer navigation" [level=3] [ref=e782]
+        - list "Footer navigation" [ref=e783]:
+          - listitem [ref=e784]:
+            - link "Terms" [ref=e785] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e786]:
+            - link "Privacy" [ref=e787] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e788]:
+            - link "Security" [ref=e789] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e790]:
+            - link "Status" [ref=e791] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e792]:
+            - link "Community" [ref=e793] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e794]:
+            - link "Docs" [ref=e795] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e796]:
+            - link "Contact" [ref=e797] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e798]:
+            - button "Manage cookies" [ref=e800] [cursor=pointer]
+          - listitem [ref=e801]:
+            - button "Do not share my personal information" [ref=e803] [cursor=pointer]

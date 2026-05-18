@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "Discover Great CLI Tools",
-    "subtitle": "{count} command-line tools with bilingual descriptions and AI environment compatibility"
+    "title": "CLI Tools\nfor the Agent Era.",
+    "subtitle": "{count} tools your AI agents can actually use — non-interactive, scriptable, and connected to real services.",
+    "badge": "Agent-Ready",
+    "terminalComment": "# Claude Code automating your workflow",
+    "feature1": "Non-interactive output",
+    "feature2": "Scriptable & pipeable",
+    "feature3": "Service-connected"
   },
   "search": {
     "placeholder": "Search CLI tools...",
@@ -40,7 +45,7 @@
     "media": "Media",
     "system": "System",
     "fun": "Fun",
-    "cloud": "Cloud & Deployment"
+    "cloud": "Cloud & Deploy"
   },
   "footer": {
     "credit": "Data sourced from awesome-cli-apps and official tool pages"

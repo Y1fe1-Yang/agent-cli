@@ -1,0 +1,938 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fcli
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=railwayapp%2Fcli
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "railwayapp" [ref=e70] [cursor=pointer]:
+            - /url: /railwayapp
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "cli" [ref=e73] [cursor=pointer]:
+              - /url: /railwayapp/cli
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Frailwayapp%2Fcli
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 165" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Frailwayapp%2Fcli
+                - img [ref=e82]
+                - text: Fork
+                - generic "165" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Frailwayapp%2Fcli
+                - img [ref=e88]
+                - text: Star
+                - generic "544 users starred this repository" [ref=e90]: "544"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /railwayapp/cli
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 37" [ref=e99] [cursor=pointer]:
+              - /url: /railwayapp/cli/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "37" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 16" [ref=e106] [cursor=pointer]:
+              - /url: /railwayapp/cli/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "16" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /railwayapp/cli/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /railwayapp/cli/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Security and quality" [ref=e122] [cursor=pointer]:
+              - /url: /railwayapp/cli/security
+              - img [ref=e123]
+              - generic [ref=e125]: Security and quality
+          - listitem [ref=e126]:
+            - link "Insights" [ref=e127] [cursor=pointer]:
+              - /url: /railwayapp/cli/pulse
+              - img [ref=e128]
+              - generic [ref=e130]: Insights
+    - generic [ref=e143]:
+      - heading "railwayapp/cli" [level=1] [ref=e145]
+      - generic [ref=e146]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic [ref=e151]:
+              - button "master branch" [ref=e153] [cursor=pointer]:
+                - generic [ref=e154]:
+                  - generic [ref=e156]:
+                    - img [ref=e158]
+                    - generic [ref=e161]: master
+                  - generic:
+                    - img
+              - generic [ref=e162]:
+                - link "Go to Branches page" [ref=e163] [cursor=pointer]:
+                  - /url: /railwayapp/cli/branches
+                  - img [ref=e164]
+                - link "Go to Tags page" [ref=e166] [cursor=pointer]:
+                  - /url: /railwayapp/cli/tags
+                  - img [ref=e167]
+            - generic [ref=e169]:
+              - generic [ref=e173]:
+                - img [ref=e175]
+                - combobox "Go to file" [ref=e177]
+              - button "Code" [ref=e178] [cursor=pointer]:
+                - generic [ref=e179]:
+                  - generic:
+                    - img
+                  - generic [ref=e180]: Code
+                  - generic:
+                    - img
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - heading "Folders and files" [level=2] [ref=e183]
+              - table "Folders and files" [ref=e184]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e185]:
+                  - 'row "Latest commit github-actions[bot] commits by github-actions[bot] chore: Release railwayapp version 4.58.0 success Commit 932fafb · May 12, 2026last week History 868 Commits" [ref=e186]':
+                    - 'cell "Latest commit github-actions[bot] commits by github-actions[bot] chore: Release railwayapp version 4.58.0 success Commit 932fafb · May 12, 2026last week History 868 Commits" [ref=e187]':
+                      - generic [ref=e188]:
+                        - heading "Latest commit" [level=2] [ref=e189]
+                        - generic [ref=e190]:
+                          - generic [ref=e192]:
+                            - link "github-actions[bot]" [ref=e193] [cursor=pointer]:
+                              - /url: /apps/github-actions
+                              - img "github-actions[bot]" [ref=e194]
+                            - link "commits by github-actions[bot]" [ref=e195] [cursor=pointer]:
+                              - /url: /railwayapp/cli/commits?author=github-actions%5Bbot%5D
+                              - text: github-actions[bot]
+                          - generic [ref=e196]:
+                            - 'link "chore: Release railwayapp version 4.58.0" [ref=e199] [cursor=pointer]':
+                              - /url: /railwayapp/cli/commit/932fafb3066aace13e9e4de1feed34ae73f979a6
+                            - button "success" [ref=e200] [cursor=pointer]:
+                              - img [ref=e201]
+                        - generic [ref=e203]:
+                          - generic [ref=e205]:
+                            - link "Commit 932fafb" [ref=e206] [cursor=pointer]:
+                              - /url: /railwayapp/cli/commit/932fafb3066aace13e9e4de1feed34ae73f979a6
+                              - text: 932fafb
+                            - text: ·
+                            - generic "May 12, 2026, 11:49 PM GMT+8" [ref=e207]: May 12, 2026last week
+                          - generic [ref=e208]:
+                            - heading "History" [level=2] [ref=e209]
+                            - link "868 Commits" [ref=e210] [cursor=pointer]:
+                              - /url: /railwayapp/cli/commits/master/
+                              - generic [ref=e211]:
+                                - generic:
+                                  - img
+                                - generic [ref=e212]: 868 Commits
+                  - row ".cargo, (Directory) Add attribute logging (#455) May 5, 20242 years ago" [ref=e213]:
+                    - cell ".cargo, (Directory)" [ref=e214]:
+                      - generic [ref=e215]:
+                        - img [ref=e216]
+                        - link ".cargo, (Directory)" [ref=e221] [cursor=pointer]:
+                          - /url: /railwayapp/cli/tree/master/.cargo
+                          - text: .cargo
+                    - cell "Add attribute logging (#455)" [ref=e222]:
+                      - generic [ref=e224]:
+                        - link "Add attribute logging (" [ref=e225] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/068b5f472ccbc2e805175e9662027b1148837b78
+                        - link "#455" [ref=e226] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/455
+                        - link ")" [ref=e227] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/068b5f472ccbc2e805175e9662027b1148837b78
+                    - cell "May 5, 20242 years ago" [ref=e228]:
+                      - generic [ref=e229]: May 5, 20242 years ago
+                  - 'row ".github, (Directory) fix(ci): use npm trusted publishing via OIDC on Node 24 (#842) Apr 13, 2026last month" [ref=e230]':
+                    - cell ".github, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link ".github, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /railwayapp/cli/tree/master/.github
+                          - text: .github
+                    - 'cell "fix(ci): use npm trusted publishing via OIDC on Node 24 (#842)" [ref=e239]':
+                      - generic [ref=e241]:
+                        - 'link "fix(ci): use npm trusted publishing via OIDC on Node 24 (" [ref=e242] [cursor=pointer]':
+                          - /url: /railwayapp/cli/commit/8da480744a001e52802679cc85184bc75b3d054b
+                        - link "#842" [ref=e243] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/842
+                        - link ")" [ref=e244] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/8da480744a001e52802679cc85184bc75b3d054b
+                    - cell "Apr 13, 2026last month" [ref=e245]:
+                      - generic [ref=e246]: Apr 13, 2026last month
+                  - row "bin, (Directory) release tarfiles for windows (#325) Mar 6, 20233 years ago" [ref=e247]:
+                    - cell "bin, (Directory)" [ref=e248]:
+                      - generic [ref=e249]:
+                        - img [ref=e250]
+                        - link "bin, (Directory)" [ref=e255] [cursor=pointer]:
+                          - /url: /railwayapp/cli/tree/master/bin
+                          - text: bin
+                    - cell "release tarfiles for windows (#325)" [ref=e256]:
+                      - generic [ref=e258]:
+                        - link "release tarfiles for windows (" [ref=e259] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/a53bf791ad2f22889686cc2e28f76f0d1db100d0
+                        - link "#325" [ref=e260] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/325
+                        - link ")" [ref=e261] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/a53bf791ad2f22889686cc2e28f76f0d1db100d0
+                    - cell "Mar 6, 20233 years ago" [ref=e262]:
+                      - generic [ref=e263]: Mar 6, 20233 years ago
+                  - row "npm-install, (Directory) fix npm install on windows (#341) Mar 9, 20233 years ago" [ref=e264]:
+                    - cell "npm-install, (Directory)" [ref=e265]:
+                      - generic [ref=e266]:
+                        - img [ref=e267]
+                        - link "npm-install, (Directory)" [ref=e272] [cursor=pointer]:
+                          - /url: /railwayapp/cli/tree/master/npm-install
+                          - text: npm-install
+                    - cell "fix npm install on windows (#341)" [ref=e273]:
+                      - generic [ref=e275]:
+                        - link "fix npm install on windows (" [ref=e276] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/e4b23255732b8c6d63177dd821a6e507c5fb8169
+                        - link "#341" [ref=e277] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/341
+                        - link ")" [ref=e278] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/e4b23255732b8c6d63177dd821a6e507c5fb8169
+                    - cell "Mar 9, 20233 years ago" [ref=e279]:
+                      - generic [ref=e280]: Mar 9, 20233 years ago
+                  - row "scripts, (Directory) Improve agent caller detection across MCP, env, and process tree (#885) May 8, 2026last week" [ref=e281]:
+                    - cell "scripts, (Directory)" [ref=e282]:
+                      - generic [ref=e283]:
+                        - img [ref=e284]
+                        - link "scripts, (Directory)" [ref=e289] [cursor=pointer]:
+                          - /url: /railwayapp/cli/tree/master/scripts
+                          - text: scripts
+                    - cell "Improve agent caller detection across MCP, env, and process tree (#885)" [ref=e290]:
+                      - generic [ref=e292]:
+                        - link "Improve agent caller detection across MCP, env, and process tree (" [ref=e293] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/0065458541986a97ae40e7df2db06f2c6172229b
+                        - link "#885" [ref=e294] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/885
+                        - link ")" [ref=e295] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/0065458541986a97ae40e7df2db06f2c6172229b
+                    - cell "May 8, 2026last week" [ref=e296]:
+                      - generic [ref=e297]: May 8, 2026last week
+                  - 'row "src, (Directory) feat(agent): add --list flag and replay history on --thread-id (#897) May 12, 2026last week" [ref=e298]':
+                    - cell "src, (Directory)" [ref=e299]:
+                      - generic [ref=e300]:
+                        - img [ref=e301]
+                        - link "src, (Directory)" [ref=e306] [cursor=pointer]:
+                          - /url: /railwayapp/cli/tree/master/src
+                          - text: src
+                    - 'cell "feat(agent): add --list flag and replay history on --thread-id (#897)" [ref=e307]':
+                      - generic [ref=e309]:
+                        - 'link "feat(agent): add --list flag and replay history on --thread-id (" [ref=e310] [cursor=pointer]':
+                          - /url: /railwayapp/cli/commit/07c33c367ee0922a9d81c402b26bb5f24005fd99
+                        - link "#897" [ref=e311] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/897
+                        - link ")" [ref=e312] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/07c33c367ee0922a9d81c402b26bb5f24005fd99
+                    - cell "May 12, 2026last week" [ref=e313]:
+                      - generic [ref=e314]: May 12, 2026last week
+                  - 'row ".dockerignore, (File) feat: alpine dockerfile (#470) Dec 6, 20233 years ago" [ref=e315]':
+                    - cell ".dockerignore, (File)" [ref=e316]:
+                      - generic [ref=e317]:
+                        - img [ref=e318]
+                        - link ".dockerignore, (File)" [ref=e323] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/.dockerignore
+                          - text: .dockerignore
+                    - 'cell "feat: alpine dockerfile (#470)" [ref=e324]':
+                      - generic [ref=e326]:
+                        - 'link "feat: alpine dockerfile (" [ref=e327] [cursor=pointer]':
+                          - /url: /railwayapp/cli/commit/9de89415f000316edf98017885dd08e684f284fb
+                        - link "#470" [ref=e328] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/470
+                        - link ")" [ref=e329] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/9de89415f000316edf98017885dd08e684f284fb
+                    - cell "Dec 6, 20233 years ago" [ref=e330]:
+                      - generic [ref=e331]: Dec 6, 20233 years ago
+                  - row ".gitattributes, (File) Add --latest flag to logs cmd and activeDeployments to status (#719) Jan 7, 20264 months ago" [ref=e332]:
+                    - cell ".gitattributes, (File)" [ref=e333]:
+                      - generic [ref=e334]:
+                        - img [ref=e335]
+                        - link ".gitattributes, (File)" [ref=e340] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/.gitattributes
+                          - text: .gitattributes
+                    - cell "Add --latest flag to logs cmd and activeDeployments to status (#719)" [ref=e341]:
+                      - generic [ref=e343]:
+                        - link "Add --latest flag to logs cmd and activeDeployments to status (" [ref=e344] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/3e1455e1faad35084cce364d90be8af9c07f8a63
+                        - link "#719" [ref=e345] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/719
+                        - link ")" [ref=e346] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/3e1455e1faad35084cce364d90be8af9c07f8a63
+                    - cell "Jan 7, 20264 months ago" [ref=e347]:
+                      - generic [ref=e348]: Jan 7, 20264 months ago
+                  - row ".gitignore, (File) Add dev command for local development with Docker Compose (#710) Dec 13, 20255 months ago" [ref=e349]:
+                    - cell ".gitignore, (File)" [ref=e350]:
+                      - generic [ref=e351]:
+                        - img [ref=e352]
+                        - link ".gitignore, (File)" [ref=e357] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "Add dev command for local development with Docker Compose (#710)" [ref=e358]:
+                      - generic [ref=e360]:
+                        - link "Add dev command for local development with Docker Compose (" [ref=e361] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/c65c9094207521a5986fb6e2659cf628676ef529
+                        - link "#710" [ref=e362] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/710
+                        - link ")" [ref=e363] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/c65c9094207521a5986fb6e2659cf628676ef529
+                    - cell "Dec 13, 20255 months ago" [ref=e364]:
+                      - generic [ref=e365]: Dec 13, 20255 months ago
+                  - row "CLAUDE.md, (File) Add CLAUDE.md with development guidance (#661) Sep 10, 20258 months ago" [ref=e366]:
+                    - cell "CLAUDE.md, (File)" [ref=e367]:
+                      - generic [ref=e368]:
+                        - img [ref=e369]
+                        - link "CLAUDE.md, (File)" [ref=e374] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/CLAUDE.md
+                          - text: CLAUDE.md
+                    - cell "Add CLAUDE.md with development guidance (#661)" [ref=e375]:
+                      - generic [ref=e377]:
+                        - link "Add CLAUDE.md with development guidance (" [ref=e378] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/273072a69fa2eb4a0b26575183658d222229cef2
+                        - link "#661" [ref=e379] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/661
+                        - link ")" [ref=e380] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/273072a69fa2eb4a0b26575183658d222229cef2
+                    - cell "Sep 10, 20258 months ago" [ref=e381]:
+                      - generic [ref=e382]: Sep 10, 20258 months ago
+                  - row "CONTRIBUTING.md, (File) Point to railway.com (#585) Jan 9, 2025last year" [ref=e383]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e384]:
+                      - generic [ref=e385]:
+                        - img [ref=e386]
+                        - link "CONTRIBUTING.md, (File)" [ref=e391] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell "Point to railway.com (#585)" [ref=e392]:
+                      - generic [ref=e394]:
+                        - link "Point to railway.com (" [ref=e395] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/ee981b0756fa18a497aad76eb22b33dbaf612d78
+                        - link "#585" [ref=e396] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/585
+                        - link ")" [ref=e397] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/ee981b0756fa18a497aad76eb22b33dbaf612d78
+                    - cell "Jan 9, 2025last year" [ref=e398]:
+                      - generic [ref=e399]: Jan 9, 2025last year
+                  - 'row "Cargo.lock, (File) chore: Release railwayapp version 4.58.0 May 12, 2026last week" [ref=e400]':
+                    - cell "Cargo.lock, (File)" [ref=e401]:
+                      - generic [ref=e402]:
+                        - img [ref=e403]
+                        - link "Cargo.lock, (File)" [ref=e408] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/Cargo.lock
+                          - text: Cargo.lock
+                    - 'cell "chore: Release railwayapp version 4.58.0" [ref=e409]':
+                      - 'link "chore: Release railwayapp version 4.58.0" [ref=e412] [cursor=pointer]':
+                        - /url: /railwayapp/cli/commit/932fafb3066aace13e9e4de1feed34ae73f979a6
+                    - cell "May 12, 2026last week" [ref=e413]:
+                      - generic [ref=e414]: May 12, 2026last week
+                  - 'row "Cargo.toml, (File) chore: Release railwayapp version 4.58.0 May 12, 2026last week" [ref=e415]':
+                    - cell "Cargo.toml, (File)" [ref=e416]:
+                      - generic [ref=e417]:
+                        - img [ref=e418]
+                        - link "Cargo.toml, (File)" [ref=e423] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/Cargo.toml
+                          - text: Cargo.toml
+                    - 'cell "chore: Release railwayapp version 4.58.0" [ref=e424]':
+                      - 'link "chore: Release railwayapp version 4.58.0" [ref=e427] [cursor=pointer]':
+                        - /url: /railwayapp/cli/commit/932fafb3066aace13e9e4de1feed34ae73f979a6
+                    - cell "May 12, 2026last week" [ref=e428]:
+                      - generic [ref=e429]: May 12, 2026last week
+                  - row "Dockerfile, (File) fix exec permission not set in railway-cli docker image (#531) Aug 15, 20242 years ago" [ref=e430]:
+                    - cell "Dockerfile, (File)" [ref=e431]:
+                      - generic [ref=e432]:
+                        - img [ref=e433]
+                        - link "Dockerfile, (File)" [ref=e438] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/Dockerfile
+                          - text: Dockerfile
+                    - cell "fix exec permission not set in railway-cli docker image (#531)" [ref=e439]:
+                      - generic [ref=e441]:
+                        - link "fix exec permission not set in railway-cli docker image (" [ref=e442] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/e650213139efeb932d6113c9a7d40f2a65ff6e87
+                        - link "#531" [ref=e443] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/531
+                        - link ")" [ref=e444] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/e650213139efeb932d6113c9a7d40f2a65ff6e87
+                    - cell "Aug 15, 20242 years ago" [ref=e445]:
+                      - generic [ref=e446]: Aug 15, 20242 years ago
+                  - row "LICENSE, (File) Migrate to CLI v3 (#304) Mar 4, 20233 years ago" [ref=e447]:
+                    - cell "LICENSE, (File)" [ref=e448]:
+                      - generic [ref=e449]:
+                        - img [ref=e450]
+                        - link "LICENSE, (File)" [ref=e455] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell "Migrate to CLI v3 (#304)" [ref=e456]:
+                      - generic [ref=e458]:
+                        - link "Migrate to CLI v3 (" [ref=e459] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/0cfb79da46211aa3c4273b3d6a111125e6b716bd
+                        - link "#304" [ref=e460] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/304
+                        - link ")" [ref=e461] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/0cfb79da46211aa3c4273b3d6a111125e6b716bd
+                    - cell "Mar 4, 20233 years ago" [ref=e462]:
+                      - generic [ref=e463]: Mar 4, 20233 years ago
+                  - row "README.md, (File) Revise Railway CLI installation instructions May 9, 2026last week" [ref=e464]:
+                    - cell "README.md, (File)" [ref=e465]:
+                      - generic [ref=e466]:
+                        - img [ref=e467]
+                        - link "README.md, (File)" [ref=e472] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/README.md
+                          - text: README.md
+                    - cell "Revise Railway CLI installation instructions" [ref=e473]:
+                      - link "Revise Railway CLI installation instructions" [ref=e476] [cursor=pointer]:
+                        - /url: /railwayapp/cli/commit/00312c4ed60d6ec0f90158dfc4674d0c65a23a35
+                    - cell "May 9, 2026last week" [ref=e477]:
+                      - generic [ref=e478]: May 9, 2026last week
+                  - 'row "build.rs, (File) feat: add auto-update mechanism for CLI (#825) Apr 6, 2026last month" [ref=e479]':
+                    - cell "build.rs, (File)" [ref=e480]:
+                      - generic [ref=e481]:
+                        - img [ref=e482]
+                        - link "build.rs, (File)" [ref=e487] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/build.rs
+                          - text: build.rs
+                    - 'cell "feat: add auto-update mechanism for CLI (#825)" [ref=e488]':
+                      - generic [ref=e490]:
+                        - 'link "feat: add auto-update mechanism for CLI (" [ref=e491] [cursor=pointer]':
+                          - /url: /railwayapp/cli/commit/44e09c26c02e3fc61e15f05de32700a63c14335d
+                        - link "#825" [ref=e492] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/825
+                        - link ")" [ref=e493] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/44e09c26c02e3fc61e15f05de32700a63c14335d
+                    - cell "Apr 6, 2026last month" [ref=e494]:
+                      - generic [ref=e495]: Apr 6, 2026last month
+                  - row "flake.lock, (File) Migrate to CLI v3 (#304) Mar 4, 20233 years ago" [ref=e496]:
+                    - cell "flake.lock, (File)" [ref=e497]:
+                      - generic [ref=e498]:
+                        - img [ref=e499]
+                        - link "flake.lock, (File)" [ref=e504] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/flake.lock
+                          - text: flake.lock
+                    - cell "Migrate to CLI v3 (#304)" [ref=e505]:
+                      - generic [ref=e507]:
+                        - link "Migrate to CLI v3 (" [ref=e508] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/0cfb79da46211aa3c4273b3d6a111125e6b716bd
+                        - link "#304" [ref=e509] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/304
+                        - link ")" [ref=e510] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/0cfb79da46211aa3c4273b3d6a111125e6b716bd
+                    - cell "Mar 4, 20233 years ago" [ref=e511]:
+                      - generic [ref=e512]: Mar 4, 20233 years ago
+                  - row "flake.nix, (File) Fix CLI compilation (#514) Jun 25, 20242 years ago" [ref=e513]:
+                    - cell "flake.nix, (File)" [ref=e514]:
+                      - generic [ref=e515]:
+                        - img [ref=e516]
+                        - link "flake.nix, (File)" [ref=e521] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/flake.nix
+                          - text: flake.nix
+                    - cell "Fix CLI compilation (#514)" [ref=e522]:
+                      - generic [ref=e524]:
+                        - link "Fix CLI compilation (" [ref=e525] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/9e592da72497c92a3b74328362649228455ae661
+                        - link "#514" [ref=e526] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/514
+                        - link ")" [ref=e527] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/9e592da72497c92a3b74328362649228455ae661
+                    - cell "Jun 25, 20242 years ago" [ref=e528]:
+                      - generic [ref=e529]: Jun 25, 20242 years ago
+                  - row "install.sh, (File) Install shell CLI into Railway home (#888) May 9, 2026last week" [ref=e530]:
+                    - cell "install.sh, (File)" [ref=e531]:
+                      - generic [ref=e532]:
+                        - img [ref=e533]
+                        - link "install.sh, (File)" [ref=e538] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/install.sh
+                          - text: install.sh
+                    - cell "Install shell CLI into Railway home (#888)" [ref=e539]:
+                      - generic [ref=e541]:
+                        - link "Install shell CLI into Railway home (" [ref=e542] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/92af4f7e6ff8fcaa453b596b81e7e67e7a9ce0bd
+                        - link "#888" [ref=e543] [cursor=pointer]:
+                          - /url: https://github.com/railwayapp/cli/pull/888
+                        - link ")" [ref=e544] [cursor=pointer]:
+                          - /url: /railwayapp/cli/commit/92af4f7e6ff8fcaa453b596b81e7e67e7a9ce0bd
+                    - cell "May 9, 2026last week" [ref=e545]:
+                      - generic [ref=e546]: May 9, 2026last week
+                  - 'row "package.json, (File) chore: Release railwayapp version 4.58.0 May 12, 2026last week" [ref=e547]':
+                    - cell "package.json, (File)" [ref=e548]:
+                      - generic [ref=e549]:
+                        - img [ref=e550]
+                        - link "package.json, (File)" [ref=e555] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/package.json
+                          - text: package.json
+                    - 'cell "chore: Release railwayapp version 4.58.0" [ref=e556]':
+                      - 'link "chore: Release railwayapp version 4.58.0" [ref=e559] [cursor=pointer]':
+                        - /url: /railwayapp/cli/commit/932fafb3066aace13e9e4de1feed34ae73f979a6
+                    - cell "May 12, 2026last week" [ref=e560]:
+                      - generic [ref=e561]: May 12, 2026last week
+                  - row "pnpm-lock.yaml, (File) fix npm install Mar 4, 20233 years ago" [ref=e562]:
+                    - cell "pnpm-lock.yaml, (File)" [ref=e563]:
+                      - generic [ref=e564]:
+                        - img [ref=e565]
+                        - link "pnpm-lock.yaml, (File)" [ref=e570] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/pnpm-lock.yaml
+                          - text: pnpm-lock.yaml
+                    - cell "fix npm install" [ref=e571]:
+                      - link "fix npm install" [ref=e574] [cursor=pointer]:
+                        - /url: /railwayapp/cli/commit/894c4404709a2b4c10dc4738c6e0288aa3a010dd
+                    - cell "Mar 4, 20233 years ago" [ref=e575]:
+                      - generic [ref=e576]: Mar 4, 20233 years ago
+                  - row "release.toml, (File) fix release.toml (again) Apr 13, 20233 years ago" [ref=e577]:
+                    - cell "release.toml, (File)" [ref=e578]:
+                      - generic [ref=e579]:
+                        - img [ref=e580]
+                        - link "release.toml, (File)" [ref=e585] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/release.toml
+                          - text: release.toml
+                    - cell "fix release.toml (again)" [ref=e586]:
+                      - link "fix release.toml (again)" [ref=e589] [cursor=pointer]:
+                        - /url: /railwayapp/cli/commit/f780576b2a985e372bde6f19c2869a88d79c468d
+                    - cell "Apr 13, 20233 years ago" [ref=e590]:
+                      - generic [ref=e591]: Apr 13, 20233 years ago
+                  - 'row "shell.nix, (File) fix: update nix shell pins to provide Rust 1.94 for edition2024 suppo… Mar 14, 20262 months ago" [ref=e592]':
+                    - cell "shell.nix, (File)" [ref=e593]:
+                      - generic [ref=e594]:
+                        - img [ref=e595]
+                        - link "shell.nix, (File)" [ref=e600] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/shell.nix
+                          - text: shell.nix
+                    - 'cell "fix: update nix shell pins to provide Rust 1.94 for edition2024 suppo…" [ref=e601]':
+                      - 'link "fix: update nix shell pins to provide Rust 1.94 for edition2024 suppo…" [ref=e604] [cursor=pointer]':
+                        - /url: /railwayapp/cli/commit/87605d5caf83598e2c07c2c675dd6a88ec436c24
+                    - cell "Mar 14, 20262 months ago" [ref=e605]:
+                      - generic [ref=e606]: Mar 14, 20262 months ago
+                  - row "v2.sh, (File) add v2 install script Mar 5, 20233 years ago" [ref=e607]:
+                    - cell "v2.sh, (File)" [ref=e608]:
+                      - generic [ref=e609]:
+                        - img [ref=e610]
+                        - link "v2.sh, (File)" [ref=e615] [cursor=pointer]:
+                          - /url: /railwayapp/cli/blob/master/v2.sh
+                          - text: v2.sh
+                    - cell "add v2 install script" [ref=e616]:
+                      - link "add v2 install script" [ref=e619] [cursor=pointer]:
+                        - /url: /railwayapp/cli/commit/c520b46358ecb7cf8746e2d39661a0ccff33db87
+                    - cell "Mar 5, 20233 years ago" [ref=e620]:
+                      - generic [ref=e621]: Mar 5, 20233 years ago
+            - generic [ref=e623]:
+              - generic [ref=e624]:
+                - heading "Repository files navigation" [level=2] [ref=e625]
+                - navigation "Repository files" [ref=e626]:
+                  - list [ref=e627]:
+                    - listitem [ref=e628]:
+                      - link "README" [ref=e629] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e631]
+                        - generic [ref=e633]: README
+                    - listitem [ref=e634]:
+                      - link "Contributing" [ref=e635] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e637]
+                        - generic [ref=e639]: Contributing
+                    - listitem [ref=e640]:
+                      - link "MIT license" [ref=e641] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e643]
+                        - generic [ref=e645]: MIT license
+                - button "Outline" [ref=e646] [cursor=pointer]:
+                  - img [ref=e647]
+              - article [ref=e650]:
+                - generic [ref=e651]:
+                  - heading "Railway CLI" [level=1] [ref=e652]
+                  - 'link "Permalink: Railway CLI" [ref=e653] [cursor=pointer]':
+                    - /url: "#railway-cli"
+                    - img [ref=e654]
+                - paragraph [ref=e656]:
+                  - text: The Railway CLI lets you interact with your Railway projects from the command line. Read the
+                  - link "CLI documentation" [ref=e657] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli
+                  - text: .
+                - generic [ref=e658]:
+                  - heading "Installation" [level=2] [ref=e659]
+                  - 'link "Permalink: Installation" [ref=e660] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e661]
+                - paragraph [ref=e663]:
+                  - text: Install the Railway CLI with agent support configured in one step (macOS, Linux, Windows via
+                  - link "WSL" [ref=e664] [cursor=pointer]:
+                    - /url: https://learn.microsoft.com/en-us/windows/wsl/install
+                  - text: "):"
+                - generic [ref=e665]:
+                  - generic [ref=e666]:
+                    - text: bash
+                    - generic [ref=e667]: <(curl -fsSL railway.com/install.sh)
+                    - text: "--agents -y"
+                  - button "Copy code to clipboard" [ref=e669] [cursor=pointer]:
+                    - img [ref=e670]
+                - paragraph [ref=e673]:
+                  - text: This installs the CLI to
+                  - code [ref=e674]: ~/.railway/bin
+                  - text: and runs
+                  - link "railway setup agent" [ref=e675] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli/setup
+                    - code [ref=e676]: railway setup agent
+                  - text: to configure detected agent tools.
+                - paragraph [ref=e677]: "To install the CLI without agent configuration:"
+                - generic [ref=e678]:
+                  - generic [ref=e679]:
+                    - text: bash
+                    - generic [ref=e680]: <(curl -fsSL railway.com/install.sh)
+                    - text: "-y"
+                  - button "Copy code to clipboard" [ref=e682] [cursor=pointer]:
+                    - img [ref=e683]
+                - paragraph [ref=e686]: "Uninstall the CLI:"
+                - generic [ref=e687]:
+                  - generic [ref=e688]:
+                    - text: bash
+                    - generic [ref=e689]: <(curl -fsSL cli.new)
+                    - text: "-r"
+                  - button "Copy code to clipboard" [ref=e691] [cursor=pointer]:
+                    - img [ref=e692]
+                - paragraph [ref=e695]:
+                  - text: "Other installation methods are available in the CLI documentation:"
+                  - link "Homebrew" [ref=e696] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli#homebrew-macos
+                  - text: ","
+                  - link "npm" [ref=e697] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli#npm-macos-linux-windows
+                  - text: ","
+                  - link "Scoop" [ref=e698] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli#scoop-windows
+                  - text: ","
+                  - link "pre-built binaries" [ref=e699] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli#pre-built-binaries
+                  - text: ", and"
+                  - link "source builds" [ref=e700] [cursor=pointer]:
+                    - /url: https://docs.railway.com/cli#from-source
+                  - text: .
+                - generic [ref=e701]:
+                  - heading "Authentication" [level=2] [ref=e702]
+                  - 'link "Permalink: Authentication" [ref=e703] [cursor=pointer]':
+                    - /url: "#authentication"
+                    - img [ref=e704]
+                - paragraph [ref=e706]: "Before using the CLI, authenticate with your Railway account:"
+                - generic [ref=e707]:
+                  - generic [ref=e708]: railway login
+                  - button "Copy code to clipboard" [ref=e710] [cursor=pointer]:
+                    - img [ref=e711]
+                - paragraph [ref=e714]: "For environments without a browser, such as SSH sessions, use browserless login:"
+                - generic [ref=e715]:
+                  - generic [ref=e716]: railway login --browserless
+                  - button "Copy code to clipboard" [ref=e718] [cursor=pointer]:
+                    - img [ref=e719]
+                - generic [ref=e722]:
+                  - heading "Tokens" [level=3] [ref=e723]
+                  - 'link "Permalink: Tokens" [ref=e724] [cursor=pointer]':
+                    - /url: "#tokens"
+                    - img [ref=e725]
+                - paragraph [ref=e727]: "For CI/CD pipelines, set environment variables instead of using interactive login:"
+                - list [ref=e728]:
+                  - listitem [ref=e729]:
+                    - text: "Project token: Set"
+                    - code [ref=e730]: RAILWAY_TOKEN
+                    - text: for project-level actions.
+                  - listitem [ref=e731]:
+                    - text: "Account or workspace token: Set"
+                    - code [ref=e732]: RAILWAY_API_TOKEN
+                    - text: for account-level or workspace-level actions.
+                - generic [ref=e733]:
+                  - generic [ref=e734]: RAILWAY_TOKEN=xxx railway up
+                  - button "Copy code to clipboard" [ref=e736] [cursor=pointer]:
+                    - img [ref=e737]
+                - paragraph [ref=e740]:
+                  - text: See
+                  - link "Tokens" [ref=e741] [cursor=pointer]:
+                    - /url: https://docs.railway.com/integrations/api#creating-a-token
+                  - text: for more information.
+                - generic [ref=e742]:
+                  - heading "Agent Setup" [level=2] [ref=e743]
+                  - 'link "Permalink: Agent Setup" [ref=e744] [cursor=pointer]':
+                    - /url: "#agent-setup"
+                    - img [ref=e745]
+                - paragraph [ref=e747]: "Configure Railway agent support for AI coding tools:"
+                - generic [ref=e748]:
+                  - generic [ref=e749]: railway setup agent -y
+                  - button "Copy code to clipboard" [ref=e751] [cursor=pointer]:
+                    - img [ref=e752]
+                - paragraph [ref=e755]: This installs Railway skills and configures the Railway MCP server for detected tools such as Claude Code, Cursor, Codex, OpenCode, GitHub Copilot, and Factory Droid.
+                - paragraph [ref=e756]: "Use the focused commands when you only need one part of the setup:"
+                - generic [ref=e757]:
+                  - generic [ref=e758]: railway mcp install --agent cursor railway skills --agent claude-code
+                  - button "Copy code to clipboard" [ref=e760] [cursor=pointer]:
+                    - img [ref=e761]
+                - generic [ref=e764]:
+                  - heading "Contributing" [level=2] [ref=e765]
+                  - 'link "Permalink: Contributing" [ref=e766] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e767]
+                - paragraph [ref=e769]:
+                  - text: See
+                  - link "CONTRIBUTING.md" [ref=e770] [cursor=pointer]:
+                    - /url: https://github.com/railwayapp/cli/blob/master/CONTRIBUTING.md
+                  - text: for information on setting up this repository locally.
+                - generic [ref=e771]:
+                  - heading "Feedback" [level=2] [ref=e772]
+                  - 'link "Permalink: Feedback" [ref=e773] [cursor=pointer]':
+                    - /url: "#feedback"
+                    - img [ref=e774]
+                - paragraph [ref=e776]:
+                  - text: Share feedback and suggestions on
+                  - link "Central Station" [ref=e777] [cursor=pointer]:
+                    - /url: https://station.railway.com/feedback
+                  - text: .
+        - generic [ref=e781]:
+          - generic [ref=e784]:
+            - heading "About" [level=2] [ref=e785]
+            - paragraph [ref=e786]: Railway CLI
+            - generic [ref=e787]:
+              - img [ref=e788]
+              - link "railway.com" [ref=e791] [cursor=pointer]:
+                - /url: https://railway.com
+            - heading "Topics" [level=3] [ref=e792]
+            - generic [ref=e794]:
+              - link "infrastructure" [ref=e795] [cursor=pointer]:
+                - /url: /topics/infrastructure
+              - link "cli" [ref=e796] [cursor=pointer]:
+                - /url: /topics/cli
+              - link "railway" [ref=e797] [cursor=pointer]:
+                - /url: /topics/railway
+            - heading "Resources" [level=3] [ref=e798]
+            - link "Readme" [ref=e800] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e801]
+              - text: Readme
+            - heading "License" [level=3] [ref=e803]
+            - link "MIT license" [ref=e805] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e806]
+              - text: MIT license
+            - heading "Contributing" [level=3] [ref=e808]
+            - link "Contributing" [ref=e810] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e811]
+              - text: Contributing
+            - link "Activity" [ref=e814] [cursor=pointer]:
+              - /url: /railwayapp/cli/activity
+              - img [ref=e815]
+              - text: Activity
+            - link "Custom properties" [ref=e818] [cursor=pointer]:
+              - /url: /railwayapp/cli/custom-properties
+              - img [ref=e819]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e821]
+            - link "544 stars" [ref=e823] [cursor=pointer]:
+              - /url: /railwayapp/cli/stargazers
+              - img [ref=e824]
+              - strong [ref=e826]: "544"
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e827]
+            - link "10 watching" [ref=e829] [cursor=pointer]:
+              - /url: /railwayapp/cli/watchers
+              - img [ref=e830]
+              - strong [ref=e832]: "10"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e833]
+            - link "165 forks" [ref=e835] [cursor=pointer]:
+              - /url: /railwayapp/cli/forks
+              - img [ref=e836]
+              - strong [ref=e838]: "165"
+              - text: forks
+            - link "Report repository" [ref=e840] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Frailwayapp%2Fcli&report=railwayapp+%28user%29
+          - generic [ref=e842]:
+            - heading "Releases 320" [level=2] [ref=e843]:
+              - link "Releases 320" [ref=e844] [cursor=pointer]:
+                - /url: /railwayapp/cli/releases
+                - text: Releases
+                - generic "320" [ref=e845]
+            - link "v4.58.0 Latest May 12, 2026last week" [ref=e846] [cursor=pointer]:
+              - /url: /railwayapp/cli/releases/tag/v4.58.0
+              - img [ref=e847]
+              - generic [ref=e849]:
+                - generic [ref=e850]:
+                  - generic [ref=e851]: v4.58.0
+                  - 'generic "Label: Latest" [ref=e852]': Latest
+                - generic [ref=e853]: May 12, 2026last week
+            - link "+ 319 releases" [ref=e855] [cursor=pointer]:
+              - /url: /railwayapp/cli/releases
+          - generic [ref=e857]:
+            - heading "Contributors 72" [level=2] [ref=e858]:
+              - link "Contributors 72" [ref=e859] [cursor=pointer]:
+                - /url: /railwayapp/cli/graphs/contributors
+                - text: Contributors
+                - generic "72" [ref=e860]
+            - list [ref=e861]:
+              - listitem [ref=e862]:
+                - link "@coffee-cup" [ref=e863] [cursor=pointer]:
+                  - /url: https://github.com/coffee-cup
+                  - img "@coffee-cup" [ref=e864]
+              - listitem [ref=e865]:
+                - link "@JakeCooper" [ref=e866] [cursor=pointer]:
+                  - /url: https://github.com/JakeCooper
+                  - img "@JakeCooper" [ref=e867]
+              - listitem [ref=e868]:
+                - link "@gschier" [ref=e869] [cursor=pointer]:
+                  - /url: https://github.com/gschier
+                  - img "@gschier" [ref=e870]
+              - listitem [ref=e871]:
+                - link "@github-actions[bot]" [ref=e872] [cursor=pointer]:
+                  - /url: https://github.com/apps/github-actions
+                  - img "@github-actions[bot]" [ref=e873]
+              - listitem [ref=e874]:
+                - link "@Milo123459" [ref=e875] [cursor=pointer]:
+                  - /url: https://github.com/Milo123459
+                  - img "@Milo123459" [ref=e876]
+              - listitem [ref=e877]:
+                - link "@claude" [ref=e878] [cursor=pointer]:
+                  - /url: https://github.com/claude
+                  - img "@claude" [ref=e879]
+              - listitem [ref=e880]:
+                - link "@nebulatgs" [ref=e881] [cursor=pointer]:
+                  - /url: https://github.com/nebulatgs
+                  - img "@nebulatgs" [ref=e882]
+              - listitem [ref=e883]:
+                - link "@paulocsanz" [ref=e884] [cursor=pointer]:
+                  - /url: https://github.com/paulocsanz
+                  - img "@paulocsanz" [ref=e885]
+              - listitem [ref=e886]:
+                - link "@m-abdelwahab" [ref=e887] [cursor=pointer]:
+                  - /url: https://github.com/m-abdelwahab
+                  - img "@m-abdelwahab" [ref=e888]
+              - listitem [ref=e889]:
+                - link "@FarazPatankar" [ref=e890] [cursor=pointer]:
+                  - /url: https://github.com/FarazPatankar
+                  - img "@FarazPatankar" [ref=e891]
+              - listitem [ref=e892]:
+                - link "@codyde" [ref=e893] [cursor=pointer]:
+                  - /url: https://github.com/codyde
+                  - img "@codyde" [ref=e894]
+              - listitem [ref=e895]:
+                - link "@brody192" [ref=e896] [cursor=pointer]:
+                  - /url: https://github.com/brody192
+                  - img "@brody192" [ref=e897]
+              - listitem [ref=e898]:
+                - link "@alexng353" [ref=e899] [cursor=pointer]:
+                  - /url: https://github.com/alexng353
+                  - img "@alexng353" [ref=e900]
+              - listitem [ref=e901]:
+                - link "@maddsua" [ref=e902] [cursor=pointer]:
+                  - /url: https://github.com/maddsua
+                  - img "@maddsua" [ref=e903]
+            - link "+ 58 contributors" [ref=e905] [cursor=pointer]:
+              - /url: /railwayapp/cli/graphs/contributors
+          - generic [ref=e907]:
+            - heading "Languages" [level=2] [ref=e908]
+            - list [ref=e914]:
+              - listitem [ref=e915]:
+                - link "Rust 97.3%" [ref=e916] [cursor=pointer]:
+                  - /url: /railwayapp/cli/search?l=rust
+                  - img [ref=e917]
+                  - generic [ref=e919]: Rust
+                  - generic [ref=e920]: 97.3%
+              - listitem [ref=e921]:
+                - link "Shell 2.2%" [ref=e922] [cursor=pointer]:
+                  - /url: /railwayapp/cli/search?l=shell
+                  - img [ref=e923]
+                  - generic [ref=e925]: Shell
+                  - generic [ref=e926]: 2.2%
+              - listitem [ref=e927]:
+                - generic [ref=e928]:
+                  - img [ref=e929]
+                  - generic [ref=e931]: Other
+                  - generic [ref=e932]: 0.5%
+  - contentinfo [ref=e934]:
+    - heading "Footer" [level=2] [ref=e935]
+    - generic [ref=e936]:
+      - generic [ref=e937]:
+        - link "GitHub Homepage" [ref=e938] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e939]
+        - generic [ref=e941]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e942]:
+        - heading "Footer navigation" [level=3] [ref=e943]
+        - list "Footer navigation" [ref=e944]:
+          - listitem [ref=e945]:
+            - link "Terms" [ref=e946] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e947]:
+            - link "Privacy" [ref=e948] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e949]:
+            - link "Security" [ref=e950] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e951]:
+            - link "Status" [ref=e952] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e953]:
+            - link "Community" [ref=e954] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e955]:
+            - link "Docs" [ref=e956] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e957]:
+            - link "Contact" [ref=e958] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e959]:
+            - button "Manage cookies" [ref=e961] [cursor=pointer]
+          - listitem [ref=e962]:
+            - button "Do not share my personal information" [ref=e964] [cursor=pointer]

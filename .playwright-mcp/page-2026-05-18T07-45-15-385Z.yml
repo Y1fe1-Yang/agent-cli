@@ -1,0 +1,63 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CLI Tools" [ref=e5] [cursor=pointer]:
+        - /url: /zh
+      - generic [ref=e6]:
+        - link "中文" [ref=e7] [cursor=pointer]:
+          - /url: /zh/tools/ntn
+        - link "EN" [ref=e8] [cursor=pointer]:
+          - /url: /en/tools/ntn
+  - main [ref=e9]:
+    - link "← 返回列表" [ref=e11] [cursor=pointer]:
+      - /url: /zh
+    - article [ref=e12]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - heading "ntn" [level=1] [ref=e15]
+          - generic [ref=e16]: 效率
+        - paragraph [ref=e17]: Notion 官方命令行工具，支持 API 调用、Workers 和文件管理
+        - paragraph [ref=e18]: ntn 是 Notion 官方命令行工具，支持账号认证、直接调用 Notion API、部署 Notion Workers（用 TypeScript 扩展 Notion 功能）以及文件上传。支持 macOS 和 Linux。
+      - generic [ref=e19]:
+        - generic [ref=e20]: ⭐ 0 Stars
+        - generic [ref=e21]: "🔤 主语言: TypeScript"
+        - generic [ref=e22]: "📅 最后更新: 2026-05-18"
+        - generic [ref=e23]: 📄 Proprietary
+        - link "查看仓库 ↗" [ref=e24] [cursor=pointer]:
+          - /url: https://github.com/makenotion/cli
+        - link "官网 ↗" [ref=e25] [cursor=pointer]:
+          - /url: https://developers.notion.com/cli
+      - generic [ref=e26]:
+        - heading "安装方式" [level=2] [ref=e27]
+        - generic [ref=e28]:
+          - button "npm" [ref=e30]
+          - generic [ref=e31]:
+            - code [ref=e32]: npm install --global ntn
+            - button "复制" [ref=e33]
+      - generic [ref=e34]:
+        - heading "使用示例" [level=2] [ref=e35]
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - code [ref=e39]: ntn login
+            - generic [ref=e40]: 通过浏览器登录 Notion 账号
+          - generic [ref=e41]:
+            - code [ref=e43]: ntn api v1/users/me
+            - generic [ref=e44]: 通过 Notion API 获取当前用户信息
+          - generic [ref=e45]:
+            - code [ref=e47]: ntn workers deploy
+            - generic [ref=e48]: 构建并部署 Notion Worker 以扩展 Notion 功能
+      - generic [ref=e49]:
+        - heading "AI 环境兼容性" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: Claude Code
+            - generic [ref=e54]:
+              - generic [ref=e55]: ✓
+              - generic [ref=e56]: 兼容
+          - generic [ref=e57]:
+            - generic [ref=e58]: GitHub Codex
+            - generic [ref=e59]:
+              - generic [ref=e60]: ✓
+              - generic [ref=e61]: 兼容
+          - paragraph [ref=e62]: 可在 Claude Code 终端中使用；通过 ntn api 在 AI 工作流中实现对 Notion 的编程访问
+  - contentinfo [ref=e63]: 数据来源：awesome-cli-apps 及各工具官方页面

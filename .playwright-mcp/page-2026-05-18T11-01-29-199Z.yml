@@ -1,0 +1,1558 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "CLI Tools" [ref=e5] [cursor=pointer]:
+        - /url: /zh
+      - generic [ref=e6]:
+        - link "中文" [ref=e7] [cursor=pointer]:
+          - /url: /zh
+        - link "EN" [ref=e8] [cursor=pointer]:
+          - /url: /en
+  - main [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]:
+        - heading "发现优质 CLI 工具" [level=1] [ref=e12]
+        - paragraph [ref=e13]: 精选 95 款命令行工具，带中英双语介绍和 AI 环境兼容性标注
+      - generic [ref=e15]:
+        - img [ref=e16]
+        - searchbox "搜索 CLI 工具..." [ref=e18]
+      - generic [ref=e19]:
+        - complementary [ref=e20]:
+          - navigation [ref=e21]:
+            - button "全部分类 95" [ref=e22]:
+              - generic [ref=e23]: 全部分类
+              - generic [ref=e24]: "95"
+            - button "云服务 & 部署 10" [ref=e25]:
+              - generic [ref=e26]: 云服务 & 部署
+              - generic [ref=e27]: "10"
+            - button "数据库 8" [ref=e28]:
+              - generic [ref=e29]: 数据库
+              - generic [ref=e30]: "8"
+            - button "开发工具 21" [ref=e31]:
+              - generic [ref=e32]: 开发工具
+              - generic [ref=e33]: "21"
+            - button "文件管理 8" [ref=e34]:
+              - generic [ref=e35]: 文件管理
+              - generic [ref=e36]: "8"
+            - button "娱乐 6" [ref=e37]:
+              - generic [ref=e38]: 娱乐
+              - generic [ref=e39]: "6"
+            - button "Git 工具 5" [ref=e40]:
+              - generic [ref=e41]: Git 工具
+              - generic [ref=e42]: "5"
+            - button "媒体 6" [ref=e43]:
+              - generic [ref=e44]: 媒体
+              - generic [ref=e45]: "6"
+            - button "网络 8" [ref=e46]:
+              - generic [ref=e47]: 网络
+              - generic [ref=e48]: "8"
+            - button "效率 16" [ref=e49]:
+              - generic [ref=e50]: 效率
+              - generic [ref=e51]: "16"
+            - button "系统 7" [ref=e52]:
+              - generic [ref=e53]: 系统
+              - generic [ref=e54]: "7"
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: 95 个工具
+          - generic [ref=e57]:
+            - link "bat 文件管理 带语法高亮和 Git 集成的现代 cat 替代品 ⭐ 51.0k · Rust brew apt cat-replacement syntax-highlight pager" [ref=e58] [cursor=pointer]:
+              - /url: /zh/tools/bat
+              - generic [ref=e59]:
+                - heading "bat" [level=2] [ref=e60]
+                - generic [ref=e61]: 文件管理
+              - paragraph [ref=e62]: 带语法高亮和 Git 集成的现代 cat 替代品
+              - generic [ref=e63]:
+                - generic [ref=e64]: ⭐ 51.0k
+                - generic [ref=e65]: ·
+                - generic [ref=e66]: Rust
+                - generic [ref=e67]: brew
+                - generic [ref=e68]: apt
+              - generic [ref=e69]:
+                - generic [ref=e70]: cat-replacement
+                - generic [ref=e71]: syntax-highlight
+                - generic [ref=e72]: pager
+            - link "eza 文件管理 带颜色和图标的现代 ls 替代品 ⭐ 14.0k · Rust brew cargo ls-replacement icons colors" [ref=e73] [cursor=pointer]:
+              - /url: /zh/tools/eza
+              - generic [ref=e74]:
+                - heading "eza" [level=2] [ref=e75]
+                - generic [ref=e76]: 文件管理
+              - paragraph [ref=e77]: 带颜色和图标的现代 ls 替代品
+              - generic [ref=e78]:
+                - generic [ref=e79]: ⭐ 14.0k
+                - generic [ref=e80]: ·
+                - generic [ref=e81]: Rust
+                - generic [ref=e82]: brew
+                - generic [ref=e83]: cargo
+              - generic [ref=e84]:
+                - generic [ref=e85]: ls-replacement
+                - generic [ref=e86]: icons
+                - generic [ref=e87]: colors
+            - link "fd 文件管理 简单、快速、友好的 find 替代品 ⭐ 36.0k · Rust brew apt find-replacement search fast" [ref=e88] [cursor=pointer]:
+              - /url: /zh/tools/fd
+              - generic [ref=e89]:
+                - heading "fd" [level=2] [ref=e90]
+                - generic [ref=e91]: 文件管理
+              - paragraph [ref=e92]: 简单、快速、友好的 find 替代品
+              - generic [ref=e93]:
+                - generic [ref=e94]: ⭐ 36.0k
+                - generic [ref=e95]: ·
+                - generic [ref=e96]: Rust
+                - generic [ref=e97]: brew
+                - generic [ref=e98]: apt
+              - generic [ref=e99]:
+                - generic [ref=e100]: find-replacement
+                - generic [ref=e101]: search
+                - generic [ref=e102]: fast
+            - link "ripgrep 文件管理 极速递归正则搜索工具 ⭐ 51.0k · Rust brew apt grep-replacement search regex" [ref=e103] [cursor=pointer]:
+              - /url: /zh/tools/ripgrep
+              - generic [ref=e104]:
+                - heading "ripgrep" [level=2] [ref=e105]
+                - generic [ref=e106]: 文件管理
+              - paragraph [ref=e107]: 极速递归正则搜索工具
+              - generic [ref=e108]:
+                - generic [ref=e109]: ⭐ 51.0k
+                - generic [ref=e110]: ·
+                - generic [ref=e111]: Rust
+                - generic [ref=e112]: brew
+                - generic [ref=e113]: apt
+              - generic [ref=e114]:
+                - generic [ref=e115]: grep-replacement
+                - generic [ref=e116]: search
+                - generic [ref=e117]: regex
+            - link "fzf 效率 万能命令行模糊查找器 ⭐ 71.0k · Go brew apt fuzzy-finder search interactive" [ref=e118] [cursor=pointer]:
+              - /url: /zh/tools/fzf
+              - generic [ref=e119]:
+                - heading "fzf" [level=2] [ref=e120]
+                - generic [ref=e121]: 效率
+              - paragraph [ref=e122]: 万能命令行模糊查找器
+              - generic [ref=e123]:
+                - generic [ref=e124]: ⭐ 71.0k
+                - generic [ref=e125]: ·
+                - generic [ref=e126]: Go
+                - generic [ref=e127]: brew
+                - generic [ref=e128]: apt
+              - generic [ref=e129]:
+                - generic [ref=e130]: fuzzy-finder
+                - generic [ref=e131]: search
+                - generic [ref=e132]: interactive
+            - link "lsd 文件管理 带图标和颜色的下一代 ls 命令 ⭐ 15.0k · Rust brew cargo ls-replacement icons colors" [ref=e133] [cursor=pointer]:
+              - /url: /zh/tools/lsd
+              - generic [ref=e134]:
+                - heading "lsd" [level=2] [ref=e135]
+                - generic [ref=e136]: 文件管理
+              - paragraph [ref=e137]: 带图标和颜色的下一代 ls 命令
+              - generic [ref=e138]:
+                - generic [ref=e139]: ⭐ 15.0k
+                - generic [ref=e140]: ·
+                - generic [ref=e141]: Rust
+                - generic [ref=e142]: brew
+                - generic [ref=e143]: cargo
+              - generic [ref=e144]:
+                - generic [ref=e145]: ls-replacement
+                - generic [ref=e146]: icons
+                - generic [ref=e147]: colors
+            - link "broot 文件管理 全新的目录树查看与导航方式 ⭐ 10.0k · Rust brew cargo directory-tree tui navigation" [ref=e148] [cursor=pointer]:
+              - /url: /zh/tools/broot
+              - generic [ref=e149]:
+                - heading "broot" [level=2] [ref=e150]
+                - generic [ref=e151]: 文件管理
+              - paragraph [ref=e152]: 全新的目录树查看与导航方式
+              - generic [ref=e153]:
+                - generic [ref=e154]: ⭐ 10.0k
+                - generic [ref=e155]: ·
+                - generic [ref=e156]: Rust
+                - generic [ref=e157]: brew
+                - generic [ref=e158]: cargo
+              - generic [ref=e159]:
+                - generic [ref=e160]: directory-tree
+                - generic [ref=e161]: tui
+                - generic [ref=e162]: navigation
+            - link "zoxide 效率 能学习你使用习惯的智能 cd 命令 ⭐ 26.0k · Rust brew cargo cd-replacement navigation smart" [ref=e163] [cursor=pointer]:
+              - /url: /zh/tools/zoxide
+              - generic [ref=e164]:
+                - heading "zoxide" [level=2] [ref=e165]
+                - generic [ref=e166]: 效率
+              - paragraph [ref=e167]: 能学习你使用习惯的智能 cd 命令
+              - generic [ref=e168]:
+                - generic [ref=e169]: ⭐ 26.0k
+                - generic [ref=e170]: ·
+                - generic [ref=e171]: Rust
+                - generic [ref=e172]: brew
+                - generic [ref=e173]: cargo
+              - generic [ref=e174]:
+                - generic [ref=e175]: cd-replacement
+                - generic [ref=e176]: navigation
+                - generic [ref=e177]: smart
+            - link "ranger 文件管理 受 VIM 启发的终端文件管理器 ⭐ 15.0k · Python brew apt file-manager vim tui" [ref=e178] [cursor=pointer]:
+              - /url: /zh/tools/ranger
+              - generic [ref=e179]:
+                - heading "ranger" [level=2] [ref=e180]
+                - generic [ref=e181]: 文件管理
+              - paragraph [ref=e182]: 受 VIM 启发的终端文件管理器
+              - generic [ref=e183]:
+                - generic [ref=e184]: ⭐ 15.0k
+                - generic [ref=e185]: ·
+                - generic [ref=e186]: Python
+                - generic [ref=e187]: brew
+                - generic [ref=e188]: apt
+              - generic [ref=e189]:
+                - generic [ref=e190]: file-manager
+                - generic [ref=e191]: vim
+                - generic [ref=e192]: tui
+            - link "nnn 文件管理 最快的终端文件管理器——轻量且功能丰富 ⭐ 20.0k · C brew apt file-manager fast lightweight" [ref=e193] [cursor=pointer]:
+              - /url: /zh/tools/nnn
+              - generic [ref=e194]:
+                - heading "nnn" [level=2] [ref=e195]
+                - generic [ref=e196]: 文件管理
+              - paragraph [ref=e197]: 最快的终端文件管理器——轻量且功能丰富
+              - generic [ref=e198]:
+                - generic [ref=e199]: ⭐ 20.0k
+                - generic [ref=e200]: ·
+                - generic [ref=e201]: C
+                - generic [ref=e202]: brew
+                - generic [ref=e203]: apt
+              - generic [ref=e204]:
+                - generic [ref=e205]: file-manager
+                - generic [ref=e206]: fast
+                - generic [ref=e207]: lightweight
+            - link "HTTPie 网络 对人类友好的命令行 HTTP 客户端 ⭐ 35.0k · Python brew apt http-client api json" [ref=e208] [cursor=pointer]:
+              - /url: /zh/tools/httpie
+              - generic [ref=e209]:
+                - heading "HTTPie" [level=2] [ref=e210]
+                - generic [ref=e211]: 网络
+              - paragraph [ref=e212]: 对人类友好的命令行 HTTP 客户端
+              - generic [ref=e213]:
+                - generic [ref=e214]: ⭐ 35.0k
+                - generic [ref=e215]: ·
+                - generic [ref=e216]: Python
+                - generic [ref=e217]: brew
+                - generic [ref=e218]: apt
+              - generic [ref=e219]:
+                - generic [ref=e220]: http-client
+                - generic [ref=e221]: api
+                - generic [ref=e222]: json
+            - link "xh 网络 友好快速的 HTTP 客户端，HTTPie 的 Rust 重写版 ⭐ 6.0k · Rust brew cargo http-client api fast" [ref=e223] [cursor=pointer]:
+              - /url: /zh/tools/xh
+              - generic [ref=e224]:
+                - heading "xh" [level=2] [ref=e225]
+                - generic [ref=e226]: 网络
+              - paragraph [ref=e227]: 友好快速的 HTTP 客户端，HTTPie 的 Rust 重写版
+              - generic [ref=e228]:
+                - generic [ref=e229]: ⭐ 6.0k
+                - generic [ref=e230]: ·
+                - generic [ref=e231]: Rust
+                - generic [ref=e232]: brew
+                - generic [ref=e233]: cargo
+              - generic [ref=e234]:
+                - generic [ref=e235]: http-client
+                - generic [ref=e236]: api
+                - generic [ref=e237]: fast
+            - link "dog 网络 用户友好的命令行 DNS 客户端 ⭐ 1.8k · Rust brew cargo dns dig-replacement rust" [ref=e238] [cursor=pointer]:
+              - /url: /zh/tools/dog
+              - generic [ref=e239]:
+                - heading "dog" [level=2] [ref=e240]
+                - generic [ref=e241]: 网络
+              - paragraph [ref=e242]: 用户友好的命令行 DNS 客户端
+              - generic [ref=e243]:
+                - generic [ref=e244]: ⭐ 1.8k
+                - generic [ref=e245]: ·
+                - generic [ref=e246]: Rust
+                - generic [ref=e247]: brew
+                - generic [ref=e248]: cargo
+              - generic [ref=e249]:
+                - generic [ref=e250]: dns
+                - generic [ref=e251]: dig-replacement
+                - generic [ref=e252]: rust
+            - link "nmap 网络 网络探测工具和安全扫描器 ⭐ 10.0k · C brew apt scanner security port-scan" [ref=e253] [cursor=pointer]:
+              - /url: /zh/tools/nmap
+              - generic [ref=e254]:
+                - heading "nmap" [level=2] [ref=e255]
+                - generic [ref=e256]: 网络
+              - paragraph [ref=e257]: 网络探测工具和安全扫描器
+              - generic [ref=e258]:
+                - generic [ref=e259]: ⭐ 10.0k
+                - generic [ref=e260]: ·
+                - generic [ref=e261]: C
+                - generic [ref=e262]: brew
+                - generic [ref=e263]: apt
+              - generic [ref=e264]:
+                - generic [ref=e265]: scanner
+                - generic [ref=e266]: security
+                - generic [ref=e267]: port-scan
+            - link "aria2 网络 轻量级多协议下载工具 ⭐ 35.0k · C++ brew apt downloader bittorrent multi-source" [ref=e268] [cursor=pointer]:
+              - /url: /zh/tools/aria2
+              - generic [ref=e269]:
+                - heading "aria2" [level=2] [ref=e270]
+                - generic [ref=e271]: 网络
+              - paragraph [ref=e272]: 轻量级多协议下载工具
+              - generic [ref=e273]:
+                - generic [ref=e274]: ⭐ 35.0k
+                - generic [ref=e275]: ·
+                - generic [ref=e276]: C++
+                - generic [ref=e277]: brew
+                - generic [ref=e278]: apt
+              - generic [ref=e279]:
+                - generic [ref=e280]: downloader
+                - generic [ref=e281]: bittorrent
+                - generic [ref=e282]: multi-source
+            - link "mitmproxy 网络 用于安全测试的交互式 TLS 拦截 HTTP 代理 ⭐ 38.0k · Python brew pip proxy http-intercept security" [ref=e283] [cursor=pointer]:
+              - /url: /zh/tools/mitmproxy
+              - generic [ref=e284]:
+                - heading "mitmproxy" [level=2] [ref=e285]
+                - generic [ref=e286]: 网络
+              - paragraph [ref=e287]: 用于安全测试的交互式 TLS 拦截 HTTP 代理
+              - generic [ref=e288]:
+                - generic [ref=e289]: ⭐ 38.0k
+                - generic [ref=e290]: ·
+                - generic [ref=e291]: Python
+                - generic [ref=e292]: brew
+                - generic [ref=e293]: pip
+              - generic [ref=e294]:
+                - generic [ref=e295]: proxy
+                - generic [ref=e296]: http-intercept
+                - generic [ref=e297]: security
+            - link "gping 网络 带实时图表的 ping 工具 ⭐ 10.0k · Rust brew cargo ping network graph" [ref=e298] [cursor=pointer]:
+              - /url: /zh/tools/gping
+              - generic [ref=e299]:
+                - heading "gping" [level=2] [ref=e300]
+                - generic [ref=e301]: 网络
+              - paragraph [ref=e302]: 带实时图表的 ping 工具
+              - generic [ref=e303]:
+                - generic [ref=e304]: ⭐ 10.0k
+                - generic [ref=e305]: ·
+                - generic [ref=e306]: Rust
+                - generic [ref=e307]: brew
+                - generic [ref=e308]: cargo
+              - generic [ref=e309]:
+                - generic [ref=e310]: ping
+                - generic [ref=e311]: network
+                - generic [ref=e312]: graph
+            - link "bandwhich 网络 终端网络带宽使用监控工具 ⭐ 9.0k · Rust brew cargo bandwidth network-monitor tui" [ref=e313] [cursor=pointer]:
+              - /url: /zh/tools/bandwhich
+              - generic [ref=e314]:
+                - heading "bandwhich" [level=2] [ref=e315]
+                - generic [ref=e316]: 网络
+              - paragraph [ref=e317]: 终端网络带宽使用监控工具
+              - generic [ref=e318]:
+                - generic [ref=e319]: ⭐ 9.0k
+                - generic [ref=e320]: ·
+                - generic [ref=e321]: Rust
+                - generic [ref=e322]: brew
+                - generic [ref=e323]: cargo
+              - generic [ref=e324]:
+                - generic [ref=e325]: bandwidth
+                - generic [ref=e326]: network-monitor
+                - generic [ref=e327]: tui
+            - link "lazygit Git 工具 简单的 git 命令终端 UI ⭐ 58.0k · Go brew winget git tui interactive" [ref=e328] [cursor=pointer]:
+              - /url: /zh/tools/lazygit
+              - generic [ref=e329]:
+                - heading "lazygit" [level=2] [ref=e330]
+                - generic [ref=e331]: Git 工具
+              - paragraph [ref=e332]: 简单的 git 命令终端 UI
+              - generic [ref=e333]:
+                - generic [ref=e334]: ⭐ 58.0k
+                - generic [ref=e335]: ·
+                - generic [ref=e336]: Go
+                - generic [ref=e337]: brew
+                - generic [ref=e338]: winget
+              - generic [ref=e339]:
+                - generic [ref=e340]: git
+                - generic [ref=e341]: tui
+                - generic [ref=e342]: interactive
+            - link "delta Git 工具 用于 git、diff 和 grep 输出的语法高亮分页器 ⭐ 25.0k · Rust brew cargo git-diff syntax-highlight pager" [ref=e343] [cursor=pointer]:
+              - /url: /zh/tools/delta
+              - generic [ref=e344]:
+                - heading "delta" [level=2] [ref=e345]
+                - generic [ref=e346]: Git 工具
+              - paragraph [ref=e347]: 用于 git、diff 和 grep 输出的语法高亮分页器
+              - generic [ref=e348]:
+                - generic [ref=e349]: ⭐ 25.0k
+                - generic [ref=e350]: ·
+                - generic [ref=e351]: Rust
+                - generic [ref=e352]: brew
+                - generic [ref=e353]: cargo
+              - generic [ref=e354]:
+                - generic [ref=e355]: git-diff
+                - generic [ref=e356]: syntax-highlight
+                - generic [ref=e357]: pager
+            - link "tig Git 工具 git 的文本模式界面 ⭐ 12.0k · C brew apt git tui ncurses" [ref=e358] [cursor=pointer]:
+              - /url: /zh/tools/tig
+              - generic [ref=e359]:
+                - heading "tig" [level=2] [ref=e360]
+                - generic [ref=e361]: Git 工具
+              - paragraph [ref=e362]: git 的文本模式界面
+              - generic [ref=e363]:
+                - generic [ref=e364]: ⭐ 12.0k
+                - generic [ref=e365]: ·
+                - generic [ref=e366]: C
+                - generic [ref=e367]: brew
+                - generic [ref=e368]: apt
+              - generic [ref=e369]:
+                - generic [ref=e370]: git
+                - generic [ref=e371]: tui
+                - generic [ref=e372]: ncurses
+            - link "GitHub CLI Git 工具 命令行版 GitHub——管理 PR、Issue 等 ⭐ 38.0k · Go brew winget github pr issues" [ref=e373] [cursor=pointer]:
+              - /url: /zh/tools/gh
+              - generic [ref=e374]:
+                - heading "GitHub CLI" [level=2] [ref=e375]
+                - generic [ref=e376]: Git 工具
+              - paragraph [ref=e377]: 命令行版 GitHub——管理 PR、Issue 等
+              - generic [ref=e378]:
+                - generic [ref=e379]: ⭐ 38.0k
+                - generic [ref=e380]: ·
+                - generic [ref=e381]: Go
+                - generic [ref=e382]: brew
+                - generic [ref=e383]: winget
+              - generic [ref=e384]:
+                - generic [ref=e385]: github
+                - generic [ref=e386]: pr
+                - generic [ref=e387]: issues
+            - link "gitui Git 工具 用 Rust 编写的极速 git TUI ⭐ 18.0k · Rust brew cargo git tui fast" [ref=e388] [cursor=pointer]:
+              - /url: /zh/tools/gitui
+              - generic [ref=e389]:
+                - heading "gitui" [level=2] [ref=e390]
+                - generic [ref=e391]: Git 工具
+              - paragraph [ref=e392]: 用 Rust 编写的极速 git TUI
+              - generic [ref=e393]:
+                - generic [ref=e394]: ⭐ 18.0k
+                - generic [ref=e395]: ·
+                - generic [ref=e396]: Rust
+                - generic [ref=e397]: brew
+                - generic [ref=e398]: cargo
+              - generic [ref=e399]:
+                - generic [ref=e400]: git
+                - generic [ref=e401]: tui
+                - generic [ref=e402]: fast
+            - link "jq 开发工具 轻量灵活的命令行 JSON 处理器 ⭐ 30.0k · C brew apt json data-processing filter" [ref=e403] [cursor=pointer]:
+              - /url: /zh/tools/jq
+              - generic [ref=e404]:
+                - heading "jq" [level=2] [ref=e405]
+                - generic [ref=e406]: 开发工具
+              - paragraph [ref=e407]: 轻量灵活的命令行 JSON 处理器
+              - generic [ref=e408]:
+                - generic [ref=e409]: ⭐ 30.0k
+                - generic [ref=e410]: ·
+                - generic [ref=e411]: C
+                - generic [ref=e412]: brew
+                - generic [ref=e413]: apt
+              - generic [ref=e414]:
+                - generic [ref=e415]: json
+                - generic [ref=e416]: data-processing
+                - generic [ref=e417]: filter
+            - link "yq 开发工具 可移植的命令行 YAML/JSON/XML/CSV 处理器 ⭐ 12.0k · Go brew winget yaml json xml" [ref=e418] [cursor=pointer]:
+              - /url: /zh/tools/yq
+              - generic [ref=e419]:
+                - heading "yq" [level=2] [ref=e420]
+                - generic [ref=e421]: 开发工具
+              - paragraph [ref=e422]: 可移植的命令行 YAML/JSON/XML/CSV 处理器
+              - generic [ref=e423]:
+                - generic [ref=e424]: ⭐ 12.0k
+                - generic [ref=e425]: ·
+                - generic [ref=e426]: Go
+                - generic [ref=e427]: brew
+                - generic [ref=e428]: winget
+              - generic [ref=e429]:
+                - generic [ref=e430]: yaml
+                - generic [ref=e431]: json
+                - generic [ref=e432]: xml
+            - link "fx 开发工具 支持交互 TUI 和流式处理的终端 JSON 查看器 ⭐ 19.0k · Go brew npm json viewer interactive" [ref=e433] [cursor=pointer]:
+              - /url: /zh/tools/fx
+              - generic [ref=e434]:
+                - heading "fx" [level=2] [ref=e435]
+                - generic [ref=e436]: 开发工具
+              - paragraph [ref=e437]: 支持交互 TUI 和流式处理的终端 JSON 查看器
+              - generic [ref=e438]:
+                - generic [ref=e439]: ⭐ 19.0k
+                - generic [ref=e440]: ·
+                - generic [ref=e441]: Go
+                - generic [ref=e442]: brew
+                - generic [ref=e443]: npm
+              - generic [ref=e444]:
+                - generic [ref=e445]: json
+                - generic [ref=e446]: viewer
+                - generic [ref=e447]: interactive
+            - link "tldr 开发工具 带实用示例的精简版 man 页面 ⭐ 53.0k · Markdown brew npm documentation man-pages examples" [ref=e448] [cursor=pointer]:
+              - /url: /zh/tools/tldr
+              - generic [ref=e449]:
+                - heading "tldr" [level=2] [ref=e450]
+                - generic [ref=e451]: 开发工具
+              - paragraph [ref=e452]: 带实用示例的精简版 man 页面
+              - generic [ref=e453]:
+                - generic [ref=e454]: ⭐ 53.0k
+                - generic [ref=e455]: ·
+                - generic [ref=e456]: Markdown
+                - generic [ref=e457]: brew
+                - generic [ref=e458]: npm
+              - generic [ref=e459]:
+                - generic [ref=e460]: documentation
+                - generic [ref=e461]: man-pages
+                - generic [ref=e462]: examples
+            - link "ShellCheck 开发工具 Shell 脚本静态分析工具 ⭐ 36.0k · Haskell brew apt shell linter static-analysis" [ref=e463] [cursor=pointer]:
+              - /url: /zh/tools/shellcheck
+              - generic [ref=e464]:
+                - heading "ShellCheck" [level=2] [ref=e465]
+                - generic [ref=e466]: 开发工具
+              - paragraph [ref=e467]: Shell 脚本静态分析工具
+              - generic [ref=e468]:
+                - generic [ref=e469]: ⭐ 36.0k
+                - generic [ref=e470]: ·
+                - generic [ref=e471]: Haskell
+                - generic [ref=e472]: brew
+                - generic [ref=e473]: apt
+              - generic [ref=e474]:
+                - generic [ref=e475]: shell
+                - generic [ref=e476]: linter
+                - generic [ref=e477]: static-analysis
+            - link "hyperfine 开发工具 命令行性能基准测试工具 ⭐ 22.0k · Rust brew cargo benchmark performance timing" [ref=e478] [cursor=pointer]:
+              - /url: /zh/tools/hyperfine
+              - generic [ref=e479]:
+                - heading "hyperfine" [level=2] [ref=e480]
+                - generic [ref=e481]: 开发工具
+              - paragraph [ref=e482]: 命令行性能基准测试工具
+              - generic [ref=e483]:
+                - generic [ref=e484]: ⭐ 22.0k
+                - generic [ref=e485]: ·
+                - generic [ref=e486]: Rust
+                - generic [ref=e487]: brew
+                - generic [ref=e488]: cargo
+              - generic [ref=e489]:
+                - generic [ref=e490]: benchmark
+                - generic [ref=e491]: performance
+                - generic [ref=e492]: timing
+            - link "tokei 开发工具 统计代码行数——按语言分类显示代码/空行/注释 ⭐ 11.0k · Rust brew cargo code-stats lines-of-code analysis" [ref=e493] [cursor=pointer]:
+              - /url: /zh/tools/tokei
+              - generic [ref=e494]:
+                - heading "tokei" [level=2] [ref=e495]
+                - generic [ref=e496]: 开发工具
+              - paragraph [ref=e497]: 统计代码行数——按语言分类显示代码/空行/注释
+              - generic [ref=e498]:
+                - generic [ref=e499]: ⭐ 11.0k
+                - generic [ref=e500]: ·
+                - generic [ref=e501]: Rust
+                - generic [ref=e502]: brew
+                - generic [ref=e503]: cargo
+              - generic [ref=e504]:
+                - generic [ref=e505]: code-stats
+                - generic [ref=e506]: lines-of-code
+                - generic [ref=e507]: analysis
+            - link "ctop 开发工具 类 top 的 Docker 容器指标界面 ⭐ 15.0k · Go brew docker containers monitoring" [ref=e508] [cursor=pointer]:
+              - /url: /zh/tools/ctop
+              - generic [ref=e509]:
+                - heading "ctop" [level=2] [ref=e510]
+                - generic [ref=e511]: 开发工具
+              - paragraph [ref=e512]: 类 top 的 Docker 容器指标界面
+              - generic [ref=e513]:
+                - generic [ref=e514]: ⭐ 15.0k
+                - generic [ref=e515]: ·
+                - generic [ref=e516]: Go
+                - generic [ref=e517]: brew
+              - generic [ref=e518]:
+                - generic [ref=e519]: docker
+                - generic [ref=e520]: containers
+                - generic [ref=e521]: monitoring
+            - link "tmux 效率 终端多路复用器——分割、持久化和共享终端会话 ⭐ 36.0k · C brew apt multiplexer sessions split-panes" [ref=e522] [cursor=pointer]:
+              - /url: /zh/tools/tmux
+              - generic [ref=e523]:
+                - heading "tmux" [level=2] [ref=e524]
+                - generic [ref=e525]: 效率
+              - paragraph [ref=e526]: 终端多路复用器——分割、持久化和共享终端会话
+              - generic [ref=e527]:
+                - generic [ref=e528]: ⭐ 36.0k
+                - generic [ref=e529]: ·
+                - generic [ref=e530]: C
+                - generic [ref=e531]: brew
+                - generic [ref=e532]: apt
+              - generic [ref=e533]:
+                - generic [ref=e534]: multiplexer
+                - generic [ref=e535]: sessions
+                - generic [ref=e536]: split-panes
+            - link "zellij 效率 开箱即用的现代终端工作区 ⭐ 24.0k · Rust brew cargo multiplexer sessions plugins" [ref=e537] [cursor=pointer]:
+              - /url: /zh/tools/zellij
+              - generic [ref=e538]:
+                - heading "zellij" [level=2] [ref=e539]
+                - generic [ref=e540]: 效率
+              - paragraph [ref=e541]: 开箱即用的现代终端工作区
+              - generic [ref=e542]:
+                - generic [ref=e543]: ⭐ 24.0k
+                - generic [ref=e544]: ·
+                - generic [ref=e545]: Rust
+                - generic [ref=e546]: brew
+                - generic [ref=e547]: cargo
+              - generic [ref=e548]:
+                - generic [ref=e549]: multiplexer
+                - generic [ref=e550]: sessions
+                - generic [ref=e551]: plugins
+            - link "starship 效率 适用于任何 shell 的极简超快提示符 ⭐ 48.0k · Rust brew cargo prompt shell rust" [ref=e552] [cursor=pointer]:
+              - /url: /zh/tools/starship
+              - generic [ref=e553]:
+                - heading "starship" [level=2] [ref=e554]
+                - generic [ref=e555]: 效率
+              - paragraph [ref=e556]: 适用于任何 shell 的极简超快提示符
+              - generic [ref=e557]:
+                - generic [ref=e558]: ⭐ 48.0k
+                - generic [ref=e559]: ·
+                - generic [ref=e560]: Rust
+                - generic [ref=e561]: brew
+                - generic [ref=e562]: cargo
+              - generic [ref=e563]:
+                - generic [ref=e564]: prompt
+                - generic [ref=e565]: shell
+                - generic [ref=e566]: rust
+            - link "Oh My Posh 效率 适用于任何 shell 的提示主题引擎，尤其适合 Windows ⭐ 18.0k · Go brew winget prompt shell windows" [ref=e567] [cursor=pointer]:
+              - /url: /zh/tools/oh-my-posh
+              - generic [ref=e568]:
+                - heading "Oh My Posh" [level=2] [ref=e569]
+                - generic [ref=e570]: 效率
+              - paragraph [ref=e571]: 适用于任何 shell 的提示主题引擎，尤其适合 Windows
+              - generic [ref=e572]:
+                - generic [ref=e573]: ⭐ 18.0k
+                - generic [ref=e574]: ·
+                - generic [ref=e575]: Go
+                - generic [ref=e576]: brew
+                - generic [ref=e577]: winget
+              - generic [ref=e578]:
+                - generic [ref=e579]: prompt
+                - generic [ref=e580]: shell
+                - generic [ref=e581]: windows
+            - link "thefuck 效率 自动纠正上一条控制台命令 ⭐ 88.0k · Python brew pip autocorrect shell python" [ref=e582] [cursor=pointer]:
+              - /url: /zh/tools/thefuck
+              - generic [ref=e583]:
+                - heading "thefuck" [level=2] [ref=e584]
+                - generic [ref=e585]: 效率
+              - paragraph [ref=e586]: 自动纠正上一条控制台命令
+              - generic [ref=e587]:
+                - generic [ref=e588]: ⭐ 88.0k
+                - generic [ref=e589]: ·
+                - generic [ref=e590]: Python
+                - generic [ref=e591]: brew
+                - generic [ref=e592]: pip
+              - generic [ref=e593]:
+                - generic [ref=e594]: autocorrect
+                - generic [ref=e595]: shell
+                - generic [ref=e596]: python
+            - link "atuin 效率 魔法 shell 历史——跨机器同步、搜索和统计 ⭐ 24.0k · Rust brew cargo shell-history search sync" [ref=e597] [cursor=pointer]:
+              - /url: /zh/tools/atuin
+              - generic [ref=e598]:
+                - heading "atuin" [level=2] [ref=e599]
+                - generic [ref=e600]: 效率
+              - paragraph [ref=e601]: 魔法 shell 历史——跨机器同步、搜索和统计
+              - generic [ref=e602]:
+                - generic [ref=e603]: ⭐ 24.0k
+                - generic [ref=e604]: ·
+                - generic [ref=e605]: Rust
+                - generic [ref=e606]: brew
+                - generic [ref=e607]: cargo
+              - generic [ref=e608]:
+                - generic [ref=e609]: shell-history
+                - generic [ref=e610]: search
+                - generic [ref=e611]: sync
+            - link "mcfly 效率 由神经网络驱动的智能 shell 历史搜索 ⭐ 7.0k · Rust brew cargo shell-history neural-network search" [ref=e612] [cursor=pointer]:
+              - /url: /zh/tools/mcfly
+              - generic [ref=e613]:
+                - heading "mcfly" [level=2] [ref=e614]
+                - generic [ref=e615]: 效率
+              - paragraph [ref=e616]: 由神经网络驱动的智能 shell 历史搜索
+              - generic [ref=e617]:
+                - generic [ref=e618]: ⭐ 7.0k
+                - generic [ref=e619]: ·
+                - generic [ref=e620]: Rust
+                - generic [ref=e621]: brew
+                - generic [ref=e622]: cargo
+              - generic [ref=e623]:
+                - generic [ref=e624]: shell-history
+                - generic [ref=e625]: neural-network
+                - generic [ref=e626]: search
+            - link "navi 效率 命令行交互式速查表工具 ⭐ 15.0k · Rust brew cargo cheatsheet interactive fzf" [ref=e627] [cursor=pointer]:
+              - /url: /zh/tools/navi
+              - generic [ref=e628]:
+                - heading "navi" [level=2] [ref=e629]
+                - generic [ref=e630]: 效率
+              - paragraph [ref=e631]: 命令行交互式速查表工具
+              - generic [ref=e632]:
+                - generic [ref=e633]: ⭐ 15.0k
+                - generic [ref=e634]: ·
+                - generic [ref=e635]: Rust
+                - generic [ref=e636]: brew
+                - generic [ref=e637]: cargo
+              - generic [ref=e638]:
+                - generic [ref=e639]: cheatsheet
+                - generic [ref=e640]: interactive
+                - generic [ref=e641]: fzf
+            - link "direnv 开发工具 根据当前目录自动加载和卸载环境变量 ⭐ 13.0k · Go brew apt environment dotenv shell" [ref=e642] [cursor=pointer]:
+              - /url: /zh/tools/direnv
+              - generic [ref=e643]:
+                - heading "direnv" [level=2] [ref=e644]
+                - generic [ref=e645]: 开发工具
+              - paragraph [ref=e646]: 根据当前目录自动加载和卸载环境变量
+              - generic [ref=e647]:
+                - generic [ref=e648]: ⭐ 13.0k
+                - generic [ref=e649]: ·
+                - generic [ref=e650]: Go
+                - generic [ref=e651]: brew
+                - generic [ref=e652]: apt
+              - generic [ref=e653]:
+                - generic [ref=e654]: environment
+                - generic [ref=e655]: dotenv
+                - generic [ref=e656]: shell
+            - link "htop 系统 交互式进程查看器——更好的 top ⭐ 6.5k · C brew apt process-monitor top-replacement tui" [ref=e657] [cursor=pointer]:
+              - /url: /zh/tools/htop
+              - generic [ref=e658]:
+                - heading "htop" [level=2] [ref=e659]
+                - generic [ref=e660]: 系统
+              - paragraph [ref=e661]: 交互式进程查看器——更好的 top
+              - generic [ref=e662]:
+                - generic [ref=e663]: ⭐ 6.5k
+                - generic [ref=e664]: ·
+                - generic [ref=e665]: C
+                - generic [ref=e666]: brew
+                - generic [ref=e667]: apt
+              - generic [ref=e668]:
+                - generic [ref=e669]: process-monitor
+                - generic [ref=e670]: top-replacement
+                - generic [ref=e671]: tui
+            - link "btop++ 系统 精美 TUI 的资源监控器——CPU、内存、磁盘、网络 ⭐ 24.0k · C++ brew apt system-monitor tui cpu" [ref=e672] [cursor=pointer]:
+              - /url: /zh/tools/btop
+              - generic [ref=e673]:
+                - heading "btop++" [level=2] [ref=e674]
+                - generic [ref=e675]: 系统
+              - paragraph [ref=e676]: 精美 TUI 的资源监控器——CPU、内存、磁盘、网络
+              - generic [ref=e677]:
+                - generic [ref=e678]: ⭐ 24.0k
+                - generic [ref=e679]: ·
+                - generic [ref=e680]: C++
+                - generic [ref=e681]: brew
+                - generic [ref=e682]: apt
+              - generic [ref=e683]:
+                - generic [ref=e684]: system-monitor
+                - generic [ref=e685]: tui
+                - generic [ref=e686]: cpu
+            - link "glances 系统 跨平台 top/htop 替代品，支持 Web 和 API 模式 ⭐ 27.0k · Python brew pip system-monitor api web" [ref=e687] [cursor=pointer]:
+              - /url: /zh/tools/glances
+              - generic [ref=e688]:
+                - heading "glances" [level=2] [ref=e689]
+                - generic [ref=e690]: 系统
+              - paragraph [ref=e691]: 跨平台 top/htop 替代品，支持 Web 和 API 模式
+              - generic [ref=e692]:
+                - generic [ref=e693]: ⭐ 27.0k
+                - generic [ref=e694]: ·
+                - generic [ref=e695]: Python
+                - generic [ref=e696]: brew
+                - generic [ref=e697]: pip
+              - generic [ref=e698]:
+                - generic [ref=e699]: system-monitor
+                - generic [ref=e700]: api
+                - generic [ref=e701]: web
+            - link "duf 系统 磁盘使用/空闲工具——更好的 df 替代品 ⭐ 15.1k · Go brew apt disk-usage df-replacement storage" [ref=e702] [cursor=pointer]:
+              - /url: /zh/tools/duf
+              - generic [ref=e703]:
+                - heading "duf" [level=2] [ref=e704]
+                - generic [ref=e705]: 系统
+              - paragraph [ref=e706]: 磁盘使用/空闲工具——更好的 df 替代品
+              - generic [ref=e707]:
+                - generic [ref=e708]: ⭐ 15.1k
+                - generic [ref=e709]: ·
+                - generic [ref=e710]: Go
+                - generic [ref=e711]: brew
+                - generic [ref=e712]: apt
+              - generic [ref=e713]:
+                - generic [ref=e714]: disk-usage
+                - generic [ref=e715]: df-replacement
+                - generic [ref=e716]: storage
+            - link "dust 系统 du + Rust = dust——更直观的磁盘使用工具 ⭐ 11.7k · Rust brew cargo disk-usage du-replacement tree" [ref=e717] [cursor=pointer]:
+              - /url: /zh/tools/dust
+              - generic [ref=e718]:
+                - heading "dust" [level=2] [ref=e719]
+                - generic [ref=e720]: 系统
+              - paragraph [ref=e721]: du + Rust = dust——更直观的磁盘使用工具
+              - generic [ref=e722]:
+                - generic [ref=e723]: ⭐ 11.7k
+                - generic [ref=e724]: ·
+                - generic [ref=e725]: Rust
+                - generic [ref=e726]: brew
+                - generic [ref=e727]: cargo
+              - generic [ref=e728]:
+                - generic [ref=e729]: disk-usage
+                - generic [ref=e730]: du-replacement
+                - generic [ref=e731]: tree
+            - link "procs 系统 用 Rust 编写的现代 ps 替代品 ⭐ 6.0k · Rust brew cargo ps-replacement process system-monitor" [ref=e732] [cursor=pointer]:
+              - /url: /zh/tools/procs
+              - generic [ref=e733]:
+                - heading "procs" [level=2] [ref=e734]
+                - generic [ref=e735]: 系统
+              - paragraph [ref=e736]: 用 Rust 编写的现代 ps 替代品
+              - generic [ref=e737]:
+                - generic [ref=e738]: ⭐ 6.0k
+                - generic [ref=e739]: ·
+                - generic [ref=e740]: Rust
+                - generic [ref=e741]: brew
+                - generic [ref=e742]: cargo
+              - generic [ref=e743]:
+                - generic [ref=e744]: ps-replacement
+                - generic [ref=e745]: process
+                - generic [ref=e746]: system-monitor
+            - link "bottom 系统 可定制的跨平台图形化进程和系统监视器 ⭐ 13.3k · Rust brew cargo system-monitor tui process" [ref=e747] [cursor=pointer]:
+              - /url: /zh/tools/bottom
+              - generic [ref=e748]:
+                - heading "bottom" [level=2] [ref=e749]
+                - generic [ref=e750]: 系统
+              - paragraph [ref=e751]: 可定制的跨平台图形化进程和系统监视器
+              - generic [ref=e752]:
+                - generic [ref=e753]: ⭐ 13.3k
+                - generic [ref=e754]: ·
+                - generic [ref=e755]: Rust
+                - generic [ref=e756]: brew
+                - generic [ref=e757]: cargo
+              - generic [ref=e758]:
+                - generic [ref=e759]: system-monitor
+                - generic [ref=e760]: tui
+                - generic [ref=e761]: process
+            - link "pgcli 数据库 带自动补全和语法高亮的 Postgres CLI ⭐ 13.2k · Python brew pip postgresql database sql" [ref=e762] [cursor=pointer]:
+              - /url: /zh/tools/pgcli
+              - generic [ref=e763]:
+                - heading "pgcli" [level=2] [ref=e764]
+                - generic [ref=e765]: 数据库
+              - paragraph [ref=e766]: 带自动补全和语法高亮的 Postgres CLI
+              - generic [ref=e767]:
+                - generic [ref=e768]: ⭐ 13.2k
+                - generic [ref=e769]: ·
+                - generic [ref=e770]: Python
+                - generic [ref=e771]: brew
+                - generic [ref=e772]: pip
+              - generic [ref=e773]:
+                - generic [ref=e774]: postgresql
+                - generic [ref=e775]: database
+                - generic [ref=e776]: sql
+            - link "mycli 数据库 带自动补全和语法高亮的 MySQL CLI ⭐ 11.9k · Python brew pip mysql mariadb database" [ref=e777] [cursor=pointer]:
+              - /url: /zh/tools/mycli
+              - generic [ref=e778]:
+                - heading "mycli" [level=2] [ref=e779]
+                - generic [ref=e780]: 数据库
+              - paragraph [ref=e781]: 带自动补全和语法高亮的 MySQL CLI
+              - generic [ref=e782]:
+                - generic [ref=e783]: ⭐ 11.9k
+                - generic [ref=e784]: ·
+                - generic [ref=e785]: Python
+                - generic [ref=e786]: brew
+                - generic [ref=e787]: pip
+              - generic [ref=e788]:
+                - generic [ref=e789]: mysql
+                - generic [ref=e790]: mariadb
+                - generic [ref=e791]: database
+            - link "litecli 数据库 带自动补全和语法高亮的 SQLite CLI ⭐ 3.2k · Python brew pip sqlite database sql" [ref=e792] [cursor=pointer]:
+              - /url: /zh/tools/litecli
+              - generic [ref=e793]:
+                - heading "litecli" [level=2] [ref=e794]
+                - generic [ref=e795]: 数据库
+              - paragraph [ref=e796]: 带自动补全和语法高亮的 SQLite CLI
+              - generic [ref=e797]:
+                - generic [ref=e798]: ⭐ 3.2k
+                - generic [ref=e799]: ·
+                - generic [ref=e800]: Python
+                - generic [ref=e801]: brew
+                - generic [ref=e802]: pip
+              - generic [ref=e803]:
+                - generic [ref=e804]: sqlite
+                - generic [ref=e805]: database
+                - generic [ref=e806]: sql
+            - link "usql 数据库 SQL 和 NoSQL 数据库的通用命令行界面 ⭐ 9.9k · Go brew go database universal sql" [ref=e807] [cursor=pointer]:
+              - /url: /zh/tools/usql
+              - generic [ref=e808]:
+                - heading "usql" [level=2] [ref=e809]
+                - generic [ref=e810]: 数据库
+              - paragraph [ref=e811]: SQL 和 NoSQL 数据库的通用命令行界面
+              - generic [ref=e812]:
+                - generic [ref=e813]: ⭐ 9.9k
+                - generic [ref=e814]: ·
+                - generic [ref=e815]: Go
+                - generic [ref=e816]: brew
+                - generic [ref=e817]: go
+              - generic [ref=e818]:
+                - generic [ref=e819]: database
+                - generic [ref=e820]: universal
+                - generic [ref=e821]: sql
+            - link "redis-cli 数据库 官方 Redis 命令行界面 ⭐ 74.4k · C brew apt redis cache nosql" [ref=e822] [cursor=pointer]:
+              - /url: /zh/tools/redis-cli
+              - generic [ref=e823]:
+                - heading "redis-cli" [level=2] [ref=e824]
+                - generic [ref=e825]: 数据库
+              - paragraph [ref=e826]: 官方 Redis 命令行界面
+              - generic [ref=e827]:
+                - generic [ref=e828]: ⭐ 74.4k
+                - generic [ref=e829]: ·
+                - generic [ref=e830]: C
+                - generic [ref=e831]: brew
+                - generic [ref=e832]: apt
+              - generic [ref=e833]:
+                - generic [ref=e834]: redis
+                - generic [ref=e835]: cache
+                - generic [ref=e836]: nosql
+            - link "mongosh 数据库 支持现代 JavaScript 的官方 MongoDB Shell ⭐ 3.9k · TypeScript brew winget mongodb nosql javascript" [ref=e837] [cursor=pointer]:
+              - /url: /zh/tools/mongosh
+              - generic [ref=e838]:
+                - heading "mongosh" [level=2] [ref=e839]
+                - generic [ref=e840]: 数据库
+              - paragraph [ref=e841]: 支持现代 JavaScript 的官方 MongoDB Shell
+              - generic [ref=e842]:
+                - generic [ref=e843]: ⭐ 3.9k
+                - generic [ref=e844]: ·
+                - generic [ref=e845]: TypeScript
+                - generic [ref=e846]: brew
+                - generic [ref=e847]: winget
+              - generic [ref=e848]:
+                - generic [ref=e849]: mongodb
+                - generic [ref=e850]: nosql
+                - generic [ref=e851]: javascript
+            - link "FFmpeg 媒体 录制、转换和流式传输音视频的完整解决方案 ⭐ 60.2k · C brew apt video audio transcoding" [ref=e852] [cursor=pointer]:
+              - /url: /zh/tools/ffmpeg
+              - generic [ref=e853]:
+                - heading "FFmpeg" [level=2] [ref=e854]
+                - generic [ref=e855]: 媒体
+              - paragraph [ref=e856]: 录制、转换和流式传输音视频的完整解决方案
+              - generic [ref=e857]:
+                - generic [ref=e858]: ⭐ 60.2k
+                - generic [ref=e859]: ·
+                - generic [ref=e860]: C
+                - generic [ref=e861]: brew
+                - generic [ref=e862]: apt
+              - generic [ref=e863]:
+                - generic [ref=e864]: video
+                - generic [ref=e865]: audio
+                - generic [ref=e866]: transcoding
+            - link "yt-dlp 媒体 支持数千个网站的功能丰富命令行音视频下载工具 ⭐ 163.0k · Python brew pip video-download youtube audio" [ref=e867] [cursor=pointer]:
+              - /url: /zh/tools/yt-dlp
+              - generic [ref=e868]:
+                - heading "yt-dlp" [level=2] [ref=e869]
+                - generic [ref=e870]: 媒体
+              - paragraph [ref=e871]: 支持数千个网站的功能丰富命令行音视频下载工具
+              - generic [ref=e872]:
+                - generic [ref=e873]: ⭐ 163.0k
+                - generic [ref=e874]: ·
+                - generic [ref=e875]: Python
+                - generic [ref=e876]: brew
+                - generic [ref=e877]: pip
+              - generic [ref=e878]:
+                - generic [ref=e879]: video-download
+                - generic [ref=e880]: youtube
+                - generic [ref=e881]: audio
+            - link "ImageMagick 媒体 从命令行创建、编辑、转换和显示图像 ⭐ 16.5k · C brew apt image-processing convert resize" [ref=e882] [cursor=pointer]:
+              - /url: /zh/tools/imagemagick
+              - generic [ref=e883]:
+                - heading "ImageMagick" [level=2] [ref=e884]
+                - generic [ref=e885]: 媒体
+              - paragraph [ref=e886]: 从命令行创建、编辑、转换和显示图像
+              - generic [ref=e887]:
+                - generic [ref=e888]: ⭐ 16.5k
+                - generic [ref=e889]: ·
+                - generic [ref=e890]: C
+                - generic [ref=e891]: brew
+                - generic [ref=e892]: apt
+              - generic [ref=e893]:
+                - generic [ref=e894]: image-processing
+                - generic [ref=e895]: convert
+                - generic [ref=e896]: resize
+            - link "viu 媒体 使用 iTerm/Kitty 协议或 Unicode 在终端查看图像 ⭐ 3.2k · Rust brew cargo image-viewer terminal rust" [ref=e897] [cursor=pointer]:
+              - /url: /zh/tools/viu
+              - generic [ref=e898]:
+                - heading "viu" [level=2] [ref=e899]
+                - generic [ref=e900]: 媒体
+              - paragraph [ref=e901]: 使用 iTerm/Kitty 协议或 Unicode 在终端查看图像
+              - generic [ref=e902]:
+                - generic [ref=e903]: ⭐ 3.2k
+                - generic [ref=e904]: ·
+                - generic [ref=e905]: Rust
+                - generic [ref=e906]: brew
+                - generic [ref=e907]: cargo
+              - generic [ref=e908]:
+                - generic [ref=e909]: image-viewer
+                - generic [ref=e910]: terminal
+                - generic [ref=e911]: rust
+            - link "chafa 媒体 终端图形——在任何终端中显示图像和动画 ⭐ 4.8k · C brew apt image-viewer terminal-graphics animated-gif" [ref=e912] [cursor=pointer]:
+              - /url: /zh/tools/chafa
+              - generic [ref=e913]:
+                - heading "chafa" [level=2] [ref=e914]
+                - generic [ref=e915]: 媒体
+              - paragraph [ref=e916]: 终端图形——在任何终端中显示图像和动画
+              - generic [ref=e917]:
+                - generic [ref=e918]: ⭐ 4.8k
+                - generic [ref=e919]: ·
+                - generic [ref=e920]: C
+                - generic [ref=e921]: brew
+                - generic [ref=e922]: apt
+              - generic [ref=e923]:
+                - generic [ref=e924]: image-viewer
+                - generic [ref=e925]: terminal-graphics
+                - generic [ref=e926]: animated-gif
+            - link "glow 效率 在命令行中优雅渲染 Markdown ⭐ 25.3k · Go brew scoop markdown documentation reader" [ref=e927] [cursor=pointer]:
+              - /url: /zh/tools/glow
+              - generic [ref=e928]:
+                - heading "glow" [level=2] [ref=e929]
+                - generic [ref=e930]: 效率
+              - paragraph [ref=e931]: 在命令行中优雅渲染 Markdown
+              - generic [ref=e932]:
+                - generic [ref=e933]: ⭐ 25.3k
+                - generic [ref=e934]: ·
+                - generic [ref=e935]: Go
+                - generic [ref=e936]: brew
+                - generic [ref=e937]: scoop
+              - generic [ref=e938]:
+                - generic [ref=e939]: markdown
+                - generic [ref=e940]: documentation
+                - generic [ref=e941]: reader
+            - link "lolcat 娱乐 彩虹和独角兽——为终端输出添加彩虹色 ⭐ 6.5k · Ruby brew apt colors rainbow fun" [ref=e942] [cursor=pointer]:
+              - /url: /zh/tools/lolcat
+              - generic [ref=e943]:
+                - heading "lolcat" [level=2] [ref=e944]
+                - generic [ref=e945]: 娱乐
+              - paragraph [ref=e946]: 彩虹和独角兽——为终端输出添加彩虹色
+              - generic [ref=e947]:
+                - generic [ref=e948]: ⭐ 6.5k
+                - generic [ref=e949]: ·
+                - generic [ref=e950]: Ruby
+                - generic [ref=e951]: brew
+                - generic [ref=e952]: apt
+              - generic [ref=e953]:
+                - generic [ref=e954]: colors
+                - generic [ref=e955]: rainbow
+                - generic [ref=e956]: fun
+            - link "cowsay 娱乐 终端中可配置的会说话的奶牛 ⭐ 245 · Perl brew apt ascii-art fun classic" [ref=e957] [cursor=pointer]:
+              - /url: /zh/tools/cowsay
+              - generic [ref=e958]:
+                - heading "cowsay" [level=2] [ref=e959]
+                - generic [ref=e960]: 娱乐
+              - paragraph [ref=e961]: 终端中可配置的会说话的奶牛
+              - generic [ref=e962]:
+                - generic [ref=e963]: ⭐ 245
+                - generic [ref=e964]: ·
+                - generic [ref=e965]: Perl
+                - generic [ref=e966]: brew
+                - generic [ref=e967]: apt
+              - generic [ref=e968]:
+                - generic [ref=e969]: ascii-art
+                - generic [ref=e970]: fun
+                - generic [ref=e971]: classic
+            - link "cmatrix 娱乐 受《黑客帝国》启发的终端屏幕保护程序 ⭐ 5.1k · C brew apt matrix screensaver ascii-animation" [ref=e972] [cursor=pointer]:
+              - /url: /zh/tools/cmatrix
+              - generic [ref=e973]:
+                - heading "cmatrix" [level=2] [ref=e974]
+                - generic [ref=e975]: 娱乐
+              - paragraph [ref=e976]: 受《黑客帝国》启发的终端屏幕保护程序
+              - generic [ref=e977]:
+                - generic [ref=e978]: ⭐ 5.1k
+                - generic [ref=e979]: ·
+                - generic [ref=e980]: C
+                - generic [ref=e981]: brew
+                - generic [ref=e982]: apt
+              - generic [ref=e983]:
+                - generic [ref=e984]: matrix
+                - generic [ref=e985]: screensaver
+                - generic [ref=e986]: ascii-animation
+            - link "sl 娱乐 蒸汽机车——将 ls 错打成 sl 时的恶作剧 ⭐ 3.3k · C brew apt ascii-art fun prank" [ref=e987] [cursor=pointer]:
+              - /url: /zh/tools/sl
+              - generic [ref=e988]:
+                - heading "sl" [level=2] [ref=e989]
+                - generic [ref=e990]: 娱乐
+              - paragraph [ref=e991]: 蒸汽机车——将 ls 错打成 sl 时的恶作剧
+              - generic [ref=e992]:
+                - generic [ref=e993]: ⭐ 3.3k
+                - generic [ref=e994]: ·
+                - generic [ref=e995]: C
+                - generic [ref=e996]: brew
+                - generic [ref=e997]: apt
+              - generic [ref=e998]:
+                - generic [ref=e999]: ascii-art
+                - generic [ref=e1000]: fun
+                - generic [ref=e1001]: prank
+            - link "fastfetch 娱乐 快速且持续维护的类 neofetch 系统信息工具 ⭐ 22.7k · C brew apt system-info ascii-art screenshot" [ref=e1002] [cursor=pointer]:
+              - /url: /zh/tools/fastfetch
+              - generic [ref=e1003]:
+                - heading "fastfetch" [level=2] [ref=e1004]
+                - generic [ref=e1005]: 娱乐
+              - paragraph [ref=e1006]: 快速且持续维护的类 neofetch 系统信息工具
+              - generic [ref=e1007]:
+                - generic [ref=e1008]: ⭐ 22.7k
+                - generic [ref=e1009]: ·
+                - generic [ref=e1010]: C
+                - generic [ref=e1011]: brew
+                - generic [ref=e1012]: apt
+              - generic [ref=e1013]:
+                - generic [ref=e1014]: system-info
+                - generic [ref=e1015]: ascii-art
+                - generic [ref=e1016]: screenshot
+            - link "figlet 娱乐 从命令行生成大型 ASCII 艺术文字横幅 ⭐ 1.1k · C brew apt ascii-art banner text" [ref=e1017] [cursor=pointer]:
+              - /url: /zh/tools/figlet
+              - generic [ref=e1018]:
+                - heading "figlet" [level=2] [ref=e1019]
+                - generic [ref=e1020]: 娱乐
+              - paragraph [ref=e1021]: 从命令行生成大型 ASCII 艺术文字横幅
+              - generic [ref=e1022]:
+                - generic [ref=e1023]: ⭐ 1.1k
+                - generic [ref=e1024]: ·
+                - generic [ref=e1025]: C
+                - generic [ref=e1026]: brew
+                - generic [ref=e1027]: apt
+              - generic [ref=e1028]:
+                - generic [ref=e1029]: ascii-art
+                - generic [ref=e1030]: banner
+                - generic [ref=e1031]: text
+            - link "lark-cli 效率 飞书官方命令行工具，专为人类和 AI 助手设计 ⭐ 11.4k · Go npm feishu lark ai-agent" [ref=e1032] [cursor=pointer]:
+              - /url: /zh/tools/lark-cli
+              - generic [ref=e1033]:
+                - heading "lark-cli" [level=2] [ref=e1034]
+                - generic [ref=e1035]: 效率
+              - paragraph [ref=e1036]: 飞书官方命令行工具，专为人类和 AI 助手设计
+              - generic [ref=e1037]:
+                - generic [ref=e1038]: ⭐ 11.4k
+                - generic [ref=e1039]: ·
+                - generic [ref=e1040]: Go
+                - generic [ref=e1041]: npm
+              - generic [ref=e1042]:
+                - generic [ref=e1043]: feishu
+                - generic [ref=e1044]: lark
+                - generic [ref=e1045]: ai-agent
+            - link "ntn 效率 Notion 官方命令行工具，支持 API 调用、Workers 和文件管理 ⭐ 0 · TypeScript npm notion productivity api" [ref=e1046] [cursor=pointer]:
+              - /url: /zh/tools/ntn
+              - generic [ref=e1047]:
+                - heading "ntn" [level=2] [ref=e1048]
+                - generic [ref=e1049]: 效率
+              - paragraph [ref=e1050]: Notion 官方命令行工具，支持 API 调用、Workers 和文件管理
+              - generic [ref=e1051]:
+                - generic [ref=e1052]: ⭐ 0
+                - generic [ref=e1053]: ·
+                - generic [ref=e1054]: TypeScript
+                - generic [ref=e1055]: npm
+              - generic [ref=e1056]:
+                - generic [ref=e1057]: notion
+                - generic [ref=e1058]: productivity
+                - generic [ref=e1059]: api
+            - link "Vercel CLI 云服务 & 部署 在终端一键部署和管理 Vercel 项目 ⭐ 15.5k · TypeScript npm deployment hosting serverless" [ref=e1060] [cursor=pointer]:
+              - /url: /zh/tools/vercel
+              - generic [ref=e1061]:
+                - heading "Vercel CLI" [level=2] [ref=e1062]
+                - generic [ref=e1063]: 云服务 & 部署
+              - paragraph [ref=e1064]: 在终端一键部署和管理 Vercel 项目
+              - generic [ref=e1065]:
+                - generic [ref=e1066]: ⭐ 15.5k
+                - generic [ref=e1067]: ·
+                - generic [ref=e1068]: TypeScript
+                - generic [ref=e1069]: npm
+              - generic [ref=e1070]:
+                - generic [ref=e1071]: deployment
+                - generic [ref=e1072]: hosting
+                - generic [ref=e1073]: serverless
+            - link "Netlify CLI 云服务 & 部署 在命令行部署和管理 Netlify 站点 ⭐ 1.9k · TypeScript npm deployment hosting jamstack" [ref=e1074] [cursor=pointer]:
+              - /url: /zh/tools/netlify
+              - generic [ref=e1075]:
+                - heading "Netlify CLI" [level=2] [ref=e1076]
+                - generic [ref=e1077]: 云服务 & 部署
+              - paragraph [ref=e1078]: 在命令行部署和管理 Netlify 站点
+              - generic [ref=e1079]:
+                - generic [ref=e1080]: ⭐ 1.9k
+                - generic [ref=e1081]: ·
+                - generic [ref=e1082]: TypeScript
+                - generic [ref=e1083]: npm
+              - generic [ref=e1084]:
+                - generic [ref=e1085]: deployment
+                - generic [ref=e1086]: hosting
+                - generic [ref=e1087]: jamstack
+            - link "flyctl 云服务 & 部署 全球部署和管理 Fly.io 应用 ⭐ 1.7k · Go brew npm deployment containers paas" [ref=e1088] [cursor=pointer]:
+              - /url: /zh/tools/flyctl
+              - generic [ref=e1089]:
+                - heading "flyctl" [level=2] [ref=e1090]
+                - generic [ref=e1091]: 云服务 & 部署
+              - paragraph [ref=e1092]: 全球部署和管理 Fly.io 应用
+              - generic [ref=e1093]:
+                - generic [ref=e1094]: ⭐ 1.7k
+                - generic [ref=e1095]: ·
+                - generic [ref=e1096]: Go
+                - generic [ref=e1097]: brew
+                - generic [ref=e1098]: npm
+              - generic [ref=e1099]:
+                - generic [ref=e1100]: deployment
+                - generic [ref=e1101]: containers
+                - generic [ref=e1102]: paas
+            - link "Wrangler 云服务 & 部署 在 CLI 中构建和部署 Cloudflare Workers ⭐ 4.1k · TypeScript npm edge serverless cloudflare" [ref=e1103] [cursor=pointer]:
+              - /url: /zh/tools/wrangler
+              - generic [ref=e1104]:
+                - heading "Wrangler" [level=2] [ref=e1105]
+                - generic [ref=e1106]: 云服务 & 部署
+              - paragraph [ref=e1107]: 在 CLI 中构建和部署 Cloudflare Workers
+              - generic [ref=e1108]:
+                - generic [ref=e1109]: ⭐ 4.1k
+                - generic [ref=e1110]: ·
+                - generic [ref=e1111]: TypeScript
+                - generic [ref=e1112]: npm
+              - generic [ref=e1113]:
+                - generic [ref=e1114]: edge
+                - generic [ref=e1115]: serverless
+                - generic [ref=e1116]: cloudflare
+            - link "Railway CLI 云服务 & 部署 在终端部署和管理 Railway 项目 ⭐ 544 · Rust npm brew deployment paas containers" [ref=e1117] [cursor=pointer]:
+              - /url: /zh/tools/railway
+              - generic [ref=e1118]:
+                - heading "Railway CLI" [level=2] [ref=e1119]
+                - generic [ref=e1120]: 云服务 & 部署
+              - paragraph [ref=e1121]: 在终端部署和管理 Railway 项目
+              - generic [ref=e1122]:
+                - generic [ref=e1123]: ⭐ 544
+                - generic [ref=e1124]: ·
+                - generic [ref=e1125]: Rust
+                - generic [ref=e1126]: npm
+                - generic [ref=e1127]: brew
+              - generic [ref=e1128]:
+                - generic [ref=e1129]: deployment
+                - generic [ref=e1130]: paas
+                - generic [ref=e1131]: containers
+            - link "Supabase CLI 云服务 & 部署 管理 Supabase 项目并运行本地开发环境 ⭐ 2.2k · Go npm brew database baas postgres" [ref=e1132] [cursor=pointer]:
+              - /url: /zh/tools/supabase
+              - generic [ref=e1133]:
+                - heading "Supabase CLI" [level=2] [ref=e1134]
+                - generic [ref=e1135]: 云服务 & 部署
+              - paragraph [ref=e1136]: 管理 Supabase 项目并运行本地开发环境
+              - generic [ref=e1137]:
+                - generic [ref=e1138]: ⭐ 2.2k
+                - generic [ref=e1139]: ·
+                - generic [ref=e1140]: Go
+                - generic [ref=e1141]: npm
+                - generic [ref=e1142]: brew
+              - generic [ref=e1143]:
+                - generic [ref=e1144]: database
+                - generic [ref=e1145]: baas
+                - generic [ref=e1146]: postgres
+            - link "Firebase CLI 云服务 & 部署 在终端部署和管理 Firebase 项目 ⭐ 4.4k · TypeScript npm baas google hosting" [ref=e1147] [cursor=pointer]:
+              - /url: /zh/tools/firebase-tools
+              - generic [ref=e1148]:
+                - heading "Firebase CLI" [level=2] [ref=e1149]
+                - generic [ref=e1150]: 云服务 & 部署
+              - paragraph [ref=e1151]: 在终端部署和管理 Firebase 项目
+              - generic [ref=e1152]:
+                - generic [ref=e1153]: ⭐ 4.4k
+                - generic [ref=e1154]: ·
+                - generic [ref=e1155]: TypeScript
+                - generic [ref=e1156]: npm
+              - generic [ref=e1157]:
+                - generic [ref=e1158]: baas
+                - generic [ref=e1159]: google
+                - generic [ref=e1160]: hosting
+            - link "Stripe CLI 开发工具 在终端测试 Stripe 集成并管理账户 ⭐ 2.0k · Go brew npm payments webhooks api" [ref=e1161] [cursor=pointer]:
+              - /url: /zh/tools/stripe
+              - generic [ref=e1162]:
+                - heading "Stripe CLI" [level=2] [ref=e1163]
+                - generic [ref=e1164]: 开发工具
+              - paragraph [ref=e1165]: 在终端测试 Stripe 集成并管理账户
+              - generic [ref=e1166]:
+                - generic [ref=e1167]: ⭐ 2.0k
+                - generic [ref=e1168]: ·
+                - generic [ref=e1169]: Go
+                - generic [ref=e1170]: brew
+                - generic [ref=e1171]: npm
+              - generic [ref=e1172]:
+                - generic [ref=e1173]: payments
+                - generic [ref=e1174]: webhooks
+                - generic [ref=e1175]: api
+            - link "doctl 云服务 & 部署 在命令行管理 DigitalOcean 资源 ⭐ 3.4k · Go brew vps kubernetes cloud" [ref=e1176] [cursor=pointer]:
+              - /url: /zh/tools/doctl
+              - generic [ref=e1177]:
+                - heading "doctl" [level=2] [ref=e1178]
+                - generic [ref=e1179]: 云服务 & 部署
+              - paragraph [ref=e1180]: 在命令行管理 DigitalOcean 资源
+              - generic [ref=e1181]:
+                - generic [ref=e1182]: ⭐ 3.4k
+                - generic [ref=e1183]: ·
+                - generic [ref=e1184]: Go
+                - generic [ref=e1185]: brew
+              - generic [ref=e1186]:
+                - generic [ref=e1187]: vps
+                - generic [ref=e1188]: kubernetes
+                - generic [ref=e1189]: cloud
+            - link "Heroku CLI 云服务 & 部署 在终端创建和管理 Heroku 应用 ⭐ 886 · TypeScript brew npm paas deployment dynos" [ref=e1190] [cursor=pointer]:
+              - /url: /zh/tools/heroku
+              - generic [ref=e1191]:
+                - heading "Heroku CLI" [level=2] [ref=e1192]
+                - generic [ref=e1193]: 云服务 & 部署
+              - paragraph [ref=e1194]: 在终端创建和管理 Heroku 应用
+              - generic [ref=e1195]:
+                - generic [ref=e1196]: ⭐ 886
+                - generic [ref=e1197]: ·
+                - generic [ref=e1198]: TypeScript
+                - generic [ref=e1199]: brew
+                - generic [ref=e1200]: npm
+              - generic [ref=e1201]:
+                - generic [ref=e1202]: paas
+                - generic [ref=e1203]: deployment
+                - generic [ref=e1204]: dynos
+            - link "Auth0 CLI 开发工具 在终端管理 Auth0 租户和资源 ⭐ 312 · Go brew auth identity security" [ref=e1205] [cursor=pointer]:
+              - /url: /zh/tools/auth0
+              - generic [ref=e1206]:
+                - heading "Auth0 CLI" [level=2] [ref=e1207]
+                - generic [ref=e1208]: 开发工具
+              - paragraph [ref=e1209]: 在终端管理 Auth0 租户和资源
+              - generic [ref=e1210]:
+                - generic [ref=e1211]: ⭐ 312
+                - generic [ref=e1212]: ·
+                - generic [ref=e1213]: Go
+                - generic [ref=e1214]: brew
+              - generic [ref=e1215]:
+                - generic [ref=e1216]: auth
+                - generic [ref=e1217]: identity
+                - generic [ref=e1218]: security
+            - link "Pulumi 云服务 & 部署 用真实编程语言编写基础设施即代码 ⭐ 25.2k · Go brew npm iac infrastructure multi-cloud" [ref=e1219] [cursor=pointer]:
+              - /url: /zh/tools/pulumi
+              - generic [ref=e1220]:
+                - heading "Pulumi" [level=2] [ref=e1221]
+                - generic [ref=e1222]: 云服务 & 部署
+              - paragraph [ref=e1223]: 用真实编程语言编写基础设施即代码
+              - generic [ref=e1224]:
+                - generic [ref=e1225]: ⭐ 25.2k
+                - generic [ref=e1226]: ·
+                - generic [ref=e1227]: Go
+                - generic [ref=e1228]: brew
+                - generic [ref=e1229]: npm
+              - generic [ref=e1230]:
+                - generic [ref=e1231]: iac
+                - generic [ref=e1232]: infrastructure
+                - generic [ref=e1233]: multi-cloud
+            - link "Doppler CLI 开发工具 从 Doppler 同步和注入密钥到任意环境 ⭐ 372 · Go brew secrets env-vars security" [ref=e1234] [cursor=pointer]:
+              - /url: /zh/tools/doppler
+              - generic [ref=e1235]:
+                - heading "Doppler CLI" [level=2] [ref=e1236]
+                - generic [ref=e1237]: 开发工具
+              - paragraph [ref=e1238]: 从 Doppler 同步和注入密钥到任意环境
+              - generic [ref=e1239]:
+                - generic [ref=e1240]: ⭐ 372
+                - generic [ref=e1241]: ·
+                - generic [ref=e1242]: Go
+                - generic [ref=e1243]: brew
+              - generic [ref=e1244]:
+                - generic [ref=e1245]: secrets
+                - generic [ref=e1246]: env-vars
+                - generic [ref=e1247]: security
+            - link "Resend CLI 开发工具 在终端发送邮件并管理 Resend 资源 ⭐ 369 · TypeScript npm email api transactional" [ref=e1248] [cursor=pointer]:
+              - /url: /zh/tools/resend
+              - generic [ref=e1249]:
+                - heading "Resend CLI" [level=2] [ref=e1250]
+                - generic [ref=e1251]: 开发工具
+              - paragraph [ref=e1252]: 在终端发送邮件并管理 Resend 资源
+              - generic [ref=e1253]:
+                - generic [ref=e1254]: ⭐ 369
+                - generic [ref=e1255]: ·
+                - generic [ref=e1256]: TypeScript
+                - generic [ref=e1257]: npm
+              - generic [ref=e1258]:
+                - generic [ref=e1259]: email
+                - generic [ref=e1260]: api
+                - generic [ref=e1261]: transactional
+            - link "Google Workspace CLI 效率 在命令行管理 Google Workspace 资源 ⭐ 26.3k · Rust npm google workspace admin" [ref=e1262] [cursor=pointer]:
+              - /url: /zh/tools/gwcli
+              - generic [ref=e1263]:
+                - heading "Google Workspace CLI" [level=2] [ref=e1264]
+                - generic [ref=e1265]: 效率
+              - paragraph [ref=e1266]: 在命令行管理 Google Workspace 资源
+              - generic [ref=e1267]:
+                - generic [ref=e1268]: ⭐ 26.3k
+                - generic [ref=e1269]: ·
+                - generic [ref=e1270]: Rust
+                - generic [ref=e1271]: npm
+              - generic [ref=e1272]:
+                - generic [ref=e1273]: google
+                - generic [ref=e1274]: workspace
+                - generic [ref=e1275]: admin
+            - link "Shopify CLI 开发工具 在终端构建和部署 Shopify 主题和应用 ⭐ 691 · TypeScript npm brew ecommerce shopify themes" [ref=e1276] [cursor=pointer]:
+              - /url: /zh/tools/shopify-cli
+              - generic [ref=e1277]:
+                - heading "Shopify CLI" [level=2] [ref=e1278]
+                - generic [ref=e1279]: 开发工具
+              - paragraph [ref=e1280]: 在终端构建和部署 Shopify 主题和应用
+              - generic [ref=e1281]:
+                - generic [ref=e1282]: ⭐ 691
+                - generic [ref=e1283]: ·
+                - generic [ref=e1284]: TypeScript
+                - generic [ref=e1285]: npm
+                - generic [ref=e1286]: brew
+              - generic [ref=e1287]:
+                - generic [ref=e1288]: ecommerce
+                - generic [ref=e1289]: shopify
+                - generic [ref=e1290]: themes
+            - link "Sentry CLI 开发工具 在终端管理 Sentry 发布版本和 Source Maps ⭐ 1.0k · Rust npm brew error-tracking monitoring source-maps" [ref=e1291] [cursor=pointer]:
+              - /url: /zh/tools/sentry-cli
+              - generic [ref=e1292]:
+                - heading "Sentry CLI" [level=2] [ref=e1293]
+                - generic [ref=e1294]: 开发工具
+              - paragraph [ref=e1295]: 在终端管理 Sentry 发布版本和 Source Maps
+              - generic [ref=e1296]:
+                - generic [ref=e1297]: ⭐ 1.0k
+                - generic [ref=e1298]: ·
+                - generic [ref=e1299]: Rust
+                - generic [ref=e1300]: npm
+                - generic [ref=e1301]: brew
+              - generic [ref=e1302]:
+                - generic [ref=e1303]: error-tracking
+                - generic [ref=e1304]: monitoring
+                - generic [ref=e1305]: source-maps
+            - link "PlanetScale CLI 数据库 在终端管理 PlanetScale 数据库和分支 ⭐ 652 · Go brew mysql serverless branching" [ref=e1306] [cursor=pointer]:
+              - /url: /zh/tools/pscale
+              - generic [ref=e1307]:
+                - heading "PlanetScale CLI" [level=2] [ref=e1308]
+                - generic [ref=e1309]: 数据库
+              - paragraph [ref=e1310]: 在终端管理 PlanetScale 数据库和分支
+              - generic [ref=e1311]:
+                - generic [ref=e1312]: ⭐ 652
+                - generic [ref=e1313]: ·
+                - generic [ref=e1314]: Go
+                - generic [ref=e1315]: brew
+              - generic [ref=e1316]:
+                - generic [ref=e1317]: mysql
+                - generic [ref=e1318]: serverless
+                - generic [ref=e1319]: branching
+            - link "Turso CLI 数据库 在命令行管理 Turso 边缘数据库 ⭐ 300 · Go brew npm sqlite edge libsql" [ref=e1320] [cursor=pointer]:
+              - /url: /zh/tools/turso
+              - generic [ref=e1321]:
+                - heading "Turso CLI" [level=2] [ref=e1322]
+                - generic [ref=e1323]: 数据库
+              - paragraph [ref=e1324]: 在命令行管理 Turso 边缘数据库
+              - generic [ref=e1325]:
+                - generic [ref=e1326]: ⭐ 300
+                - generic [ref=e1327]: ·
+                - generic [ref=e1328]: Go
+                - generic [ref=e1329]: brew
+                - generic [ref=e1330]: npm
+              - generic [ref=e1331]:
+                - generic [ref=e1332]: sqlite
+                - generic [ref=e1333]: edge
+                - generic [ref=e1334]: libsql
+            - link "Twilio CLI 开发工具 在终端发送短信、拨打电话并管理 Twilio 资源 ⭐ 189 · JavaScript npm brew sms voice communications" [ref=e1335] [cursor=pointer]:
+              - /url: /zh/tools/twilio
+              - generic [ref=e1336]:
+                - heading "Twilio CLI" [level=2] [ref=e1337]
+                - generic [ref=e1338]: 开发工具
+              - paragraph [ref=e1339]: 在终端发送短信、拨打电话并管理 Twilio 资源
+              - generic [ref=e1340]:
+                - generic [ref=e1341]: ⭐ 189
+                - generic [ref=e1342]: ·
+                - generic [ref=e1343]: JavaScript
+                - generic [ref=e1344]: npm
+                - generic [ref=e1345]: brew
+              - generic [ref=e1346]:
+                - generic [ref=e1347]: sms
+                - generic [ref=e1348]: voice
+                - generic [ref=e1349]: communications
+            - link "OpenCLI 开发工具 将任意网站或应用变成可脚本化的 CLI ⭐ 21.7k · TypeScript npm ai-native browser-automation cli-hub" [ref=e1350] [cursor=pointer]:
+              - /url: /zh/tools/opencli
+              - generic [ref=e1351]:
+                - heading "OpenCLI" [level=2] [ref=e1352]
+                - generic [ref=e1353]: 开发工具
+              - paragraph [ref=e1354]: 将任意网站或应用变成可脚本化的 CLI
+              - generic [ref=e1355]:
+                - generic [ref=e1356]: ⭐ 21.7k
+                - generic [ref=e1357]: ·
+                - generic [ref=e1358]: TypeScript
+                - generic [ref=e1359]: npm
+              - generic [ref=e1360]:
+                - generic [ref=e1361]: ai-native
+                - generic [ref=e1362]: browser-automation
+                - generic [ref=e1363]: cli-hub
+            - link "Android CLI 开发工具 Google 官方面向 AI Agent 的 Android 开发 CLI ⭐ 0 · Java brew android google agent-first" [ref=e1364] [cursor=pointer]:
+              - /url: /zh/tools/android-cli
+              - generic [ref=e1365]:
+                - heading "Android CLI" [level=2] [ref=e1366]
+                - generic [ref=e1367]: 开发工具
+              - paragraph [ref=e1368]: Google 官方面向 AI Agent 的 Android 开发 CLI
+              - generic [ref=e1369]:
+                - generic [ref=e1370]: ⭐ 0
+                - generic [ref=e1371]: ·
+                - generic [ref=e1372]: Java
+                - generic [ref=e1373]: brew
+              - generic [ref=e1374]:
+                - generic [ref=e1375]: android
+                - generic [ref=e1376]: google
+                - generic [ref=e1377]: agent-first
+            - link "Firecrawl CLI 开发工具 为 AI Agent 提供网页搜索、抓取和清洗能力 ⭐ 121.0k · TypeScript npm web-scraping crawling ai-agents" [ref=e1378] [cursor=pointer]:
+              - /url: /zh/tools/firecrawl
+              - generic [ref=e1379]:
+                - heading "Firecrawl CLI" [level=2] [ref=e1380]
+                - generic [ref=e1381]: 开发工具
+              - paragraph [ref=e1382]: 为 AI Agent 提供网页搜索、抓取和清洗能力
+              - generic [ref=e1383]:
+                - generic [ref=e1384]: ⭐ 121.0k
+                - generic [ref=e1385]: ·
+                - generic [ref=e1386]: TypeScript
+                - generic [ref=e1387]: npm
+              - generic [ref=e1388]:
+                - generic [ref=e1389]: web-scraping
+                - generic [ref=e1390]: crawling
+                - generic [ref=e1391]: ai-agents
+            - link "Valyu CLI 开发工具 为 AI Agent 提供实时网络与专有数据搜索 ⭐ 8 · TypeScript npm brew search research ai-agents" [ref=e1392] [cursor=pointer]:
+              - /url: /zh/tools/valyu
+              - generic [ref=e1393]:
+                - heading "Valyu CLI" [level=2] [ref=e1394]
+                - generic [ref=e1395]: 开发工具
+              - paragraph [ref=e1396]: 为 AI Agent 提供实时网络与专有数据搜索
+              - generic [ref=e1397]:
+                - generic [ref=e1398]: ⭐ 8
+                - generic [ref=e1399]: ·
+                - generic [ref=e1400]: TypeScript
+                - generic [ref=e1401]: npm
+                - generic [ref=e1402]: brew
+              - generic [ref=e1403]:
+                - generic [ref=e1404]: search
+                - generic [ref=e1405]: research
+                - generic [ref=e1406]: ai-agents
+            - link "PostHog CLI 开发工具 在终端设置和管理产品分析 ⭐ 24.0k · TypeScript brew analytics feature-flags monitoring" [ref=e1407] [cursor=pointer]:
+              - /url: /zh/tools/posthog
+              - generic [ref=e1408]:
+                - heading "PostHog CLI" [level=2] [ref=e1409]
+                - generic [ref=e1410]: 开发工具
+              - paragraph [ref=e1411]: 在终端设置和管理产品分析
+              - generic [ref=e1412]:
+                - generic [ref=e1413]: ⭐ 24.0k
+                - generic [ref=e1414]: ·
+                - generic [ref=e1415]: TypeScript
+                - generic [ref=e1416]: brew
+              - generic [ref=e1417]:
+                - generic [ref=e1418]: analytics
+                - generic [ref=e1419]: feature-flags
+                - generic [ref=e1420]: monitoring
+            - link "ElevenLabs CLI 媒体 在终端实现文字转语音、语音转文字和声音克隆 ⭐ 1.2k · TypeScript npm tts voice ai" [ref=e1421] [cursor=pointer]:
+              - /url: /zh/tools/elevenlabs
+              - generic [ref=e1422]:
+                - heading "ElevenLabs CLI" [level=2] [ref=e1423]
+                - generic [ref=e1424]: 媒体
+              - paragraph [ref=e1425]: 在终端实现文字转语音、语音转文字和声音克隆
+              - generic [ref=e1426]:
+                - generic [ref=e1427]: ⭐ 1.2k
+                - generic [ref=e1428]: ·
+                - generic [ref=e1429]: TypeScript
+                - generic [ref=e1430]: npm
+              - generic [ref=e1431]:
+                - generic [ref=e1432]: tts
+                - generic [ref=e1433]: voice
+                - generic [ref=e1434]: ai
+            - link "Agentmail CLI 效率 为 AI Agent 创建和管理邮件收件箱 ⭐ 120 · TypeScript npm email agents inbox" [ref=e1435] [cursor=pointer]:
+              - /url: /zh/tools/agentmail
+              - generic [ref=e1436]:
+                - heading "Agentmail CLI" [level=2] [ref=e1437]
+                - generic [ref=e1438]: 效率
+              - paragraph [ref=e1439]: 为 AI Agent 创建和管理邮件收件箱
+              - generic [ref=e1440]:
+                - generic [ref=e1441]: ⭐ 120
+                - generic [ref=e1442]: ·
+                - generic [ref=e1443]: TypeScript
+                - generic [ref=e1444]: npm
+              - generic [ref=e1445]:
+                - generic [ref=e1446]: email
+                - generic [ref=e1447]: agents
+                - generic [ref=e1448]: inbox
+            - link "Ramp CLI 效率 在终端查询交易记录并管理企业卡 ⭐ 0 · Go brew finance expenses corporate" [ref=e1449] [cursor=pointer]:
+              - /url: /zh/tools/ramp
+              - generic [ref=e1450]:
+                - heading "Ramp CLI" [level=2] [ref=e1451]
+                - generic [ref=e1452]: 效率
+              - paragraph [ref=e1453]: 在终端查询交易记录并管理企业卡
+              - generic [ref=e1454]:
+                - generic [ref=e1455]: ⭐ 0
+                - generic [ref=e1456]: ·
+                - generic [ref=e1457]: Go
+                - generic [ref=e1458]: brew
+              - generic [ref=e1459]:
+                - generic [ref=e1460]: finance
+                - generic [ref=e1461]: expenses
+                - generic [ref=e1462]: corporate
+  - contentinfo [ref=e1463]: 数据来源：awesome-cli-apps 及各工具官方页面

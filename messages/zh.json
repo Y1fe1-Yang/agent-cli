@@ -1,7 +1,12 @@
 {
   "hero": {
-    "title": "发现优质 CLI 工具",
-    "subtitle": "精选 {count} 款命令行工具，带中英双语介绍和 AI 环境兼容性标注"
+    "title": "AI Agent 时代\n的 CLI 工具箱。",
+    "subtitle": "精选 {count} 款 AI Agent 真正能用的命令行工具——非交互式、可脚本化、连接外部服务。",
+    "badge": "Agent 友好",
+    "terminalComment": "# Claude Code 驱动你的工作流",
+    "feature1": "非交互式输出",
+    "feature2": "可脚本化 & 管道化",
+    "feature3": "连接外部服务"
   },
   "search": {
     "placeholder": "搜索 CLI 工具...",

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import { tools, getAllCategories, getCategoryCount } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
+import Hero from '@/components/Hero';
 import ToolListClient from '@/components/ToolListClient';
 
 export async function generateMetadata({
@@ -12,7 +13,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'hero' });
   return {
-    title: t('title'),
+    title: 'CLI Tools for the Agent Era',
     description: t('subtitle', { count: tools.length }),
   };
 }
@@ -27,11 +28,14 @@ export default async function HomePage({
   const counts = getCategoryCount();
 
   return (
-    <ToolListClient
-      tools={tools}
-      locale={locale as Locale}
-      categories={categories}
-      counts={counts as Record<string, number>}
-    />
+    <>
+      <Hero locale={locale as Locale} count={tools.length} />
+      <ToolListClient
+        tools={tools}
+        locale={locale as Locale}
+        categories={categories}
+        counts={counts as Record<string, number>}
+      />
+    </>
   );
 }

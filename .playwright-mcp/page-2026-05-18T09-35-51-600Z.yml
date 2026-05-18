@@ -1,0 +1,1280 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsuperfly%2Fflyctl
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=superfly%2Fflyctl
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "superfly" [ref=e70] [cursor=pointer]:
+            - /url: /superfly
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "flyctl" [ref=e73] [cursor=pointer]:
+              - /url: /superfly/flyctl
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsuperfly%2Fflyctl
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 297" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsuperfly%2Fflyctl
+                - img [ref=e82]
+                - text: Fork
+                - generic "297" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsuperfly%2Fflyctl
+                - img [ref=e88]
+                - text: Star
+                - generic "1657 users starred this repository" [ref=e90]: 1.7k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /superfly/flyctl
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 260" [ref=e99] [cursor=pointer]:
+              - /url: /superfly/flyctl/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "260" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 112" [ref=e106] [cursor=pointer]:
+              - /url: /superfly/flyctl/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "112" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /superfly/flyctl/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /superfly/flyctl/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Models" [ref=e122] [cursor=pointer]:
+              - /url: /superfly/flyctl/models
+              - img [ref=e123]
+              - generic [ref=e125]: Models
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /superfly/flyctl/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]
+        - button "Additional navigation options" [ref=e135] [cursor=pointer]:
+          - img
+    - generic [ref=e148]:
+      - heading "superfly/flyctl" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "master branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: master
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "Go to Branches page" [ref=e168] [cursor=pointer]:
+                  - /url: /superfly/flyctl/branches
+                  - img [ref=e169]
+                - link "Go to Tags page" [ref=e171] [cursor=pointer]:
+                  - /url: /superfly/flyctl/tags
+                  - img [ref=e172]
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit dangra commits by dangra Remove LSVD commands (#4911) failure Commit e4090ac · May 15, 20264 days ago History 7,940 Commits" [ref=e191]:
+                    - cell "Latest commit dangra commits by dangra Remove LSVD commands (#4911) failure Commit e4090ac · May 15, 20264 days ago History 7,940 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e195]:
+                          - generic [ref=e197]:
+                            - link "dangra" [ref=e198] [cursor=pointer]:
+                              - /url: /dangra
+                              - img "dangra" [ref=e199]
+                            - link "commits by dangra" [ref=e200] [cursor=pointer]:
+                              - /url: /superfly/flyctl/commits?author=dangra
+                              - text: dangra
+                          - generic [ref=e201]:
+                            - generic [ref=e203]:
+                              - link "Remove LSVD commands (" [ref=e204] [cursor=pointer]:
+                                - /url: /superfly/flyctl/commit/e4090acb4e44253c06c85816d88ca4ad8422db07
+                              - link "#4911" [ref=e205] [cursor=pointer]:
+                                - /url: https://github.com/superfly/flyctl/pull/4911
+                              - link ")" [ref=e206] [cursor=pointer]:
+                                - /url: /superfly/flyctl/commit/e4090acb4e44253c06c85816d88ca4ad8422db07
+                            - button "failure" [ref=e207] [cursor=pointer]:
+                              - img [ref=e208]
+                        - generic [ref=e210]:
+                          - generic [ref=e212]:
+                            - link "Commit e4090ac" [ref=e213] [cursor=pointer]:
+                              - /url: /superfly/flyctl/commit/e4090acb4e44253c06c85816d88ca4ad8422db07
+                              - text: e4090ac
+                            - text: ·
+                            - generic "May 15, 2026, 1:43 AM GMT+8" [ref=e214]: May 15, 20264 days ago
+                          - generic [ref=e215]:
+                            - heading "History" [level=2] [ref=e216]
+                            - link "7,940 Commits" [ref=e217] [cursor=pointer]:
+                              - /url: /superfly/flyctl/commits/master/
+                              - generic [ref=e218]:
+                                - generic:
+                                  - img
+                                - generic [ref=e219]: 7,940 Commits
+                  - row ".direnv, (Directory) Update preflight run instruction Mar 13, 20233 years ago" [ref=e220]:
+                    - cell ".direnv, (Directory)" [ref=e221]:
+                      - generic [ref=e222]:
+                        - img [ref=e223]
+                        - link ".direnv, (Directory)" [ref=e228] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/.direnv
+                          - text: .direnv
+                    - cell "Update preflight run instruction" [ref=e229]:
+                      - link "Update preflight run instruction" [ref=e232] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/0eae6d54f067ccf417bc0ef72211f7105ba945cb
+                    - cell "Mar 13, 20233 years ago" [ref=e233]:
+                      - generic [ref=e234]: Mar 13, 20233 years ago
+                  - 'row ".github, (Directory) chore(deps): bump slackapi/slack-github-action from 3.0.1 to 3.0.3 (#… May 8, 2026last week" [ref=e235]':
+                    - cell ".github, (Directory)" [ref=e236]:
+                      - generic [ref=e237]:
+                        - img [ref=e238]
+                        - link ".github, (Directory)" [ref=e243] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/.github
+                          - text: .github
+                    - 'cell "chore(deps): bump slackapi/slack-github-action from 3.0.1 to 3.0.3 (#…" [ref=e244]':
+                      - generic [ref=e246]:
+                        - 'link "chore(deps): bump slackapi/slack-github-action from 3.0.1 to 3.0.3 (" [ref=e247] [cursor=pointer]':
+                          - /url: /superfly/flyctl/commit/70624c79dff76a2f3c3614be654b012f4c9663e8
+                        - link "#…" [ref=e248] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4897
+                    - cell "May 8, 2026last week" [ref=e249]:
+                      - generic [ref=e250]: May 8, 2026last week
+                  - row ".vscode, (Directory) migrate last test and appease linter Aug 18, 20233 years ago" [ref=e251]:
+                    - cell ".vscode, (Directory)" [ref=e252]:
+                      - generic [ref=e253]:
+                        - img [ref=e254]
+                        - link ".vscode, (Directory)" [ref=e259] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/.vscode
+                          - text: .vscode
+                    - cell "migrate last test and appease linter" [ref=e260]:
+                      - link "migrate last test and appease linter" [ref=e263] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/871e5bd77ec04d81210839cad3ff7b33e33cbf35
+                    - cell "Aug 18, 20233 years ago" [ref=e264]:
+                      - generic [ref=e265]: Aug 18, 20233 years ago
+                  - row "agent, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e266]:
+                    - cell "agent, (Directory)" [ref=e267]:
+                      - generic [ref=e268]:
+                        - img [ref=e269]
+                        - link "agent, (Directory)" [ref=e274] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/agent
+                          - text: agent
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e275]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e278] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e279]:
+                      - generic [ref=e280]: Mar 16, 20262 months ago
+                  - row "aur, (Directory) Make PKGBUILD diffs easier to review Feb 24, 20233 years ago" [ref=e281]:
+                    - cell "aur, (Directory)" [ref=e282]:
+                      - generic [ref=e283]:
+                        - img [ref=e284]
+                        - link "aur, (Directory)" [ref=e289] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/aur
+                          - text: aur
+                    - cell "Make PKGBUILD diffs easier to review" [ref=e290]:
+                      - link "Make PKGBUILD diffs easier to review" [ref=e293] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/75cd3def90fa50f7d16e912ed8f350ac5d162835
+                    - cell "Feb 24, 20233 years ago" [ref=e294]:
+                      - generic [ref=e295]: Feb 24, 20233 years ago
+                  - row "cmd/audit, (Directory) Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.1.4 (#4781) Apr 9, 2026last month" [ref=e296]:
+                    - cell "cmd/audit, (Directory)" [ref=e297]:
+                      - generic [ref=e298]:
+                        - img [ref=e299]
+                        - link "cmd/audit, (Directory)" [ref=e304] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/cmd/audit
+                          - text: cmd/audit
+                    - cell "Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.1.4 (#4781)" [ref=e305]:
+                      - generic [ref=e307]:
+                        - link "Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.1.4 (" [ref=e308] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/0fdd4ea11db5328947294734743c495d2117bbcf
+                        - link "#4781" [ref=e309] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4781
+                        - link ")" [ref=e310] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/0fdd4ea11db5328947294734743c495d2117bbcf
+                    - cell "Apr 9, 2026last month" [ref=e311]:
+                      - generic [ref=e312]: Apr 9, 2026last month
+                  - row "deps/wintun, (Directory) Fix build workflow (#382) Mar 25, 20215 years ago" [ref=e313]:
+                    - cell "deps/wintun, (Directory)" [ref=e314]:
+                      - generic [ref=e315]:
+                        - img [ref=e316]
+                        - link "deps/wintun, (Directory)" [ref=e321] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/deps/wintun
+                          - text: deps/wintun
+                    - cell "Fix build workflow (#382)" [ref=e322]:
+                      - generic [ref=e324]:
+                        - link "Fix build workflow (" [ref=e325] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/bd3875f7873d0c70338a1f381f57ff30df8b8ffe
+                        - link "#382" [ref=e326] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/382
+                        - link ")" [ref=e327] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/bd3875f7873d0c70338a1f381f57ff30df8b8ffe
+                    - cell "Mar 25, 20215 years ago" [ref=e328]:
+                      - generic [ref=e329]: Mar 25, 20215 years ago
+                  - row "doc, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e330]:
+                    - cell "doc, (Directory)" [ref=e331]:
+                      - generic [ref=e332]:
+                        - img [ref=e333]
+                        - link "doc, (Directory)" [ref=e338] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/doc
+                          - text: doc
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e339]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e342] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e343]:
+                      - generic [ref=e344]: Mar 16, 20262 months ago
+                  - row "flyctl, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e345]:
+                    - cell "flyctl, (Directory)" [ref=e346]:
+                      - generic [ref=e347]:
+                        - img [ref=e348]
+                        - link "flyctl, (Directory)" [ref=e353] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/flyctl
+                          - text: flyctl
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e354]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e357] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e358]:
+                      - generic [ref=e359]: Mar 16, 20262 months ago
+                  - 'row "flypg, (Directory) refactor: use Flaps CreateApp for app creation (#4865) Apr 29, 20263 weeks ago" [ref=e360]':
+                    - cell "flypg, (Directory)" [ref=e361]:
+                      - generic [ref=e362]:
+                        - img [ref=e363]
+                        - link "flypg, (Directory)" [ref=e368] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/flypg
+                          - text: flypg
+                    - 'cell "refactor: use Flaps CreateApp for app creation (#4865)" [ref=e369]':
+                      - generic [ref=e371]:
+                        - 'link "refactor: use Flaps CreateApp for app creation (" [ref=e372] [cursor=pointer]':
+                          - /url: /superfly/flyctl/commit/b5b86306a98e73c98e54d268174683d10e89eb76
+                        - link "#4865" [ref=e373] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4865
+                        - link ")" [ref=e374] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/b5b86306a98e73c98e54d268174683d10e89eb76
+                    - cell "Apr 29, 20263 weeks ago" [ref=e375]:
+                      - generic [ref=e376]: Apr 29, 20263 weeks ago
+                  - row "gql, (Directory) Add org setting for network scoped replays (#4885) May 1, 20262 weeks ago" [ref=e377]:
+                    - cell "gql, (Directory)" [ref=e378]:
+                      - generic [ref=e379]:
+                        - img [ref=e380]
+                        - link "gql, (Directory)" [ref=e385] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/gql
+                          - text: gql
+                    - cell "Add org setting for network scoped replays (#4885)" [ref=e386]:
+                      - generic [ref=e388]:
+                        - link "Add org setting for network scoped replays (" [ref=e389] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/93368e488c931cae9369e2883b67b5ba64396225
+                        - link "#4885" [ref=e390] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4885
+                        - link ")" [ref=e391] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/93368e488c931cae9369e2883b67b5ba64396225
+                    - cell "May 1, 20262 weeks ago" [ref=e392]:
+                      - generic [ref=e393]: May 1, 20262 weeks ago
+                  - row "helpers, (Directory) Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.1.4 (#4781) Apr 9, 2026last month" [ref=e394]:
+                    - cell "helpers, (Directory)" [ref=e395]:
+                      - generic [ref=e396]:
+                        - img [ref=e397]
+                        - link "helpers, (Directory)" [ref=e402] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/helpers
+                          - text: helpers
+                    - cell "Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.1.4 (#4781)" [ref=e403]:
+                      - generic [ref=e405]:
+                        - link "Bump github.com/olekukonko/tablewriter from 0.0.5 to 1.1.4 (" [ref=e406] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/0fdd4ea11db5328947294734743c495d2117bbcf
+                        - link "#4781" [ref=e407] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4781
+                        - link ")" [ref=e408] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/0fdd4ea11db5328947294734743c495d2117bbcf
+                    - cell "Apr 9, 2026last month" [ref=e409]:
+                      - generic [ref=e410]: Apr 9, 2026last month
+                  - row "internal, (Directory) Remove LSVD commands (#4911) May 15, 20264 days ago" [ref=e411]:
+                    - cell "internal, (Directory)" [ref=e412]:
+                      - generic [ref=e413]:
+                        - img [ref=e414]
+                        - link "internal, (Directory)" [ref=e419] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/internal
+                          - text: internal
+                    - cell "Remove LSVD commands (#4911)" [ref=e420]:
+                      - generic [ref=e422]:
+                        - link "Remove LSVD commands (" [ref=e423] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/e4090acb4e44253c06c85816d88ca4ad8422db07
+                        - link "#4911" [ref=e424] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4911
+                        - link ")" [ref=e425] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/e4090acb4e44253c06c85816d88ca4ad8422db07
+                    - cell "May 15, 20264 days ago" [ref=e426]:
+                      - generic [ref=e427]: May 15, 20264 days ago
+                  - row "iostreams, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e428]:
+                    - cell "iostreams, (Directory)" [ref=e429]:
+                      - generic [ref=e430]:
+                        - img [ref=e431]
+                        - link "iostreams, (Directory)" [ref=e436] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/iostreams
+                          - text: iostreams
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e437]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e440] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e441]:
+                      - generic [ref=e442]: Mar 16, 20262 months ago
+                  - row "ip, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e443]:
+                    - cell "ip, (Directory)" [ref=e444]:
+                      - generic [ref=e445]:
+                        - img [ref=e446]
+                        - link "ip, (Directory)" [ref=e451] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/ip
+                          - text: ip
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e452]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e455] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e456]:
+                      - generic [ref=e457]: Mar 16, 20262 months ago
+                  - row "logs, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e458]:
+                    - cell "logs, (Directory)" [ref=e459]:
+                      - generic [ref=e460]:
+                        - img [ref=e461]
+                        - link "logs, (Directory)" [ref=e466] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/logs
+                          - text: logs
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e467]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e470] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e471]:
+                      - generic [ref=e472]: Mar 16, 20262 months ago
+                  - row "proxy, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e473]:
+                    - cell "proxy, (Directory)" [ref=e474]:
+                      - generic [ref=e475]:
+                        - img [ref=e476]
+                        - link "proxy, (Directory)" [ref=e481] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/proxy
+                          - text: proxy
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e482]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e485] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e486]:
+                      - generic [ref=e487]: Mar 16, 20262 months ago
+                  - row "scanner, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e488]:
+                    - cell "scanner, (Directory)" [ref=e489]:
+                      - generic [ref=e490]:
+                        - img [ref=e491]
+                        - link "scanner, (Directory)" [ref=e496] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/scanner
+                          - text: scanner
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e497]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e500] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e501]:
+                      - generic [ref=e502]: Mar 16, 20262 months ago
+                  - row "scripts, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e503]:
+                    - cell "scripts, (Directory)" [ref=e504]:
+                      - generic [ref=e505]:
+                        - img [ref=e506]
+                        - link "scripts, (Directory)" [ref=e511] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/scripts
+                          - text: scripts
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e512]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e515] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e516]:
+                      - generic [ref=e517]: Mar 16, 20262 months ago
+                  - row "ssh, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e518]:
+                    - cell "ssh, (Directory)" [ref=e519]:
+                      - generic [ref=e520]:
+                        - img [ref=e521]
+                        - link "ssh, (Directory)" [ref=e526] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/ssh
+                          - text: ssh
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e527]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e530] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e531]:
+                      - generic [ref=e532]: Mar 16, 20262 months ago
+                  - row "terminal, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e533]:
+                    - cell "terminal, (Directory)" [ref=e534]:
+                      - generic [ref=e535]:
+                        - img [ref=e536]
+                        - link "terminal, (Directory)" [ref=e541] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/terminal
+                          - text: terminal
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e542]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e545] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e546]:
+                      - generic [ref=e547]: Mar 16, 20262 months ago
+                  - row "test/preflight, (Directory) Fix flake in TestAppsV2Config_ProcessGroups test (#4858) Apr 24, 20263 weeks ago" [ref=e548]:
+                    - cell "test/preflight, (Directory)" [ref=e549]:
+                      - generic [ref=e550]:
+                        - img [ref=e551]
+                        - link "test/preflight, (Directory)" [ref=e556] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/test/preflight
+                          - text: test/preflight
+                    - cell "Fix flake in TestAppsV2Config_ProcessGroups test (#4858)" [ref=e557]:
+                      - generic [ref=e559]:
+                        - link "Fix flake in TestAppsV2Config_ProcessGroups test (" [ref=e560] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/ef216d203c58b7f164019af943dee89ba625bae1
+                        - link "#4858" [ref=e561] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4858
+                        - link ")" [ref=e562] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/ef216d203c58b7f164019af943dee89ba625bae1
+                    - cell "Apr 24, 20263 weeks ago" [ref=e563]:
+                      - generic [ref=e564]: Apr 24, 20263 weeks ago
+                  - row "tools, (Directory) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e565]:
+                    - cell "tools, (Directory)" [ref=e566]:
+                      - generic [ref=e567]:
+                        - img [ref=e568]
+                        - link "tools, (Directory)" [ref=e573] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/tools
+                          - text: tools
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e574]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e577] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e578]:
+                      - generic [ref=e579]: Mar 16, 20262 months ago
+                  - 'row "wg, (Directory) fix: harden IPv6 host/port URL handling for remote builder and tunnel… Mar 21, 20262 months ago" [ref=e580]':
+                    - cell "wg, (Directory)" [ref=e581]:
+                      - generic [ref=e582]:
+                        - img [ref=e583]
+                        - link "wg, (Directory)" [ref=e588] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/wg
+                          - text: wg
+                    - 'cell "fix: harden IPv6 host/port URL handling for remote builder and tunnel…" [ref=e589]':
+                      - 'link "fix: harden IPv6 host/port URL handling for remote builder and tunnel…" [ref=e592] [cursor=pointer]':
+                        - /url: /superfly/flyctl/commit/c77732c080ebda76cdb539007353d2ac61977f34
+                    - cell "Mar 21, 20262 months ago" [ref=e593]:
+                      - generic [ref=e594]: Mar 21, 20262 months ago
+                  - row ".deepsource.toml, (File) Create .deepsource.toml Jan 17, 20207 years ago" [ref=e595]:
+                    - cell ".deepsource.toml, (File)" [ref=e596]:
+                      - generic [ref=e597]:
+                        - img [ref=e598]
+                        - link ".deepsource.toml, (File)" [ref=e603] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.deepsource.toml
+                          - text: .deepsource.toml
+                    - cell "Create .deepsource.toml" [ref=e604]:
+                      - link "Create .deepsource.toml" [ref=e607] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/d85efda3cbba4dad190fc755c6ca1e7a53b68661
+                    - cell "Jan 17, 20207 years ago" [ref=e608]:
+                      - generic [ref=e609]: Jan 17, 20207 years ago
+                  - row ".gitignore, (File) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e610]:
+                    - cell ".gitignore, (File)" [ref=e611]:
+                      - generic [ref=e612]:
+                        - img [ref=e613]
+                        - link ".gitignore, (File)" [ref=e618] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e619]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e622] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e623]:
+                      - generic [ref=e624]: Mar 16, 20262 months ago
+                  - row ".golangci.yml, (File) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e625]:
+                    - cell ".golangci.yml, (File)" [ref=e626]:
+                      - generic [ref=e627]:
+                        - img [ref=e628]
+                        - link ".golangci.yml, (File)" [ref=e633] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.golangci.yml
+                          - text: .golangci.yml
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e634]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e637] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e638]:
+                      - generic [ref=e639]: Mar 16, 20262 months ago
+                  - row ".goreleaser.2.yml, (File) Bump goreleaser/goreleaser-action from 5 to 7 (#4746) Feb 24, 20263 months ago" [ref=e640]:
+                    - cell ".goreleaser.2.yml, (File)" [ref=e641]:
+                      - generic [ref=e642]:
+                        - img [ref=e643]
+                        - link ".goreleaser.2.yml, (File)" [ref=e648] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.goreleaser.2.yml
+                          - text: .goreleaser.2.yml
+                    - cell "Bump goreleaser/goreleaser-action from 5 to 7 (#4746)" [ref=e649]:
+                      - generic [ref=e651]:
+                        - link "Bump goreleaser/goreleaser-action from 5 to 7 (" [ref=e652] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/c4e6d8d4dd7c046b1e5bc5f57881502d22a2b940
+                        - link "#4746" [ref=e653] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4746
+                        - link ")" [ref=e654] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/c4e6d8d4dd7c046b1e5bc5f57881502d22a2b940
+                    - cell "Feb 24, 20263 months ago" [ref=e655]:
+                      - generic [ref=e656]: Feb 24, 20263 months ago
+                  - row ".goreleaser.yml, (File) Bump goreleaser/goreleaser-action from 5 to 7 (#4746) Feb 24, 20263 months ago" [ref=e657]:
+                    - cell ".goreleaser.yml, (File)" [ref=e658]:
+                      - generic [ref=e659]:
+                        - img [ref=e660]
+                        - link ".goreleaser.yml, (File)" [ref=e665] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.goreleaser.yml
+                          - text: .goreleaser.yml
+                    - cell "Bump goreleaser/goreleaser-action from 5 to 7 (#4746)" [ref=e666]:
+                      - generic [ref=e668]:
+                        - link "Bump goreleaser/goreleaser-action from 5 to 7 (" [ref=e669] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/c4e6d8d4dd7c046b1e5bc5f57881502d22a2b940
+                        - link "#4746" [ref=e670] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4746
+                        - link ")" [ref=e671] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/c4e6d8d4dd7c046b1e5bc5f57881502d22a2b940
+                    - cell "Feb 24, 20263 months ago" [ref=e672]:
+                      - generic [ref=e673]: Feb 24, 20263 months ago
+                  - row ".pre-commit-config.yaml, (File) Switch pre-commit to prek and enable new linters Mar 16, 20262 months ago" [ref=e674]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e675]:
+                      - generic [ref=e676]:
+                        - img [ref=e677]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e682] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell "Switch pre-commit to prek and enable new linters" [ref=e683]:
+                      - link "Switch pre-commit to prek and enable new linters" [ref=e686] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30a1c2c117d9e9b340ee70113716dc738dfb3bfa
+                    - cell "Mar 16, 20262 months ago" [ref=e687]:
+                      - generic [ref=e688]: Mar 16, 20262 months ago
+                  - row "CONTRIBUTING.md, (File) Update building instructions in CONTRIBUTING.md (#3050) Nov 18, 20233 years ago" [ref=e689]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e690]:
+                      - generic [ref=e691]:
+                        - img [ref=e692]
+                        - link "CONTRIBUTING.md, (File)" [ref=e697] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell "Update building instructions in CONTRIBUTING.md (#3050)" [ref=e698]:
+                      - generic [ref=e700]:
+                        - link "Update building instructions in CONTRIBUTING.md (" [ref=e701] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/5dcfd7514a6b3b94bb9038453960bd33b5035fdc
+                        - link "#3050" [ref=e702] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/3050
+                        - link ")" [ref=e703] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/5dcfd7514a6b3b94bb9038453960bd33b5035fdc
+                    - cell "Nov 18, 20233 years ago" [ref=e704]:
+                      - generic [ref=e705]: Nov 18, 20233 years ago
+                  - 'row "Dockerfile, (File) build: upgrade Go to 1.24.5 (#4519) Aug 9, 20259 months ago" [ref=e706]':
+                    - cell "Dockerfile, (File)" [ref=e707]:
+                      - generic [ref=e708]:
+                        - img [ref=e709]
+                        - link "Dockerfile, (File)" [ref=e714] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Dockerfile
+                          - text: Dockerfile
+                    - 'cell "build: upgrade Go to 1.24.5 (#4519)" [ref=e715]':
+                      - generic [ref=e717]:
+                        - 'link "build: upgrade Go to 1.24.5 (" [ref=e718] [cursor=pointer]':
+                          - /url: /superfly/flyctl/commit/751fcea33be3e38ab435c815acbd03a61bd42d6d
+                        - link "#4519" [ref=e719] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4519
+                        - link ")" [ref=e720] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/751fcea33be3e38ab435c815acbd03a61bd42d6d
+                    - cell "Aug 9, 20259 months ago" [ref=e721]:
+                      - generic [ref=e722]: Aug 9, 20259 months ago
+                  - 'row "Dockerfile.dev, (File) build: upgrade Go to 1.24.5 (#4519) Aug 9, 20259 months ago" [ref=e723]':
+                    - cell "Dockerfile.dev, (File)" [ref=e724]:
+                      - generic [ref=e725]:
+                        - img [ref=e726]
+                        - link "Dockerfile.dev, (File)" [ref=e731] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Dockerfile.dev
+                          - text: Dockerfile.dev
+                    - 'cell "build: upgrade Go to 1.24.5 (#4519)" [ref=e732]':
+                      - generic [ref=e734]:
+                        - 'link "build: upgrade Go to 1.24.5 (" [ref=e735] [cursor=pointer]':
+                          - /url: /superfly/flyctl/commit/751fcea33be3e38ab435c815acbd03a61bd42d6d
+                        - link "#4519" [ref=e736] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4519
+                        - link ")" [ref=e737] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/751fcea33be3e38ab435c815acbd03a61bd42d6d
+                    - cell "Aug 9, 20259 months ago" [ref=e738]:
+                      - generic [ref=e739]: Aug 9, 20259 months ago
+                  - row "Dockerfile.mcp, (File) flyio/mcp image += uv (#4365) May 12, 2025last year" [ref=e740]:
+                    - cell "Dockerfile.mcp, (File)" [ref=e741]:
+                      - generic [ref=e742]:
+                        - img [ref=e743]
+                        - link "Dockerfile.mcp, (File)" [ref=e748] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Dockerfile.mcp
+                          - text: Dockerfile.mcp
+                    - cell "flyio/mcp image += uv (#4365)" [ref=e749]:
+                      - generic [ref=e751]:
+                        - link "flyio/mcp image += uv (" [ref=e752] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/0abd7f2641270459cdc58a11b641fa835a2a07db
+                        - link "#4365" [ref=e753] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4365
+                        - link ")" [ref=e754] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/0abd7f2641270459cdc58a11b641fa835a2a07db
+                    - cell "May 12, 2025last year" [ref=e755]:
+                      - generic [ref=e756]: May 12, 2025last year
+                  - row "LICENSE, (File) Apache 2.0 license Jan 30, 20207 years ago" [ref=e757]:
+                    - cell "LICENSE, (File)" [ref=e758]:
+                      - generic [ref=e759]:
+                        - img [ref=e760]
+                        - link "LICENSE, (File)" [ref=e765] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell "Apache 2.0 license" [ref=e766]:
+                      - link "Apache 2.0 license" [ref=e769] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/8315ac0c11c8d4c08bb770bc45632267c3506db9
+                    - cell "Jan 30, 20207 years ago" [ref=e770]:
+                      - generic [ref=e771]: Jan 30, 20207 years ago
+                  - row "Makefile, (File) Improve launch metrics reporting (#3394) Mar 22, 20242 years ago" [ref=e772]:
+                    - cell "Makefile, (File)" [ref=e773]:
+                      - generic [ref=e774]:
+                        - img [ref=e775]
+                        - link "Makefile, (File)" [ref=e780] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Makefile
+                          - text: Makefile
+                    - cell "Improve launch metrics reporting (#3394)" [ref=e781]:
+                      - generic [ref=e783]:
+                        - link "Improve launch metrics reporting (" [ref=e784] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8a8148c57ace58909fd9f4eb413443a965fc50ea
+                        - link "#3394" [ref=e785] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/3394
+                        - link ")" [ref=e786] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8a8148c57ace58909fd9f4eb413443a965fc50ea
+                    - cell "Mar 22, 20242 years ago" [ref=e787]:
+                      - generic [ref=e788]: Mar 22, 20242 years ago
+                  - row "README.md, (File) removed stale docs about building via docker (#4462) Jul 7, 202510 months ago" [ref=e789]:
+                    - cell "README.md, (File)" [ref=e790]:
+                      - generic [ref=e791]:
+                        - img [ref=e792]
+                        - link "README.md, (File)" [ref=e797] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/README.md
+                          - text: README.md
+                    - cell "removed stale docs about building via docker (#4462)" [ref=e798]:
+                      - generic [ref=e800]:
+                        - link "removed stale docs about building via docker (" [ref=e801] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/f260d6c6449a4b082c47ceffc2c5e111cef4e66f
+                        - link "#4462" [ref=e802] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/4462
+                        - link ")" [ref=e803] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/f260d6c6449a4b082c47ceffc2c5e111cef4e66f
+                    - cell "Jul 7, 202510 months ago" [ref=e804]:
+                      - generic [ref=e805]: Jul 7, 202510 months ago
+                  - row "building.md, (File) Add github workflow Aug 12, 20224 years ago" [ref=e806]:
+                    - cell "building.md, (File)" [ref=e807]:
+                      - generic [ref=e808]:
+                        - img [ref=e809]
+                        - link "building.md, (File)" [ref=e814] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/building.md
+                          - text: building.md
+                    - cell "Add github workflow" [ref=e815]:
+                      - link "Add github workflow" [ref=e818] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/30917786f10e8e64d03480460e65dbd274a350aa
+                    - cell "Aug 12, 20224 years ago" [ref=e819]:
+                      - generic [ref=e820]: Aug 12, 20224 years ago
+                  - row "debug_unix.go, (File) Go 1.21.7 (#3268) Feb 10, 20242 years ago" [ref=e821]:
+                    - cell "debug_unix.go, (File)" [ref=e822]:
+                      - generic [ref=e823]:
+                        - img [ref=e824]
+                        - link "debug_unix.go, (File)" [ref=e829] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/debug_unix.go
+                          - text: debug_unix.go
+                    - cell "Go 1.21.7 (#3268)" [ref=e830]:
+                      - generic [ref=e832]:
+                        - link "Go 1.21.7 (" [ref=e833] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8bde0ac4f84b7824ced569b8d34b33fed6b549a6
+                        - link "#3268" [ref=e834] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/3268
+                        - link ")" [ref=e835] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8bde0ac4f84b7824ced569b8d34b33fed6b549a6
+                    - cell "Feb 10, 20242 years ago" [ref=e836]:
+                      - generic [ref=e837]: Feb 10, 20242 years ago
+                  - row "debug_windows.go, (File) Go 1.21.7 (#3268) Feb 10, 20242 years ago" [ref=e838]:
+                    - cell "debug_windows.go, (File)" [ref=e839]:
+                      - generic [ref=e840]:
+                        - img [ref=e841]
+                        - link "debug_windows.go, (File)" [ref=e846] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/debug_windows.go
+                          - text: debug_windows.go
+                    - cell "Go 1.21.7 (#3268)" [ref=e847]:
+                      - generic [ref=e849]:
+                        - link "Go 1.21.7 (" [ref=e850] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8bde0ac4f84b7824ced569b8d34b33fed6b549a6
+                        - link "#3268" [ref=e851] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/3268
+                        - link ")" [ref=e852] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8bde0ac4f84b7824ced569b8d34b33fed6b549a6
+                    - cell "Feb 10, 20242 years ago" [ref=e853]:
+                      - generic [ref=e854]: Feb 10, 20242 years ago
+                  - row "genqlient.yaml, (File) Externalize API client (#3284) Feb 15, 20242 years ago" [ref=e855]:
+                    - cell "genqlient.yaml, (File)" [ref=e856]:
+                      - generic [ref=e857]:
+                        - img [ref=e858]
+                        - link "genqlient.yaml, (File)" [ref=e863] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/genqlient.yaml
+                          - text: genqlient.yaml
+                    - cell "Externalize API client (#3284)" [ref=e864]:
+                      - generic [ref=e866]:
+                        - link "Externalize API client (" [ref=e867] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/badddb93521e5696eaeffcd8d29d975030bf4628
+                        - link "#3284" [ref=e868] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/3284
+                        - link ")" [ref=e869] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/badddb93521e5696eaeffcd8d29d975030bf4628
+                    - cell "Feb 15, 20242 years ago" [ref=e870]:
+                      - generic [ref=e871]: Feb 15, 20242 years ago
+                  - 'row "go.mod, (File) fix(mcp): allow JSON comments and trailing commas in editor settings … May 14, 20264 days ago" [ref=e872]':
+                    - cell "go.mod, (File)" [ref=e873]:
+                      - generic [ref=e874]:
+                        - img [ref=e875]
+                        - link "go.mod, (File)" [ref=e880] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/go.mod
+                          - text: go.mod
+                    - 'cell "fix(mcp): allow JSON comments and trailing commas in editor settings …" [ref=e881]':
+                      - 'link "fix(mcp): allow JSON comments and trailing commas in editor settings …" [ref=e884] [cursor=pointer]':
+                        - /url: /superfly/flyctl/commit/e1f4f5b78407b63d62dd92268c748e6eb73d795f
+                    - cell "May 14, 20264 days ago" [ref=e885]:
+                      - generic [ref=e886]: May 14, 20264 days ago
+                  - 'row "go.sum, (File) fix(mcp): allow JSON comments and trailing commas in editor settings … May 14, 20264 days ago" [ref=e887]':
+                    - cell "go.sum, (File)" [ref=e888]:
+                      - generic [ref=e889]:
+                        - img [ref=e890]
+                        - link "go.sum, (File)" [ref=e895] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/go.sum
+                          - text: go.sum
+                    - 'cell "fix(mcp): allow JSON comments and trailing commas in editor settings …" [ref=e896]':
+                      - 'link "fix(mcp): allow JSON comments and trailing commas in editor settings …" [ref=e899] [cursor=pointer]':
+                        - /url: /superfly/flyctl/commit/e1f4f5b78407b63d62dd92268c748e6eb73d795f
+                    - cell "May 14, 20264 days ago" [ref=e900]:
+                      - generic [ref=e901]: May 14, 20264 days ago
+                  - row "main.go, (File) Handle SIGUSR2 and dump goroutines on the signal Jul 4, 20233 years ago" [ref=e902]:
+                    - cell "main.go, (File)" [ref=e903]:
+                      - generic [ref=e904]:
+                        - img [ref=e905]
+                        - link "main.go, (File)" [ref=e910] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/main.go
+                          - text: main.go
+                    - cell "Handle SIGUSR2 and dump goroutines on the signal" [ref=e911]:
+                      - link "Handle SIGUSR2 and dump goroutines on the signal" [ref=e914] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/34d9bbe52f12c0c059a618b1b1f0374603ce1799
+                    - cell "Jul 4, 20233 years ago" [ref=e915]:
+                      - generic [ref=e916]: Jul 4, 20233 years ago
+                  - 'row "shell.nix, (File) shell.nix: bump nixpkgs to a revision with go_1_21 (#2813) Sep 11, 20233 years ago" [ref=e917]':
+                    - cell "shell.nix, (File)" [ref=e918]:
+                      - generic [ref=e919]:
+                        - img [ref=e920]
+                        - link "shell.nix, (File)" [ref=e925] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/shell.nix
+                          - text: shell.nix
+                    - 'cell "shell.nix: bump nixpkgs to a revision with go_1_21 (#2813)" [ref=e926]':
+                      - generic [ref=e928]:
+                        - 'link "shell.nix: bump nixpkgs to a revision with go_1_21 (" [ref=e929] [cursor=pointer]':
+                          - /url: /superfly/flyctl/commit/c5e383ffcac93c363be515813193bf10b8b8055a
+                        - link "#2813" [ref=e930] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/2813
+                        - link ")" [ref=e931] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/c5e383ffcac93c363be515813193bf10b8b8055a
+                    - cell "Sep 11, 20233 years ago" [ref=e932]:
+                      - generic [ref=e933]: Sep 11, 20233 years ago
+                  - row "tools.go, (File) Go 1.21.7 (#3268) Feb 10, 20242 years ago" [ref=e934]:
+                    - cell "tools.go, (File)" [ref=e935]:
+                      - generic [ref=e936]:
+                        - img [ref=e937]
+                        - link "tools.go, (File)" [ref=e942] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/tools.go
+                          - text: tools.go
+                    - cell "Go 1.21.7 (#3268)" [ref=e943]:
+                      - generic [ref=e945]:
+                        - link "Go 1.21.7 (" [ref=e946] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8bde0ac4f84b7824ced569b8d34b33fed6b549a6
+                        - link "#3268" [ref=e947] [cursor=pointer]:
+                          - /url: https://github.com/superfly/flyctl/pull/3268
+                        - link ")" [ref=e948] [cursor=pointer]:
+                          - /url: /superfly/flyctl/commit/8bde0ac4f84b7824ced569b8d34b33fed6b549a6
+                    - cell "Feb 10, 20242 years ago" [ref=e949]:
+                      - generic [ref=e950]: Feb 10, 20242 years ago
+                  - row "winbuild.ps1, (File) Remove docstrings and helpgen May 6, 20233 years ago" [ref=e951]:
+                    - cell "winbuild.ps1, (File)" [ref=e952]:
+                      - generic [ref=e953]:
+                        - img [ref=e954]
+                        - link "winbuild.ps1, (File)" [ref=e959] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/winbuild.ps1
+                          - text: winbuild.ps1
+                    - cell "Remove docstrings and helpgen" [ref=e960]:
+                      - link "Remove docstrings and helpgen" [ref=e963] [cursor=pointer]:
+                        - /url: /superfly/flyctl/commit/d27e0bfcdc40aa5efc5e69cdaebe91d53766502e
+                    - cell "May 6, 20233 years ago" [ref=e964]:
+                      - generic [ref=e965]: May 6, 20233 years ago
+            - generic [ref=e967]:
+              - generic [ref=e968]:
+                - heading "Repository files navigation" [level=2] [ref=e969]
+                - navigation "Repository files" [ref=e970]:
+                  - list [ref=e971]:
+                    - listitem [ref=e972]:
+                      - link "README" [ref=e973] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e975]
+                        - generic [ref=e977]: README
+                    - listitem [ref=e978]:
+                      - link "Contributing" [ref=e979] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e981]
+                        - generic [ref=e983]: Contributing
+                    - listitem [ref=e984]:
+                      - link "Apache-2.0 license" [ref=e985] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e987]
+                        - generic [ref=e989]: Apache-2.0 license
+                - button "Outline" [ref=e990] [cursor=pointer]:
+                  - img [ref=e991]
+              - article [ref=e994]:
+                - generic [ref=e995]:
+                  - heading "flyctl" [level=1] [ref=e996]
+                  - 'link "Permalink: flyctl" [ref=e997] [cursor=pointer]':
+                    - /url: "#flyctl"
+                    - img [ref=e998]
+                - paragraph [ref=e1000]: flyctl is a command-line interface for fly.io
+                - paragraph [ref=e1001]:
+                  - text: "Note: Most installations of"
+                  - code [ref=e1002]: flyctl
+                  - text: also alias
+                  - code [ref=e1003]: flyctl
+                  - text: to
+                  - code [ref=e1004]: fly
+                  - text: as a command name and this will become the default name in the future. During the transition, note that where you see
+                  - code [ref=e1005]: flyctl
+                  - text: as a command it can be replaced with
+                  - code [ref=e1006]: fly
+                  - text: .
+                - generic [ref=e1007]:
+                  - heading "Installation" [level=2] [ref=e1008]
+                  - 'link "Permalink: Installation" [ref=e1009] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e1010]
+                - generic [ref=e1012]:
+                  - heading "Using a Package Manager" [level=2] [ref=e1013]
+                  - 'link "Permalink: Using a Package Manager" [ref=e1014] [cursor=pointer]':
+                    - /url: "#using-a-package-manager"
+                    - img [ref=e1015]
+                - generic [ref=e1017]:
+                  - heading "Homebrew (macOS, Linux, WSL)" [level=4] [ref=e1018]:
+                    - link "Homebrew" [ref=e1019] [cursor=pointer]:
+                      - /url: https://brew.sh
+                    - text: (macOS, Linux, WSL)
+                  - 'link "Permalink: Homebrew (macOS, Linux, WSL)" [ref=e1020] [cursor=pointer]':
+                    - /url: "#homebrew-macos-linux-wsl"
+                    - img [ref=e1021]
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]: brew install flyctl
+                  - button "Copy code to clipboard" [ref=e1026] [cursor=pointer]:
+                    - img [ref=e1027]
+                - paragraph [ref=e1030]: "To upgrade to the latest version:"
+                - generic [ref=e1031]:
+                  - generic [ref=e1032]: brew upgrade flyctl
+                  - button "Copy code to clipboard" [ref=e1034] [cursor=pointer]:
+                    - img [ref=e1035]
+                - generic [ref=e1038]:
+                  - heading "Install Script" [level=2] [ref=e1039]
+                  - 'link "Permalink: Install Script" [ref=e1040] [cursor=pointer]':
+                    - /url: "#install-script"
+                    - img [ref=e1041]
+                - paragraph [ref=e1043]:
+                  - text: Download
+                  - code [ref=e1044]: flyctl
+                  - text: and install into a local bin directory.
+                - generic [ref=e1045]:
+                  - heading "MacOS, Linux, WSL" [level=4] [ref=e1046]
+                  - 'link "Permalink: MacOS, Linux, WSL" [ref=e1047] [cursor=pointer]':
+                    - /url: "#macos-linux-wsl"
+                    - img [ref=e1048]
+                - paragraph [ref=e1050]: "Installing the latest version:"
+                - generic [ref=e1051]:
+                  - generic [ref=e1052]: curl -L https://fly.io/install.sh | sh
+                  - button "Copy code to clipboard" [ref=e1054] [cursor=pointer]:
+                    - img [ref=e1055]
+                - paragraph [ref=e1058]: "Installing the latest pre-release version:"
+                - generic [ref=e1059]:
+                  - generic [ref=e1060]: curl -L https://fly.io/install.sh | sh -s pre
+                  - button "Copy code to clipboard" [ref=e1062] [cursor=pointer]:
+                    - img [ref=e1063]
+                - paragraph [ref=e1066]: "Installing a specific version:"
+                - generic [ref=e1067]:
+                  - generic [ref=e1068]: curl -L https://fly.io/install.sh | sh -s 0.0.200
+                  - button "Copy code to clipboard" [ref=e1070] [cursor=pointer]:
+                    - img [ref=e1071]
+                - generic [ref=e1074]:
+                  - heading "Windows" [level=4] [ref=e1075]
+                  - 'link "Permalink: Windows" [ref=e1076] [cursor=pointer]':
+                    - /url: "#windows"
+                    - img [ref=e1077]
+                - paragraph [ref=e1079]: "Run the Powershell install script:"
+                - generic [ref=e1080]:
+                  - code [ref=e1082]: iwr https://fly.io/install.ps1 -useb | iex
+                  - button "Copy code to clipboard" [ref=e1084] [cursor=pointer]:
+                    - img [ref=e1085]
+                - generic [ref=e1088]:
+                  - heading "Downloading from GitHub" [level=2] [ref=e1089]
+                  - 'link "Permalink: Downloading from GitHub" [ref=e1090] [cursor=pointer]':
+                    - /url: "#downloading-from-github"
+                    - img [ref=e1091]
+                - paragraph [ref=e1093]:
+                  - text: Download the appropriate version from the
+                  - link "Releases" [ref=e1094] [cursor=pointer]:
+                    - /url: https://github.com/superfly/flyctl/releases
+                  - text: page of the
+                  - code [ref=e1095]: flyctl
+                  - text: GitHub repository.
+                - generic [ref=e1096]:
+                  - heading "Getting Started" [level=2] [ref=e1097]
+                  - 'link "Permalink: Getting Started" [ref=e1098] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e1099]
+                - list [ref=e1101]:
+                  - listitem [ref=e1102]: Sign into your fly account
+                - generic [ref=e1103]:
+                  - generic [ref=e1104]: fly auth login
+                  - button "Copy code to clipboard" [ref=e1106] [cursor=pointer]:
+                    - img [ref=e1107]
+                - list [ref=e1110]:
+                  - listitem [ref=e1111]: List your apps
+                - generic [ref=e1112]:
+                  - generic [ref=e1113]: fly apps list
+                  - button "Copy code to clipboard" [ref=e1115] [cursor=pointer]:
+                    - img [ref=e1116]
+                - list [ref=e1119]:
+                  - listitem [ref=e1120]: View app status
+                - generic [ref=e1121]:
+                  - generic [ref=e1122]: "fly status -a {app-name}"
+                  - button "Copy code to clipboard" [ref=e1124] [cursor=pointer]:
+                    - img [ref=e1125]
+                - generic [ref=e1128]:
+                  - heading "App Settings" [level=2] [ref=e1129]
+                  - 'link "Permalink: App Settings" [ref=e1130] [cursor=pointer]':
+                    - /url: "#app-settings"
+                    - img [ref=e1131]
+                - paragraph [ref=e1133]:
+                  - code [ref=e1134]: flyctl
+                  - text: will attempt to use the app name from a
+                  - code [ref=e1135]: fly.toml
+                  - text: "file in the current directory. For example, if the current directory contains this file:"
+                - generic [ref=e1136]:
+                  - generic [ref=e1137]: "$ cat fly.toml app: banana"
+                  - button "Copy code to clipboard" [ref=e1139] [cursor=pointer]:
+                    - img [ref=e1140]
+                - paragraph [ref=e1143]:
+                  - code [ref=e1144]: flyctl
+                  - text: will operate against the
+                  - code [ref=e1145]: banana
+                  - text: app unless overridden by the -a flag or other app name setting in the command line.
+                - generic [ref=e1146]:
+                  - heading "Releases" [level=2] [ref=e1147]
+                  - 'link "Permalink: Releases" [ref=e1148] [cursor=pointer]':
+                    - /url: "#releases"
+                    - img [ref=e1149]
+                - paragraph [ref=e1151]:
+                  - code [ref=e1152]: flyctl
+                  - text: is automatically released at 3 PM Eastern Standard Time Monday - Thursday. If needed, you can bump a release by running
+                  - code [ref=e1153]: ./scripts/bump_version.sh
+                  - text: .
+                - generic [ref=e1154]:
+                  - heading "Building on Windows" [level=2] [ref=e1155]
+                  - 'link "Permalink: Building on Windows" [ref=e1156] [cursor=pointer]':
+                    - /url: "#building-on-windows"
+                    - img [ref=e1157]
+                - paragraph [ref=e1159]:
+                  - text: There is a simple Powershell script,
+                  - code [ref=e1160]: winbuild.ps1
+                  - text: ", which will run the code generation for the help files, format them, and run a full build, leaving a new binary in the bin directory."
+                - generic [ref=e1161]:
+                  - heading "Contributing guide" [level=2] [ref=e1162]
+                  - 'link "Permalink: Contributing guide" [ref=e1163] [cursor=pointer]':
+                    - /url: "#contributing-guide"
+                    - img [ref=e1164]
+                - paragraph [ref=e1166]:
+                  - text: See
+                  - link "CONTRIBUTING.md" [ref=e1167] [cursor=pointer]:
+                    - /url: /superfly/flyctl/blob/master/CONTRIBUTING.md
+        - generic [ref=e1171]:
+          - generic [ref=e1174]:
+            - heading "About" [level=2] [ref=e1175]
+            - paragraph [ref=e1176]: Command line tools for fly.io services
+            - generic [ref=e1177]:
+              - img [ref=e1178]
+              - link "fly.io" [ref=e1181] [cursor=pointer]:
+                - /url: https://fly.io
+            - heading "Topics" [level=3] [ref=e1182]
+            - link "flyio-tools" [ref=e1185] [cursor=pointer]:
+              - /url: /topics/flyio-tools
+            - heading "Resources" [level=3] [ref=e1186]
+            - link "Readme" [ref=e1188] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1189]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1191]
+            - link "Apache-2.0 license" [ref=e1193] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e1194]
+              - text: Apache-2.0 license
+            - heading "Contributing" [level=3] [ref=e1196]
+            - link "Contributing" [ref=e1198] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1199]
+              - text: Contributing
+            - link "Activity" [ref=e1202] [cursor=pointer]:
+              - /url: /superfly/flyctl/activity
+              - img [ref=e1203]
+              - text: Activity
+            - link "Custom properties" [ref=e1206] [cursor=pointer]:
+              - /url: /superfly/flyctl/custom-properties
+              - img [ref=e1207]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1209]
+            - link "1.7k stars" [ref=e1211] [cursor=pointer]:
+              - /url: /superfly/flyctl/stargazers
+              - img [ref=e1212]
+              - strong [ref=e1214]: 1.7k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1215]
+            - link "23 watching" [ref=e1217] [cursor=pointer]:
+              - /url: /superfly/flyctl/watchers
+              - img [ref=e1218]
+              - strong [ref=e1220]: "23"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1221]
+            - link "297 forks" [ref=e1223] [cursor=pointer]:
+              - /url: /superfly/flyctl/forks
+              - img [ref=e1224]
+              - strong [ref=e1226]: "297"
+              - text: forks
+            - link "Report repository" [ref=e1228] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fsuperfly%2Fflyctl&report=superfly+%28user%29
+          - generic [ref=e1230]:
+            - heading "Releases 1,322" [level=2] [ref=e1231]:
+              - link "Releases 1,322" [ref=e1232] [cursor=pointer]:
+                - /url: /superfly/flyctl/releases
+                - text: Releases
+                - generic "1,322" [ref=e1233]
+            - link "v0.4.52 Latest May 14, 20264 days ago" [ref=e1234] [cursor=pointer]:
+              - /url: /superfly/flyctl/releases/tag/v0.4.52
+              - img [ref=e1235]
+              - generic [ref=e1237]:
+                - generic [ref=e1238]:
+                  - generic [ref=e1239]: v0.4.52
+                  - 'generic "Label: Latest" [ref=e1240]': Latest
+                - generic [ref=e1241]: May 14, 20264 days ago
+            - link "+ 1,321 releases" [ref=e1243] [cursor=pointer]:
+              - /url: /superfly/flyctl/releases
+          - generic [ref=e1245]:
+            - heading "Packages 2" [level=2] [ref=e1246]:
+              - link "Packages 2" [ref=e1247] [cursor=pointer]:
+                - /url: /orgs/superfly/packages?repo_name=flyctl
+                - text: Packages
+                - generic "2" [ref=e1248]
+            - list [ref=e1249]:
+              - listitem [ref=e1250]:
+                - img [ref=e1252]
+                - link "flyctl" [ref=e1254] [cursor=pointer]:
+                  - /url: /orgs/superfly/packages/container/package/flyctl
+              - listitem [ref=e1255]:
+                - img [ref=e1257]
+                - link "mcp" [ref=e1259] [cursor=pointer]:
+                  - /url: /orgs/superfly/packages/container/package/mcp
+          - generic [ref=e1261]:
+            - heading "Contributors 216" [level=2] [ref=e1262]:
+              - link "Contributors 216" [ref=e1263] [cursor=pointer]:
+                - /url: /superfly/flyctl/graphs/contributors
+                - text: Contributors
+                - generic "216" [ref=e1264]
+            - list [ref=e1265]:
+              - listitem [ref=e1266]:
+                - link "@dangra" [ref=e1267] [cursor=pointer]:
+                  - /url: https://github.com/dangra
+                  - img "@dangra" [ref=e1268]
+              - listitem [ref=e1269]:
+                - link "@michaeldwan" [ref=e1270] [cursor=pointer]:
+                  - /url: https://github.com/michaeldwan
+                  - img "@michaeldwan" [ref=e1271]
+              - listitem [ref=e1272]:
+                - link "@dependabot[bot]" [ref=e1273] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1274]
+              - listitem [ref=e1275]:
+                - link "@rugwirobaker" [ref=e1276] [cursor=pointer]:
+                  - /url: https://github.com/rugwirobaker
+                  - img "@rugwirobaker" [ref=e1277]
+              - listitem [ref=e1278]:
+                - link "@codepope" [ref=e1279] [cursor=pointer]:
+                  - /url: https://github.com/codepope
+                  - img "@codepope" [ref=e1280]
+              - listitem [ref=e1281]:
+                - link "@tvdfly" [ref=e1282] [cursor=pointer]:
+                  - /url: https://github.com/tvdfly
+                  - img "@tvdfly" [ref=e1283]
+              - listitem [ref=e1284]:
+                - link "@rubys" [ref=e1285] [cursor=pointer]:
+                  - /url: https://github.com/rubys
+                  - img "@rubys" [ref=e1286]
+              - listitem [ref=e1287]:
+                - link "@billyb2" [ref=e1288] [cursor=pointer]:
+                  - /url: https://github.com/billyb2
+                  - img "@billyb2" [ref=e1289]
+              - listitem [ref=e1290]:
+                - link "@davissp14" [ref=e1291] [cursor=pointer]:
+                  - /url: https://github.com/davissp14
+                  - img "@davissp14" [ref=e1292]
+              - listitem [ref=e1293]:
+                - link "@matttpt" [ref=e1294] [cursor=pointer]:
+                  - /url: https://github.com/matttpt
+                  - img "@matttpt" [ref=e1295]
+              - listitem [ref=e1296]:
+                - link "@azazeal" [ref=e1297] [cursor=pointer]:
+                  - /url: https://github.com/azazeal
+                  - img "@azazeal" [ref=e1298]
+              - listitem [ref=e1299]:
+                - link "@tqbf" [ref=e1300] [cursor=pointer]:
+                  - /url: https://github.com/tqbf
+                  - img "@tqbf" [ref=e1301]
+              - listitem [ref=e1302]:
+                - link "@jsierles" [ref=e1303] [cursor=pointer]:
+                  - /url: https://github.com/jsierles
+                  - img "@jsierles" [ref=e1304]
+              - listitem [ref=e1305]:
+                - link "@ndarilek" [ref=e1306] [cursor=pointer]:
+                  - /url: https://github.com/ndarilek
+                  - img "@ndarilek" [ref=e1307]
+            - link "+ 202 contributors" [ref=e1309] [cursor=pointer]:
+              - /url: /superfly/flyctl/graphs/contributors
+          - generic [ref=e1311]:
+            - heading "Languages" [level=2] [ref=e1312]
+            - list [ref=e1318]:
+              - listitem [ref=e1319]:
+                - link "Go 98.9%" [ref=e1320] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=go
+                  - img [ref=e1321]
+                  - generic [ref=e1323]: Go
+                  - generic [ref=e1324]: 98.9%
+              - listitem [ref=e1325]:
+                - link "Dockerfile 0.6%" [ref=e1326] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=dockerfile
+                  - img [ref=e1327]
+                  - generic [ref=e1329]: Dockerfile
+                  - generic [ref=e1330]: 0.6%
+              - listitem [ref=e1331]:
+                - link "Shell 0.5%" [ref=e1332] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=shell
+                  - img [ref=e1333]
+                  - generic [ref=e1335]: Shell
+                  - generic [ref=e1336]: 0.5%
+              - listitem [ref=e1337]:
+                - link "Makefile 0.0%" [ref=e1338] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=makefile
+                  - img [ref=e1339]
+                  - generic [ref=e1341]: Makefile
+                  - generic [ref=e1342]: 0.0%
+              - listitem [ref=e1343]:
+                - link "Ruby 0.0%" [ref=e1344] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=ruby
+                  - img [ref=e1345]
+                  - generic [ref=e1347]: Ruby
+                  - generic [ref=e1348]: 0.0%
+              - listitem [ref=e1349]:
+                - link "Nix 0.0%" [ref=e1350] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=nix
+                  - img [ref=e1351]
+                  - generic [ref=e1353]: Nix
+                  - generic [ref=e1354]: 0.0%
+  - contentinfo [ref=e1356]:
+    - heading "Footer" [level=2] [ref=e1357]
+    - generic [ref=e1358]:
+      - generic [ref=e1359]:
+        - link "GitHub Homepage" [ref=e1360] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1361]
+        - generic [ref=e1363]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1364]:
+        - heading "Footer navigation" [level=3] [ref=e1365]
+        - list "Footer navigation" [ref=e1366]:
+          - listitem [ref=e1367]:
+            - link "Terms" [ref=e1368] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1369]:
+            - link "Privacy" [ref=e1370] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1371]:
+            - link "Security" [ref=e1372] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1373]:
+            - link "Status" [ref=e1374] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1375]:
+            - link "Community" [ref=e1376] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1377]:
+            - link "Docs" [ref=e1378] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1379]:
+            - link "Contact" [ref=e1380] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1381]:
+            - button "Manage cookies" [ref=e1383] [cursor=pointer]
+          - listitem [ref=e1384]:
+            - button "Do not share my personal information" [ref=e1386] [cursor=pointer]

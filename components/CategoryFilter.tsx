@@ -22,20 +22,20 @@ export default function CategoryFilter({
   const btnClass = (active: boolean) =>
     `w-full text-left px-3 py-2 rounded-lg text-sm flex justify-between items-center transition-colors ${
       active
-        ? 'bg-blue-50 text-blue-700 font-medium'
-        : 'text-gray-600 hover:bg-gray-100'
+        ? 'bg-surface-cream-strong text-ink font-medium'
+        : 'text-muted hover:bg-surface-card hover:text-ink'
     }`;
 
   return (
     <nav className="space-y-0.5">
       <button className={btnClass(selected === null)} onClick={() => onSelect(null)}>
         <span>{allLabel}</span>
-        <span className="text-xs text-gray-400">{total}</span>
+        <span className="text-xs text-muted-soft">{total}</span>
       </button>
       {categories.map(cat => (
         <button key={cat} className={btnClass(selected === cat)} onClick={() => onSelect(cat)}>
           <span>{labels[cat] ?? cat}</span>
-          <span className="text-xs text-gray-400">{counts[cat] ?? 0}</span>
+          <span className="text-xs text-muted-soft">{counts[cat] ?? 0}</span>
         </button>
       ))}
     </nav>

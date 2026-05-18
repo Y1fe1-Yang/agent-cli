@@ -1,0 +1,359 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#content-area"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - link "happycapy home page light logo" [ref=e10] [cursor=pointer]:
+              - /url: /en
+              - generic [ref=e11]: happycapy home page
+              - img "light logo" [ref=e12]
+            - button "Toggle dark mode" [ref=e13] [cursor=pointer]:
+              - generic [ref=e14]:
+                - img [ref=e15]
+                - img [ref=e22]
+          - button "Open search" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]:
+              - img [ref=e30]
+              - generic [ref=e33]: Search...
+            - generic [ref=e34]: ⌘K
+          - generic [ref=e35]:
+            - list [ref=e36]:
+              - listitem [ref=e37]:
+                - link "Feedback" [ref=e38] [cursor=pointer]:
+                  - /url: https://feedback.happycapy.ai
+                  - img [ref=e39]
+                  - generic [ref=e40]: Feedback
+              - listitem [ref=e41]:
+                - link "Join Discord" [ref=e42] [cursor=pointer]:
+                  - /url: https://discord.gg/kSwMyUCdwH
+                  - img [ref=e43]
+                  - generic [ref=e44]: Join Discord
+              - listitem [ref=e45]:
+                - link "Contact Us" [ref=e46] [cursor=pointer]:
+                  - /url: mailto:support@happycapy.ai
+                  - img [ref=e47]
+                  - generic [ref=e48]: Contact Us
+            - generic [ref=e49]:
+              - heading "Getting Started" [level=5] [ref=e51]
+              - list [ref=e52]:
+                - listitem [ref=e53]:
+                  - link "Welcome to Happycapy" [ref=e54] [cursor=pointer]:
+                    - /url: /en
+                    - generic [ref=e57]: Welcome to Happycapy
+                - listitem [ref=e58]:
+                  - link "Quick Start" [ref=e59] [cursor=pointer]:
+                    - /url: /en/getting-started/quickstart
+                    - generic [ref=e62]: Quick Start
+                - listitem [ref=e63]:
+                  - link "Credits & Usage" [ref=e64] [cursor=pointer]:
+                    - /url: /en/getting-started/credits
+                    - generic [ref=e67]: Credits & Usage
+                - listitem [ref=e68]:
+                  - link "Frequently Asked Questions" [ref=e69] [cursor=pointer]:
+                    - /url: /en/getting-started/faq
+                    - generic [ref=e72]: Frequently Asked Questions
+            - generic [ref=e73]:
+              - heading "Features" [level=5] [ref=e75]
+              - list [ref=e76]:
+                - listitem [ref=e77]:
+                  - link "Projects" [ref=e78] [cursor=pointer]:
+                    - /url: /en/features/projects
+                    - generic [ref=e81]: Projects
+                - listitem [ref=e82]:
+                  - link "Files" [ref=e83] [cursor=pointer]:
+                    - /url: /en/features/files
+                    - generic [ref=e86]: Files
+                - listitem [ref=e87]:
+                  - link "Skills" [ref=e88] [cursor=pointer]:
+                    - /url: /en/features/skills
+                    - generic [ref=e91]: Skills
+                - listitem [ref=e92]:
+                  - link "CLI" [ref=e93] [cursor=pointer]:
+                    - /url: /en/features/cli
+                    - generic [ref=e96]: CLI
+                - listitem [ref=e97]:
+                  - link "MCP" [ref=e98] [cursor=pointer]:
+                    - /url: /en/features/mcp
+                    - generic [ref=e101]: MCP
+                - listitem [ref=e102]:
+                  - link "Automations (Beta)" [ref=e103] [cursor=pointer]:
+                    - /url: /en/features/automations
+                    - generic [ref=e106]: Automations (Beta)
+                - listitem [ref=e107]:
+                  - link "Publish & Remix" [ref=e108] [cursor=pointer]:
+                    - /url: /en/features/publish-remix
+                    - generic [ref=e111]: Publish & Remix
+                - listitem [ref=e112]:
+                  - link "Agents (Deprecated)" [ref=e113] [cursor=pointer]:
+                    - /url: /en/features/agents
+                    - generic [ref=e116]: Agents (Deprecated)
+                - listitem [ref=e117]:
+                  - link "Multi-Agent Team" [ref=e118] [cursor=pointer]:
+                    - /url: /en/features/multi-agent
+                    - generic [ref=e121]: Multi-Agent Team
+                - listitem [ref=e122]:
+                  - link "Connect My Mac" [ref=e123] [cursor=pointer]:
+                    - /url: /en/features/connect-mac
+                    - generic [ref=e126]: Connect My Mac
+                - listitem [ref=e127]:
+                  - link "Capy Mail" [ref=e128] [cursor=pointer]:
+                    - /url: /en/features/capy-mail
+                    - generic [ref=e131]: Capy Mail
+            - generic [ref=e132]:
+              - heading "Best Practices" [level=5] [ref=e134]
+              - list [ref=e135]:
+                - listitem [ref=e136]:
+                  - link "General Best Practices" [ref=e137] [cursor=pointer]:
+                    - /url: /en/best-practices/general
+                    - generic [ref=e140]: General Best Practices
+                - listitem [ref=e141]:
+                  - link "Developers Guide" [ref=e142] [cursor=pointer]:
+                    - /url: /en/best-practices/developers
+                    - generic [ref=e145]: Developers Guide
+                - listitem [ref=e146]:
+                  - link "Guide for Non-Technical Users" [ref=e147] [cursor=pointer]:
+                    - /url: /en/best-practices/non-technical
+                    - generic [ref=e150]: Guide for Non-Technical Users
+                - listitem [ref=e151]:
+                  - link "Product Design & Prototyping" [ref=e152] [cursor=pointer]:
+                    - /url: /en/best-practices/product-design
+                    - generic [ref=e155]: Product Design & Prototyping
+                - listitem [ref=e156]:
+                  - link "Marketing & Content Creation" [ref=e157] [cursor=pointer]:
+                    - /url: /en/best-practices/marketing
+                    - generic [ref=e160]: Marketing & Content Creation
+                - listitem [ref=e161]:
+                  - link "Data Analysis & Visualization" [ref=e162] [cursor=pointer]:
+                    - /url: /en/best-practices/data-analysis
+                    - generic [ref=e165]: Data Analysis & Visualization
+                - listitem [ref=e166]:
+                  - link "Research & Learning" [ref=e167] [cursor=pointer]:
+                    - /url: /en/best-practices/research
+                    - generic [ref=e170]: Research & Learning
+                - listitem [ref=e171]:
+                  - link "Team Collaboration & Document Management" [ref=e172] [cursor=pointer]:
+                    - /url: /en/best-practices/team-collaboration
+                    - generic [ref=e175]: Team Collaboration & Document Management
+        - list [ref=e176]:
+          - listitem [ref=e177]:
+            - link "Get Started" [ref=e178] [cursor=pointer]:
+              - /url: https://happycapy.ai
+              - generic [ref=e181]: Get Started
+              - img [ref=e183]
+          - listitem [ref=e186]:
+            - button "English" [ref=e188] [cursor=pointer]:
+              - generic [ref=e189]: English
+              - img [ref=e190]
+      - generic [ref=e193]:
+        - banner [ref=e194]:
+          - generic [ref=e195]:
+            - generic [ref=e196]: Getting Started
+            - heading "Welcome to Happycapy" [level=1] [ref=e198]
+          - paragraph [ref=e200]: An agent-native computer running in your browser, powered by Claude Code and designed for everyone
+        - generic [ref=e201]:
+          - blockquote [ref=e202]:
+            - heading "Documentation Index" [level=2] [ref=e203]
+            - paragraph [ref=e204]:
+              - text: "Fetch the complete documentation index at:"
+              - link "https://docs.happycapy.ai/llms.txt" [ref=e205] [cursor=pointer]:
+                - /url: https://docs.happycapy.ai/llms.txt
+            - paragraph [ref=e206]: Use this file to discover all available pages before exploring further.
+          - heading "Navigate to header What is Happycapy?" [level=2] [ref=e209]:
+            - link "Navigate to header" [ref=e210] [cursor=pointer]:
+              - /url: "#what-is-happycapy"
+              - img [ref=e212]
+            - generic [ref=e214] [cursor=pointer]: What is Happycapy?
+          - generic [ref=e215]:
+            - text: An
+            - strong [ref=e216]: agent-native computer
+            - text: running in a browser.
+          - generic [ref=e217]: Powered by Claude Code and designed for everyone.
+          - generic [ref=e218]: Open your browser, tell Happycapy what you want, and watch it work. No environment setup, no command lines, no technical knowledge required.
+          - generic [ref=e219]: Generate images, edit videos, process data, create web pages, write papers. Tasks that used to require learning a dozen different software tools now happen through conversation.
+          - generic [ref=e220]: AI agents can do impressive things. But most agent tools are built for developers. They require command line skills, environment configuration, and security knowledge. We think agents should work for everyone, not just technical users. So we built Happycapy.
+          - heading "Navigate to header Traditional Computer Logic" [level=3] [ref=e221]:
+            - link "Navigate to header" [ref=e222] [cursor=pointer]:
+              - /url: "#traditional-computer-logic"
+              - img [ref=e224]
+            - generic [ref=e226] [cursor=pointer]: Traditional Computer Logic
+          - generic [ref=e227]: Install software → learn software → use software to complete tasks
+          - heading "Navigate to header Agent-Native Computer Logic" [level=3] [ref=e228]:
+            - link "Navigate to header" [ref=e229] [cursor=pointer]:
+              - /url: "#agent-native-computer-logic"
+              - img [ref=e231]
+            - generic [ref=e233] [cursor=pointer]: Agent-Native Computer Logic
+          - generic [ref=e234]: Describe your needs → AI calls tools → get results directly
+          - heading "Navigate to header What Can Happycapy Do?" [level=2] [ref=e235]:
+            - link "Navigate to header" [ref=e236] [cursor=pointer]:
+              - /url: "#what-can-happycapy-do"
+              - img [ref=e238]
+            - generic [ref=e240] [cursor=pointer]: What Can Happycapy Do?
+          - generic [ref=e241]: "Open Happycapy and describe what you need:"
+          - generic [ref=e242]:
+            - generic [ref=e244]:
+              - img [ref=e246]
+              - generic [ref=e247]:
+                - heading "Generate images and videos" [level=2] [ref=e248]
+                - generic [ref=e250]: Create posters, illustrations, short videos, and animations
+            - generic [ref=e252]:
+              - img [ref=e254]
+              - generic [ref=e255]:
+                - heading "Process documents and data" [level=2] [ref=e256]
+                - generic [ref=e258]: Handle Word, Excel, PPT, PDF, and charts
+            - generic [ref=e260]:
+              - img [ref=e262]
+              - generic [ref=e263]:
+                - heading "Build websites and applications" [level=2] [ref=e264]
+                - generic [ref=e266]: Design interfaces, write code, and automatically deploy online
+            - generic [ref=e268]:
+              - img [ref=e270]
+              - generic [ref=e271]:
+                - heading "Write papers and reports" [level=2] [ref=e272]
+                - generic [ref=e274]: Conduct literature reviews, write academic papers with proper citations
+            - generic [ref=e276]:
+              - img [ref=e278]
+              - generic [ref=e279]:
+                - heading "Automate routine tasks" [level=2] [ref=e280]
+                - generic [ref=e282]: Organize files, send emails, create spreadsheets, and analyze data
+            - generic [ref=e284]:
+              - img [ref=e286]
+              - generic [ref=e287]:
+                - heading "Code with natural language" [level=2] [ref=e288]
+                - generic [ref=e290]: Develop applications without deep technical knowledge
+          - generic [ref=e291]: Tasks that used to require learning a dozen software tools and constantly switching between them can now be done in one place.
+          - heading "Navigate to header Run on the Cloud, Zero Barriers" [level=2] [ref=e292]:
+            - link "Navigate to header" [ref=e293] [cursor=pointer]:
+              - /url: "#run-on-the-cloud-zero-barriers"
+              - img [ref=e295]
+            - generic [ref=e297] [cursor=pointer]: Run on the Cloud, Zero Barriers
+          - generic [ref=e298]:
+            - generic [ref=e300]:
+              - img [ref=e302]
+              - generic [ref=e303]:
+                - heading "Cloud sandbox" [level=2] [ref=e304]
+                - generic [ref=e306]: No software installation or environment setup. Built-in sandbox keeps your local files safe. Access from any device, including mobile.
+            - generic [ref=e308]:
+              - img [ref=e310]
+              - generic [ref=e311]:
+                - heading "Conversational interface" [level=2] [ref=e312]
+                - generic [ref=e314]: No need to learn menus, keyboard shortcuts, or code. Just describe your needs in natural language and Happycapy handles the rest.
+          - heading "Navigate to header The Story Behind Happycapy" [level=2] [ref=e315]:
+            - link "Navigate to header" [ref=e316] [cursor=pointer]:
+              - /url: "#the-story-behind-happycapy"
+              - img [ref=e318]
+            - generic [ref=e320] [cursor=pointer]: The Story Behind Happycapy
+          - heading "Navigate to header We Became an AI-Native Team First" [level=3] [ref=e321]:
+            - link "Navigate to header" [ref=e322] [cursor=pointer]:
+              - /url: "#we-became-an-ai-native-team-first"
+              - img [ref=e324]
+            - generic [ref=e326] [cursor=pointer]: We Became an AI-Native Team First
+          - generic [ref=e327]: "In January 2025, Claude Code launched and transformed how developers write code. Natural language programming improved efficiency several times over. Our team loved using it, but we also wondered:"
+          - strong [ref=e329]: Why does AI still have such a high barrier to entry?
+          - generic [ref=e330]: To use AI well, you need command line skills, environment setup knowledge, and prompt engineering expertise. Or you’re stuck in chat windows that can’t do much. Why can’t it just work like using a computer?
+          - strong [ref=e332]: AI should be egalitarian.
+          - generic [ref=e333]: Regardless of profession or background, everyone should equally benefit from AI’s productivity improvements.
+          - generic [ref=e334]: So we built a tool for ourselves. Our entire team’s workflow changed. Non-technical team members could write code, create web pages, and process data on their own. Everyone could turn ideas into reality.
+          - strong [ref=e336]: Everyone becomes a super individual.
+          - generic [ref=e337]: We then commercialized this workflow, creating Happycapy.
+          - heading "Navigate to header Why Capybara?" [level=3] [ref=e338]:
+            - link "Navigate to header" [ref=e339] [cursor=pointer]:
+              - /url: "#why-capybara"
+              - img [ref=e341]
+            - generic [ref=e343] [cursor=pointer]: Why Capybara?
+          - generic [ref=e344]: Capybaras are gentle, friendly creatures that harmoniously coexist with all animals. Online, you’ll find capybaras playing with monkeys, birds, crocodiles, and even dogs and cats.
+          - generic [ref=e345]: "That’s exactly what we envisioned: an AI tool that “gets along” with everyone."
+          - strong [ref=e347]: Happy + Capybara = Happycapy
+          - generic [ref=e348]: We hope that using Happycapy feels like caring for a capybara — chill, anxiety-free, and centered on what truly matters in life.
+          - heading "Navigate to header Our Vision" [level=2] [ref=e349]:
+            - link "Navigate to header" [ref=e350] [cursor=pointer]:
+              - /url: "#our-vision"
+              - img [ref=e352]
+            - generic [ref=e354] [cursor=pointer]: Our Vision
+          - strong [ref=e356]: Let everyone use AI to automate their workflow and reduce repetitive work.
+          - strong [ref=e358]: Happycapy, HappyYou.
+          - generic [ref=e359]: AI shouldn’t replace people. It should make people more human. Let AI handle repetitive, tedious, time-consuming tasks while you focus on creativity, judgment, and decisions.
+          - generic [ref=e360]:
+            - text: You focus on
+            - strong [ref=e361]: what
+            - text: to do, not
+            - strong [ref=e362]: how
+            - text: to do it.
+          - generic [ref=e363]: No need to worry about which model to use today or feel anxious about daily AI breakthrough announcements.
+          - generic [ref=e364]:
+            - img "Tip" [ref=e366]
+            - generic [ref=e369]: Which model works best for images? Which for video? Is this task better suited for Claude or GPT? Don’t think about it. Happycapy will choose for you.
+          - generic [ref=e370]: To help you truly enjoy creating, we offer a Max plan with significantly more tokens than Pro — enough for even the most ambitious projects.
+          - generic [ref=e371]: Whether you’re a creator, developer, student, office worker, or freelancer — if you have an idea, Happycapy can help you turn it into reality.
+          - heading "Navigate to header Get Started" [level=2] [ref=e372]:
+            - link "Navigate to header" [ref=e373] [cursor=pointer]:
+              - /url: "#get-started"
+              - img [ref=e375]
+            - generic [ref=e377] [cursor=pointer]: Get Started
+          - link "Quick Start Guide Learn how to use Happycapy in minutes" [ref=e378] [cursor=pointer]:
+            - generic [ref=e379]:
+              - img [ref=e381]
+              - generic [ref=e382]:
+                - heading "Quick Start Guide" [level=2] [ref=e383]
+                - generic [ref=e385]: Learn how to use Happycapy in minutes
+        - link "Quick Start Get started with Happycapy in minutes Next" [ref=e387] [cursor=pointer]:
+          - /url: /en/getting-started/quickstart
+          - generic [ref=e388]:
+            - generic [ref=e389]:
+              - generic [ref=e390]: Quick Start
+              - generic [ref=e391]: Get started with Happycapy in minutes
+            - generic [ref=e393]:
+              - generic [ref=e394]: Next
+              - img [ref=e395]
+    - contentinfo [ref=e397]:
+      - generic [ref=e398]:
+        - generic [ref=e399]:
+          - link "happycapy home page light logo" [ref=e401] [cursor=pointer]:
+            - /url: /en
+            - generic [ref=e402]: happycapy home page
+            - img "light logo" [ref=e403]
+          - generic [ref=e404]:
+            - generic [ref=e406]:
+              - link "Feedback" [ref=e407] [cursor=pointer]:
+                - /url: https://feedback.happycapy.ai
+              - link "Support" [ref=e408] [cursor=pointer]:
+                - /url: mailto:support@happycapy.ai
+            - generic [ref=e410]:
+              - link "Privacy Policy" [ref=e411] [cursor=pointer]:
+                - /url: https://happycapy.ai/privacy
+              - link "Terms of Service" [ref=e412] [cursor=pointer]:
+                - /url: https://happycapy.ai/terms
+              - link "AI Terms" [ref=e413] [cursor=pointer]:
+                - /url: https://happycapy.ai/terms-ai
+          - generic [ref=e414]:
+            - link "discord" [ref=e415] [cursor=pointer]:
+              - /url: https://discord.gg/kSwMyUCdwH
+              - generic [ref=e416]: discord
+              - img [ref=e417]
+            - link "x" [ref=e418] [cursor=pointer]:
+              - /url: https://x.com/happycapyai
+              - generic [ref=e419]: x
+              - img [ref=e420]
+            - link "youtube" [ref=e421] [cursor=pointer]:
+              - /url: https://www.youtube.com/@happycapyai
+              - generic [ref=e422]: youtube
+              - img [ref=e423]
+            - link "reddit" [ref=e424] [cursor=pointer]:
+              - /url: https://www.reddit.com/r/happycapy
+              - generic [ref=e425]: reddit
+              - img [ref=e426]
+        - generic [ref=e428]:
+          - link "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e430] [cursor=pointer]:
+            - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=happycapy
+            - generic [ref=e431]: Powered by
+            - img [ref=e432]
+            - generic [ref=e441]: This documentation is built and hosted on Mintlify, a developer documentation platform
+          - generic [ref=e442]:
+            - button "Switch to system theme" [ref=e443] [cursor=pointer]:
+              - img [ref=e444]
+            - button "Switch to light theme" [ref=e448] [cursor=pointer]:
+              - img [ref=e449]
+            - button "Switch to dark theme" [ref=e456] [cursor=pointer]:
+              - img [ref=e457]

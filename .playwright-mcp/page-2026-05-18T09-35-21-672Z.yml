@@ -1,0 +1,1177 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fnetlify%2Fcli
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=netlify%2Fcli
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "netlify" [ref=e70] [cursor=pointer]:
+            - /url: /netlify
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "cli" [ref=e73] [cursor=pointer]:
+              - /url: /netlify/cli
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnetlify%2Fcli
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 453" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnetlify%2Fcli
+                - img [ref=e82]
+                - text: Fork
+                - generic "453" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fnetlify%2Fcli
+                - img [ref=e88]
+                - text: Star
+                - generic "1867 users starred this repository" [ref=e90]: 1.9k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /netlify/cli
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 72" [ref=e99] [cursor=pointer]:
+              - /url: /netlify/cli/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "72" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 44" [ref=e106] [cursor=pointer]:
+              - /url: /netlify/cli/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "44" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /netlify/cli/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Security and quality" [ref=e117] [cursor=pointer]:
+              - /url: /netlify/cli/security
+              - img [ref=e118]
+              - generic [ref=e120]: Security and quality
+          - listitem [ref=e121]:
+            - link "Insights" [ref=e122] [cursor=pointer]:
+              - /url: /netlify/cli/pulse
+              - img [ref=e123]
+              - generic [ref=e125]: Insights
+    - generic [ref=e138]:
+      - heading "netlify/cli" [level=1] [ref=e140]
+      - generic [ref=e141]:
+        - generic [ref=e144]:
+          - generic [ref=e145]:
+            - generic [ref=e146]:
+              - button "main branch" [ref=e148] [cursor=pointer]:
+                - generic [ref=e149]:
+                  - generic [ref=e151]:
+                    - img [ref=e153]
+                    - generic [ref=e156]: main
+                  - generic:
+                    - img
+              - generic [ref=e157]:
+                - link "Go to Branches page" [ref=e158] [cursor=pointer]:
+                  - /url: /netlify/cli/branches
+                  - img [ref=e159]
+                - link "Go to Tags page" [ref=e161] [cursor=pointer]:
+                  - /url: /netlify/cli/tags
+                  - img [ref=e162]
+            - generic [ref=e164]:
+              - generic [ref=e168]:
+                - img [ref=e170]
+                - combobox "Go to file" [ref=e172]
+              - button "Code" [ref=e173] [cursor=pointer]:
+                - generic [ref=e174]:
+                  - generic:
+                    - img
+                  - generic [ref=e175]: Code
+                  - generic:
+                    - img
+          - generic [ref=e176]:
+            - generic [ref=e177]:
+              - heading "Folders and files" [level=2] [ref=e178]
+              - table "Folders and files" [ref=e179]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e180]:
+                  - 'row "Latest commit token-generator-app[bot] commits by token-generator-app[bot] chore(main): release 26.0.2 (#8235) Open commit details success Commit a2b2724 · May 16, 20263 days ago History 7,147 Commits" [ref=e181]':
+                    - 'cell "Latest commit token-generator-app[bot] commits by token-generator-app[bot] chore(main): release 26.0.2 (#8235) Open commit details success Commit a2b2724 · May 16, 20263 days ago History 7,147 Commits" [ref=e182]':
+                      - generic [ref=e183]:
+                        - heading "Latest commit" [level=2] [ref=e184]
+                        - generic [ref=e185]:
+                          - generic [ref=e187]:
+                            - link "token-generator-app[bot]" [ref=e188] [cursor=pointer]:
+                              - /url: /apps/token-generator-app
+                              - img "token-generator-app[bot]" [ref=e189]
+                            - link "commits by token-generator-app[bot]" [ref=e190] [cursor=pointer]:
+                              - /url: /netlify/cli/commits?author=token-generator-app%5Bbot%5D
+                              - text: token-generator-app[bot]
+                          - generic [ref=e191]:
+                            - generic [ref=e193]:
+                              - 'link "chore(main): release 26.0.2 (" [ref=e194] [cursor=pointer]':
+                                - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                              - link "#8235" [ref=e195] [cursor=pointer]:
+                                - /url: https://github.com/netlify/cli/pull/8235
+                              - link ")" [ref=e196] [cursor=pointer]:
+                                - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                            - button "Open commit details" [ref=e197] [cursor=pointer]:
+                              - img [ref=e198]
+                            - button "success" [ref=e200] [cursor=pointer]:
+                              - img [ref=e201]
+                        - generic [ref=e203]:
+                          - generic [ref=e205]:
+                            - link "Commit a2b2724" [ref=e206] [cursor=pointer]:
+                              - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                              - text: a2b2724
+                            - text: ·
+                            - generic "May 16, 2026, 12:23 AM GMT+8" [ref=e207]: May 16, 20263 days ago
+                          - generic [ref=e208]:
+                            - heading "History" [level=2] [ref=e209]
+                            - link "7,147 Commits" [ref=e210] [cursor=pointer]:
+                              - /url: /netlify/cli/commits/main/
+                              - generic [ref=e211]:
+                                - generic:
+                                  - img
+                                - generic [ref=e212]: 7,147 Commits
+                  - 'row ".github, (Directory) ci: use pnpm/action-setup on Windows for e2e tests (#8256) May 15, 20263 days ago" [ref=e213]':
+                    - cell ".github, (Directory)" [ref=e214]:
+                      - generic [ref=e215]:
+                        - img [ref=e216]
+                        - link ".github, (Directory)" [ref=e221] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/.github
+                          - text: .github
+                    - 'cell "ci: use pnpm/action-setup on Windows for e2e tests (#8256)" [ref=e222]':
+                      - generic [ref=e224]:
+                        - 'link "ci: use" [ref=e225] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/dcdf76d0dd6c1407121a5eb55e79340924a0d8eb
+                        - code [ref=e226]:
+                          - link "pnpm/action-setup" [ref=e227] [cursor=pointer]:
+                            - /url: /netlify/cli/commit/dcdf76d0dd6c1407121a5eb55e79340924a0d8eb
+                        - link "on Windows for e2e tests (" [ref=e228] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/dcdf76d0dd6c1407121a5eb55e79340924a0d8eb
+                        - link "#8256" [ref=e229] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8256
+                        - link ")" [ref=e230] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/dcdf76d0dd6c1407121a5eb55e79340924a0d8eb
+                    - cell "May 15, 20263 days ago" [ref=e231]:
+                      - generic [ref=e232]: May 15, 20263 days ago
+                  - 'row "__mocks__, (Directory) ci: don''t retry integration, unit test suites 3x in CI Apr 5, 2025last year" [ref=e233]':
+                    - cell "__mocks__, (Directory)" [ref=e234]:
+                      - generic [ref=e235]:
+                        - img [ref=e236]
+                        - link "__mocks__, (Directory)" [ref=e241] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/__mocks__
+                          - text: __mocks__
+                    - 'cell "ci: don''t retry integration, unit test suites 3x in CI" [ref=e242]':
+                      - 'link "ci: don''t retry integration, unit test suites 3x in CI" [ref=e245] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/31b39491edc1da4a99c50fbefa0972c3066a8b5f
+                    - cell "Apr 5, 2025last year" [ref=e246]:
+                      - generic [ref=e247]: Apr 5, 2025last year
+                  - 'row "bin, (Directory) fix: don''t cause fatal issues when doing update checks inside of agen… Apr 22, 2026last month" [ref=e248]':
+                    - cell "bin, (Directory)" [ref=e249]:
+                      - generic [ref=e250]:
+                        - img [ref=e251]
+                        - link "bin, (Directory)" [ref=e256] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/bin
+                          - text: bin
+                    - 'cell "fix: don''t cause fatal issues when doing update checks inside of agen…" [ref=e257]':
+                      - 'link "fix: don''t cause fatal issues when doing update checks inside of agen…" [ref=e260] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/acaf4782072bc04809ea6301f667c3cf34691901
+                    - cell "Apr 22, 2026last month" [ref=e261]:
+                      - generic [ref=e262]: Apr 22, 2026last month
+                  - 'row "docs, (Directory) fix: don''t use inquirer for non-interactive variant of \"database migr… May 4, 20262 weeks ago" [ref=e263]':
+                    - cell "docs, (Directory)" [ref=e264]:
+                      - generic [ref=e265]:
+                        - img [ref=e266]
+                        - link "docs, (Directory)" [ref=e271] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/docs
+                          - text: docs
+                    - 'cell "fix: don''t use inquirer for non-interactive variant of \"database migr…" [ref=e272]':
+                      - 'link "fix: don''t use inquirer for non-interactive variant of \"database migr…" [ref=e275] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/41fc777f32592416f613eaf7d0f788e84a749072
+                    - cell "May 4, 20262 weeks ago" [ref=e276]:
+                      - generic [ref=e277]: May 4, 20262 weeks ago
+                  - 'row "e2e, (Directory) chore: fix more flakey tests (#7961) Feb 24, 20263 months ago" [ref=e278]':
+                    - cell "e2e, (Directory)" [ref=e279]:
+                      - generic [ref=e280]:
+                        - img [ref=e281]
+                        - link "e2e, (Directory)" [ref=e286] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/e2e
+                          - text: e2e
+                    - 'cell "chore: fix more flakey tests (#7961)" [ref=e287]':
+                      - generic [ref=e289]:
+                        - 'link "chore: fix more flakey tests (" [ref=e290] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/8712bd33abb043500b99444342b33ca32cb78ef6
+                        - link "#7961" [ref=e291] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7961
+                        - link ")" [ref=e292] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/8712bd33abb043500b99444342b33ca32cb78ef6
+                    - cell "Feb 24, 20263 months ago" [ref=e293]:
+                      - generic [ref=e294]: Feb 24, 20263 months ago
+                  - 'row "functions-templates, (Directory) fix(deps): update dependency @netlify/functions to ^5.2.1 (#8254) May 13, 20265 days ago" [ref=e295]':
+                    - cell "functions-templates, (Directory)" [ref=e296]:
+                      - generic [ref=e297]:
+                        - img [ref=e298]
+                        - link "functions-templates, (Directory)" [ref=e303] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/functions-templates
+                          - text: functions-templates
+                    - 'cell "fix(deps): update dependency @netlify/functions to ^5.2.1 (#8254)" [ref=e304]':
+                      - generic [ref=e306]:
+                        - 'link "fix(deps): update dependency @netlify/functions to ^5.2.1 (" [ref=e307] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/5d11c293ca2adcd9f47827a2e0b2e7e6748b7102
+                        - link "#8254" [ref=e308] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8254
+                        - link ")" [ref=e309] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/5d11c293ca2adcd9f47827a2e0b2e7e6748b7102
+                    - cell "May 13, 20265 days ago" [ref=e310]:
+                      - generic [ref=e311]: May 13, 20265 days ago
+                  - 'row "scripts, (Directory) feat!: stop including npm-shrinkwrap.json (#8163) Apr 17, 2026last month" [ref=e312]':
+                    - cell "scripts, (Directory)" [ref=e313]:
+                      - generic [ref=e314]:
+                        - img [ref=e315]
+                        - link "scripts, (Directory)" [ref=e320] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/scripts
+                          - text: scripts
+                    - 'cell "feat!: stop including npm-shrinkwrap.json (#8163)" [ref=e321]':
+                      - generic [ref=e323]:
+                        - 'link "feat!: stop including" [ref=e324] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/0f444ae6aacae322dd8e4faf17821c2ab320ca16
+                        - code [ref=e325]:
+                          - link "npm-shrinkwrap.json" [ref=e326] [cursor=pointer]:
+                            - /url: /netlify/cli/commit/0f444ae6aacae322dd8e4faf17821c2ab320ca16
+                        - link "(" [ref=e327] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/0f444ae6aacae322dd8e4faf17821c2ab320ca16
+                        - link "#8163" [ref=e328] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8163
+                        - link ")" [ref=e329] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/0f444ae6aacae322dd8e4faf17821c2ab320ca16
+                    - cell "Apr 17, 2026last month" [ref=e330]:
+                      - generic [ref=e331]: Apr 17, 2026last month
+                  - 'row "site, (Directory) build(deps): bump postcss from 8.5.3 to 8.5.14 in /site (#8214) May 6, 20262 weeks ago" [ref=e332]':
+                    - cell "site, (Directory)" [ref=e333]:
+                      - generic [ref=e334]:
+                        - img [ref=e335]
+                        - link "site, (Directory)" [ref=e340] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/site
+                          - text: site
+                    - 'cell "build(deps): bump postcss from 8.5.3 to 8.5.14 in /site (#8214)" [ref=e341]':
+                      - generic [ref=e343]:
+                        - 'link "build(deps): bump postcss from 8.5.3 to 8.5.14 in /site (" [ref=e344] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/07fa4d1b72ba07aa53e75d82aaffa62b42e70286
+                        - link "#8214" [ref=e345] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8214
+                        - link ")" [ref=e346] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/07fa4d1b72ba07aa53e75d82aaffa62b42e70286
+                    - cell "May 6, 20262 weeks ago" [ref=e347]:
+                      - generic [ref=e348]: May 6, 20262 weeks ago
+                  - 'row "src, (Directory) fix: don''t use inquirer for non-interactive variant of \"database migr… May 4, 20262 weeks ago" [ref=e349]':
+                    - cell "src, (Directory)" [ref=e350]:
+                      - generic [ref=e351]:
+                        - img [ref=e352]
+                        - link "src, (Directory)" [ref=e357] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/src
+                          - text: src
+                    - 'cell "fix: don''t use inquirer for non-interactive variant of \"database migr…" [ref=e358]':
+                      - 'link "fix: don''t use inquirer for non-interactive variant of \"database migr…" [ref=e361] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/41fc777f32592416f613eaf7d0f788e84a749072
+                    - cell "May 4, 20262 weeks ago" [ref=e362]:
+                      - generic [ref=e363]: May 4, 20262 weeks ago
+                  - 'row "tests, (Directory) fix: don''t use inquirer for non-interactive variant of \"database migr… May 4, 20262 weeks ago" [ref=e364]':
+                    - cell "tests, (Directory)" [ref=e365]:
+                      - generic [ref=e366]:
+                        - img [ref=e367]
+                        - link "tests, (Directory)" [ref=e372] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/tests
+                          - text: tests
+                    - 'cell "fix: don''t use inquirer for non-interactive variant of \"database migr…" [ref=e373]':
+                      - 'link "fix: don''t use inquirer for non-interactive variant of \"database migr…" [ref=e376] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/41fc777f32592416f613eaf7d0f788e84a749072
+                    - cell "May 4, 20262 weeks ago" [ref=e377]:
+                      - generic [ref=e378]: May 4, 20262 weeks ago
+                  - 'row "types, (Directory) fix(deps): remove trivial dependencies Apr 16, 2025last year" [ref=e379]':
+                    - cell "types, (Directory)" [ref=e380]:
+                      - generic [ref=e381]:
+                        - img [ref=e382]
+                        - link "types, (Directory)" [ref=e387] [cursor=pointer]:
+                          - /url: /netlify/cli/tree/main/types
+                          - text: types
+                    - 'cell "fix(deps): remove trivial dependencies" [ref=e388]':
+                      - 'link "fix(deps): remove trivial dependencies" [ref=e391] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/a59c66f7dbb02454fcf29baeaa3760596ad80da4
+                    - cell "Apr 16, 2025last year" [ref=e392]:
+                      - generic [ref=e393]: Apr 16, 2025last year
+                  - row ".editorconfig, (File) Add .editorconfig (#1435) Oct 21, 20206 years ago" [ref=e394]:
+                    - cell ".editorconfig, (File)" [ref=e395]:
+                      - generic [ref=e396]:
+                        - img [ref=e397]
+                        - link ".editorconfig, (File)" [ref=e402] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/.editorconfig
+                          - text: .editorconfig
+                    - cell "Add .editorconfig (#1435)" [ref=e403]:
+                      - generic [ref=e405]:
+                        - link "Add" [ref=e406] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/b91ef348c1b489120e3fc8842225662085b76dab
+                        - code [ref=e407]:
+                          - link ".editorconfig" [ref=e408] [cursor=pointer]:
+                            - /url: /netlify/cli/commit/b91ef348c1b489120e3fc8842225662085b76dab
+                        - link "(" [ref=e409] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/b91ef348c1b489120e3fc8842225662085b76dab
+                        - link "#1435" [ref=e410] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/1435
+                        - link ")" [ref=e411] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/b91ef348c1b489120e3fc8842225662085b76dab
+                    - cell "Oct 21, 20206 years ago" [ref=e412]:
+                      - generic [ref=e413]: Oct 21, 20206 years ago
+                  - 'row ".gitattributes, (File) chore: upgrade prettier (#1391) Oct 15, 20206 years ago" [ref=e414]':
+                    - cell ".gitattributes, (File)" [ref=e415]:
+                      - generic [ref=e416]:
+                        - img [ref=e417]
+                        - link ".gitattributes, (File)" [ref=e422] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - 'cell "chore: upgrade prettier (#1391)" [ref=e423]':
+                      - generic [ref=e425]:
+                        - 'link "chore: upgrade prettier (" [ref=e426] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/f27310bcee3c8d84adfc89a24504e690cb44bae7
+                        - link "#1391" [ref=e427] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/1391
+                        - link ")" [ref=e428] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/f27310bcee3c8d84adfc89a24504e690cb44bae7
+                    - cell "Oct 15, 20206 years ago" [ref=e429]:
+                      - generic [ref=e430]: Oct 15, 20206 years ago
+                  - 'row ".gitignore, (File) chore: replatform docs site to Astro + Starlight (#7012) Jan 24, 2025last year" [ref=e431]':
+                    - cell ".gitignore, (File)" [ref=e432]:
+                      - generic [ref=e433]:
+                        - img [ref=e434]
+                        - link ".gitignore, (File)" [ref=e439] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/.gitignore
+                          - text: .gitignore
+                    - 'cell "chore: replatform docs site to Astro + Starlight (#7012)" [ref=e440]':
+                      - generic [ref=e442]:
+                        - 'link "chore: replatform docs site to Astro + Starlight (" [ref=e443] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/24768435487842b35a13393478b3aff4770adfc0
+                        - link "#7012" [ref=e444] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7012
+                        - link ")" [ref=e445] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/24768435487842b35a13393478b3aff4770adfc0
+                    - cell "Jan 24, 2025last year" [ref=e446]:
+                      - generic [ref=e447]: Jan 24, 2025last year
+                  - 'row ".prettierignore, (File) refactor: rename .mts to .ts (#6179) Nov 22, 20233 years ago" [ref=e448]':
+                    - cell ".prettierignore, (File)" [ref=e449]:
+                      - generic [ref=e450]:
+                        - img [ref=e451]
+                        - link ".prettierignore, (File)" [ref=e456] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/.prettierignore
+                          - text: .prettierignore
+                    - 'cell "refactor: rename .mts to .ts (#6179)" [ref=e457]':
+                      - generic [ref=e459]:
+                        - 'link "refactor: rename .mts to .ts (" [ref=e460] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/5eb2133a277191c68e6d2129f0ebe6d5d85a9402
+                        - link "#6179" [ref=e461] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/6179
+                        - link ")" [ref=e462] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/5eb2133a277191c68e6d2129f0ebe6d5d85a9402
+                    - cell "Nov 22, 20233 years ago" [ref=e463]:
+                      - generic [ref=e464]: Nov 22, 20233 years ago
+                  - 'row ".prettierrc.json, (File) refactor: modernize ESLint configuration (#7080) Mar 6, 2025last year" [ref=e465]':
+                    - cell ".prettierrc.json, (File)" [ref=e466]:
+                      - generic [ref=e467]:
+                        - img [ref=e468]
+                        - link ".prettierrc.json, (File)" [ref=e473] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/.prettierrc.json
+                          - text: .prettierrc.json
+                    - 'cell "refactor: modernize ESLint configuration (#7080)" [ref=e474]':
+                      - generic [ref=e476]:
+                        - 'link "refactor: modernize ESLint configuration (" [ref=e477] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/25fcdd8e3a059879c7b0049af64af61aca8b4eb8
+                        - link "#7080" [ref=e478] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7080
+                        - link ")" [ref=e479] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/25fcdd8e3a059879c7b0049af64af61aca8b4eb8
+                    - cell "Mar 6, 2025last year" [ref=e480]:
+                      - generic [ref=e481]: Mar 6, 2025last year
+                  - 'row ".vale.ini, (File) chore(ci): add vale (#2200) May 5, 20215 years ago" [ref=e482]':
+                    - cell ".vale.ini, (File)" [ref=e483]:
+                      - generic [ref=e484]:
+                        - img [ref=e485]
+                        - link ".vale.ini, (File)" [ref=e490] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/.vale.ini
+                          - text: .vale.ini
+                    - 'cell "chore(ci): add vale (#2200)" [ref=e491]':
+                      - generic [ref=e493]:
+                        - 'link "chore(ci): add vale (" [ref=e494] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/02635bdb303929403beda42c635bd45035ea941d
+                        - link "#2200" [ref=e495] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/2200
+                        - link ")" [ref=e496] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/02635bdb303929403beda42c635bd45035ea941d
+                    - cell "May 5, 20215 years ago" [ref=e497]:
+                      - generic [ref=e498]: May 5, 20215 years ago
+                  - 'row "CHANGELOG.md, (File) chore(main): release 26.0.2 (#8235) May 16, 20263 days ago" [ref=e499]':
+                    - cell "CHANGELOG.md, (File)" [ref=e500]:
+                      - generic [ref=e501]:
+                        - img [ref=e502]
+                        - link "CHANGELOG.md, (File)" [ref=e507] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/CHANGELOG.md
+                          - text: CHANGELOG.md
+                    - 'cell "chore(main): release 26.0.2 (#8235)" [ref=e508]':
+                      - generic [ref=e510]:
+                        - 'link "chore(main): release 26.0.2 (" [ref=e511] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                        - link "#8235" [ref=e512] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8235
+                        - link ")" [ref=e513] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                    - cell "May 16, 20263 days ago" [ref=e514]:
+                      - generic [ref=e515]: May 16, 20263 days ago
+                  - 'row "CLAUDE.md, (File) chore: mock Netlify API in integration tests (#7968) Feb 26, 20263 months ago" [ref=e516]':
+                    - cell "CLAUDE.md, (File)" [ref=e517]:
+                      - generic [ref=e518]:
+                        - img [ref=e519]
+                        - link "CLAUDE.md, (File)" [ref=e524] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - 'cell "chore: mock Netlify API in integration tests (#7968)" [ref=e525]':
+                      - generic [ref=e527]:
+                        - 'link "chore: mock Netlify API in integration tests (" [ref=e528] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/437e3afb4b855f7ffdebe99f8951d33503b071c3
+                        - link "#7968" [ref=e529] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7968
+                        - link ")" [ref=e530] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/437e3afb4b855f7ffdebe99f8951d33503b071c3
+                    - cell "Feb 26, 20263 months ago" [ref=e531]:
+                      - generic [ref=e532]: Feb 26, 20263 months ago
+                  - 'row "CODE_OF_CONDUCT.md, (File) Fix: Fixing prettier issues, and add to scripts test:prettier Sep 17, 20197 years ago" [ref=e533]':
+                    - cell "CODE_OF_CONDUCT.md, (File)" [ref=e534]:
+                      - generic [ref=e535]:
+                        - img [ref=e536]
+                        - link "CODE_OF_CONDUCT.md, (File)" [ref=e541] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/CODE_OF_CONDUCT.md
+                          - text: CODE_OF_CONDUCT.md
+                    - 'cell "Fix: Fixing prettier issues, and add to scripts test:prettier" [ref=e542]':
+                      - 'link "Fix: Fixing prettier issues, and add to scripts test:prettier" [ref=e545] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/f41e2365f83eff680256bc72c7450e8bd13922f2
+                    - cell "Sep 17, 20197 years ago" [ref=e546]:
+                      - generic [ref=e547]: Sep 17, 20197 years ago
+                  - 'row "CONTRIBUTING.md, (File) chore: mock Netlify API in integration tests (#7968) Feb 26, 20263 months ago" [ref=e548]':
+                    - cell "CONTRIBUTING.md, (File)" [ref=e549]:
+                      - generic [ref=e550]:
+                        - img [ref=e551]
+                        - link "CONTRIBUTING.md, (File)" [ref=e556] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - 'cell "chore: mock Netlify API in integration tests (#7968)" [ref=e557]':
+                      - generic [ref=e559]:
+                        - 'link "chore: mock Netlify API in integration tests (" [ref=e560] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/437e3afb4b855f7ffdebe99f8951d33503b071c3
+                        - link "#7968" [ref=e561] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7968
+                        - link ")" [ref=e562] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/437e3afb4b855f7ffdebe99f8951d33503b071c3
+                    - cell "Feb 26, 20263 months ago" [ref=e563]:
+                      - generic [ref=e564]: Feb 26, 20263 months ago
+                  - row "LICENSE, (File) Add missing project management files. Feb 9, 201710 years ago" [ref=e565]:
+                    - cell "LICENSE, (File)" [ref=e566]:
+                      - generic [ref=e567]:
+                        - img [ref=e568]
+                        - link "LICENSE, (File)" [ref=e573] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Add missing project management files." [ref=e574]:
+                      - link "Add missing project management files." [ref=e577] [cursor=pointer]:
+                        - /url: /netlify/cli/commit/61d677112af5d406932c16a43888769b8ca23aaf
+                    - cell "Feb 9, 201710 years ago" [ref=e578]:
+                      - generic [ref=e579]: Feb 9, 201710 years ago
+                  - 'row "README.md, (File) chore(readme): fix dead link to CLI command reference (#7673) Jan 26, 20264 months ago" [ref=e580]':
+                    - cell "README.md, (File)" [ref=e581]:
+                      - generic [ref=e582]:
+                        - img [ref=e583]
+                        - link "README.md, (File)" [ref=e588] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/README.md
+                          - text: README.md
+                    - 'cell "chore(readme): fix dead link to CLI command reference (#7673)" [ref=e589]':
+                      - generic [ref=e591]:
+                        - 'link "chore(readme): fix dead link to CLI command reference (" [ref=e592] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/ff24801145bd5c1fd402942eadacd56688d52169
+                        - link "#7673" [ref=e593] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7673
+                        - link ")" [ref=e594] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/ff24801145bd5c1fd402942eadacd56688d52169
+                    - cell "Jan 26, 20264 months ago" [ref=e595]:
+                      - generic [ref=e596]: Jan 26, 20264 months ago
+                  - 'row "cli.png, (File) docs: update logo (#5534) Mar 8, 20233 years ago" [ref=e597]':
+                    - cell "cli.png, (File)" [ref=e598]:
+                      - generic [ref=e599]:
+                        - img [ref=e600]
+                        - link "cli.png, (File)" [ref=e605] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/cli.png
+                          - text: cli.png
+                    - 'cell "docs: update logo (#5534)" [ref=e606]':
+                      - generic [ref=e608]:
+                        - 'link "docs: update logo (" [ref=e609] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/5abd0316f7f812f131cdcaa34aed9fa2de11f932
+                        - link "#5534" [ref=e610] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/5534
+                        - link ")" [ref=e611] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/5abd0316f7f812f131cdcaa34aed9fa2de11f932
+                    - cell "Mar 8, 20233 years ago" [ref=e612]:
+                      - generic [ref=e613]: Mar 8, 20233 years ago
+                  - 'row "codecov.yml, (File) chore(ci): add informational Codecov status checks (#4547) May 30, 20224 years ago" [ref=e614]':
+                    - cell "codecov.yml, (File)" [ref=e615]:
+                      - generic [ref=e616]:
+                        - img [ref=e617]
+                        - link "codecov.yml, (File)" [ref=e622] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/codecov.yml
+                          - text: codecov.yml
+                    - 'cell "chore(ci): add informational Codecov status checks (#4547)" [ref=e623]':
+                      - generic [ref=e625]:
+                        - 'link "chore(ci): add informational Codecov status checks (" [ref=e626] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/64fca178d29432b649b8cefc3d472f0750066ebf
+                        - link "#4547" [ref=e627] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/4547
+                        - link ")" [ref=e628] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/64fca178d29432b649b8cefc3d472f0750066ebf
+                    - cell "May 30, 20224 years ago" [ref=e629]:
+                      - generic [ref=e630]: May 30, 20224 years ago
+                  - 'row "commitlint.config.js, (File) feat!: remove sites:create-template command (#7946) Feb 20, 20263 months ago" [ref=e631]':
+                    - cell "commitlint.config.js, (File)" [ref=e632]:
+                      - generic [ref=e633]:
+                        - img [ref=e634]
+                        - link "commitlint.config.js, (File)" [ref=e639] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/commitlint.config.js
+                          - text: commitlint.config.js
+                    - 'cell "feat!: remove sites:create-template command (#7946)" [ref=e640]':
+                      - generic [ref=e642]:
+                        - 'link "feat!: remove" [ref=e643] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/ad3487d792dd13a047fc3841aa329be85c83b63a
+                        - code [ref=e644]:
+                          - link "sites:create-template" [ref=e645] [cursor=pointer]:
+                            - /url: /netlify/cli/commit/ad3487d792dd13a047fc3841aa329be85c83b63a
+                        - link "command (" [ref=e646] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/ad3487d792dd13a047fc3841aa329be85c83b63a
+                        - link "#7946" [ref=e647] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7946
+                        - link ")" [ref=e648] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/ad3487d792dd13a047fc3841aa329be85c83b63a
+                    - cell "Feb 20, 20263 months ago" [ref=e649]:
+                      - generic [ref=e650]: Feb 20, 20263 months ago
+                  - 'row "eslint.config.js, (File) style: lint all files Mar 29, 2025last year" [ref=e651]':
+                    - cell "eslint.config.js, (File)" [ref=e652]:
+                      - generic [ref=e653]:
+                        - img [ref=e654]
+                        - link "eslint.config.js, (File)" [ref=e659] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/eslint.config.js
+                          - text: eslint.config.js
+                    - 'cell "style: lint all files" [ref=e660]':
+                      - 'link "style: lint all files" [ref=e663] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/e5c6a136c94f9c786c4c39a7daecddda2070473c
+                    - cell "Mar 29, 2025last year" [ref=e664]:
+                      - generic [ref=e665]: Mar 29, 2025last year
+                  - 'row "eslint_temporary_suppressions.js, (File) chore(deps): update dependency typescript-eslint to v8.44.1 (#7478) Oct 1, 20258 months ago" [ref=e666]':
+                    - cell "eslint_temporary_suppressions.js, (File)" [ref=e667]:
+                      - generic [ref=e668]:
+                        - img [ref=e669]
+                        - link "eslint_temporary_suppressions.js, (File)" [ref=e674] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/eslint_temporary_suppressions.js
+                          - text: eslint_temporary_suppressions.js
+                    - 'cell "chore(deps): update dependency typescript-eslint to v8.44.1 (#7478)" [ref=e675]':
+                      - generic [ref=e677]:
+                        - 'link "chore(deps): update dependency typescript-eslint to v8.44.1 (" [ref=e678] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/4c67b78a9a86380a837104aa0636de4fe39af195
+                        - link "#7478" [ref=e679] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7478
+                        - link ")" [ref=e680] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/4c67b78a9a86380a837104aa0636de4fe39af195
+                    - cell "Oct 1, 20258 months ago" [ref=e681]:
+                      - generic [ref=e682]: Oct 1, 20258 months ago
+                  - row "layout.html, (File) Fix Prettier (second round) Oct 28, 20197 years ago" [ref=e683]:
+                    - cell "layout.html, (File)" [ref=e684]:
+                      - generic [ref=e685]:
+                        - img [ref=e686]
+                        - link "layout.html, (File)" [ref=e691] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/layout.html
+                          - text: layout.html
+                    - cell "Fix Prettier (second round)" [ref=e692]:
+                      - link "Fix Prettier (second round)" [ref=e695] [cursor=pointer]:
+                        - /url: /netlify/cli/commit/f61d0c016af446a39a6833ce38bbcea4253db46d
+                    - cell "Oct 28, 20197 years ago" [ref=e696]:
+                      - generic [ref=e697]: Oct 28, 20197 years ago
+                  - 'row "package-lock.json, (File) chore(main): release 26.0.2 (#8235) May 16, 20263 days ago" [ref=e698]':
+                    - cell "package-lock.json, (File)" [ref=e699]:
+                      - generic [ref=e700]:
+                        - img [ref=e701]
+                        - link "package-lock.json, (File)" [ref=e706] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/package-lock.json
+                          - text: package-lock.json
+                    - 'cell "chore(main): release 26.0.2 (#8235)" [ref=e707]':
+                      - generic [ref=e709]:
+                        - 'link "chore(main): release 26.0.2 (" [ref=e710] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                        - link "#8235" [ref=e711] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8235
+                        - link ")" [ref=e712] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                    - cell "May 16, 20263 days ago" [ref=e713]:
+                      - generic [ref=e714]: May 16, 20263 days ago
+                  - 'row "package.json, (File) chore(main): release 26.0.2 (#8235) May 16, 20263 days ago" [ref=e715]':
+                    - cell "package.json, (File)" [ref=e716]:
+                      - generic [ref=e717]:
+                        - img [ref=e718]
+                        - link "package.json, (File)" [ref=e723] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/package.json
+                          - text: package.json
+                    - 'cell "chore(main): release 26.0.2 (#8235)" [ref=e724]':
+                      - generic [ref=e726]:
+                        - 'link "chore(main): release 26.0.2 (" [ref=e727] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                        - link "#8235" [ref=e728] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8235
+                        - link ")" [ref=e729] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/a2b272461fcda163628f0a5992f0c4638f0b5274
+                    - cell "May 16, 20263 days ago" [ref=e730]:
+                      - generic [ref=e731]: May 16, 20263 days ago
+                  - 'row "renovate.json5, (File) fix(deps): unpin all dependencies (#8171) May 12, 2026last week" [ref=e732]':
+                    - cell "renovate.json5, (File)" [ref=e733]:
+                      - generic [ref=e734]:
+                        - img [ref=e735]
+                        - link "renovate.json5, (File)" [ref=e740] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/renovate.json5
+                          - text: renovate.json5
+                    - 'cell "fix(deps): unpin all dependencies (#8171)" [ref=e741]':
+                      - generic [ref=e743]:
+                        - 'link "fix(deps): unpin all dependencies (" [ref=e744] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/47da71e7ecec2712ee8383b594b3b091cdc51d8f
+                        - link "#8171" [ref=e745] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/8171
+                        - link ")" [ref=e746] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/47da71e7ecec2712ee8383b594b3b091cdc51d8f
+                    - cell "May 12, 2026last week" [ref=e747]:
+                      - generic [ref=e748]: May 12, 2026last week
+                  - 'row "tsconfig.base.json, (File) fix(deps): set tsc build target to node 20 (#7960) Mar 10, 20262 months ago" [ref=e749]':
+                    - cell "tsconfig.base.json, (File)" [ref=e750]:
+                      - generic [ref=e751]:
+                        - img [ref=e752]
+                        - link "tsconfig.base.json, (File)" [ref=e757] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/tsconfig.base.json
+                          - text: tsconfig.base.json
+                    - 'cell "fix(deps): set tsc build target to node 20 (#7960)" [ref=e758]':
+                      - generic [ref=e760]:
+                        - 'link "fix(deps): set tsc build target to node 20 (" [ref=e761] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/3ac52d4e29c4f2016bba9dac4d3f73865500b063
+                        - link "#7960" [ref=e762] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7960
+                        - link ")" [ref=e763] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/3ac52d4e29c4f2016bba9dac4d3f73865500b063
+                    - cell "Mar 10, 20262 months ago" [ref=e764]:
+                      - generic [ref=e765]: Mar 10, 20262 months ago
+                  - 'row "tsconfig.build.json, (File) build: separate typechecking and build tsconfigs Mar 12, 2025last year" [ref=e766]':
+                    - cell "tsconfig.build.json, (File)" [ref=e767]:
+                      - generic [ref=e768]:
+                        - img [ref=e769]
+                        - link "tsconfig.build.json, (File)" [ref=e774] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/tsconfig.build.json
+                          - text: tsconfig.build.json
+                    - 'cell "build: separate typechecking and build tsconfigs" [ref=e775]':
+                      - 'link "build: separate typechecking and build tsconfigs" [ref=e778] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/92780abf629066cabcd00cf1149fe5a9946c4715
+                    - cell "Mar 12, 2025last year" [ref=e779]:
+                      - generic [ref=e780]: Mar 12, 2025last year
+                  - 'row "tsconfig.json, (File) refactor: enable typechecking on tests Mar 12, 2025last year" [ref=e781]':
+                    - cell "tsconfig.json, (File)" [ref=e782]:
+                      - generic [ref=e783]:
+                        - img [ref=e784]
+                        - link "tsconfig.json, (File)" [ref=e789] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/tsconfig.json
+                          - text: tsconfig.json
+                    - 'cell "refactor: enable typechecking on tests" [ref=e790]':
+                      - 'link "refactor: enable typechecking on tests" [ref=e793] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/8ee88c90b9804e31c86cff0e6c1d5a217da3a059
+                    - cell "Mar 12, 2025last year" [ref=e794]:
+                      - generic [ref=e795]: Mar 12, 2025last year
+                  - 'row "vitest.config.ts, (File) build(vitest): try reverting e2e vitest pool to v1 config to fix new … Apr 16, 2025last year" [ref=e796]':
+                    - cell "vitest.config.ts, (File)" [ref=e797]:
+                      - generic [ref=e798]:
+                        - img [ref=e799]
+                        - link "vitest.config.ts, (File)" [ref=e804] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/vitest.config.ts
+                          - text: vitest.config.ts
+                    - 'cell "build(vitest): try reverting e2e vitest pool to v1 config to fix new …" [ref=e805]':
+                      - 'link "build(vitest): try reverting e2e vitest pool to v1 config to fix new …" [ref=e808] [cursor=pointer]':
+                        - /url: /netlify/cli/commit/5069b7cb71291333d8972ef1b7b52b6b5bb8b1c4
+                    - cell "Apr 16, 2025last year" [ref=e809]:
+                      - generic [ref=e810]: Apr 16, 2025last year
+                  - 'row "vitest.e2e.config.ts, (File) feat: publish netlify package (#7293) May 19, 2025last year" [ref=e811]':
+                    - cell "vitest.e2e.config.ts, (File)" [ref=e812]:
+                      - generic [ref=e813]:
+                        - img [ref=e814]
+                        - link "vitest.e2e.config.ts, (File)" [ref=e819] [cursor=pointer]:
+                          - /url: /netlify/cli/blob/main/vitest.e2e.config.ts
+                          - text: vitest.e2e.config.ts
+                    - 'cell "feat: publish netlify package (#7293)" [ref=e820]':
+                      - generic [ref=e822]:
+                        - 'link "feat: publish" [ref=e823] [cursor=pointer]':
+                          - /url: /netlify/cli/commit/bda3784d01cd2be66b850127c0a13f2c690985c0
+                        - code [ref=e824]:
+                          - link "netlify" [ref=e825] [cursor=pointer]:
+                            - /url: /netlify/cli/commit/bda3784d01cd2be66b850127c0a13f2c690985c0
+                        - link "package (" [ref=e826] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/bda3784d01cd2be66b850127c0a13f2c690985c0
+                        - link "#7293" [ref=e827] [cursor=pointer]:
+                          - /url: https://github.com/netlify/cli/pull/7293
+                        - link ")" [ref=e828] [cursor=pointer]:
+                          - /url: /netlify/cli/commit/bda3784d01cd2be66b850127c0a13f2c690985c0
+                    - cell "May 19, 2025last year" [ref=e829]:
+                      - generic [ref=e830]: May 19, 2025last year
+            - generic [ref=e832]:
+              - generic [ref=e833]:
+                - heading "Repository files navigation" [level=2] [ref=e834]
+                - navigation "Repository files" [ref=e835]:
+                  - list [ref=e836]:
+                    - listitem [ref=e837]:
+                      - link "README" [ref=e838] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e839]: README
+                    - listitem [ref=e840]:
+                      - link "Code of conduct" [ref=e841] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e842]: Code of conduct
+                    - listitem [ref=e843]:
+                      - link "Contributing" [ref=e844] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e845]: Contributing
+                    - listitem [ref=e846]:
+                      - link "MIT license" [ref=e847] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e848]: MIT license
+                    - listitem [ref=e849]:
+                      - link "Security" [ref=e850] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e851]: Security
+                - button "Outline" [ref=e852] [cursor=pointer]:
+                  - img [ref=e853]
+              - article [ref=e856]:
+                - paragraph [ref=e857]:
+                  - link "Netlify CLI" [ref=e858] [cursor=pointer]:
+                    - /url: /netlify/cli/blob/main/cli.png
+                    - img "Netlify CLI" [ref=e859]
+                - paragraph [ref=e860]:
+                  - link "Coverage Status" [ref=e861] [cursor=pointer]:
+                    - /url: https://codecov.io/gh/netlify/cli
+                    - img "Coverage Status" [ref=e862]
+                  - link "npm version" [ref=e863] [cursor=pointer]:
+                    - /url: https://npmjs.org/package/netlify-cli
+                    - img "npm version" [ref=e864]
+                  - link "downloads" [ref=e865] [cursor=pointer]:
+                    - /url: https://npmjs.org/package/netlify-cli
+                    - img "downloads" [ref=e866]
+                  - link "netlify-status" [ref=e867] [cursor=pointer]:
+                    - /url: https://app.netlify.com/projects/cli/deploys
+                    - img "netlify-status" [ref=e868]
+                  - link "security" [ref=e869] [cursor=pointer]:
+                    - /url: https://snyk.io/test/npm/netlify-cli
+                    - img "security" [ref=e870]
+                - paragraph [ref=e871]:
+                  - text: Interact with
+                  - link "Netlify" [ref=e872] [cursor=pointer]:
+                    - /url: http://netlify.com/
+                  - text: from the comfort of your CLI.
+                - paragraph [ref=e873]:
+                  - text: See the
+                  - link "CLI command line reference" [ref=e874] [cursor=pointer]:
+                    - /url: https://cli.netlify.com/#commands
+                  - text: to get started and the docs on using
+                  - link "Netlify Dev" [ref=e875] [cursor=pointer]:
+                    - /url: https://github.com/netlify/cli/blob/main/docs/commands/dev.md
+                  - text: to run your site locally.
+                - generic [ref=e876]:
+                  - heading "Table of Contents" [level=2] [ref=e877]
+                  - 'link "Permalink: Table of Contents" [ref=e878] [cursor=pointer]':
+                    - /url: "#table-of-contents"
+                    - img [ref=e879]
+                - group [ref=e881]:
+                  - generic "Click to expand" [ref=e882] [cursor=pointer]
+                - generic [ref=e883]:
+                  - heading "Installation" [level=2] [ref=e884]
+                  - 'link "Permalink: Installation" [ref=e885] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e886]
+                - paragraph [ref=e888]:
+                  - text: Netlify CLI requires
+                  - link "Node.js" [ref=e889] [cursor=pointer]:
+                    - /url: https://nodejs.org
+                  - text: "version 20.12.2 or above. To install, run the following command from any directory in your terminal:"
+                - generic [ref=e890]:
+                  - generic [ref=e891]: npm install netlify-cli -g
+                  - button "Copy code to clipboard" [ref=e893] [cursor=pointer]:
+                    - img [ref=e894]
+                - paragraph [ref=e897]: "When using the CLI in a CI environment we recommend installing it locally as a development dependency, instead of globally. To install locally, run the following command from the root directory of your project:"
+                - generic [ref=e898]:
+                  - generic [ref=e899]: npm install --save-dev netlify-cli
+                  - button "Copy code to clipboard" [ref=e901] [cursor=pointer]:
+                    - img [ref=e902]
+                - paragraph [ref=e905]:
+                  - strong [ref=e906]: "Important:"
+                  - text: Running
+                  - code [ref=e907]: npm install netlify-cli -g
+                  - text: in CI means you're always installing the latest version of the CLI, including
+                  - strong [ref=e908]: breaking changes
+                  - text: . When you install locally and use a
+                  - link "lock file" [ref=e909] [cursor=pointer]:
+                    - /url: https://docs.npmjs.com/cli/v7/commands/npm-ci
+                  - text: you guarantee reproducible builds. To manage CLI updates we recommend using an automated tool like
+                  - link "renovate" [ref=e910] [cursor=pointer]:
+                    - /url: https://github.com/renovatebot/renovate
+                  - text: or
+                  - link "dependabot" [ref=e911] [cursor=pointer]:
+                    - /url: https://github.com/dependabot
+                  - text: .
+                - paragraph [ref=e912]:
+                  - text: "Alternatively you may also use Homebrew:"
+                  - code [ref=e913]: brew install netlify-cli
+                  - text: (thanks
+                  - link "@cglong" [ref=e914] [cursor=pointer]:
+                    - /url: https://github.com/netlify/cli/issues/291
+                  - text: ).
+                - generic [ref=e915]:
+                  - heading "Usage" [level=2] [ref=e916]
+                  - 'link "Permalink: Usage" [ref=e917] [cursor=pointer]':
+                    - /url: "#usage"
+                    - img [ref=e918]
+                - paragraph [ref=e920]:
+                  - text: Installing the CLI globally provides access to the
+                  - code [ref=e921]: netlify
+                  - text: command.
+                - generic [ref=e922]:
+                  - generic [ref=e923]:
+                    - text: "netlify [command] #"
+                    - generic [ref=e924]:
+                      - text: Run
+                      - generic [ref=e925]: "`help`"
+                      - text: for detailed information about CLI commands
+                    - text: netlify [command] help
+                  - button "Copy code to clipboard" [ref=e927] [cursor=pointer]:
+                    - img [ref=e928]
+                - generic [ref=e931]:
+                  - heading "Documentation" [level=2] [ref=e932]
+                  - 'link "Permalink: Documentation" [ref=e933] [cursor=pointer]':
+                    - /url: "#documentation"
+                    - img [ref=e934]
+                - paragraph [ref=e936]:
+                  - text: To learn how to log in to Netlify and start deploying projects, visit the
+                  - link "documentation on Netlify" [ref=e937] [cursor=pointer]:
+                    - /url: https://docs.netlify.com/cli/get-started/
+                  - text: .
+                - generic [ref=e938]:
+                  - heading "Commands" [level=2] [ref=e939]
+                  - 'link "Permalink: Commands" [ref=e940] [cursor=pointer]':
+                    - /url: "#commands"
+                    - img [ref=e941]
+                - paragraph [ref=e943]:
+                  - text: For a full command reference visit
+                  - link "cli.netlify.com" [ref=e944] [cursor=pointer]:
+                    - /url: https://cli.netlify.com/
+                  - text: .
+                - generic [ref=e945]:
+                  - heading "Contributing" [level=2] [ref=e946]
+                  - 'link "Permalink: Contributing" [ref=e947] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e948]
+                - paragraph [ref=e950]:
+                  - text: See
+                  - link "CONTRIBUTING.md" [ref=e951] [cursor=pointer]:
+                    - /url: /netlify/cli/blob/main/CONTRIBUTING.md
+                  - text: for more info on how to make contributions to this project.
+                - generic [ref=e952]:
+                  - heading "Development" [level=2] [ref=e953]
+                  - 'link "Permalink: Development" [ref=e954] [cursor=pointer]':
+                    - /url: "#development"
+                    - img [ref=e955]
+                - paragraph [ref=e957]: "You'll need to follow these steps to run Netlify CLI locally:"
+                - generic [ref=e958]:
+                  - code [ref=e960]: uninstall any globally installed versions of netlify-cli clone and install deps for https://github.com/netlify/cli npm link from inside the cli folder
+                  - button "Copy code to clipboard" [ref=e962] [cursor=pointer]:
+                    - img [ref=e963]
+                - paragraph [ref=e966]: Now you're both ready to start testing and to contribute to the project!
+                - generic [ref=e967]:
+                  - heading "License" [level=2] [ref=e968]
+                  - 'link "Permalink: License" [ref=e969] [cursor=pointer]':
+                    - /url: "#license"
+                    - img [ref=e970]
+                - paragraph [ref=e972]:
+                  - text: MIT. See
+                  - link "LICENSE" [ref=e973] [cursor=pointer]:
+                    - /url: /netlify/cli/blob/main/LICENSE
+                  - text: for more details.
+        - generic [ref=e977]:
+          - generic [ref=e980]:
+            - heading "About" [level=2] [ref=e981]
+            - paragraph [ref=e982]: Netlify Command Line Interface
+            - generic [ref=e983]:
+              - img [ref=e984]
+              - link "cli.netlify.com" [ref=e987] [cursor=pointer]:
+                - /url: http://cli.netlify.com
+            - heading "Topics" [level=3] [ref=e988]
+            - generic [ref=e990]:
+              - link "cli" [ref=e991] [cursor=pointer]:
+                - /url: /topics/cli
+              - link "netlify" [ref=e992] [cursor=pointer]:
+                - /url: /topics/netlify
+            - heading "Resources" [level=3] [ref=e993]
+            - link "Readme" [ref=e995] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e996]
+              - text: Readme
+            - heading "License" [level=3] [ref=e998]
+            - link "MIT license" [ref=e1000] [cursor=pointer]:
+              - /url: "#MIT-1-ov-file"
+              - img [ref=e1001]
+              - text: MIT license
+            - heading "Code of conduct" [level=3] [ref=e1003]
+            - link "Code of conduct" [ref=e1005] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+              - img [ref=e1006]
+              - text: Code of conduct
+            - heading "Contributing" [level=3] [ref=e1008]
+            - link "Contributing" [ref=e1010] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1011]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e1013]
+            - link "Security policy" [ref=e1015] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e1016]
+              - text: Security policy
+            - link "Activity" [ref=e1019] [cursor=pointer]:
+              - /url: /netlify/cli/activity
+              - img [ref=e1020]
+              - text: Activity
+            - link "Custom properties" [ref=e1023] [cursor=pointer]:
+              - /url: /netlify/cli/custom-properties
+              - img [ref=e1024]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1026]
+            - link "1.9k stars" [ref=e1028] [cursor=pointer]:
+              - /url: /netlify/cli/stargazers
+              - img [ref=e1029]
+              - strong [ref=e1031]: 1.9k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1032]
+            - link "54 watching" [ref=e1034] [cursor=pointer]:
+              - /url: /netlify/cli/watchers
+              - img [ref=e1035]
+              - strong [ref=e1037]: "54"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1038]
+            - link "453 forks" [ref=e1040] [cursor=pointer]:
+              - /url: /netlify/cli/forks
+              - img [ref=e1041]
+              - strong [ref=e1043]: "453"
+              - text: forks
+            - link "Report repository" [ref=e1045] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fnetlify%2Fcli&report=netlify+%28user%29
+          - generic [ref=e1047]:
+            - heading "Releases 1,255" [level=2] [ref=e1048]:
+              - link "Releases 1,255" [ref=e1049] [cursor=pointer]:
+                - /url: /netlify/cli/releases
+                - text: Releases
+                - generic "1,255" [ref=e1050]
+            - link "v26.0.2 Latest May 15, 20263 days ago" [ref=e1051] [cursor=pointer]:
+              - /url: /netlify/cli/releases/tag/v26.0.2
+              - img [ref=e1052]
+              - generic [ref=e1054]:
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]: v26.0.2
+                  - 'generic "Label: Latest" [ref=e1057]': Latest
+                - generic [ref=e1058]: May 15, 20263 days ago
+            - link "+ 1,254 releases" [ref=e1060] [cursor=pointer]:
+              - /url: /netlify/cli/releases
+          - generic [ref=e1062]:
+            - heading "Packages" [level=2] [ref=e1063]:
+              - link "Packages" [ref=e1064] [cursor=pointer]:
+                - /url: /orgs/netlify/packages?repo_name=cli
+            - generic [ref=e1065]: No packages published
+          - generic [ref=e1067]:
+            - heading "Contributors 219" [level=2] [ref=e1068]:
+              - link "Contributors 219" [ref=e1069] [cursor=pointer]:
+                - /url: /netlify/cli/graphs/contributors
+                - text: Contributors
+                - generic "219" [ref=e1070]
+            - list [ref=e1071]:
+              - listitem [ref=e1072]:
+                - link "@renovate[bot]" [ref=e1073] [cursor=pointer]:
+                  - /url: https://github.com/apps/renovate
+                  - img "@renovate[bot]" [ref=e1074]
+              - listitem [ref=e1075]:
+                - link "@renovate-bot" [ref=e1076] [cursor=pointer]:
+                  - /url: https://github.com/renovate-bot
+                  - img "@renovate-bot" [ref=e1077]
+              - listitem [ref=e1078]:
+                - link "@token-generator-app[bot]" [ref=e1079] [cursor=pointer]:
+                  - /url: https://github.com/apps/token-generator-app
+                  - img "@token-generator-app[bot]" [ref=e1080]
+              - listitem [ref=e1081]:
+                - link "@kodiakhq[bot]" [ref=e1082] [cursor=pointer]:
+                  - /url: https://github.com/apps/kodiakhq
+                  - img "@kodiakhq[bot]" [ref=e1083]
+              - listitem [ref=e1084]:
+                - link "@bcomnes" [ref=e1085] [cursor=pointer]:
+                  - /url: https://github.com/bcomnes
+                  - img "@bcomnes" [ref=e1086]
+              - listitem [ref=e1087]:
+                - link "@RaeesBhatti" [ref=e1088] [cursor=pointer]:
+                  - /url: https://github.com/RaeesBhatti
+                  - img "@RaeesBhatti" [ref=e1089]
+              - listitem [ref=e1090]:
+                - link "@ehmicky" [ref=e1091] [cursor=pointer]:
+                  - /url: https://github.com/ehmicky
+                  - img "@ehmicky" [ref=e1092]
+              - listitem [ref=e1093]:
+                - link "@DavidWells" [ref=e1094] [cursor=pointer]:
+                  - /url: https://github.com/DavidWells
+                  - img "@DavidWells" [ref=e1095]
+              - listitem [ref=e1096]:
+                - link "@erezrokah" [ref=e1097] [cursor=pointer]:
+                  - /url: https://github.com/erezrokah
+                  - img "@erezrokah" [ref=e1098]
+              - listitem [ref=e1099]:
+                - link "@eduardoboucas" [ref=e1100] [cursor=pointer]:
+                  - /url: https://github.com/eduardoboucas
+                  - img "@eduardoboucas" [ref=e1101]
+              - listitem [ref=e1102]:
+                - link "@danez" [ref=e1103] [cursor=pointer]:
+                  - /url: https://github.com/danez
+                  - img "@danez" [ref=e1104]
+              - listitem [ref=e1105]:
+                - link "@serhalp" [ref=e1106] [cursor=pointer]:
+                  - /url: https://github.com/serhalp
+                  - img "@serhalp" [ref=e1107]
+              - listitem [ref=e1108]:
+                - link "@dependabot[bot]" [ref=e1109] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1110]
+              - listitem [ref=e1111]:
+                - link "@netlify-bot" [ref=e1112] [cursor=pointer]:
+                  - /url: https://github.com/netlify-bot
+                  - img "@netlify-bot" [ref=e1113]
+            - link "+ 205 contributors" [ref=e1115] [cursor=pointer]:
+              - /url: /netlify/cli/graphs/contributors
+          - generic [ref=e1117]:
+            - heading "Languages" [level=2] [ref=e1118]
+            - list [ref=e1125]:
+              - listitem [ref=e1126]:
+                - link "TypeScript 93.2%" [ref=e1127] [cursor=pointer]:
+                  - /url: /netlify/cli/search?l=typescript
+                  - img [ref=e1128]
+                  - generic [ref=e1130]: TypeScript
+                  - generic [ref=e1131]: 93.2%
+              - listitem [ref=e1132]:
+                - link "JavaScript 4.9%" [ref=e1133] [cursor=pointer]:
+                  - /url: /netlify/cli/search?l=javascript
+                  - img [ref=e1134]
+                  - generic [ref=e1136]: JavaScript
+                  - generic [ref=e1137]: 4.9%
+              - listitem [ref=e1138]:
+                - link "CSS 1.7%" [ref=e1139] [cursor=pointer]:
+                  - /url: /netlify/cli/search?l=css
+                  - img [ref=e1140]
+                  - generic [ref=e1142]: CSS
+                  - generic [ref=e1143]: 1.7%
+              - listitem [ref=e1144]:
+                - generic [ref=e1145]:
+                  - img [ref=e1146]
+                  - generic [ref=e1148]: Other
+                  - generic [ref=e1149]: 0.2%
+  - contentinfo [ref=e1151]:
+    - heading "Footer" [level=2] [ref=e1152]
+    - generic [ref=e1153]:
+      - generic [ref=e1154]:
+        - link "GitHub Homepage" [ref=e1155] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1156]
+        - generic [ref=e1158]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1159]:
+        - heading "Footer navigation" [level=3] [ref=e1160]
+        - list "Footer navigation" [ref=e1161]:
+          - listitem [ref=e1162]:
+            - link "Terms" [ref=e1163] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1164]:
+            - link "Privacy" [ref=e1165] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1166]:
+            - link "Security" [ref=e1167] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1168]:
+            - link "Status" [ref=e1169] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1170]:
+            - link "Community" [ref=e1171] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1172]:
+            - link "Docs" [ref=e1173] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1174]:
+            - link "Contact" [ref=e1175] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1176]:
+            - button "Manage cookies" [ref=e1178] [cursor=pointer]
+          - listitem [ref=e1179]:
+            - button "Do not share my personal information" [ref=e1181] [cursor=pointer]

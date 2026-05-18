@@ -1,0 +1,217 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "CLI Tools" [ref=e5] [cursor=pointer]:
+          - /url: /zh
+        - generic [ref=e6]:
+          - link "中文" [ref=e7] [cursor=pointer]:
+            - /url: /zh
+          - link "EN" [ref=e8] [cursor=pointer]:
+            - /url: /en
+    - main [ref=e9]:
+      - generic [ref=e10]:
+        - generic [ref=e11]:
+          - heading "发现优质 CLI 工具" [level=1] [ref=e12]
+          - paragraph [ref=e13]: 精选 95 款命令行工具，带中英双语介绍和 AI 环境兼容性标注
+        - generic [ref=e15]:
+          - img [ref=e16]
+          - searchbox "搜索 CLI 工具..." [ref=e18]
+        - generic [ref=e19]:
+          - complementary [ref=e20]:
+            - navigation [ref=e21]:
+              - button "全部分类 95" [ref=e22]:
+                - generic [ref=e23]: 全部分类
+                - generic [ref=e24]: "95"
+              - button "云服务 & 部署 10" [active] [ref=e25]:
+                - generic [ref=e26]: 云服务 & 部署
+                - generic [ref=e27]: "10"
+              - button "数据库 8" [ref=e28]:
+                - generic [ref=e29]: 数据库
+                - generic [ref=e30]: "8"
+              - button "开发工具 21" [ref=e31]:
+                - generic [ref=e32]: 开发工具
+                - generic [ref=e33]: "21"
+              - button "文件管理 8" [ref=e34]:
+                - generic [ref=e35]: 文件管理
+                - generic [ref=e36]: "8"
+              - button "娱乐 6" [ref=e37]:
+                - generic [ref=e38]: 娱乐
+                - generic [ref=e39]: "6"
+              - button "Git 工具 5" [ref=e40]:
+                - generic [ref=e41]: Git 工具
+                - generic [ref=e42]: "5"
+              - button "媒体 6" [ref=e43]:
+                - generic [ref=e44]: 媒体
+                - generic [ref=e45]: "6"
+              - button "网络 8" [ref=e46]:
+                - generic [ref=e47]: 网络
+                - generic [ref=e48]: "8"
+              - button "效率 16" [ref=e49]:
+                - generic [ref=e50]: 效率
+                - generic [ref=e51]: "16"
+              - button "系统 7" [ref=e52]:
+                - generic [ref=e53]: 系统
+                - generic [ref=e54]: "7"
+          - generic [ref=e55]:
+            - paragraph [ref=e56]: 10 个工具
+            - generic [ref=e57]:
+              - link "Vercel CLI 云服务 & 部署 在终端一键部署和管理 Vercel 项目 ⭐ 15.5k · TypeScript npm deployment hosting serverless" [ref=e1060] [cursor=pointer]:
+                - /url: /zh/tools/vercel
+                - generic [ref=e1061]:
+                  - heading "Vercel CLI" [level=2] [ref=e1062]
+                  - generic [ref=e1063]: 云服务 & 部署
+                - paragraph [ref=e1064]: 在终端一键部署和管理 Vercel 项目
+                - generic [ref=e1065]:
+                  - generic [ref=e1066]: ⭐ 15.5k
+                  - generic [ref=e1067]: ·
+                  - generic [ref=e1068]: TypeScript
+                  - generic [ref=e1069]: npm
+                - generic [ref=e1070]:
+                  - generic [ref=e1071]: deployment
+                  - generic [ref=e1072]: hosting
+                  - generic [ref=e1073]: serverless
+              - link "Netlify CLI 云服务 & 部署 在命令行部署和管理 Netlify 站点 ⭐ 1.9k · TypeScript npm deployment hosting jamstack" [ref=e1074] [cursor=pointer]:
+                - /url: /zh/tools/netlify
+                - generic [ref=e1075]:
+                  - heading "Netlify CLI" [level=2] [ref=e1076]
+                  - generic [ref=e1077]: 云服务 & 部署
+                - paragraph [ref=e1078]: 在命令行部署和管理 Netlify 站点
+                - generic [ref=e1079]:
+                  - generic [ref=e1080]: ⭐ 1.9k
+                  - generic [ref=e1081]: ·
+                  - generic [ref=e1082]: TypeScript
+                  - generic [ref=e1083]: npm
+                - generic [ref=e1084]:
+                  - generic [ref=e1085]: deployment
+                  - generic [ref=e1086]: hosting
+                  - generic [ref=e1087]: jamstack
+              - link "flyctl 云服务 & 部署 全球部署和管理 Fly.io 应用 ⭐ 1.7k · Go brew npm deployment containers paas" [ref=e1088] [cursor=pointer]:
+                - /url: /zh/tools/flyctl
+                - generic [ref=e1089]:
+                  - heading "flyctl" [level=2] [ref=e1090]
+                  - generic [ref=e1091]: 云服务 & 部署
+                - paragraph [ref=e1092]: 全球部署和管理 Fly.io 应用
+                - generic [ref=e1093]:
+                  - generic [ref=e1094]: ⭐ 1.7k
+                  - generic [ref=e1095]: ·
+                  - generic [ref=e1096]: Go
+                  - generic [ref=e1097]: brew
+                  - generic [ref=e1098]: npm
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]: deployment
+                  - generic [ref=e1101]: containers
+                  - generic [ref=e1102]: paas
+              - link "Wrangler 云服务 & 部署 在 CLI 中构建和部署 Cloudflare Workers ⭐ 4.1k · TypeScript npm edge serverless cloudflare" [ref=e1103] [cursor=pointer]:
+                - /url: /zh/tools/wrangler
+                - generic [ref=e1104]:
+                  - heading "Wrangler" [level=2] [ref=e1105]
+                  - generic [ref=e1106]: 云服务 & 部署
+                - paragraph [ref=e1107]: 在 CLI 中构建和部署 Cloudflare Workers
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]: ⭐ 4.1k
+                  - generic [ref=e1110]: ·
+                  - generic [ref=e1111]: TypeScript
+                  - generic [ref=e1112]: npm
+                - generic [ref=e1113]:
+                  - generic [ref=e1114]: edge
+                  - generic [ref=e1115]: serverless
+                  - generic [ref=e1116]: cloudflare
+              - link "Railway CLI 云服务 & 部署 在终端部署和管理 Railway 项目 ⭐ 544 · Rust npm brew deployment paas containers" [ref=e1117] [cursor=pointer]:
+                - /url: /zh/tools/railway
+                - generic [ref=e1118]:
+                  - heading "Railway CLI" [level=2] [ref=e1119]
+                  - generic [ref=e1120]: 云服务 & 部署
+                - paragraph [ref=e1121]: 在终端部署和管理 Railway 项目
+                - generic [ref=e1122]:
+                  - generic [ref=e1123]: ⭐ 544
+                  - generic [ref=e1124]: ·
+                  - generic [ref=e1125]: Rust
+                  - generic [ref=e1126]: npm
+                  - generic [ref=e1127]: brew
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]: deployment
+                  - generic [ref=e1130]: paas
+                  - generic [ref=e1131]: containers
+              - link "Supabase CLI 云服务 & 部署 管理 Supabase 项目并运行本地开发环境 ⭐ 2.2k · Go npm brew database baas postgres" [ref=e1132] [cursor=pointer]:
+                - /url: /zh/tools/supabase
+                - generic [ref=e1133]:
+                  - heading "Supabase CLI" [level=2] [ref=e1134]
+                  - generic [ref=e1135]: 云服务 & 部署
+                - paragraph [ref=e1136]: 管理 Supabase 项目并运行本地开发环境
+                - generic [ref=e1137]:
+                  - generic [ref=e1138]: ⭐ 2.2k
+                  - generic [ref=e1139]: ·
+                  - generic [ref=e1140]: Go
+                  - generic [ref=e1141]: npm
+                  - generic [ref=e1142]: brew
+                - generic [ref=e1143]:
+                  - generic [ref=e1144]: database
+                  - generic [ref=e1145]: baas
+                  - generic [ref=e1146]: postgres
+              - link "Firebase CLI 云服务 & 部署 在终端部署和管理 Firebase 项目 ⭐ 4.4k · TypeScript npm baas google hosting" [ref=e1147] [cursor=pointer]:
+                - /url: /zh/tools/firebase-tools
+                - generic [ref=e1148]:
+                  - heading "Firebase CLI" [level=2] [ref=e1149]
+                  - generic [ref=e1150]: 云服务 & 部署
+                - paragraph [ref=e1151]: 在终端部署和管理 Firebase 项目
+                - generic [ref=e1152]:
+                  - generic [ref=e1153]: ⭐ 4.4k
+                  - generic [ref=e1154]: ·
+                  - generic [ref=e1155]: TypeScript
+                  - generic [ref=e1156]: npm
+                - generic [ref=e1157]:
+                  - generic [ref=e1158]: baas
+                  - generic [ref=e1159]: google
+                  - generic [ref=e1160]: hosting
+              - link "doctl 云服务 & 部署 在命令行管理 DigitalOcean 资源 ⭐ 3.4k · Go brew vps kubernetes cloud" [ref=e1176] [cursor=pointer]:
+                - /url: /zh/tools/doctl
+                - generic [ref=e1177]:
+                  - heading "doctl" [level=2] [ref=e1178]
+                  - generic [ref=e1179]: 云服务 & 部署
+                - paragraph [ref=e1180]: 在命令行管理 DigitalOcean 资源
+                - generic [ref=e1181]:
+                  - generic [ref=e1182]: ⭐ 3.4k
+                  - generic [ref=e1183]: ·
+                  - generic [ref=e1184]: Go
+                  - generic [ref=e1185]: brew
+                - generic [ref=e1186]:
+                  - generic [ref=e1187]: vps
+                  - generic [ref=e1188]: kubernetes
+                  - generic [ref=e1189]: cloud
+              - link "Heroku CLI 云服务 & 部署 在终端创建和管理 Heroku 应用 ⭐ 886 · TypeScript brew npm paas deployment dynos" [ref=e1190] [cursor=pointer]:
+                - /url: /zh/tools/heroku
+                - generic [ref=e1191]:
+                  - heading "Heroku CLI" [level=2] [ref=e1192]
+                  - generic [ref=e1193]: 云服务 & 部署
+                - paragraph [ref=e1194]: 在终端创建和管理 Heroku 应用
+                - generic [ref=e1195]:
+                  - generic [ref=e1196]: ⭐ 886
+                  - generic [ref=e1197]: ·
+                  - generic [ref=e1198]: TypeScript
+                  - generic [ref=e1199]: brew
+                  - generic [ref=e1200]: npm
+                - generic [ref=e1201]:
+                  - generic [ref=e1202]: paas
+                  - generic [ref=e1203]: deployment
+                  - generic [ref=e1204]: dynos
+              - link "Pulumi 云服务 & 部署 用真实编程语言编写基础设施即代码 ⭐ 25.2k · Go brew npm iac infrastructure multi-cloud" [ref=e1219] [cursor=pointer]:
+                - /url: /zh/tools/pulumi
+                - generic [ref=e1220]:
+                  - heading "Pulumi" [level=2] [ref=e1221]
+                  - generic [ref=e1222]: 云服务 & 部署
+                - paragraph [ref=e1223]: 用真实编程语言编写基础设施即代码
+                - generic [ref=e1224]:
+                  - generic [ref=e1225]: ⭐ 25.2k
+                  - generic [ref=e1226]: ·
+                  - generic [ref=e1227]: Go
+                  - generic [ref=e1228]: brew
+                  - generic [ref=e1229]: npm
+                - generic [ref=e1230]:
+                  - generic [ref=e1231]: iac
+                  - generic [ref=e1232]: infrastructure
+                  - generic [ref=e1233]: multi-cloud
+    - contentinfo [ref=e1463]: 数据来源：awesome-cli-apps 及各工具官方页面
+  - button "Open Next.js Dev Tools" [ref=e1469] [cursor=pointer]:
+    - img [ref=e1470]
+  - alert [ref=e1473]

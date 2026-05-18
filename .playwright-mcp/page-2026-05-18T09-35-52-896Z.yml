@@ -1,0 +1,1264 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fcloudflare%2Fworkers-sdk
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=cloudflare%2Fworkers-sdk
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "cloudflare" [ref=e70] [cursor=pointer]:
+            - /url: /cloudflare
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "workers-sdk" [ref=e73] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fcloudflare%2Fworkers-sdk
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 1.3k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fcloudflare%2Fworkers-sdk
+                - img [ref=e82]
+                - text: Fork
+                - generic "1,262" [ref=e84]: 1.3k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fcloudflare%2Fworkers-sdk
+                - img [ref=e88]
+                - text: Star
+                - generic "4071 users starred this repository" [ref=e90]: 4.1k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 291" [ref=e99] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "291" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 105" [ref=e106] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "105" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Projects" [ref=e122] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/projects
+              - img [ref=e123]
+              - generic [ref=e125]: Projects
+          - listitem [ref=e126]:
+            - link "Security and quality 6" [ref=e127] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+              - generic "6" [ref=e131]
+          - listitem [ref=e132]
+        - button "Additional navigation options" [ref=e136] [cursor=pointer]:
+          - img
+    - generic [ref=e149]:
+      - heading "cloudflare/workers-sdk" [level=1] [ref=e151]
+      - generic [ref=e152]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - button "main branch" [ref=e159] [cursor=pointer]:
+                - generic [ref=e160]:
+                  - generic [ref=e162]:
+                    - img [ref=e164]
+                    - generic [ref=e167]: main
+                  - generic:
+                    - img
+              - generic [ref=e168]:
+                - link "Go to Branches page" [ref=e169] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/branches
+                  - img [ref=e170]
+                - link "Go to Tags page" [ref=e172] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/tags
+                  - img [ref=e173]
+            - generic [ref=e175]:
+              - generic [ref=e179]:
+                - img [ref=e181]
+                - combobox "Go to file" [ref=e183]
+              - button "Code" [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]:
+                  - generic:
+                    - img
+                  - generic [ref=e186]: Code
+                  - generic:
+                    - img
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - heading "Folders and files" [level=2] [ref=e189]
+              - table "Folders and files" [ref=e190]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e191]:
+                  - row "Latest commit dependabot[bot] Wrangler automated PR updater commits by dependabot[bot] and Wrangler automated PR updater Bump the workerd-and-workers-types group with 2 updates (#13948) Open commit details success Commit b25dc0d · May 18, 202610 minutes ago History 7,481 Commits" [ref=e192]:
+                    - cell "Latest commit dependabot[bot] Wrangler automated PR updater commits by dependabot[bot] and Wrangler automated PR updater Bump the workerd-and-workers-types group with 2 updates (#13948) Open commit details success Commit b25dc0d · May 18, 202610 minutes ago History 7,481 Commits" [ref=e193]:
+                      - generic [ref=e194]:
+                        - heading "Latest commit" [level=2] [ref=e195]
+                        - generic [ref=e196]:
+                          - generic [ref=e197]:
+                            - generic [ref=e199]:
+                              - img "dependabot[bot]" [ref=e200]
+                              - img "Wrangler automated PR updater" [ref=e201]
+                            - link "commits by dependabot[bot]" [ref=e203] [cursor=pointer]:
+                              - /url: /cloudflare/workers-sdk/commits?author=dependabot%5Bbot%5D
+                              - text: dependabot[bot]
+                            - generic [ref=e204]: and
+                            - generic "Wrangler automated PR updater" [ref=e206]
+                          - generic:
+                            - generic [ref=e207]:
+                              - link "Bump the workerd-and-workers-types group with 2 updates (" [ref=e208] [cursor=pointer]:
+                                - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                              - link "#13948" [ref=e209] [cursor=pointer]:
+                                - /url: https://github.com/cloudflare/workers-sdk/pull/13948
+                              - link ")" [ref=e210] [cursor=pointer]:
+                                - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                            - button "Open commit details" [ref=e211] [cursor=pointer]:
+                              - img [ref=e212]
+                            - button "success" [ref=e214] [cursor=pointer]:
+                              - img [ref=e215]
+                        - generic [ref=e217]:
+                          - generic [ref=e219]:
+                            - link "Commit b25dc0d" [ref=e220] [cursor=pointer]:
+                              - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                              - text: b25dc0d
+                            - text: ·
+                            - generic "May 18, 2026, 5:25 PM GMT+8" [ref=e221]: May 18, 202610 minutes ago
+                          - generic [ref=e222]:
+                            - heading "History" [level=2] [ref=e223]
+                            - link "7,481 Commits" [ref=e224] [cursor=pointer]:
+                              - /url: /cloudflare/workers-sdk/commits/main/
+                              - generic [ref=e225]:
+                                - generic:
+                                  - img
+                                - generic [ref=e226]: 7,481 Commits
+                  - row ".changeset, (Directory) Bump the workerd-and-workers-types group with 2 updates (#13948) May 18, 202610 minutes ago" [ref=e227]:
+                    - cell ".changeset, (Directory)" [ref=e228]:
+                      - generic [ref=e229]:
+                        - img [ref=e230]
+                        - link ".changeset, (Directory)" [ref=e235] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/.changeset
+                          - text: .changeset
+                    - cell "Bump the workerd-and-workers-types group with 2 updates (#13948)" [ref=e236]:
+                      - generic [ref=e238]:
+                        - link "Bump the workerd-and-workers-types group with 2 updates (" [ref=e239] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                        - link "#13948" [ref=e240] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13948
+                        - link ")" [ref=e241] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                    - cell "May 18, 202610 minutes ago" [ref=e242]:
+                      - generic [ref=e243]: May 18, 202610 minutes ago
+                  - row ".github, (Directory) [ci] Disable Turbo and pnpm caching on release builds (#13902) May 13, 20265 days ago" [ref=e244]:
+                    - cell ".github, (Directory)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link ".github, (Directory)" [ref=e252] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/.github
+                          - text: .github
+                    - cell "[ci] Disable Turbo and pnpm caching on release builds (#13902)" [ref=e253]:
+                      - generic [ref=e255]:
+                        - link "[ci] Disable Turbo and pnpm caching on release builds (" [ref=e256] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/590447c146ecc06e1af481167659f649f017b1ed
+                        - link "#13902" [ref=e257] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13902
+                        - link ")" [ref=e258] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/590447c146ecc06e1af481167659f649f017b1ed
+                    - cell "May 13, 20265 days ago" [ref=e259]:
+                      - generic [ref=e260]: May 13, 20265 days ago
+                  - row ".opencode/agents, (Directory) Improve Bonk to read triggering comments and act on fixup requests (#… Apr 1, 20262 months ago" [ref=e261]:
+                    - cell ".opencode/agents, (Directory)" [ref=e262]:
+                      - generic [ref=e263]:
+                        - img [ref=e264]
+                        - link ".opencode/agents, (Directory)" [ref=e269] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/.opencode/agents
+                          - text: .opencode/agents
+                    - cell "Improve Bonk to read triggering comments and act on fixup requests (#…" [ref=e270]:
+                      - generic [ref=e272]:
+                        - link "Improve Bonk to read triggering comments and act on fixup requests (" [ref=e273] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/f31a6f4b77e751ccaca11342ef51884926b5e93b
+                        - link "#…" [ref=e274] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13147
+                    - cell "Apr 1, 20262 months ago" [ref=e275]:
+                      - generic [ref=e276]: Apr 1, 20262 months ago
+                  - 'row ".vscode, (Directory) fix(miniflare): Create WebSocketPair after fetching target WebSocket (#… May 1, 20262 weeks ago" [ref=e277]':
+                    - cell ".vscode, (Directory)" [ref=e278]:
+                      - generic [ref=e279]:
+                        - img [ref=e280]
+                        - link ".vscode, (Directory)" [ref=e285] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/.vscode
+                          - text: .vscode
+                    - 'cell "fix(miniflare): Create WebSocketPair after fetching target WebSocket (#…" [ref=e286]':
+                      - generic [ref=e288]:
+                        - 'link "fix(miniflare): Create WebSocketPair after fetching target WebSocket (" [ref=e289] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/bb27219651142036180cb1d01650df48d5282800
+                        - link "#…" [ref=e290] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13737
+                    - cell "May 1, 20262 weeks ago" [ref=e291]:
+                      - generic [ref=e292]: May 1, 20262 weeks ago
+                  - 'row "fixtures, (Directory) [wrangler] fix: update remote proxy session error test snapshots (#13935 May 16, 20263 days ago" [ref=e293]':
+                    - cell "fixtures, (Directory)" [ref=e294]:
+                      - generic [ref=e295]:
+                        - img [ref=e296]
+                        - link "fixtures, (Directory)" [ref=e301] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/fixtures
+                          - text: fixtures
+                    - 'cell "[wrangler] fix: update remote proxy session error test snapshots (#13935" [ref=e302]':
+                      - generic [ref=e304]:
+                        - 'link "[wrangler] fix: update remote proxy session error test snapshots (" [ref=e305] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/1d8924fa6521927dbda99751762f4e8c60d9ca1d
+                        - link "#13935" [ref=e306] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13935
+                    - cell "May 16, 20263 days ago" [ref=e307]:
+                      - generic [ref=e308]: May 16, 20263 days ago
+                  - row "packages, (Directory) Bump the workerd-and-workers-types group with 2 updates (#13948) May 18, 202610 minutes ago" [ref=e309]:
+                    - cell "packages, (Directory)" [ref=e310]:
+                      - generic [ref=e311]:
+                        - img [ref=e312]
+                        - link "packages, (Directory)" [ref=e317] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/packages
+                          - text: packages
+                    - cell "Bump the workerd-and-workers-types group with 2 updates (#13948)" [ref=e318]:
+                      - generic [ref=e320]:
+                        - link "Bump the workerd-and-workers-types group with 2 updates (" [ref=e321] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                        - link "#13948" [ref=e322] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13948
+                        - link ")" [ref=e323] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                    - cell "May 18, 202610 minutes ago" [ref=e324]:
+                      - generic [ref=e325]: May 18, 202610 minutes ago
+                  - row "patches, (Directory) [miniflare/wrangler] Bump undici to v7.24.8 and remove pnpm patch (#1… Apr 15, 2026last month" [ref=e326]:
+                    - cell "patches, (Directory)" [ref=e327]:
+                      - generic [ref=e328]:
+                        - img [ref=e329]
+                        - link "patches, (Directory)" [ref=e334] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/patches
+                          - text: patches
+                    - cell "[miniflare/wrangler] Bump undici to v7.24.8 and remove pnpm patch (#1…" [ref=e335]:
+                      - generic [ref=e337]:
+                        - link "[miniflare/wrangler] Bump undici to v7.24.8 and remove pnpm patch (" [ref=e338] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/6f63eaa8931d2a33cd0fce95f88cc0dcff998d85
+                        - link "#1…" [ref=e339] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13450
+                    - cell "Apr 15, 2026last month" [ref=e340]:
+                      - generic [ref=e341]: Apr 15, 2026last month
+                  - row "tools, (Directory) Add require-description-when-disabling linting rule (#13698) Apr 27, 20263 weeks ago" [ref=e342]:
+                    - cell "tools, (Directory)" [ref=e343]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - link "tools, (Directory)" [ref=e350] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/tree/main/tools
+                          - text: tools
+                    - cell "Add require-description-when-disabling linting rule (#13698)" [ref=e351]:
+                      - generic [ref=e353]:
+                        - link "Add require-description-when-disabling linting rule (" [ref=e354] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/8cb0284cbef10df8fa3cf98e2f5a1ab64fae9cd1
+                        - link "#13698" [ref=e355] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13698
+                        - link ")" [ref=e356] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/8cb0284cbef10df8fa3cf98e2f5a1ab64fae9cd1
+                    - cell "Apr 27, 20263 weeks ago" [ref=e357]:
+                      - generic [ref=e358]: Apr 27, 20263 weeks ago
+                  - row ".codeowners, (File) add containers team to containers test codeowners (#13573) Apr 17, 2026last month" [ref=e359]:
+                    - cell ".codeowners, (File)" [ref=e360]:
+                      - generic [ref=e361]:
+                        - img [ref=e362]
+                        - link ".codeowners, (File)" [ref=e367] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.codeowners
+                          - text: .codeowners
+                    - cell "add containers team to containers test codeowners (#13573)" [ref=e368]:
+                      - generic [ref=e370]:
+                        - link "add containers team to containers test codeowners (" [ref=e371] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/95b45926258b71aaaa468256b232df0798306ad8
+                        - link "#13573" [ref=e372] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13573
+                        - link ")" [ref=e373] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/95b45926258b71aaaa468256b232df0798306ad8
+                    - cell "Apr 17, 2026last month" [ref=e374]:
+                      - generic [ref=e375]: Apr 17, 2026last month
+                  - row ".editorconfig, (File) Use spaces for yaml (#5500) Apr 4, 20242 years ago" [ref=e376]:
+                    - cell ".editorconfig, (File)" [ref=e377]:
+                      - generic [ref=e378]:
+                        - img [ref=e379]
+                        - link ".editorconfig, (File)" [ref=e384] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.editorconfig
+                          - text: .editorconfig
+                    - cell "Use spaces for yaml (#5500)" [ref=e385]:
+                      - generic [ref=e387]:
+                        - link "Use spaces for yaml (" [ref=e388] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/8010f45391f0cd4544043e04dee48cd919f9245f
+                        - link "#5500" [ref=e389] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/5500
+                        - link ")" [ref=e390] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/8010f45391f0cd4544043e04dee48cd919f9245f
+                    - cell "Apr 4, 20242 years ago" [ref=e391]:
+                      - generic [ref=e392]: Apr 4, 20242 years ago
+                  - row ".git-blame-ignore-revs, (File) Update .git-blame-ignore-revs (#5839) May 15, 20242 years ago" [ref=e393]:
+                    - cell ".git-blame-ignore-revs, (File)" [ref=e394]:
+                      - generic [ref=e395]:
+                        - img [ref=e396]
+                        - link ".git-blame-ignore-revs, (File)" [ref=e401] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.git-blame-ignore-revs
+                          - text: .git-blame-ignore-revs
+                    - cell "Update .git-blame-ignore-revs (#5839)" [ref=e402]:
+                      - generic [ref=e404]:
+                        - link "Update .git-blame-ignore-revs (" [ref=e405] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/ff8f640321ad6282b557646f04e3a4c50c9789da
+                        - link "#5839" [ref=e406] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/5839
+                        - link ")" [ref=e407] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/ff8f640321ad6282b557646f04e3a4c50c9789da
+                    - cell "May 15, 20242 years ago" [ref=e408]:
+                      - generic [ref=e409]: May 15, 20242 years ago
+                  - row ".gitattributes, (File) Emit type declarations for wrangler (#1415) Jul 7, 20224 years ago" [ref=e410]:
+                    - cell ".gitattributes, (File)" [ref=e411]:
+                      - generic [ref=e412]:
+                        - img [ref=e413]
+                        - link ".gitattributes, (File)" [ref=e418] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell "Emit type declarations for wrangler (#1415)" [ref=e419]:
+                      - generic [ref=e421]:
+                        - link "Emit type declarations for wrangler (" [ref=e422] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/f3a84520960c163df7ada0c1dd1f784db9ca8497
+                        - link "#1415" [ref=e423] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/1415
+                        - link ")" [ref=e424] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/f3a84520960c163df7ada0c1dd1f784db9ca8497
+                    - cell "Jul 7, 20224 years ago" [ref=e425]:
+                      - generic [ref=e426]: Jul 7, 20224 years ago
+                  - 'row ".gitguardian.yml, (File) wrangler: Improve hyperdrive create and update to include all current… Mar 14, 20242 years ago" [ref=e427]':
+                    - cell ".gitguardian.yml, (File)" [ref=e428]:
+                      - generic [ref=e429]:
+                        - img [ref=e430]
+                        - link ".gitguardian.yml, (File)" [ref=e435] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.gitguardian.yml
+                          - text: .gitguardian.yml
+                    - 'cell "wrangler: Improve hyperdrive create and update to include all current…" [ref=e436]':
+                      - 'link "wrangler: Improve hyperdrive create and update to include all current…" [ref=e439] [cursor=pointer]':
+                        - /url: /cloudflare/workers-sdk/commit/bd935cfdf1bebfff53b1817d475b1d36eccec9c0
+                    - cell "Mar 14, 20242 years ago" [ref=e440]:
+                      - generic [ref=e441]: Mar 14, 20242 years ago
+                  - row ".gitignore, (File) Ignore .opencode/package-lock.json (#13410) Apr 11, 2026last month" [ref=e442]:
+                    - cell ".gitignore, (File)" [ref=e443]:
+                      - generic [ref=e444]:
+                        - img [ref=e445]
+                        - link ".gitignore, (File)" [ref=e450] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "Ignore .opencode/package-lock.json (#13410)" [ref=e451]:
+                      - generic [ref=e453]:
+                        - link "Ignore .opencode/package-lock.json (" [ref=e454] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/d7324e9706606fc0b59cc59a0b846b9e26a9b56c
+                        - link "#13410" [ref=e455] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13410
+                        - link ")" [ref=e456] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/d7324e9706606fc0b59cc59a0b846b9e26a9b56c
+                    - cell "Apr 11, 2026last month" [ref=e457]:
+                      - generic [ref=e458]: Apr 11, 2026last month
+                  - 'row ".markdownlint.json, (File) test: improve Windows reliability of e2e tests (#6077) Jun 26, 20242 years ago" [ref=e459]':
+                    - cell ".markdownlint.json, (File)" [ref=e460]:
+                      - generic [ref=e461]:
+                        - img [ref=e462]
+                        - link ".markdownlint.json, (File)" [ref=e467] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.markdownlint.json
+                          - text: .markdownlint.json
+                    - 'cell "test: improve Windows reliability of e2e tests (#6077)" [ref=e468]':
+                      - generic [ref=e470]:
+                        - 'link "test: improve Windows reliability of e2e tests (" [ref=e471] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/f60971bba60fc51787253dd03f905641f04f621e
+                        - link "#6077" [ref=e472] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/6077
+                        - link ")" [ref=e473] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/f60971bba60fc51787253dd03f905641f04f621e
+                    - cell "Jun 26, 20242 years ago" [ref=e474]:
+                      - generic [ref=e475]: Jun 26, 20242 years ago
+                  - row ".oxfmtrc.jsonc, (File) Convert from ESLint to oxlint, Prettier to oxfmt (#12930) Mar 19, 20262 months ago" [ref=e476]:
+                    - cell ".oxfmtrc.jsonc, (File)" [ref=e477]:
+                      - generic [ref=e478]:
+                        - img [ref=e479]
+                        - link ".oxfmtrc.jsonc, (File)" [ref=e484] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.oxfmtrc.jsonc
+                          - text: .oxfmtrc.jsonc
+                    - cell "Convert from ESLint to oxlint, Prettier to oxfmt (#12930)" [ref=e485]:
+                      - generic [ref=e487]:
+                        - link "Convert from ESLint to oxlint, Prettier to oxfmt (" [ref=e488] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/aa26784ce1677189719d252b5782fd4c8bcec788
+                        - link "#12930" [ref=e489] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/12930
+                        - link ")" [ref=e490] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/aa26784ce1677189719d252b5782fd4c8bcec788
+                    - cell "Mar 19, 20262 months ago" [ref=e491]:
+                      - generic [ref=e492]: Mar 19, 20262 months ago
+                  - row ".oxlintrc.jsonc, (File) Enable require-description-when-disabling lint rule on the quick-edit… May 13, 20265 days ago" [ref=e493]:
+                    - cell ".oxlintrc.jsonc, (File)" [ref=e494]:
+                      - generic [ref=e495]:
+                        - img [ref=e496]
+                        - link ".oxlintrc.jsonc, (File)" [ref=e501] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/.oxlintrc.jsonc
+                          - text: .oxlintrc.jsonc
+                    - cell "Enable require-description-when-disabling lint rule on the quick-edit…" [ref=e502]:
+                      - link "Enable require-description-when-disabling lint rule on the quick-edit…" [ref=e505] [cursor=pointer]:
+                        - /url: /cloudflare/workers-sdk/commit/1acf93a886ff552daf102582a304bd42fd2b8339
+                    - cell "May 13, 20265 days ago" [ref=e506]:
+                      - generic [ref=e507]: May 13, 20265 days ago
+                  - row "AGENTS.md, (File) Add REVIEW.md and update AGENTS.md with knowledge base guidelines (#1… May 7, 20262 weeks ago" [ref=e508]:
+                    - cell "AGENTS.md, (File)" [ref=e509]:
+                      - generic [ref=e510]:
+                        - img [ref=e511]
+                        - link "AGENTS.md, (File)" [ref=e516] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/AGENTS.md
+                          - text: AGENTS.md
+                    - cell "Add REVIEW.md and update AGENTS.md with knowledge base guidelines (#1…" [ref=e517]:
+                      - generic [ref=e519]:
+                        - link "Add REVIEW.md and update AGENTS.md with knowledge base guidelines (" [ref=e520] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/e60d40049418abce58e42befc268d5bb84a1585a
+                        - link "#1…" [ref=e521] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13849
+                    - cell "May 7, 20262 weeks ago" [ref=e522]:
+                      - generic [ref=e523]: May 7, 20262 weeks ago
+                  - row "CLAUDE.md, (File) [docs] Add AGENTS.md for AI coding agents (#11716) Dec 19, 20255 months ago" [ref=e524]:
+                    - cell "CLAUDE.md, (File)" [ref=e525]:
+                      - generic [ref=e526]:
+                        - img [ref=e527]
+                        - link "CLAUDE.md, (File)" [ref=e532] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/CLAUDE.md
+                          - text: CLAUDE.md
+                    - cell "[docs] Add AGENTS.md for AI coding agents (#11716)" [ref=e533]:
+                      - generic [ref=e535]:
+                        - link "[docs] Add AGENTS.md for AI coding agents (" [ref=e536] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/7f12c81944beb9746539983a488aec625cec6b1a
+                        - link "#11716" [ref=e537] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/11716
+                        - link ")" [ref=e538] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/7f12c81944beb9746539983a488aec625cec6b1a
+                    - cell "Dec 19, 20255 months ago" [ref=e539]:
+                      - generic [ref=e540]: Dec 19, 20255 months ago
+                  - row "CODEOWNERS, (File) [codeowners] Enable bot approval and add release file rules (#13186) Apr 1, 2026last month" [ref=e541]:
+                    - cell "CODEOWNERS, (File)" [ref=e542]:
+                      - generic [ref=e543]:
+                        - img [ref=e544]
+                        - link "CODEOWNERS, (File)" [ref=e549] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/CODEOWNERS
+                          - text: CODEOWNERS
+                    - cell "[codeowners] Enable bot approval and add release file rules (#13186)" [ref=e550]:
+                      - generic [ref=e552]:
+                        - link "[codeowners] Enable bot approval and add release file rules (" [ref=e553] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/94170bce08b0a5e127e0f6de7d4eda053097b80c
+                        - link "#13186" [ref=e554] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13186
+                        - link ")" [ref=e555] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/94170bce08b0a5e127e0f6de7d4eda053097b80c
+                    - cell "Apr 1, 2026last month" [ref=e556]:
+                      - generic [ref=e557]: Apr 1, 2026last month
+                  - 'row "CODEOWNERS.md, (File) fix(ci): fix rerun workflows for fork PRs (#13512) Apr 18, 2026last month" [ref=e558]':
+                    - cell "CODEOWNERS.md, (File)" [ref=e559]:
+                      - generic [ref=e560]:
+                        - img [ref=e561]
+                        - link "CODEOWNERS.md, (File)" [ref=e566] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/CODEOWNERS.md
+                          - text: CODEOWNERS.md
+                    - 'cell "fix(ci): fix rerun workflows for fork PRs (#13512)" [ref=e567]':
+                      - generic [ref=e569]:
+                        - 'link "fix(ci): fix rerun workflows for fork PRs (" [ref=e570] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/3355bdca6f23562362956eb41f42b2428a88e63b
+                        - link "#13512" [ref=e571] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13512
+                        - link ")" [ref=e572] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/3355bdca6f23562362956eb41f42b2428a88e63b
+                    - cell "Apr 18, 2026last month" [ref=e573]:
+                      - generic [ref=e574]: Apr 18, 2026last month
+                  - row "CODE_OF_CONDUCT.md, (File) CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY Nov 16, 20215 years ago" [ref=e575]:
+                    - cell "CODE_OF_CONDUCT.md, (File)" [ref=e576]:
+                      - generic [ref=e577]:
+                        - img [ref=e578]
+                        - link "CODE_OF_CONDUCT.md, (File)" [ref=e583] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/CODE_OF_CONDUCT.md
+                          - text: CODE_OF_CONDUCT.md
+                    - cell "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e584]:
+                      - link "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e587] [cursor=pointer]:
+                        - /url: /cloudflare/workers-sdk/commit/e4e9eaf5fa8d6fec17889bea9b2bbb1ef1a2c6ed
+                    - cell "Nov 16, 20215 years ago" [ref=e588]:
+                      - generic [ref=e589]: Nov 16, 20215 years ago
+                  - row "CONTRIBUTING.md, (File) Update prettier to 3.8.1 (#12939) Mar 17, 20262 months ago" [ref=e590]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e591]:
+                      - generic [ref=e592]:
+                        - img [ref=e593]
+                        - link "CONTRIBUTING.md, (File)" [ref=e598] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell "Update prettier to 3.8.1 (#12939)" [ref=e599]:
+                      - generic [ref=e601]:
+                        - link "Update prettier to 3.8.1 (" [ref=e602] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/e25bd0ef64753e12c7ac5849a2b3d35b45e5fe2a
+                        - link "#12939" [ref=e603] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/12939
+                        - link ")" [ref=e604] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/e25bd0ef64753e12c7ac5849a2b3d35b45e5fe2a
+                    - cell "Mar 17, 20262 months ago" [ref=e605]:
+                      - generic [ref=e606]: Mar 17, 20262 months ago
+                  - row "LICENSE-APACHE, (File) CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY Nov 16, 20215 years ago" [ref=e607]:
+                    - cell "LICENSE-APACHE, (File)" [ref=e608]:
+                      - generic [ref=e609]:
+                        - img [ref=e610]
+                        - link "LICENSE-APACHE, (File)" [ref=e615] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/LICENSE-APACHE
+                          - text: LICENSE-APACHE
+                    - cell "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e616]:
+                      - link "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e619] [cursor=pointer]:
+                        - /url: /cloudflare/workers-sdk/commit/e4e9eaf5fa8d6fec17889bea9b2bbb1ef1a2c6ed
+                    - cell "Nov 16, 20215 years ago" [ref=e620]:
+                      - generic [ref=e621]: Nov 16, 20215 years ago
+                  - row "LICENSE-MIT, (File) CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY Nov 16, 20215 years ago" [ref=e622]:
+                    - cell "LICENSE-MIT, (File)" [ref=e623]:
+                      - generic [ref=e624]:
+                        - img [ref=e625]
+                        - link "LICENSE-MIT, (File)" [ref=e630] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/LICENSE-MIT
+                          - text: LICENSE-MIT
+                    - cell "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e631]:
+                      - link "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e634] [cursor=pointer]:
+                        - /url: /cloudflare/workers-sdk/commit/e4e9eaf5fa8d6fec17889bea9b2bbb1ef1a2c6ed
+                    - cell "Nov 16, 20215 years ago" [ref=e635]:
+                      - generic [ref=e636]: Nov 16, 20215 years ago
+                  - row "README.md, (File) add section about beta releases to the main readme (#10926) Oct 15, 20257 months ago" [ref=e637]:
+                    - cell "README.md, (File)" [ref=e638]:
+                      - generic [ref=e639]:
+                        - img [ref=e640]
+                        - link "README.md, (File)" [ref=e645] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/README.md
+                          - text: README.md
+                    - cell "add section about beta releases to the main readme (#10926)" [ref=e646]:
+                      - generic [ref=e648]:
+                        - link "add section about beta releases to the main readme (" [ref=e649] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/a3ab13ee8aea3170d3be19aa956ea9f8bfaee23f
+                        - link "#10926" [ref=e650] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/10926
+                        - link ")" [ref=e651] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/a3ab13ee8aea3170d3be19aa956ea9f8bfaee23f
+                    - cell "Oct 15, 20257 months ago" [ref=e652]:
+                      - generic [ref=e653]: Oct 15, 20257 months ago
+                  - row "REVIEW.md, (File) Add REVIEW.md and update AGENTS.md with knowledge base guidelines (#1… May 7, 20262 weeks ago" [ref=e654]:
+                    - cell "REVIEW.md, (File)" [ref=e655]:
+                      - generic [ref=e656]:
+                        - img [ref=e657]
+                        - link "REVIEW.md, (File)" [ref=e662] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/REVIEW.md
+                          - text: REVIEW.md
+                    - cell "Add REVIEW.md and update AGENTS.md with knowledge base guidelines (#1…" [ref=e663]:
+                      - generic [ref=e665]:
+                        - link "Add REVIEW.md and update AGENTS.md with knowledge base guidelines (" [ref=e666] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/e60d40049418abce58e42befc268d5bb84a1585a
+                        - link "#1…" [ref=e667] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13849
+                    - cell "May 7, 20262 weeks ago" [ref=e668]:
+                      - generic [ref=e669]: May 7, 20262 weeks ago
+                  - row "SECURITY.md, (File) CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY Nov 16, 20215 years ago" [ref=e670]:
+                    - cell "SECURITY.md, (File)" [ref=e671]:
+                      - generic [ref=e672]:
+                        - img [ref=e673]
+                        - link "SECURITY.md, (File)" [ref=e678] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/SECURITY.md
+                          - text: SECURITY.md
+                    - cell "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e679]:
+                      - link "CODE_OF_CONDUCT, LICENSE-MIT/-APACHE, SECURITY" [ref=e682] [cursor=pointer]:
+                        - /url: /cloudflare/workers-sdk/commit/e4e9eaf5fa8d6fec17889bea9b2bbb1ef1a2c6ed
+                    - cell "Nov 16, 20215 years ago" [ref=e683]:
+                      - generic [ref=e684]: Nov 16, 20215 years ago
+                  - row "STYLEGUIDE.md, (File) Update STYLEGUIDE.md (#6023) Jun 13, 20242 years ago" [ref=e685]:
+                    - cell "STYLEGUIDE.md, (File)" [ref=e686]:
+                      - generic [ref=e687]:
+                        - img [ref=e688]
+                        - link "STYLEGUIDE.md, (File)" [ref=e693] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/STYLEGUIDE.md
+                          - text: STYLEGUIDE.md
+                    - cell "Update STYLEGUIDE.md (#6023)" [ref=e694]:
+                      - generic [ref=e696]:
+                        - link "Update STYLEGUIDE.md (" [ref=e697] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/53a21574ca1878c2f0bec98c91939c52f3878ff8
+                        - link "#6023" [ref=e698] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/6023
+                        - link ")" [ref=e699] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/53a21574ca1878c2f0bec98c91939c52f3878ff8
+                    - cell "Jun 13, 20242 years ago" [ref=e700]:
+                      - generic [ref=e701]: Jun 13, 20242 years ago
+                  - 'row "cloudflare-workers-outline.png, (File) docs: update main readme (#4658) Jan 6, 20243 years ago" [ref=e702]':
+                    - cell "cloudflare-workers-outline.png, (File)" [ref=e703]:
+                      - generic [ref=e704]:
+                        - img [ref=e705]
+                        - link "cloudflare-workers-outline.png, (File)" [ref=e710] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/cloudflare-workers-outline.png
+                          - text: cloudflare-workers-outline.png
+                    - 'cell "docs: update main readme (#4658)" [ref=e711]':
+                      - generic [ref=e713]:
+                        - 'link "docs: update main readme (" [ref=e714] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/df71f26430b7e2028cb594d5c835da1caad84eb8
+                        - link "#4658" [ref=e715] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/4658
+                        - link ")" [ref=e716] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/df71f26430b7e2028cb594d5c835da1caad84eb8
+                    - cell "Jan 6, 20243 years ago" [ref=e717]:
+                      - generic [ref=e718]: Jan 6, 20243 years ago
+                  - row "codeowners.toml, (File) Remove ignored directories in codeowners.toml (#13769) May 1, 20262 weeks ago" [ref=e719]:
+                    - cell "codeowners.toml, (File)" [ref=e720]:
+                      - generic [ref=e721]:
+                        - img [ref=e722]
+                        - link "codeowners.toml, (File)" [ref=e727] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/codeowners.toml
+                          - text: codeowners.toml
+                    - cell "Remove ignored directories in codeowners.toml (#13769)" [ref=e728]:
+                      - generic [ref=e730]:
+                        - link "Remove ignored directories in codeowners.toml (" [ref=e731] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/af2cafb1bf711e3ed64a4325702afce2bcf78d9a
+                        - link "#13769" [ref=e732] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13769
+                        - link ")" [ref=e733] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/af2cafb1bf711e3ed64a4325702afce2bcf78d9a
+                    - cell "May 1, 20262 weeks ago" [ref=e734]:
+                      - generic [ref=e735]: May 1, 20262 weeks ago
+                  - row "lint-turbo.mjs, (File) [workers-playground] Migrate from Cloudflare Pages to Cloudflare Work… Mar 11, 20262 months ago" [ref=e736]:
+                    - cell "lint-turbo.mjs, (File)" [ref=e737]:
+                      - generic [ref=e738]:
+                        - img [ref=e739]
+                        - link "lint-turbo.mjs, (File)" [ref=e744] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/lint-turbo.mjs
+                          - text: lint-turbo.mjs
+                    - cell "[workers-playground] Migrate from Cloudflare Pages to Cloudflare Work…" [ref=e745]:
+                      - link "[workers-playground] Migrate from Cloudflare Pages to Cloudflare Work…" [ref=e748] [cursor=pointer]:
+                        - /url: /cloudflare/workers-sdk/commit/a31ee0b0c793532382f0473afd04d3c241d04724
+                    - cell "Mar 11, 20262 months ago" [ref=e749]:
+                      - generic [ref=e750]: Mar 11, 20262 months ago
+                  - row "package.json, (File) Hard fail on Node.js < 22 (#13726) Apr 29, 20263 weeks ago" [ref=e751]:
+                    - cell "package.json, (File)" [ref=e752]:
+                      - generic [ref=e753]:
+                        - img [ref=e754]
+                        - link "package.json, (File)" [ref=e759] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/package.json
+                          - text: package.json
+                    - cell "Hard fail on Node.js < 22 (#13726)" [ref=e760]:
+                      - generic [ref=e762]:
+                        - link "Hard fail on Node.js < 22 (" [ref=e763] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b5ac54baa4a6e40b7352f7d3ed0d3531a37a5e8f
+                        - link "#13726" [ref=e764] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13726
+                        - link ")" [ref=e765] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b5ac54baa4a6e40b7352f7d3ed0d3531a37a5e8f
+                    - cell "Apr 29, 20263 weeks ago" [ref=e766]:
+                      - generic [ref=e767]: Apr 29, 20263 weeks ago
+                  - row "pnpm-lock.yaml, (File) Bump the workerd-and-workers-types group with 2 updates (#13948) May 18, 202610 minutes ago" [ref=e768]:
+                    - cell "pnpm-lock.yaml, (File)" [ref=e769]:
+                      - generic [ref=e770]:
+                        - img [ref=e771]
+                        - link "pnpm-lock.yaml, (File)" [ref=e776] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/pnpm-lock.yaml
+                          - text: pnpm-lock.yaml
+                    - cell "Bump the workerd-and-workers-types group with 2 updates (#13948)" [ref=e777]:
+                      - generic [ref=e779]:
+                        - link "Bump the workerd-and-workers-types group with 2 updates (" [ref=e780] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                        - link "#13948" [ref=e781] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13948
+                        - link ")" [ref=e782] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                    - cell "May 18, 202610 minutes ago" [ref=e783]:
+                      - generic [ref=e784]: May 18, 202610 minutes ago
+                  - row "pnpm-workspace.yaml, (File) Bump the workerd-and-workers-types group with 2 updates (#13948) May 18, 202610 minutes ago" [ref=e785]:
+                    - cell "pnpm-workspace.yaml, (File)" [ref=e786]:
+                      - generic [ref=e787]:
+                        - img [ref=e788]
+                        - link "pnpm-workspace.yaml, (File)" [ref=e793] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/pnpm-workspace.yaml
+                          - text: pnpm-workspace.yaml
+                    - cell "Bump the workerd-and-workers-types group with 2 updates (#13948)" [ref=e794]:
+                      - generic [ref=e796]:
+                        - link "Bump the workerd-and-workers-types group with 2 updates (" [ref=e797] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                        - link "#13948" [ref=e798] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13948
+                        - link ")" [ref=e799] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/b25dc0d9f19ff51ec246c9c8175be7e445c12c0b
+                    - cell "May 18, 202610 minutes ago" [ref=e800]:
+                      - generic [ref=e801]: May 18, 202610 minutes ago
+                  - 'row "turbo.json, (File) [wrangler] fix: auto-delete logs older than 7 days and add WRANGLER_L… May 12, 2026last week" [ref=e802]':
+                    - cell "turbo.json, (File)" [ref=e803]:
+                      - generic [ref=e804]:
+                        - img [ref=e805]
+                        - link "turbo.json, (File)" [ref=e810] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/turbo.json
+                          - text: turbo.json
+                    - 'cell "[wrangler] fix: auto-delete logs older than 7 days and add WRANGLER_L…" [ref=e811]':
+                      - 'link "[wrangler] fix: auto-delete logs older than 7 days and add WRANGLER_L…" [ref=e814] [cursor=pointer]':
+                        - /url: /cloudflare/workers-sdk/commit/da664d59131a4abe4abb370cefc244d7d1c5f491
+                    - cell "May 12, 2026last week" [ref=e815]:
+                      - generic [ref=e816]: May 12, 2026last week
+                  - 'row "vitest.shared.ts, (File) ci: disable Vitest GitHub Actions reporter (#13771) May 2, 20262 weeks ago" [ref=e817]':
+                    - cell "vitest.shared.ts, (File)" [ref=e818]:
+                      - generic [ref=e819]:
+                        - img [ref=e820]
+                        - link "vitest.shared.ts, (File)" [ref=e825] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/vitest.shared.ts
+                          - text: vitest.shared.ts
+                    - 'cell "ci: disable Vitest GitHub Actions reporter (#13771)" [ref=e826]':
+                      - generic [ref=e828]:
+                        - 'link "ci: disable Vitest GitHub Actions reporter (" [ref=e829] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/84226e637f5eac3e624f294acb1193a8a071fe8d
+                        - link "#13771" [ref=e830] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/13771
+                        - link ")" [ref=e831] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/commit/84226e637f5eac3e624f294acb1193a8a071fe8d
+                    - cell "May 2, 20262 weeks ago" [ref=e832]:
+                      - generic [ref=e833]: May 2, 20262 weeks ago
+                  - 'row "vitest.workspace.ts, (File) chore: change vitest config to be ESM (for sure) to avoid warnings (#… Jun 18, 20242 years ago" [ref=e834]':
+                    - cell "vitest.workspace.ts, (File)" [ref=e835]:
+                      - generic [ref=e836]:
+                        - img [ref=e837]
+                        - link "vitest.workspace.ts, (File)" [ref=e842] [cursor=pointer]:
+                          - /url: /cloudflare/workers-sdk/blob/main/vitest.workspace.ts
+                          - text: vitest.workspace.ts
+                    - 'cell "chore: change vitest config to be ESM (for sure) to avoid warnings (#…" [ref=e843]':
+                      - generic [ref=e845]:
+                        - 'link "chore: change vitest config to be ESM (for sure) to avoid warnings (" [ref=e846] [cursor=pointer]':
+                          - /url: /cloudflare/workers-sdk/commit/68fac09dbd600dcdf184de4f8e39169d6188b6e0
+                        - link "#…" [ref=e847] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/pull/6055
+                    - cell "Jun 18, 20242 years ago" [ref=e848]:
+                      - generic [ref=e849]: Jun 18, 20242 years ago
+            - generic [ref=e851]:
+              - generic [ref=e852]:
+                - heading "Repository files navigation" [level=2] [ref=e853]
+                - navigation "Repository files" [ref=e854]:
+                  - list [ref=e855]:
+                    - listitem [ref=e856]:
+                      - link "README" [ref=e857] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e858]: README
+                    - listitem [ref=e859]:
+                      - link "Code of conduct" [ref=e860] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e861]: Code of conduct
+                    - listitem [ref=e862]:
+                      - link "Contributing" [ref=e863] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e864]: Contributing
+                    - listitem [ref=e865]:
+                      - link "Apache-2.0 license" [ref=e866] [cursor=pointer]:
+                        - /url: "#"
+                        - generic [ref=e867]: Apache-2.0 license
+                    - listitem [ref=e868]:
+                      - button "More Repository files items" [ref=e870] [cursor=pointer]:
+                        - generic [ref=e873]:
+                          - text: More
+                          - generic [ref=e874]: Repository files items
+                        - generic:
+                          - img
+                - button "Outline" [ref=e875] [cursor=pointer]:
+                  - img [ref=e876]
+              - article [ref=e879]:
+                - generic [ref=e880]:
+                  - heading "Cloudflare Workers SDK" [level=1] [ref=e881]
+                  - 'link "Permalink: Cloudflare Workers SDK" [ref=e882] [cursor=pointer]':
+                    - /url: "#cloudflare-workers-sdk"
+                    - img [ref=e883]
+                - paragraph [ref=e885]:
+                  - link "workers-logo" [ref=e886] [cursor=pointer]:
+                    - /url: /cloudflare/workers-sdk/blob/main/cloudflare-workers-outline.png
+                    - img "workers-logo" [ref=e887]
+                  - text: Cloudflare Workers let you deploy serverless code instantly across the globe for exceptional performance, reliability, and scale.
+                - paragraph [ref=e888]:
+                  - link "Contribute" [ref=e889] [cursor=pointer]:
+                    - /url: /cloudflare/workers-sdk/blob/main/CONTRIBUTING.md
+                  - text: ·
+                  - link "Submit an Issue" [ref=e890] [cursor=pointer]:
+                    - /url: https://github.com/cloudflare/workers-sdk/issues
+                  - text: ·
+                  - link "Join Discord" [ref=e891] [cursor=pointer]:
+                    - /url: https://discord.cloudflare.com/
+                - paragraph [ref=e892]:
+                  - link "Wrangler on npm" [ref=e893] [cursor=pointer]:
+                    - /url: https://www.npmjs.com/wrangler/
+                    - img "Wrangler on npm" [ref=e894]
+                  - link "Discord conversation" [ref=e895] [cursor=pointer]:
+                    - /url: https://discord.cloudflare.com/
+                    - img "Discord conversation" [ref=e896]
+                  - link "X conversation" [ref=e897] [cursor=pointer]:
+                    - /url: https://twitter.com/CloudflareDev
+                    - img "X conversation" [ref=e898]
+                - separator [ref=e899]
+                - generic [ref=e900]:
+                  - heading "Quick Start" [level=2] [ref=e901]
+                  - 'link "Permalink: Quick Start" [ref=e902] [cursor=pointer]':
+                    - /url: "#quick-start"
+                    - img [ref=e903]
+                - paragraph [ref=e905]: "To get started quickly with a new project, run the command below:"
+                - generic [ref=e906]:
+                  - generic [ref=e907]:
+                    - text: npm create cloudflare@latest
+                    - generic [ref=e908]: "# or"
+                    - text: pnpm create cloudflare@latest
+                    - generic [ref=e909]: "# or"
+                    - text: yarn create cloudflare@latest
+                  - button "Copy code to clipboard" [ref=e911] [cursor=pointer]:
+                    - img [ref=e912]
+                - paragraph [ref=e915]:
+                  - text: For more info, visit our
+                  - link "Getting Started" [ref=e916] [cursor=pointer]:
+                    - /url: https://developers.cloudflare.com/workers/get-started/guide/
+                  - text: guide.
+                - generic [ref=e917]:
+                  - heading "Documentation" [level=2] [ref=e918]
+                  - 'link "Permalink: Documentation" [ref=e919] [cursor=pointer]':
+                    - /url: "#documentation"
+                    - img [ref=e920]
+                - paragraph [ref=e922]:
+                  - text: Visit the official Workers documentation
+                  - link "here" [ref=e923] [cursor=pointer]:
+                    - /url: https://developers.cloudflare.com/workers/
+                  - text: .
+                - list [ref=e924]:
+                  - listitem [ref=e925]:
+                    - link "Getting Started" [ref=e926] [cursor=pointer]:
+                      - /url: https://developers.cloudflare.com/workers/get-started/guide/
+                  - listitem [ref=e927]:
+                    - link "How Workers works" [ref=e928] [cursor=pointer]:
+                      - /url: https://developers.cloudflare.com/workers/reference/how-workers-works/
+                  - listitem [ref=e929]:
+                    - link "Wrangler CLI" [ref=e930] [cursor=pointer]:
+                      - /url: https://developers.cloudflare.com/workers/wrangler/
+                  - listitem [ref=e931]:
+                    - link "Observability" [ref=e932] [cursor=pointer]:
+                      - /url: https://developers.cloudflare.com/workers/observability/
+                  - listitem [ref=e933]:
+                    - link "Platform" [ref=e934] [cursor=pointer]:
+                      - /url: https://developers.cloudflare.com/workers/platform/
+                - generic [ref=e935]:
+                  - heading "Directory" [level=2] [ref=e936]
+                  - 'link "Permalink: Directory" [ref=e937] [cursor=pointer]':
+                    - /url: "#directory"
+                    - img [ref=e938]
+                - table [ref=e941]:
+                  - rowgroup [ref=e942]:
+                    - row "Package Description Links" [ref=e943]:
+                      - columnheader "Package" [ref=e944]
+                      - columnheader "Description" [ref=e945]
+                      - columnheader "Links" [ref=e946]
+                  - rowgroup [ref=e947]:
+                    - row "wrangler A command line tool for building Cloudflare Workers. Docs" [ref=e948]:
+                      - cell "wrangler" [ref=e949]:
+                        - link "wrangler" [ref=e950] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler
+                          - code [ref=e951]: wrangler
+                      - cell "A command line tool for building Cloudflare Workers." [ref=e952]:
+                        - text: A command line tool for building
+                        - link "Cloudflare Workers" [ref=e953] [cursor=pointer]:
+                          - /url: https://workers.cloudflare.com/
+                        - text: .
+                      - cell "Docs" [ref=e954]:
+                        - link "Docs" [ref=e955] [cursor=pointer]:
+                          - /url: https://developers.cloudflare.com/workers/wrangler/
+                    - row "create-cloudflare (C3) A CLI for creating and deploying new applications to Cloudflare. Docs" [ref=e956]:
+                      - cell "create-cloudflare (C3)" [ref=e957]:
+                        - link "create-cloudflare (C3)" [ref=e958] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/tree/main/packages/create-cloudflare
+                          - code [ref=e959]: create-cloudflare
+                          - text: (C3)
+                      - cell "A CLI for creating and deploying new applications to Cloudflare." [ref=e960]
+                      - cell "Docs" [ref=e961]:
+                        - link "Docs" [ref=e962] [cursor=pointer]:
+                          - /url: https://developers.cloudflare.com/pages/get-started/c3/
+                    - row "miniflare A simulator for developing and testing Cloudflare Workers, powered by workerd Docs" [ref=e963]:
+                      - cell "miniflare" [ref=e964]:
+                        - link "miniflare" [ref=e965] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare
+                          - code [ref=e966]: miniflare
+                      - cell "A simulator for developing and testing Cloudflare Workers, powered by workerd" [ref=e967]:
+                        - text: A simulator for developing and testing Cloudflare Workers, powered by
+                        - link "workerd" [ref=e968] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workerd
+                      - cell "Docs" [ref=e969]:
+                        - link "Docs" [ref=e970] [cursor=pointer]:
+                          - /url: https://miniflare.dev
+                    - row "chrome-devtools-patches Cloudflare's fork of Chrome DevTools for inspecting your local or remote Workers" [ref=e971]:
+                      - cell "chrome-devtools-patches" [ref=e972]:
+                        - link "chrome-devtools-patches" [ref=e973] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/tree/main/packages/chrome-devtools-patches
+                          - code [ref=e974]: chrome-devtools-patches
+                      - cell "Cloudflare's fork of Chrome DevTools for inspecting your local or remote Workers" [ref=e975]
+                      - cell [ref=e976]
+                    - row "pages-shared Used internally to power Wrangler and Cloudflare Pages. It contains all the code that is shared between these clients." [ref=e977]:
+                      - cell "pages-shared" [ref=e978]:
+                        - link "pages-shared" [ref=e979] [cursor=pointer]:
+                          - /url: https://github.com/cloudflare/workers-sdk/tree/main/packages/pages-shared
+                          - code [ref=e980]: pages-shared
+                      - cell "Used internally to power Wrangler and Cloudflare Pages. It contains all the code that is shared between these clients." [ref=e981]
+                      - cell [ref=e982]
+                - generic [ref=e983]:
+                  - heading "Beta releases" [level=2] [ref=e984]
+                  - 'link "Permalink: Beta releases" [ref=e985] [cursor=pointer]':
+                    - /url: "#beta-releases"
+                    - img [ref=e986]
+                - paragraph [ref=e988]:
+                  - text: Beta releases are generated by the
+                  - link "pkg.pr.new" [ref=e989] [cursor=pointer]:
+                    - /url: https://github.com/stackblitz-labs/pkg.pr.new
+                  - text: tool and are updated on every commit pushed to the
+                  - code [ref=e990]: main
+                  - text: branch.
+                - generic [ref=e991]:
+                  - paragraph [ref=e992]:
+                    - img [ref=e993]
+                    - text: Warning
+                  - paragraph [ref=e995]: These beta releases get updated over time, so they are ill suited to be used as stable versions for a project (and the proper npm released should be used instead). These should be used only for quick testing of not yet released features/fixes.
+                - paragraph [ref=e996]: Available beta releases are listed below.
+                - group [ref=e997]:
+                  - generic "create-cloudflare" [ref=e998] [cursor=pointer]
+                - group [ref=e999]:
+                  - generic "@cloudflare/kv-asset-handler" [ref=e1000] [cursor=pointer]
+                - group [ref=e1001]:
+                  - generic "miniflare" [ref=e1002] [cursor=pointer]
+                - group [ref=e1003]:
+                  - generic "@cloudflare/pages-shared" [ref=e1004] [cursor=pointer]
+                - group [ref=e1005]:
+                  - generic "@cloudflare/unenv-preset" [ref=e1006] [cursor=pointer]
+                - group [ref=e1007]:
+                  - generic "@cloudflare/vite-plugin" [ref=e1008] [cursor=pointer]
+                - group [ref=e1009]:
+                  - generic "@cloudflare/vitest-pool-workers" [ref=e1010] [cursor=pointer]
+                - group [ref=e1011]:
+                  - generic "@cloudflare/workers-editor-shared" [ref=e1012] [cursor=pointer]
+                - group [ref=e1013]:
+                  - generic "wrangler" [ref=e1014] [cursor=pointer]
+                - generic [ref=e1015]:
+                  - heading "Contributing" [level=2] [ref=e1016]
+                  - 'link "Permalink: Contributing" [ref=e1017] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e1018]
+                - paragraph [ref=e1020]:
+                  - text: We welcome new contributors! Refer to the
+                  - link "CONTRIBUTING.md" [ref=e1021] [cursor=pointer]:
+                    - /url: /cloudflare/workers-sdk/blob/main/CONTRIBUTING.md
+                    - code [ref=e1022]: CONTRIBUTING.md
+                  - text: guide for details.
+                - generic [ref=e1023]:
+                  - heading "Community" [level=2] [ref=e1024]
+                  - 'link "Permalink: Community" [ref=e1025] [cursor=pointer]':
+                    - /url: "#community"
+                    - img [ref=e1026]
+                - paragraph [ref=e1028]:
+                  - text: Join us in the official
+                  - link "Cloudflare Discord" [ref=e1029] [cursor=pointer]:
+                    - /url: https://discord.cloudflare.com/
+                  - text: to meet other developers, ask questions, or learn more in general.
+                - generic [ref=e1030]:
+                  - heading "Links" [level=2] [ref=e1031]
+                  - 'link "Permalink: Links" [ref=e1032] [cursor=pointer]':
+                    - /url: "#links"
+                    - img [ref=e1033]
+                - list [ref=e1035]:
+                  - listitem [ref=e1036]:
+                    - link "Project Board" [ref=e1037] [cursor=pointer]:
+                      - /url: https://github.com/orgs/cloudflare/projects/1
+                  - listitem [ref=e1038]:
+                    - link "Discussions" [ref=e1039] [cursor=pointer]:
+                      - /url: https://github.com/cloudflare/workers-sdk/discussions
+        - generic [ref=e1043]:
+          - generic [ref=e1046]:
+            - heading "About" [level=2] [ref=e1047]
+            - paragraph [ref=e1048]: ⛅️ Home to Wrangler, the CLI for Cloudflare Workers®
+            - generic [ref=e1049]:
+              - img [ref=e1050]
+              - link "developers.cloudflare.com/workers/" [ref=e1053] [cursor=pointer]:
+                - /url: https://developers.cloudflare.com/workers/
+            - heading "Topics" [level=3] [ref=e1054]
+            - generic [ref=e1056]:
+              - link "javascript" [ref=e1057] [cursor=pointer]:
+                - /url: /topics/javascript
+              - link "cli" [ref=e1058] [cursor=pointer]:
+                - /url: /topics/cli
+              - link "serverless" [ref=e1059] [cursor=pointer]:
+                - /url: /topics/serverless
+              - link "wasm" [ref=e1060] [cursor=pointer]:
+                - /url: /topics/wasm
+              - link "cloudflare" [ref=e1061] [cursor=pointer]:
+                - /url: /topics/cloudflare
+              - link "cloudflare-workers" [ref=e1062] [cursor=pointer]:
+                - /url: /topics/cloudflare-workers
+            - heading "Resources" [level=3] [ref=e1063]
+            - link "Readme" [ref=e1065] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1066]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1068]
+            - group [ref=e1069]:
+              - button "Apache-2.0, MIT licenses found" [ref=e1070] [cursor=pointer]:
+                - img [ref=e1071]
+                - text: Apache-2.0, MIT licenses found
+            - heading "Code of conduct" [level=3] [ref=e1073]
+            - link "Code of conduct" [ref=e1075] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+              - img [ref=e1076]
+              - text: Code of conduct
+            - heading "Contributing" [level=3] [ref=e1078]
+            - link "Contributing" [ref=e1080] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1081]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e1083]
+            - link "Security policy" [ref=e1085] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e1086]
+              - text: Security policy
+            - link "Activity" [ref=e1089] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/activity
+              - img [ref=e1090]
+              - text: Activity
+            - link "Custom properties" [ref=e1093] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/custom-properties
+              - img [ref=e1094]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1096]
+            - link "4.1k stars" [ref=e1098] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/stargazers
+              - img [ref=e1099]
+              - strong [ref=e1101]: 4.1k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1102]
+            - link "62 watching" [ref=e1104] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/watchers
+              - img [ref=e1105]
+              - strong [ref=e1107]: "62"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1108]
+            - link "1.3k forks" [ref=e1110] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/forks
+              - img [ref=e1111]
+              - strong [ref=e1113]: 1.3k
+              - text: forks
+            - link "Report repository" [ref=e1115] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fcloudflare%2Fworkers-sdk&report=cloudflare+%28user%29
+          - generic [ref=e1117]:
+            - heading "Releases 1,948" [level=2] [ref=e1118]:
+              - link "Releases 1,948" [ref=e1119] [cursor=pointer]:
+                - /url: /cloudflare/workers-sdk/releases
+                - text: Releases
+                - generic "1,948" [ref=e1120]
+            - link "miniflare@4.20260515.0 Latest May 15, 20263 days ago" [ref=e1121] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/releases/tag/miniflare%404.20260515.0
+              - img [ref=e1122]
+              - generic [ref=e1124]:
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]: miniflare@4.20260515.0
+                  - 'generic "Label: Latest" [ref=e1127]': Latest
+                - generic [ref=e1128]: May 15, 20263 days ago
+            - link "+ 1,947 releases" [ref=e1130] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/releases
+          - generic [ref=e1132]:
+            - heading "Contributors 444" [level=2] [ref=e1133]:
+              - link "Contributors 444" [ref=e1134] [cursor=pointer]:
+                - /url: /cloudflare/workers-sdk/graphs/contributors
+                - text: Contributors
+                - generic "444" [ref=e1135]
+            - list [ref=e1136]:
+              - listitem [ref=e1137]:
+                - link "@petebacondarwin" [ref=e1138] [cursor=pointer]:
+                  - /url: https://github.com/petebacondarwin
+                  - img "@petebacondarwin" [ref=e1139]
+              - listitem [ref=e1140]:
+                - link "@dependabot[bot]" [ref=e1141] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1142]
+              - listitem [ref=e1143]:
+                - link "@penalosa" [ref=e1144] [cursor=pointer]:
+                  - /url: https://github.com/penalosa
+                  - img "@penalosa" [ref=e1145]
+              - listitem [ref=e1146]:
+                - link "@threepointone" [ref=e1147] [cursor=pointer]:
+                  - /url: https://github.com/threepointone
+                  - img "@threepointone" [ref=e1148]
+              - listitem [ref=e1149]:
+                - link "@github-actions[bot]" [ref=e1150] [cursor=pointer]:
+                  - /url: https://github.com/apps/github-actions
+                  - img "@github-actions[bot]" [ref=e1151]
+              - listitem [ref=e1152]:
+                - link "@dario-piotrowicz" [ref=e1153] [cursor=pointer]:
+                  - /url: https://github.com/dario-piotrowicz
+                  - img "@dario-piotrowicz" [ref=e1154]
+              - listitem [ref=e1155]:
+                - link "@mrbbot" [ref=e1156] [cursor=pointer]:
+                  - /url: https://github.com/mrbbot
+                  - img "@mrbbot" [ref=e1157]
+              - listitem [ref=e1158]:
+                - link "@workers-devprod" [ref=e1159] [cursor=pointer]:
+                  - /url: https://github.com/workers-devprod
+                  - img "@workers-devprod" [ref=e1160]
+              - listitem [ref=e1161]:
+                - link "@emily-shen" [ref=e1162] [cursor=pointer]:
+                  - /url: https://github.com/emily-shen
+                  - img "@emily-shen" [ref=e1163]
+              - listitem [ref=e1164]:
+                - link "@vicb" [ref=e1165] [cursor=pointer]:
+                  - /url: https://github.com/vicb
+                  - img "@vicb" [ref=e1166]
+              - listitem [ref=e1167]:
+                - link "@edmundhung" [ref=e1168] [cursor=pointer]:
+                  - /url: https://github.com/edmundhung
+                  - img "@edmundhung" [ref=e1169]
+              - listitem [ref=e1170]:
+                - link "@GregBrimble" [ref=e1171] [cursor=pointer]:
+                  - /url: https://github.com/GregBrimble
+                  - img "@GregBrimble" [ref=e1172]
+              - listitem [ref=e1173]:
+                - link "@jamesopstad" [ref=e1174] [cursor=pointer]:
+                  - /url: https://github.com/jamesopstad
+                  - img "@jamesopstad" [ref=e1175]
+              - listitem [ref=e1176]:
+                - link "@CarmenPopoviciu" [ref=e1177] [cursor=pointer]:
+                  - /url: https://github.com/CarmenPopoviciu
+                  - img "@CarmenPopoviciu" [ref=e1178]
+            - link "+ 430 contributors" [ref=e1180] [cursor=pointer]:
+              - /url: /cloudflare/workers-sdk/graphs/contributors
+          - generic [ref=e1182]:
+            - heading "Languages" [level=2] [ref=e1183]
+            - list [ref=e1191]:
+              - listitem [ref=e1192]:
+                - link "TypeScript 97.4%" [ref=e1193] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/search?l=typescript
+                  - img [ref=e1194]
+                  - generic [ref=e1196]: TypeScript
+                  - generic [ref=e1197]: 97.4%
+              - listitem [ref=e1198]:
+                - link "JavaScript 1.9%" [ref=e1199] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/search?l=javascript
+                  - img [ref=e1200]
+                  - generic [ref=e1202]: JavaScript
+                  - generic [ref=e1203]: 1.9%
+              - listitem [ref=e1204]:
+                - link "Mustache 0.4%" [ref=e1205] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/search?l=mustache
+                  - img [ref=e1206]
+                  - generic [ref=e1208]: Mustache
+                  - generic [ref=e1209]: 0.4%
+              - listitem [ref=e1210]:
+                - link "HTML 0.2%" [ref=e1211] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/search?l=html
+                  - img [ref=e1212]
+                  - generic [ref=e1214]: HTML
+                  - generic [ref=e1215]: 0.2%
+              - listitem [ref=e1216]:
+                - link "CSS 0.1%" [ref=e1217] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/search?l=css
+                  - img [ref=e1218]
+                  - generic [ref=e1220]: CSS
+                  - generic [ref=e1221]: 0.1%
+              - listitem [ref=e1222]:
+                - link "Cap'n Proto 0.0%" [ref=e1223] [cursor=pointer]:
+                  - /url: /cloudflare/workers-sdk/search?l=cap%27n-proto
+                  - img [ref=e1224]
+                  - generic [ref=e1226]: Cap'n Proto
+                  - generic [ref=e1227]: 0.0%
+  - contentinfo [ref=e1229]:
+    - heading "Footer" [level=2] [ref=e1230]
+    - generic [ref=e1231]:
+      - generic [ref=e1232]:
+        - link "GitHub Homepage" [ref=e1233] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1234]
+        - generic [ref=e1236]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1237]:
+        - heading "Footer navigation" [level=3] [ref=e1238]
+        - list "Footer navigation" [ref=e1239]:
+          - listitem [ref=e1240]:
+            - link "Terms" [ref=e1241] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1242]:
+            - link "Privacy" [ref=e1243] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1244]:
+            - link "Security" [ref=e1245] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1246]:
+            - link "Status" [ref=e1247] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1248]:
+            - link "Community" [ref=e1249] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1250]:
+            - link "Docs" [ref=e1251] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1252]:
+            - link "Contact" [ref=e1253] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1254]:
+            - button "Manage cookies" [ref=e1256] [cursor=pointer]
+          - listitem [ref=e1257]:
+            - button "Do not share my personal information" [ref=e1259] [cursor=pointer]

@@ -1,0 +1,1000 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fsuperfly%2Fflyctl
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=superfly%2Fflyctl
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "superfly" [ref=e70] [cursor=pointer]:
+            - /url: /superfly
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "flyctl" [ref=e73] [cursor=pointer]:
+              - /url: /superfly/flyctl
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsuperfly%2Fflyctl
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 297" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsuperfly%2Fflyctl
+                - img [ref=e82]
+                - text: Fork
+                - generic "297" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fsuperfly%2Fflyctl
+                - img [ref=e88]
+                - text: Star
+                - generic "1657 users starred this repository" [ref=e90]: 1.7k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /superfly/flyctl
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 260" [ref=e99] [cursor=pointer]:
+              - /url: /superfly/flyctl/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "260" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 112" [ref=e106] [cursor=pointer]:
+              - /url: /superfly/flyctl/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "112" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Actions" [ref=e112] [cursor=pointer]:
+              - /url: /superfly/flyctl/actions
+              - img [ref=e113]
+              - generic [ref=e115]: Actions
+          - listitem [ref=e116]:
+            - link "Projects" [ref=e117] [cursor=pointer]:
+              - /url: /superfly/flyctl/projects
+              - img [ref=e118]
+              - generic [ref=e120]: Projects
+          - listitem [ref=e121]:
+            - link "Models" [ref=e122] [cursor=pointer]:
+              - /url: /superfly/flyctl/models
+              - img [ref=e123]
+              - generic [ref=e125]: Models
+          - listitem [ref=e126]:
+            - link "Security and quality" [ref=e127] [cursor=pointer]:
+              - /url: /superfly/flyctl/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+          - listitem [ref=e131]
+        - button "Additional navigation options" [ref=e135] [cursor=pointer]:
+          - img
+    - generic [ref=e148]:
+      - heading "superfly/flyctl" [level=1] [ref=e150]
+      - generic [ref=e151]:
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - generic [ref=e156]:
+              - button "master branch" [ref=e158] [cursor=pointer]:
+                - generic [ref=e159]:
+                  - generic [ref=e161]:
+                    - img [ref=e163]
+                    - generic [ref=e166]: master
+                  - generic:
+                    - img
+              - generic [ref=e167]:
+                - link "Go to Branches page" [ref=e168] [cursor=pointer]:
+                  - /url: /superfly/flyctl/branches
+                  - img [ref=e169]
+                - link "Go to Tags page" [ref=e171] [cursor=pointer]:
+                  - /url: /superfly/flyctl/tags
+                  - img [ref=e172]
+            - generic [ref=e174]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - combobox "Go to file" [ref=e182]
+              - button "Code" [ref=e183] [cursor=pointer]:
+                - generic [ref=e184]:
+                  - generic:
+                    - img
+                  - generic [ref=e185]: Code
+                  - generic:
+                    - img
+          - generic [ref=e186]:
+            - generic [ref=e187]:
+              - heading "Folders and files" [level=2] [ref=e188]
+              - table "Folders and files" [ref=e189]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e190]:
+                  - row "Latest commit History 7,940 Commits" [ref=e191]:
+                    - cell "Latest commit History 7,940 Commits" [ref=e192]:
+                      - generic [ref=e193]:
+                        - heading "Latest commit" [level=2] [ref=e194]
+                        - generic [ref=e197]:
+                          - heading "History" [level=2] [ref=e198]
+                          - link "7,940 Commits" [ref=e199] [cursor=pointer]:
+                            - /url: /superfly/flyctl/commits/master/
+                            - generic [ref=e200]:
+                              - generic:
+                                - img
+                              - generic [ref=e201]: 7,940 Commits
+                  - row ".direnv, (Directory)" [ref=e202]:
+                    - cell ".direnv, (Directory)" [ref=e203]:
+                      - generic [ref=e204]:
+                        - img [ref=e205]
+                        - link ".direnv, (Directory)" [ref=e210] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/.direnv
+                          - text: .direnv
+                    - cell [ref=e211]
+                    - cell [ref=e213]
+                  - row ".github, (Directory)" [ref=e216]:
+                    - cell ".github, (Directory)" [ref=e217]:
+                      - generic [ref=e218]:
+                        - img [ref=e219]
+                        - link ".github, (Directory)" [ref=e224] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/.github
+                          - text: .github
+                    - cell [ref=e225]
+                    - cell [ref=e227]
+                  - row ".vscode, (Directory)" [ref=e230]:
+                    - cell ".vscode, (Directory)" [ref=e231]:
+                      - generic [ref=e232]:
+                        - img [ref=e233]
+                        - link ".vscode, (Directory)" [ref=e238] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/.vscode
+                          - text: .vscode
+                    - cell [ref=e239]
+                    - cell [ref=e241]
+                  - row "agent, (Directory)" [ref=e244]:
+                    - cell "agent, (Directory)" [ref=e245]:
+                      - generic [ref=e246]:
+                        - img [ref=e247]
+                        - link "agent, (Directory)" [ref=e252] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/agent
+                          - text: agent
+                    - cell [ref=e253]
+                    - cell [ref=e255]
+                  - row "aur, (Directory)" [ref=e258]:
+                    - cell "aur, (Directory)" [ref=e259]:
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - link "aur, (Directory)" [ref=e266] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/aur
+                          - text: aur
+                    - cell [ref=e267]
+                    - cell [ref=e269]
+                  - row "cmd/audit, (Directory)" [ref=e272]:
+                    - cell "cmd/audit, (Directory)" [ref=e273]:
+                      - generic [ref=e274]:
+                        - img [ref=e275]
+                        - link "cmd/audit, (Directory)" [ref=e280] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/cmd/audit
+                          - text: cmd/audit
+                    - cell [ref=e281]
+                    - cell [ref=e283]
+                  - row "deps/wintun, (Directory)" [ref=e286]:
+                    - cell "deps/wintun, (Directory)" [ref=e287]:
+                      - generic [ref=e288]:
+                        - img [ref=e289]
+                        - link "deps/wintun, (Directory)" [ref=e294] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/deps/wintun
+                          - text: deps/wintun
+                    - cell [ref=e295]
+                    - cell [ref=e297]
+                  - row "doc, (Directory)" [ref=e300]:
+                    - cell "doc, (Directory)" [ref=e301]:
+                      - generic [ref=e302]:
+                        - img [ref=e303]
+                        - link "doc, (Directory)" [ref=e308] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/doc
+                          - text: doc
+                    - cell [ref=e309]
+                    - cell [ref=e311]
+                  - row "flyctl, (Directory)" [ref=e314]:
+                    - cell "flyctl, (Directory)" [ref=e315]:
+                      - generic [ref=e316]:
+                        - img [ref=e317]
+                        - link "flyctl, (Directory)" [ref=e322] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/flyctl
+                          - text: flyctl
+                    - cell [ref=e323]
+                    - cell [ref=e325]
+                  - row "flypg, (Directory)" [ref=e328]:
+                    - cell "flypg, (Directory)" [ref=e329]:
+                      - generic [ref=e330]:
+                        - img [ref=e331]
+                        - link "flypg, (Directory)" [ref=e336] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/flypg
+                          - text: flypg
+                    - cell [ref=e337]
+                    - cell [ref=e339]
+                  - row "gql, (Directory)" [ref=e342]:
+                    - cell "gql, (Directory)" [ref=e343]:
+                      - generic [ref=e344]:
+                        - img [ref=e345]
+                        - link "gql, (Directory)" [ref=e350] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/gql
+                          - text: gql
+                    - cell [ref=e351]
+                    - cell [ref=e353]
+                  - row "helpers, (Directory)" [ref=e356]:
+                    - cell "helpers, (Directory)" [ref=e357]:
+                      - generic [ref=e358]:
+                        - img [ref=e359]
+                        - link "helpers, (Directory)" [ref=e364] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/helpers
+                          - text: helpers
+                    - cell [ref=e365]
+                    - cell [ref=e367]
+                  - row "internal, (Directory)" [ref=e370]:
+                    - cell "internal, (Directory)" [ref=e371]:
+                      - generic [ref=e372]:
+                        - img [ref=e373]
+                        - link "internal, (Directory)" [ref=e378] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/internal
+                          - text: internal
+                    - cell [ref=e379]
+                    - cell [ref=e381]
+                  - row "iostreams, (Directory)" [ref=e384]:
+                    - cell "iostreams, (Directory)" [ref=e385]:
+                      - generic [ref=e386]:
+                        - img [ref=e387]
+                        - link "iostreams, (Directory)" [ref=e392] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/iostreams
+                          - text: iostreams
+                    - cell [ref=e393]
+                    - cell [ref=e395]
+                  - row "ip, (Directory)" [ref=e398]:
+                    - cell "ip, (Directory)" [ref=e399]:
+                      - generic [ref=e400]:
+                        - img [ref=e401]
+                        - link "ip, (Directory)" [ref=e406] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/ip
+                          - text: ip
+                    - cell [ref=e407]
+                    - cell [ref=e409]
+                  - row "logs, (Directory)" [ref=e412]:
+                    - cell "logs, (Directory)" [ref=e413]:
+                      - generic [ref=e414]:
+                        - img [ref=e415]
+                        - link "logs, (Directory)" [ref=e420] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/logs
+                          - text: logs
+                    - cell [ref=e421]
+                    - cell [ref=e423]
+                  - row "proxy, (Directory)" [ref=e426]:
+                    - cell "proxy, (Directory)" [ref=e427]:
+                      - generic [ref=e428]:
+                        - img [ref=e429]
+                        - link "proxy, (Directory)" [ref=e434] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/proxy
+                          - text: proxy
+                    - cell [ref=e435]
+                    - cell [ref=e437]
+                  - row "scanner, (Directory)" [ref=e440]:
+                    - cell "scanner, (Directory)" [ref=e441]:
+                      - generic [ref=e442]:
+                        - img [ref=e443]
+                        - link "scanner, (Directory)" [ref=e448] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/scanner
+                          - text: scanner
+                    - cell [ref=e449]
+                    - cell [ref=e451]
+                  - row "scripts, (Directory)" [ref=e454]:
+                    - cell "scripts, (Directory)" [ref=e455]:
+                      - generic [ref=e456]:
+                        - img [ref=e457]
+                        - link "scripts, (Directory)" [ref=e462] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/scripts
+                          - text: scripts
+                    - cell [ref=e463]
+                    - cell [ref=e465]
+                  - row "ssh, (Directory)" [ref=e468]:
+                    - cell "ssh, (Directory)" [ref=e469]:
+                      - generic [ref=e470]:
+                        - img [ref=e471]
+                        - link "ssh, (Directory)" [ref=e476] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/ssh
+                          - text: ssh
+                    - cell [ref=e477]
+                    - cell [ref=e479]
+                  - row "terminal, (Directory)" [ref=e482]:
+                    - cell "terminal, (Directory)" [ref=e483]:
+                      - generic [ref=e484]:
+                        - img [ref=e485]
+                        - link "terminal, (Directory)" [ref=e490] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/terminal
+                          - text: terminal
+                    - cell [ref=e491]
+                    - cell [ref=e493]
+                  - row "test/preflight, (Directory)" [ref=e496]:
+                    - cell "test/preflight, (Directory)" [ref=e497]:
+                      - generic [ref=e498]:
+                        - img [ref=e499]
+                        - link "test/preflight, (Directory)" [ref=e504] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/test/preflight
+                          - text: test/preflight
+                    - cell [ref=e505]
+                    - cell [ref=e507]
+                  - row "tools, (Directory)" [ref=e510]:
+                    - cell "tools, (Directory)" [ref=e511]:
+                      - generic [ref=e512]:
+                        - img [ref=e513]
+                        - link "tools, (Directory)" [ref=e518] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/tools
+                          - text: tools
+                    - cell [ref=e519]
+                    - cell [ref=e521]
+                  - row "wg, (Directory)" [ref=e524]:
+                    - cell "wg, (Directory)" [ref=e525]:
+                      - generic [ref=e526]:
+                        - img [ref=e527]
+                        - link "wg, (Directory)" [ref=e532] [cursor=pointer]:
+                          - /url: /superfly/flyctl/tree/master/wg
+                          - text: wg
+                    - cell [ref=e533]
+                    - cell [ref=e535]
+                  - row ".deepsource.toml, (File)" [ref=e538]:
+                    - cell ".deepsource.toml, (File)" [ref=e539]:
+                      - generic [ref=e540]:
+                        - img [ref=e541]
+                        - link ".deepsource.toml, (File)" [ref=e546] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.deepsource.toml
+                          - text: .deepsource.toml
+                    - cell [ref=e547]
+                    - cell [ref=e549]
+                  - row ".gitignore, (File)" [ref=e552]:
+                    - cell ".gitignore, (File)" [ref=e553]:
+                      - generic [ref=e554]:
+                        - img [ref=e555]
+                        - link ".gitignore, (File)" [ref=e560] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.gitignore
+                          - text: .gitignore
+                    - cell [ref=e561]
+                    - cell [ref=e563]
+                  - row ".golangci.yml, (File)" [ref=e566]:
+                    - cell ".golangci.yml, (File)" [ref=e567]:
+                      - generic [ref=e568]:
+                        - img [ref=e569]
+                        - link ".golangci.yml, (File)" [ref=e574] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.golangci.yml
+                          - text: .golangci.yml
+                    - cell [ref=e575]
+                    - cell [ref=e577]
+                  - row ".goreleaser.2.yml, (File)" [ref=e580]:
+                    - cell ".goreleaser.2.yml, (File)" [ref=e581]:
+                      - generic [ref=e582]:
+                        - img [ref=e583]
+                        - link ".goreleaser.2.yml, (File)" [ref=e588] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.goreleaser.2.yml
+                          - text: .goreleaser.2.yml
+                    - cell [ref=e589]
+                    - cell [ref=e591]
+                  - row ".goreleaser.yml, (File)" [ref=e594]:
+                    - cell ".goreleaser.yml, (File)" [ref=e595]:
+                      - generic [ref=e596]:
+                        - img [ref=e597]
+                        - link ".goreleaser.yml, (File)" [ref=e602] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.goreleaser.yml
+                          - text: .goreleaser.yml
+                    - cell [ref=e603]
+                    - cell [ref=e605]
+                  - row ".pre-commit-config.yaml, (File)" [ref=e608]:
+                    - cell ".pre-commit-config.yaml, (File)" [ref=e609]:
+                      - generic [ref=e610]:
+                        - img [ref=e611]
+                        - link ".pre-commit-config.yaml, (File)" [ref=e616] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/.pre-commit-config.yaml
+                          - text: .pre-commit-config.yaml
+                    - cell [ref=e617]
+                    - cell [ref=e619]
+                  - row "CONTRIBUTING.md, (File)" [ref=e622]:
+                    - cell "CONTRIBUTING.md, (File)" [ref=e623]:
+                      - generic [ref=e624]:
+                        - img [ref=e625]
+                        - link "CONTRIBUTING.md, (File)" [ref=e630] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/CONTRIBUTING.md
+                          - text: CONTRIBUTING.md
+                    - cell [ref=e631]
+                    - cell [ref=e633]
+                  - row "Dockerfile, (File)" [ref=e636]:
+                    - cell "Dockerfile, (File)" [ref=e637]:
+                      - generic [ref=e638]:
+                        - img [ref=e639]
+                        - link "Dockerfile, (File)" [ref=e644] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Dockerfile
+                          - text: Dockerfile
+                    - cell [ref=e645]
+                    - cell [ref=e647]
+                  - row "Dockerfile.dev, (File)" [ref=e650]:
+                    - cell "Dockerfile.dev, (File)" [ref=e651]:
+                      - generic [ref=e652]:
+                        - img [ref=e653]
+                        - link "Dockerfile.dev, (File)" [ref=e658] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Dockerfile.dev
+                          - text: Dockerfile.dev
+                    - cell [ref=e659]
+                    - cell [ref=e661]
+                  - row "Dockerfile.mcp, (File)" [ref=e664]:
+                    - cell "Dockerfile.mcp, (File)" [ref=e665]:
+                      - generic [ref=e666]:
+                        - img [ref=e667]
+                        - link "Dockerfile.mcp, (File)" [ref=e672] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Dockerfile.mcp
+                          - text: Dockerfile.mcp
+                    - cell [ref=e673]
+                    - cell [ref=e675]
+                  - row "LICENSE, (File)" [ref=e678]:
+                    - cell "LICENSE, (File)" [ref=e679]:
+                      - generic [ref=e680]:
+                        - img [ref=e681]
+                        - link "LICENSE, (File)" [ref=e686] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/LICENSE
+                          - text: LICENSE
+                    - cell [ref=e687]
+                    - cell [ref=e689]
+                  - row "Makefile, (File)" [ref=e692]:
+                    - cell "Makefile, (File)" [ref=e693]:
+                      - generic [ref=e694]:
+                        - img [ref=e695]
+                        - link "Makefile, (File)" [ref=e700] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/Makefile
+                          - text: Makefile
+                    - cell [ref=e701]
+                    - cell [ref=e703]
+                  - row "README.md, (File)" [ref=e706]:
+                    - cell "README.md, (File)" [ref=e707]:
+                      - generic [ref=e708]:
+                        - img [ref=e709]
+                        - link "README.md, (File)" [ref=e714] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/README.md
+                          - text: README.md
+                    - cell [ref=e715]
+                    - cell [ref=e717]
+                  - row "building.md, (File)" [ref=e720]:
+                    - cell "building.md, (File)" [ref=e721]:
+                      - generic [ref=e722]:
+                        - img [ref=e723]
+                        - link "building.md, (File)" [ref=e728] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/building.md
+                          - text: building.md
+                    - cell [ref=e729]
+                    - cell [ref=e731]
+                  - row "debug_unix.go, (File)" [ref=e734]:
+                    - cell "debug_unix.go, (File)" [ref=e735]:
+                      - generic [ref=e736]:
+                        - img [ref=e737]
+                        - link "debug_unix.go, (File)" [ref=e742] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/debug_unix.go
+                          - text: debug_unix.go
+                    - cell [ref=e743]
+                    - cell [ref=e745]
+                  - row "debug_windows.go, (File)" [ref=e748]:
+                    - cell "debug_windows.go, (File)" [ref=e749]:
+                      - generic [ref=e750]:
+                        - img [ref=e751]
+                        - link "debug_windows.go, (File)" [ref=e756] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/debug_windows.go
+                          - text: debug_windows.go
+                    - cell [ref=e757]
+                    - cell [ref=e759]
+                  - row "genqlient.yaml, (File)" [ref=e762]:
+                    - cell "genqlient.yaml, (File)" [ref=e763]:
+                      - generic [ref=e764]:
+                        - img [ref=e765]
+                        - link "genqlient.yaml, (File)" [ref=e770] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/genqlient.yaml
+                          - text: genqlient.yaml
+                    - cell [ref=e771]
+                    - cell [ref=e773]
+                  - row "go.mod, (File)" [ref=e776]:
+                    - cell "go.mod, (File)" [ref=e777]:
+                      - generic [ref=e778]:
+                        - img [ref=e779]
+                        - link "go.mod, (File)" [ref=e784] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/go.mod
+                          - text: go.mod
+                    - cell [ref=e785]
+                    - cell [ref=e787]
+                  - row "go.sum, (File)" [ref=e790]:
+                    - cell "go.sum, (File)" [ref=e791]:
+                      - generic [ref=e792]:
+                        - img [ref=e793]
+                        - link "go.sum, (File)" [ref=e798] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/go.sum
+                          - text: go.sum
+                    - cell [ref=e799]
+                    - cell [ref=e801]
+                  - row "main.go, (File)" [ref=e804]:
+                    - cell "main.go, (File)" [ref=e805]:
+                      - generic [ref=e806]:
+                        - img [ref=e807]
+                        - link "main.go, (File)" [ref=e812] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/main.go
+                          - text: main.go
+                    - cell [ref=e813]
+                    - cell [ref=e815]
+                  - row "shell.nix, (File)" [ref=e818]:
+                    - cell "shell.nix, (File)" [ref=e819]:
+                      - generic [ref=e820]:
+                        - img [ref=e821]
+                        - link "shell.nix, (File)" [ref=e826] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/shell.nix
+                          - text: shell.nix
+                    - cell [ref=e827]
+                    - cell [ref=e829]
+                  - row "tools.go, (File)" [ref=e832]:
+                    - cell "tools.go, (File)" [ref=e833]:
+                      - generic [ref=e834]:
+                        - img [ref=e835]
+                        - link "tools.go, (File)" [ref=e840] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/tools.go
+                          - text: tools.go
+                    - cell [ref=e841]
+                    - cell [ref=e843]
+                  - row "winbuild.ps1, (File)" [ref=e846]:
+                    - cell "winbuild.ps1, (File)" [ref=e847]:
+                      - generic [ref=e848]:
+                        - img [ref=e849]
+                        - link "winbuild.ps1, (File)" [ref=e854] [cursor=pointer]:
+                          - /url: /superfly/flyctl/blob/master/winbuild.ps1
+                          - text: winbuild.ps1
+                    - cell [ref=e855]
+                    - cell [ref=e857]
+            - generic [ref=e861]:
+              - generic [ref=e862]:
+                - heading "Repository files navigation" [level=2] [ref=e863]
+                - navigation "Repository files" [ref=e864]:
+                  - list [ref=e865]:
+                    - listitem [ref=e866]:
+                      - link "README" [ref=e867] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e869]
+                        - generic [ref=e871]: README
+                    - listitem [ref=e872]:
+                      - link "Contributing" [ref=e873] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e875]
+                        - generic [ref=e877]: Contributing
+                    - listitem [ref=e878]:
+                      - link "Apache-2.0 license" [ref=e879] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e881]
+                        - generic [ref=e883]: Apache-2.0 license
+                - button "Outline" [ref=e884] [cursor=pointer]:
+                  - img [ref=e885]
+              - article [ref=e888]:
+                - generic [ref=e889]:
+                  - heading "flyctl" [level=1] [ref=e890]
+                  - 'link "Permalink: flyctl" [ref=e891] [cursor=pointer]':
+                    - /url: "#flyctl"
+                    - img [ref=e892]
+                - paragraph [ref=e894]: flyctl is a command-line interface for fly.io
+                - paragraph [ref=e895]:
+                  - text: "Note: Most installations of"
+                  - code [ref=e896]: flyctl
+                  - text: also alias
+                  - code [ref=e897]: flyctl
+                  - text: to
+                  - code [ref=e898]: fly
+                  - text: as a command name and this will become the default name in the future. During the transition, note that where you see
+                  - code [ref=e899]: flyctl
+                  - text: as a command it can be replaced with
+                  - code [ref=e900]: fly
+                  - text: .
+                - generic [ref=e901]:
+                  - heading "Installation" [level=2] [ref=e902]
+                  - 'link "Permalink: Installation" [ref=e903] [cursor=pointer]':
+                    - /url: "#installation"
+                    - img [ref=e904]
+                - generic [ref=e906]:
+                  - heading "Using a Package Manager" [level=2] [ref=e907]
+                  - 'link "Permalink: Using a Package Manager" [ref=e908] [cursor=pointer]':
+                    - /url: "#using-a-package-manager"
+                    - img [ref=e909]
+                - generic [ref=e911]:
+                  - heading "Homebrew (macOS, Linux, WSL)" [level=4] [ref=e912]:
+                    - link "Homebrew" [ref=e913] [cursor=pointer]:
+                      - /url: https://brew.sh
+                    - text: (macOS, Linux, WSL)
+                  - 'link "Permalink: Homebrew (macOS, Linux, WSL)" [ref=e914] [cursor=pointer]':
+                    - /url: "#homebrew-macos-linux-wsl"
+                    - img [ref=e915]
+                - generic [ref=e917]:
+                  - generic [ref=e918]: brew install flyctl
+                  - button "Copy code to clipboard" [ref=e920] [cursor=pointer]:
+                    - img [ref=e921]
+                - paragraph [ref=e924]: "To upgrade to the latest version:"
+                - generic [ref=e925]:
+                  - generic [ref=e926]: brew upgrade flyctl
+                  - button "Copy code to clipboard" [ref=e928] [cursor=pointer]:
+                    - img [ref=e929]
+                - generic [ref=e932]:
+                  - heading "Install Script" [level=2] [ref=e933]
+                  - 'link "Permalink: Install Script" [ref=e934] [cursor=pointer]':
+                    - /url: "#install-script"
+                    - img [ref=e935]
+                - paragraph [ref=e937]:
+                  - text: Download
+                  - code [ref=e938]: flyctl
+                  - text: and install into a local bin directory.
+                - generic [ref=e939]:
+                  - heading "MacOS, Linux, WSL" [level=4] [ref=e940]
+                  - 'link "Permalink: MacOS, Linux, WSL" [ref=e941] [cursor=pointer]':
+                    - /url: "#macos-linux-wsl"
+                    - img [ref=e942]
+                - paragraph [ref=e944]: "Installing the latest version:"
+                - generic [ref=e945]:
+                  - generic [ref=e946]: curl -L https://fly.io/install.sh | sh
+                  - button "Copy code to clipboard" [ref=e948] [cursor=pointer]:
+                    - img [ref=e949]
+                - paragraph [ref=e952]: "Installing the latest pre-release version:"
+                - generic [ref=e953]:
+                  - generic [ref=e954]: curl -L https://fly.io/install.sh | sh -s pre
+                  - button "Copy code to clipboard" [ref=e956] [cursor=pointer]:
+                    - img [ref=e957]
+                - paragraph [ref=e960]: "Installing a specific version:"
+                - generic [ref=e961]:
+                  - generic [ref=e962]: curl -L https://fly.io/install.sh | sh -s 0.0.200
+                  - button "Copy code to clipboard" [ref=e964] [cursor=pointer]:
+                    - img [ref=e965]
+                - generic [ref=e968]:
+                  - heading "Windows" [level=4] [ref=e969]
+                  - 'link "Permalink: Windows" [ref=e970] [cursor=pointer]':
+                    - /url: "#windows"
+                    - img [ref=e971]
+                - paragraph [ref=e973]: "Run the Powershell install script:"
+                - generic [ref=e974]:
+                  - code [ref=e976]: iwr https://fly.io/install.ps1 -useb | iex
+                  - button "Copy code to clipboard" [ref=e978] [cursor=pointer]:
+                    - img [ref=e979]
+                - generic [ref=e982]:
+                  - heading "Downloading from GitHub" [level=2] [ref=e983]
+                  - 'link "Permalink: Downloading from GitHub" [ref=e984] [cursor=pointer]':
+                    - /url: "#downloading-from-github"
+                    - img [ref=e985]
+                - paragraph [ref=e987]:
+                  - text: Download the appropriate version from the
+                  - link "Releases" [ref=e988] [cursor=pointer]:
+                    - /url: https://github.com/superfly/flyctl/releases
+                  - text: page of the
+                  - code [ref=e989]: flyctl
+                  - text: GitHub repository.
+                - generic [ref=e990]:
+                  - heading "Getting Started" [level=2] [ref=e991]
+                  - 'link "Permalink: Getting Started" [ref=e992] [cursor=pointer]':
+                    - /url: "#getting-started"
+                    - img [ref=e993]
+                - list [ref=e995]:
+                  - listitem [ref=e996]: Sign into your fly account
+                - generic [ref=e997]:
+                  - generic [ref=e998]: fly auth login
+                  - button "Copy code to clipboard" [ref=e1000] [cursor=pointer]:
+                    - img [ref=e1001]
+                - list [ref=e1004]:
+                  - listitem [ref=e1005]: List your apps
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]: fly apps list
+                  - button "Copy code to clipboard" [ref=e1009] [cursor=pointer]:
+                    - img [ref=e1010]
+                - list [ref=e1013]:
+                  - listitem [ref=e1014]: View app status
+                - generic [ref=e1015]:
+                  - generic [ref=e1016]: "fly status -a {app-name}"
+                  - button "Copy code to clipboard" [ref=e1018] [cursor=pointer]:
+                    - img [ref=e1019]
+                - generic [ref=e1022]:
+                  - heading "App Settings" [level=2] [ref=e1023]
+                  - 'link "Permalink: App Settings" [ref=e1024] [cursor=pointer]':
+                    - /url: "#app-settings"
+                    - img [ref=e1025]
+                - paragraph [ref=e1027]:
+                  - code [ref=e1028]: flyctl
+                  - text: will attempt to use the app name from a
+                  - code [ref=e1029]: fly.toml
+                  - text: "file in the current directory. For example, if the current directory contains this file:"
+                - generic [ref=e1030]:
+                  - generic [ref=e1031]: "$ cat fly.toml app: banana"
+                  - button "Copy code to clipboard" [ref=e1033] [cursor=pointer]:
+                    - img [ref=e1034]
+                - paragraph [ref=e1037]:
+                  - code [ref=e1038]: flyctl
+                  - text: will operate against the
+                  - code [ref=e1039]: banana
+                  - text: app unless overridden by the -a flag or other app name setting in the command line.
+                - generic [ref=e1040]:
+                  - heading "Releases" [level=2] [ref=e1041]
+                  - 'link "Permalink: Releases" [ref=e1042] [cursor=pointer]':
+                    - /url: "#releases"
+                    - img [ref=e1043]
+                - paragraph [ref=e1045]:
+                  - code [ref=e1046]: flyctl
+                  - text: is automatically released at 3 PM Eastern Standard Time Monday - Thursday. If needed, you can bump a release by running
+                  - code [ref=e1047]: ./scripts/bump_version.sh
+                  - text: .
+                - generic [ref=e1048]:
+                  - heading "Building on Windows" [level=2] [ref=e1049]
+                  - 'link "Permalink: Building on Windows" [ref=e1050] [cursor=pointer]':
+                    - /url: "#building-on-windows"
+                    - img [ref=e1051]
+                - paragraph [ref=e1053]:
+                  - text: There is a simple Powershell script,
+                  - code [ref=e1054]: winbuild.ps1
+                  - text: ", which will run the code generation for the help files, format them, and run a full build, leaving a new binary in the bin directory."
+                - generic [ref=e1055]:
+                  - heading "Contributing guide" [level=2] [ref=e1056]
+                  - 'link "Permalink: Contributing guide" [ref=e1057] [cursor=pointer]':
+                    - /url: "#contributing-guide"
+                    - img [ref=e1058]
+                - paragraph [ref=e1060]:
+                  - text: See
+                  - link "CONTRIBUTING.md" [ref=e1061] [cursor=pointer]:
+                    - /url: /superfly/flyctl/blob/master/CONTRIBUTING.md
+        - generic [ref=e1065]:
+          - generic [ref=e1068]:
+            - heading "About" [level=2] [ref=e1069]
+            - paragraph [ref=e1070]: Command line tools for fly.io services
+            - generic [ref=e1071]:
+              - img [ref=e1072]
+              - link "fly.io" [ref=e1075] [cursor=pointer]:
+                - /url: https://fly.io
+            - heading "Topics" [level=3] [ref=e1076]
+            - link "flyio-tools" [ref=e1079] [cursor=pointer]:
+              - /url: /topics/flyio-tools
+            - heading "Resources" [level=3] [ref=e1080]
+            - link "Readme" [ref=e1082] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1083]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1085]
+            - link "Apache-2.0 license" [ref=e1087] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e1088]
+              - text: Apache-2.0 license
+            - heading "Contributing" [level=3] [ref=e1090]
+            - link "Contributing" [ref=e1092] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1093]
+              - text: Contributing
+            - link "Activity" [ref=e1096] [cursor=pointer]:
+              - /url: /superfly/flyctl/activity
+              - img [ref=e1097]
+              - text: Activity
+            - link "Custom properties" [ref=e1100] [cursor=pointer]:
+              - /url: /superfly/flyctl/custom-properties
+              - img [ref=e1101]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1103]
+            - link "1.7k stars" [ref=e1105] [cursor=pointer]:
+              - /url: /superfly/flyctl/stargazers
+              - img [ref=e1106]
+              - strong [ref=e1108]: 1.7k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1109]
+            - link "23 watching" [ref=e1111] [cursor=pointer]:
+              - /url: /superfly/flyctl/watchers
+              - img [ref=e1112]
+              - strong [ref=e1114]: "23"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1115]
+            - link "297 forks" [ref=e1117] [cursor=pointer]:
+              - /url: /superfly/flyctl/forks
+              - img [ref=e1118]
+              - strong [ref=e1120]: "297"
+              - text: forks
+            - link "Report repository" [ref=e1122] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fsuperfly%2Fflyctl&report=superfly+%28user%29
+          - generic [ref=e1124]:
+            - heading "Releases 1,322" [level=2] [ref=e1125]:
+              - link "Releases 1,322" [ref=e1126] [cursor=pointer]:
+                - /url: /superfly/flyctl/releases
+                - text: Releases
+                - generic "1,322" [ref=e1127]
+            - link "v0.4.52 Latest May 14, 20264 days ago" [ref=e1128] [cursor=pointer]:
+              - /url: /superfly/flyctl/releases/tag/v0.4.52
+              - img [ref=e1129]
+              - generic [ref=e1131]:
+                - generic [ref=e1132]:
+                  - generic [ref=e1133]: v0.4.52
+                  - 'generic "Label: Latest" [ref=e1134]': Latest
+                - generic [ref=e1135]: May 14, 20264 days ago
+            - link "+ 1,321 releases" [ref=e1137] [cursor=pointer]:
+              - /url: /superfly/flyctl/releases
+          - generic "Loading latest packages" [ref=e1140]:
+            - heading "Packages" [level=2] [ref=e1141]:
+              - link "Packages" [ref=e1142] [cursor=pointer]:
+                - /url: /orgs/superfly/packages?repo_name=flyctl
+          - generic [ref=e1153]:
+            - heading "Contributors 216" [level=2] [ref=e1154]:
+              - link "Contributors 216" [ref=e1155] [cursor=pointer]:
+                - /url: /superfly/flyctl/graphs/contributors
+                - text: Contributors
+                - generic "216" [ref=e1156]
+            - list [ref=e1157]:
+              - listitem [ref=e1158]:
+                - link "@dangra" [ref=e1159] [cursor=pointer]:
+                  - /url: https://github.com/dangra
+                  - img "@dangra" [ref=e1160]
+              - listitem [ref=e1161]:
+                - link "@michaeldwan" [ref=e1162] [cursor=pointer]:
+                  - /url: https://github.com/michaeldwan
+                  - img "@michaeldwan" [ref=e1163]
+              - listitem [ref=e1164]:
+                - link "@dependabot[bot]" [ref=e1165] [cursor=pointer]:
+                  - /url: https://github.com/apps/dependabot
+                  - img "@dependabot[bot]" [ref=e1166]
+              - listitem [ref=e1167]:
+                - link "@rugwirobaker" [ref=e1168] [cursor=pointer]:
+                  - /url: https://github.com/rugwirobaker
+                  - img "@rugwirobaker" [ref=e1169]
+              - listitem [ref=e1170]:
+                - link "@codepope" [ref=e1171] [cursor=pointer]:
+                  - /url: https://github.com/codepope
+                  - img "@codepope" [ref=e1172]
+              - listitem [ref=e1173]:
+                - link "@tvdfly" [ref=e1174] [cursor=pointer]:
+                  - /url: https://github.com/tvdfly
+                  - img "@tvdfly" [ref=e1175]
+              - listitem [ref=e1176]:
+                - link "@rubys" [ref=e1177] [cursor=pointer]:
+                  - /url: https://github.com/rubys
+                  - img "@rubys" [ref=e1178]
+              - listitem [ref=e1179]:
+                - link "@billyb2" [ref=e1180] [cursor=pointer]:
+                  - /url: https://github.com/billyb2
+                  - img "@billyb2" [ref=e1181]
+              - listitem [ref=e1182]:
+                - link "@davissp14" [ref=e1183] [cursor=pointer]:
+                  - /url: https://github.com/davissp14
+                  - img "@davissp14" [ref=e1184]
+              - listitem [ref=e1185]:
+                - link "@matttpt" [ref=e1186] [cursor=pointer]:
+                  - /url: https://github.com/matttpt
+                  - img "@matttpt" [ref=e1187]
+              - listitem [ref=e1188]:
+                - link "@azazeal" [ref=e1189] [cursor=pointer]:
+                  - /url: https://github.com/azazeal
+                  - img "@azazeal" [ref=e1190]
+              - listitem [ref=e1191]:
+                - link "@tqbf" [ref=e1192] [cursor=pointer]:
+                  - /url: https://github.com/tqbf
+                  - img "@tqbf" [ref=e1193]
+              - listitem [ref=e1194]:
+                - link "@jsierles" [ref=e1195] [cursor=pointer]:
+                  - /url: https://github.com/jsierles
+                  - img "@jsierles" [ref=e1196]
+              - listitem [ref=e1197]:
+                - link "@ndarilek" [ref=e1198] [cursor=pointer]:
+                  - /url: https://github.com/ndarilek
+                  - img "@ndarilek" [ref=e1199]
+            - link "+ 202 contributors" [ref=e1201] [cursor=pointer]:
+              - /url: /superfly/flyctl/graphs/contributors
+          - generic [ref=e1203]:
+            - heading "Languages" [level=2] [ref=e1204]
+            - list [ref=e1210]:
+              - listitem [ref=e1211]:
+                - link "Go 98.9%" [ref=e1212] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=go
+                  - img [ref=e1213]
+                  - generic [ref=e1215]: Go
+                  - generic [ref=e1216]: 98.9%
+              - listitem [ref=e1217]:
+                - link "Dockerfile 0.6%" [ref=e1218] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=dockerfile
+                  - img [ref=e1219]
+                  - generic [ref=e1221]: Dockerfile
+                  - generic [ref=e1222]: 0.6%
+              - listitem [ref=e1223]:
+                - link "Shell 0.5%" [ref=e1224] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=shell
+                  - img [ref=e1225]
+                  - generic [ref=e1227]: Shell
+                  - generic [ref=e1228]: 0.5%
+              - listitem [ref=e1229]:
+                - link "Makefile 0.0%" [ref=e1230] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=makefile
+                  - img [ref=e1231]
+                  - generic [ref=e1233]: Makefile
+                  - generic [ref=e1234]: 0.0%
+              - listitem [ref=e1235]:
+                - link "Ruby 0.0%" [ref=e1236] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=ruby
+                  - img [ref=e1237]
+                  - generic [ref=e1239]: Ruby
+                  - generic [ref=e1240]: 0.0%
+              - listitem [ref=e1241]:
+                - link "Nix 0.0%" [ref=e1242] [cursor=pointer]:
+                  - /url: /superfly/flyctl/search?l=nix
+                  - img [ref=e1243]
+                  - generic [ref=e1245]: Nix
+                  - generic [ref=e1246]: 0.0%
+  - contentinfo [ref=e1248]:
+    - heading "Footer" [level=2] [ref=e1249]
+    - generic [ref=e1250]:
+      - generic [ref=e1251]:
+        - link "GitHub Homepage" [ref=e1252] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1253]
+        - generic [ref=e1255]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1256]:
+        - heading "Footer navigation" [level=3] [ref=e1257]
+        - list "Footer navigation" [ref=e1258]:
+          - listitem [ref=e1259]:
+            - link "Terms" [ref=e1260] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1261]:
+            - link "Privacy" [ref=e1262] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1263]:
+            - link "Security" [ref=e1264] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1265]:
+            - link "Status" [ref=e1266] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1267]:
+            - link "Community" [ref=e1268] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1269]:
+            - link "Docs" [ref=e1270] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1271]:
+            - link "Contact" [ref=e1272] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1273]:
+            - button "Manage cookies" [ref=e1275] [cursor=pointer]
+          - listitem [ref=e1276]:
+            - button "Do not share my personal information" [ref=e1278] [cursor=pointer]

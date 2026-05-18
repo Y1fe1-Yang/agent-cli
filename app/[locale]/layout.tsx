@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Cormorant_Garamond, Inter, JetBrains_Mono } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
@@ -7,9 +8,29 @@ import { routing } from '@/i18n/routing';
 import { LocaleSwitcher } from '@/components/LocaleSwitcher';
 import '@/app/globals.css';
 
+const cormorant = Cormorant_Garamond({
+  subsets: ['latin'],
+  weight: ['400', '500'],
+  variable: '--font-cormorant',
+  display: 'swap',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+});
+
+const jetbrains = JetBrains_Mono({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-jetbrains',
+  display: 'swap',
+});
+
 export const metadata: Metadata = {
-  title: 'CLI Tools',
-  description: 'Discover great command-line tools',
+  title: 'CLI Tools for the Agent Era',
+  description: 'Discover CLI tools your AI agents can actually use',
 };
 
 export function generateStaticParams() {
@@ -33,23 +54,37 @@ export default async function LocaleLayout({
   const t = await getTranslations({ locale, namespace: 'footer' });
 
   return (
-    <html lang={locale} className="h-full">
-      <body className="h-full bg-gray-50 text-gray-900 antialiased">
+    <html
+      lang={locale}
+      className={`h-full ${cormorant.variable} ${inter.variable} ${jetbrains.variable}`}
+    >
+      <body className="h-full antialiased font-sans">
         <NextIntlClientProvider messages={messages}>
           <div className="min-h-full flex flex-col">
-            <header className="bg-white border-b border-gray-200 sticky top-0 z-10">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
-                <Link href={`/${locale}`} className="font-bold text-lg tracking-tight">
+            {/* Nav */}
+            <header className="sticky top-0 z-10 bg-canvas border-b border-hairline">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+                <Link
+                  href={`/${locale}`}
+                  className="font-serif text-xl text-ink tracking-tight hover:text-primary transition-colors"
+                >
                   CLI Tools
                 </Link>
                 <LocaleSwitcher locale={locale} />
               </div>
             </header>
+
             <main className="flex-1">
               {children}
             </main>
-            <footer className="border-t border-gray-200 py-6 text-center text-sm text-gray-400">
-              {t('credit')}
+
+            {/* Footer — dark navy */}
+            <footer className="bg-surface-dark">
+              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <span className="font-serif text-lg text-on-dark tracking-tight">CLI Tools</span>
+                <p className="text-on-dark-soft text-sm text-center">{t('credit')}</p>
+                <LocaleSwitcher locale={locale} dark />
+              </div>
             </footer>
           </div>
         </NextIntlClientProvider>

@@ -1,0 +1,1564 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&source=header-repo&source_repo=vercel%2Fvercel
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "vercel" [ref=e70] [cursor=pointer]:
+            - /url: /vercel
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "vercel" [ref=e73] [cursor=pointer]:
+              - /url: /vercel/vercel
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2Fvercel%2Fvercel
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 3.6k" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2Fvercel%2Fvercel
+                - img [ref=e82]
+                - text: Fork
+                - generic "3,589" [ref=e84]: 3.6k
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2Fvercel%2Fvercel
+                - img [ref=e88]
+                - text: Star
+                - generic "15495 users starred this repository" [ref=e90]: 15.5k
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /vercel/vercel
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues 278" [ref=e99] [cursor=pointer]:
+              - /url: /vercel/vercel/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+              - generic "278" [ref=e104]
+          - listitem [ref=e105]:
+            - link "Pull requests 394" [ref=e106] [cursor=pointer]:
+              - /url: /vercel/vercel/pulls
+              - img [ref=e107]
+              - generic [ref=e109]: Pull requests
+              - generic "394" [ref=e110]
+          - listitem [ref=e111]:
+            - link "Discussions" [ref=e112] [cursor=pointer]:
+              - /url: /vercel/vercel/discussions
+              - img [ref=e113]
+              - generic [ref=e115]: Discussions
+          - listitem [ref=e116]:
+            - link "Actions" [ref=e117] [cursor=pointer]:
+              - /url: /vercel/vercel/actions
+              - img [ref=e118]
+              - generic [ref=e120]: Actions
+          - listitem [ref=e121]:
+            - link "Wiki" [ref=e122] [cursor=pointer]:
+              - /url: /vercel/vercel/wiki
+              - img [ref=e123]
+              - generic [ref=e125]: Wiki
+          - listitem [ref=e126]:
+            - link "Security and quality 1" [ref=e127] [cursor=pointer]:
+              - /url: /vercel/vercel/security
+              - img [ref=e128]
+              - generic [ref=e130]: Security and quality
+              - generic "1" [ref=e131]
+          - listitem [ref=e132]
+        - button "Additional navigation options" [ref=e136] [cursor=pointer]:
+          - img
+    - generic [ref=e149]:
+      - heading "vercel/vercel" [level=1] [ref=e151]
+      - generic [ref=e152]:
+        - generic [ref=e155]:
+          - generic [ref=e156]:
+            - generic [ref=e157]:
+              - button "main branch" [ref=e159] [cursor=pointer]:
+                - generic [ref=e160]:
+                  - generic [ref=e162]:
+                    - img [ref=e164]
+                    - generic [ref=e167]: main
+                  - generic:
+                    - img
+              - generic [ref=e168]:
+                - link "Go to Branches page" [ref=e169] [cursor=pointer]:
+                  - /url: /vercel/vercel/branches
+                  - img [ref=e170]
+                - link "Go to Tags page" [ref=e172] [cursor=pointer]:
+                  - /url: /vercel/vercel/tags
+                  - img [ref=e173]
+            - generic [ref=e175]:
+              - generic [ref=e179]:
+                - img [ref=e181]
+                - combobox "Go to file" [ref=e183]
+              - button "Code" [ref=e184] [cursor=pointer]:
+                - generic [ref=e185]:
+                  - generic:
+                    - img
+                  - generic [ref=e186]: Code
+                  - generic:
+                    - img
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - heading "Folders and files" [level=2] [ref=e189]
+              - table "Folders and files" [ref=e190]:
+                - rowgroup:
+                  - row "Name Last commit message Last commit date":
+                    - columnheader "Name"
+                    - columnheader "Last commit message":
+                      - generic "Last commit message"
+                    - columnheader "Last commit date":
+                      - generic "Last commit date"
+                - rowgroup [ref=e191]:
+                  - row "Latest commit Melkeydev commits by Melkeydev [FIX] Fixing a single deployment error (#16351) Open commit details failure Commit 4118600 · May 17, 2026yesterday History 11,319 Commits" [ref=e192]:
+                    - cell "Latest commit Melkeydev commits by Melkeydev [FIX] Fixing a single deployment error (#16351) Open commit details failure Commit 4118600 · May 17, 2026yesterday History 11,319 Commits" [ref=e193]:
+                      - generic [ref=e194]:
+                        - heading "Latest commit" [level=2] [ref=e195]
+                        - generic [ref=e196]:
+                          - generic [ref=e198]:
+                            - link "Melkeydev" [ref=e199] [cursor=pointer]:
+                              - /url: /Melkeydev
+                              - img "Melkeydev" [ref=e200]
+                            - link "commits by Melkeydev" [ref=e201] [cursor=pointer]:
+                              - /url: /vercel/vercel/commits?author=Melkeydev
+                              - text: Melkeydev
+                          - generic [ref=e202]:
+                            - generic [ref=e204]:
+                              - link "[FIX] Fixing a single deployment error (" [ref=e205] [cursor=pointer]:
+                                - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                              - link "#16351" [ref=e206] [cursor=pointer]:
+                                - /url: https://github.com/vercel/vercel/pull/16351
+                              - link ")" [ref=e207] [cursor=pointer]:
+                                - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                            - button "Open commit details" [ref=e208] [cursor=pointer]:
+                              - img [ref=e209]
+                            - button "failure" [ref=e211] [cursor=pointer]:
+                              - img [ref=e212]
+                        - generic [ref=e214]:
+                          - generic [ref=e216]:
+                            - link "Commit 4118600" [ref=e217] [cursor=pointer]:
+                              - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                              - text: "4118600"
+                            - text: ·
+                            - generic "May 17, 2026, 10:33 AM GMT+8" [ref=e218]: May 17, 2026yesterday
+                          - generic [ref=e219]:
+                            - heading "History" [level=2] [ref=e220]
+                            - link "11,319 Commits" [ref=e221] [cursor=pointer]:
+                              - /url: /vercel/vercel/commits/main/
+                              - generic [ref=e222]:
+                                - generic:
+                                  - img
+                                - generic [ref=e223]: 11,319 Commits
+                  - row ".changeset, (Directory) [FIX] Fixing a single deployment error (#16351) May 17, 2026yesterday" [ref=e224]:
+                    - cell ".changeset, (Directory)" [ref=e225]:
+                      - generic [ref=e226]:
+                        - img [ref=e227]
+                        - link ".changeset, (Directory)" [ref=e232] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/.changeset
+                          - text: .changeset
+                    - cell "[FIX] Fixing a single deployment error (#16351)" [ref=e233]:
+                      - generic [ref=e235]:
+                        - link "[FIX] Fixing a single deployment error (" [ref=e236] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                        - link "#16351" [ref=e237] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16351
+                        - link ")" [ref=e238] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                    - cell "May 17, 2026yesterday" [ref=e239]:
+                      - generic [ref=e240]: May 17, 2026yesterday
+                  - row ".claude/skills, (Directory) chore(skill) mark handler-started as deprecated (#15762) Mar 31, 20262 months ago" [ref=e241]:
+                    - cell ".claude/skills, (Directory)" [ref=e242]:
+                      - generic [ref=e243]:
+                        - img [ref=e244]
+                        - link ".claude/skills, (Directory)" [ref=e249] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/.claude/skills
+                          - text: .claude/skills
+                    - cell "chore(skill) mark handler-started as deprecated (#15762)" [ref=e250]:
+                      - generic [ref=e252]:
+                        - link "chore(skill) mark handler-started as deprecated (" [ref=e253] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/e8cd6e6ac63d51fcc283b6a64a59e65fcd78db4f
+                        - link "#15762" [ref=e254] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15762
+                        - link ")" [ref=e255] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/e8cd6e6ac63d51fcc283b6a64a59e65fcd78db4f
+                    - cell "Mar 31, 20262 months ago" [ref=e256]:
+                      - generic [ref=e257]: Mar 31, 20262 months ago
+                  - row ".github, (Directory) [CLI] Updating the Vercel CLI Evals (#16136) May 16, 20262 days ago" [ref=e258]:
+                    - cell ".github, (Directory)" [ref=e259]:
+                      - generic [ref=e260]:
+                        - img [ref=e261]
+                        - link ".github, (Directory)" [ref=e266] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/.github
+                          - text: .github
+                    - cell "[CLI] Updating the Vercel CLI Evals (#16136)" [ref=e267]:
+                      - generic [ref=e269]:
+                        - link "[CLI] Updating the Vercel CLI Evals (" [ref=e270] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/a3a1a5a33dc5d68c7a9f1418daf7b37704653131
+                        - link "#16136" [ref=e271] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16136
+                        - link ")" [ref=e272] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/a3a1a5a33dc5d68c7a9f1418daf7b37704653131
+                    - cell "May 16, 20262 days ago" [ref=e273]:
+                      - generic [ref=e274]: May 16, 20262 days ago
+                  - row ".husky, (Directory) [tests] Migrate from yarn to pnpm (#9198) Jan 12, 20234 years ago" [ref=e275]:
+                    - cell ".husky, (Directory)" [ref=e276]:
+                      - generic [ref=e277]:
+                        - img [ref=e278]
+                        - link ".husky, (Directory)" [ref=e283] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/.husky
+                          - text: .husky
+                    - cell "[tests] Migrate from yarn to pnpm (#9198)" [ref=e284]:
+                      - generic [ref=e286]:
+                        - link "[tests] Migrate from yarn to pnpm (" [ref=e287] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/9c768b98b71cfc72e8638bf5172be88c39e8fa69
+                        - link "#9198" [ref=e288] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/9198
+                        - link ")" [ref=e289] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/9c768b98b71cfc72e8638bf5172be88c39e8fa69
+                    - cell "Jan 12, 20234 years ago" [ref=e290]:
+                      - generic [ref=e291]: Jan 12, 20234 years ago
+                  - row "api, (Directory) remame fetch to nodeFetch in packages (#15234) Feb 25, 20263 months ago" [ref=e292]:
+                    - cell "api, (Directory)" [ref=e293]:
+                      - generic [ref=e294]:
+                        - img [ref=e295]
+                        - link "api, (Directory)" [ref=e300] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/api
+                          - text: api
+                    - cell "remame fetch to nodeFetch in packages (#15234)" [ref=e301]:
+                      - generic [ref=e303]:
+                        - link "remame fetch to nodeFetch in packages (" [ref=e304] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/2db57840669ca2fa8dadf492bd38c21bf9e3cfeb
+                        - link "#15234" [ref=e305] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15234
+                        - link ")" [ref=e306] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/2db57840669ca2fa8dadf492bd38c21bf9e3cfeb
+                    - cell "Feb 25, 20263 months ago" [ref=e307]:
+                      - generic [ref=e308]: Feb 25, 20263 months ago
+                  - 'row "crates/vercel_runtime, (Directory) chore: bump vercel_runtime version (#15997) Apr 16, 2026last month" [ref=e309]':
+                    - cell "crates/vercel_runtime, (Directory)" [ref=e310]:
+                      - generic [ref=e311]:
+                        - img [ref=e312]
+                        - link "crates/vercel_runtime, (Directory)" [ref=e317] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/crates/vercel_runtime
+                          - text: crates/vercel_runtime
+                    - 'cell "chore: bump vercel_runtime version (#15997)" [ref=e318]':
+                      - generic [ref=e320]:
+                        - 'link "chore: bump vercel_runtime version (" [ref=e321] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/bf84b571e9d875569490413106ea644ba78fc7d2
+                        - link "#15997" [ref=e322] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15997
+                        - link ")" [ref=e323] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/bf84b571e9d875569490413106ea644ba78fc7d2
+                    - cell "Apr 16, 2026last month" [ref=e324]:
+                      - generic [ref=e325]: Apr 16, 2026last month
+                  - 'row "errors, (Directory) Revert \"auth: Make it possible to store CLI credentials in OS keychain ( Apr 30, 20263 weeks ago" [ref=e326]':
+                    - cell "errors, (Directory)" [ref=e327]:
+                      - generic [ref=e328]:
+                        - img [ref=e329]
+                        - link "errors, (Directory)" [ref=e334] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/errors
+                          - text: errors
+                    - 'cell "Revert \"auth: Make it possible to store CLI credentials in OS keychain (" [ref=e335]':
+                      - 'link "Revert \"auth: Make it possible to store CLI credentials in OS keychain (" [ref=e338] [cursor=pointer]':
+                        - /url: /vercel/vercel/commit/bf07448c8fb743e9e58fa18923adce0284bf02c2
+                    - cell "Apr 30, 20263 weeks ago" [ref=e339]:
+                      - generic [ref=e340]: Apr 30, 20263 weeks ago
+                  - row "examples, (Directory) [examples/tanstack-start] pin @tanstack/* deps to safe versions (INC-… May 12, 2026last week" [ref=e341]:
+                    - cell "examples, (Directory)" [ref=e342]:
+                      - generic [ref=e343]:
+                        - img [ref=e344]
+                        - link "examples, (Directory)" [ref=e349] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/examples
+                          - text: examples
+                    - cell "[examples/tanstack-start] pin @tanstack/* deps to safe versions (INC-…" [ref=e350]:
+                      - link "[examples/tanstack-start] pin @tanstack/* deps to safe versions (INC-…" [ref=e353] [cursor=pointer]:
+                        - /url: /vercel/vercel/commit/3e18a990789d96a332a089bd8df08fffe6fa29cc
+                    - cell "May 12, 2026last week" [ref=e354]:
+                      - generic [ref=e355]: May 12, 2026last week
+                  - row "internals, (Directory) Upgrade a few straddlers to TypeScript 5.9 (#16253) May 8, 2026last week" [ref=e356]:
+                    - cell "internals, (Directory)" [ref=e357]:
+                      - generic [ref=e358]:
+                        - img [ref=e359]
+                        - link "internals, (Directory)" [ref=e364] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/internals
+                          - text: internals
+                    - cell "Upgrade a few straddlers to TypeScript 5.9 (#16253)" [ref=e365]:
+                      - generic [ref=e367]:
+                        - link "Upgrade a few straddlers to TypeScript 5.9 (" [ref=e368] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ae202176b0e66900387bbab0d167a1dfad401449
+                        - link "#16253" [ref=e369] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16253
+                        - link ")" [ref=e370] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ae202176b0e66900387bbab0d167a1dfad401449
+                    - cell "May 8, 2026last week" [ref=e371]:
+                      - generic [ref=e372]: May 8, 2026last week
+                  - row "packages, (Directory) [FIX] Fixing a single deployment error (#16351) May 17, 2026yesterday" [ref=e373]:
+                    - cell "packages, (Directory)" [ref=e374]:
+                      - generic [ref=e375]:
+                        - img [ref=e376]
+                        - link "packages, (Directory)" [ref=e381] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/packages
+                          - text: packages
+                    - cell "[FIX] Fixing a single deployment error (#16351)" [ref=e382]:
+                      - generic [ref=e384]:
+                        - link "[FIX] Fixing a single deployment error (" [ref=e385] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                        - link "#16351" [ref=e386] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16351
+                        - link ")" [ref=e387] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/4118600ea1325ead6ac604229eccc0415b51440d
+                    - cell "May 17, 2026yesterday" [ref=e388]:
+                      - generic [ref=e389]: May 17, 2026yesterday
+                  - row "python, (Directory) Version Packages (#16324) May 16, 20263 days ago" [ref=e390]:
+                    - cell "python, (Directory)" [ref=e391]:
+                      - generic [ref=e392]:
+                        - img [ref=e393]
+                        - link "python, (Directory)" [ref=e398] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/python
+                          - text: python
+                    - cell "Version Packages (#16324)" [ref=e399]:
+                      - generic [ref=e401]:
+                        - link "Version Packages (" [ref=e402] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/b16895484f2f04b79a860111e489e2b0238269d1
+                        - link "#16324" [ref=e403] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16324
+                        - link ")" [ref=e404] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/b16895484f2f04b79a860111e489e2b0238269d1
+                    - cell "May 16, 20263 days ago" [ref=e405]:
+                      - generic [ref=e406]: May 16, 20263 days ago
+                  - row "scripts, (Directory) [cli][node] update express even more (#12703) Dec 5, 20242 years ago" [ref=e407]:
+                    - cell "scripts, (Directory)" [ref=e408]:
+                      - generic [ref=e409]:
+                        - img [ref=e410]
+                        - link "scripts, (Directory)" [ref=e415] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/scripts
+                          - text: scripts
+                    - cell "[cli][node] update express even more (#12703)" [ref=e416]:
+                      - generic [ref=e418]:
+                        - link "[cli][node] update express even more (" [ref=e419] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/318b5dc77157fa0f6942296407e97251197467fa
+                        - link "#12703" [ref=e420] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/12703
+                        - link ")" [ref=e421] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/318b5dc77157fa0f6942296407e97251197467fa
+                    - cell "Dec 5, 20242 years ago" [ref=e422]:
+                      - generic [ref=e423]: Dec 5, 20242 years ago
+                  - row "skills/vercel-cli, (Directory) [skills] update vercel cli skills to match capabilities (#16327) May 14, 20264 days ago" [ref=e424]:
+                    - cell "skills/vercel-cli, (Directory)" [ref=e425]:
+                      - generic [ref=e426]:
+                        - img [ref=e427]
+                        - link "skills/vercel-cli, (Directory)" [ref=e432] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/skills/vercel-cli
+                          - text: skills/vercel-cli
+                    - cell "[skills] update vercel cli skills to match capabilities (#16327)" [ref=e433]:
+                      - generic [ref=e435]:
+                        - link "[skills] update vercel cli skills to match capabilities (" [ref=e436] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/0477fc045b96e24de8001041634ff8b20352c682
+                        - link "#16327" [ref=e437] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16327
+                        - link ")" [ref=e438] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/0477fc045b96e24de8001041634ff8b20352c682
+                    - cell "May 14, 20264 days ago" [ref=e439]:
+                      - generic [ref=e440]: May 14, 20264 days ago
+                  - row "test, (Directory) Replace Jest with Vitest across workspace tests (#16215) May 6, 20262 weeks ago" [ref=e441]:
+                    - cell "test, (Directory)" [ref=e442]:
+                      - generic [ref=e443]:
+                        - img [ref=e444]
+                        - link "test, (Directory)" [ref=e449] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/test
+                          - text: test
+                    - cell "Replace Jest with Vitest across workspace tests (#16215)" [ref=e450]:
+                      - generic [ref=e452]:
+                        - link "Replace Jest with Vitest across workspace tests (" [ref=e453] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/da93fccb68ef705f866ddb8d4ff596495589442a
+                        - link "#16215" [ref=e454] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16215
+                        - link ")" [ref=e455] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/da93fccb68ef705f866ddb8d4ff596495589442a
+                    - cell "May 6, 20262 weeks ago" [ref=e456]:
+                      - generic [ref=e457]: May 6, 20262 weeks ago
+                  - row "utils, (Directory) Publish npm packages in dependency order (#16214) May 9, 2026last week" [ref=e458]:
+                    - cell "utils, (Directory)" [ref=e459]:
+                      - generic [ref=e460]:
+                        - img [ref=e461]
+                        - link "utils, (Directory)" [ref=e466] [cursor=pointer]:
+                          - /url: /vercel/vercel/tree/main/utils
+                          - text: utils
+                    - cell "Publish npm packages in dependency order (#16214)" [ref=e467]:
+                      - generic [ref=e469]:
+                        - link "Publish npm packages in dependency order (" [ref=e470] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/167d7aee1645a2628f350569ebc4400337b3da6d
+                        - link "#16214" [ref=e471] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16214
+                        - link ")" [ref=e472] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/167d7aee1645a2628f350569ebc4400337b3da6d
+                    - cell "May 9, 2026last week" [ref=e473]:
+                      - generic [ref=e474]: May 9, 2026last week
+                  - row ".editorconfig, (File) Revert \"Revert \"[go] Implement startDevServer() function (#4662)\" (#… Jul 22, 20206 years ago" [ref=e475]:
+                    - cell ".editorconfig, (File)" [ref=e476]:
+                      - generic [ref=e477]:
+                        - img [ref=e478]
+                        - link ".editorconfig, (File)" [ref=e483] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.editorconfig
+                          - text: .editorconfig
+                    - cell "Revert \"Revert \"[go] Implement startDevServer() function (#4662)\" (#…" [ref=e484]:
+                      - generic [ref=e486]:
+                        - link "Revert \"Revert \"[go] Implement" [ref=e487] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ced949514365adfe86d621de1b1d52b41fbe53f4
+                        - code [ref=e488]:
+                          - link "startDevServer()" [ref=e489] [cursor=pointer]:
+                            - /url: /vercel/vercel/commit/ced949514365adfe86d621de1b1d52b41fbe53f4
+                        - link "function (" [ref=e490] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ced949514365adfe86d621de1b1d52b41fbe53f4
+                        - link "#4662" [ref=e491] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/4662
+                        - link ")\" (" [ref=e492] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ced949514365adfe86d621de1b1d52b41fbe53f4
+                        - link "#…" [ref=e493] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/4899
+                    - cell "Jul 22, 20206 years ago" [ref=e494]:
+                      - generic [ref=e495]: Jul 22, 20206 years ago
+                  - row ".gitattributes, (File) Fix ci-doctor agentic workflow (#15481) Mar 13, 20262 months ago" [ref=e496]:
+                    - cell ".gitattributes, (File)" [ref=e497]:
+                      - generic [ref=e498]:
+                        - img [ref=e499]
+                        - link ".gitattributes, (File)" [ref=e504] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.gitattributes
+                          - text: .gitattributes
+                    - cell "Fix ci-doctor agentic workflow (#15481)" [ref=e505]:
+                      - generic [ref=e507]:
+                        - link "Fix ci-doctor agentic workflow (" [ref=e508] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ccf3ab3fc6d05be8a35b0f7161bd7a4dc1867d6f
+                        - link "#15481" [ref=e509] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15481
+                        - link ")" [ref=e510] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/ccf3ab3fc6d05be8a35b0f7161bd7a4dc1867d6f
+                    - cell "Mar 13, 20262 months ago" [ref=e511]:
+                      - generic [ref=e512]: Mar 13, 20262 months ago
+                  - row ".gitignore, (File) [CLI] Add signed standalone Vercel CLI binaries (#16085) May 15, 20263 days ago" [ref=e513]:
+                    - cell ".gitignore, (File)" [ref=e514]:
+                      - generic [ref=e515]:
+                        - img [ref=e516]
+                        - link ".gitignore, (File)" [ref=e521] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.gitignore
+                          - text: .gitignore
+                    - cell "[CLI] Add signed standalone Vercel CLI binaries (#16085)" [ref=e522]:
+                      - generic [ref=e524]:
+                        - link "[CLI] Add signed standalone Vercel CLI binaries (" [ref=e525] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                        - link "#16085" [ref=e526] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16085
+                        - link ")" [ref=e527] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                    - cell "May 15, 20263 days ago" [ref=e528]:
+                      - generic [ref=e529]: May 15, 20263 days ago
+                  - row ".node_version, (File) Upgrade tests to run on Node 22 by default (#13856) Sep 3, 20259 months ago" [ref=e530]:
+                    - cell ".node_version, (File)" [ref=e531]:
+                      - generic [ref=e532]:
+                        - img [ref=e533]
+                        - link ".node_version, (File)" [ref=e538] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.node_version
+                          - text: .node_version
+                    - cell "Upgrade tests to run on Node 22 by default (#13856)" [ref=e539]:
+                      - generic [ref=e541]:
+                        - link "Upgrade tests to run on Node 22 by default (" [ref=e542] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/d1ca3ed3ac1b9830403dc9dc3520e963ef8bec8e
+                        - link "#13856" [ref=e543] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/13856
+                        - link ")" [ref=e544] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/d1ca3ed3ac1b9830403dc9dc3520e963ef8bec8e
+                    - cell "Sep 3, 20259 months ago" [ref=e545]:
+                      - generic [ref=e546]: Sep 3, 20259 months ago
+                  - row ".npmrc, (File) [tests] Publish with npm@9 (#9583) Mar 1, 20233 years ago" [ref=e547]:
+                    - cell ".npmrc, (File)" [ref=e548]:
+                      - generic [ref=e549]:
+                        - img [ref=e550]
+                        - link ".npmrc, (File)" [ref=e555] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.npmrc
+                          - text: .npmrc
+                    - cell "[tests] Publish with npm@9 (#9583)" [ref=e556]:
+                      - generic [ref=e558]:
+                        - link "[tests] Publish with npm@9 (" [ref=e559] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/9200be61d2d382d229cb83fa8cbe23f49b7a0e38
+                        - link "#9583" [ref=e560] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/9583
+                        - link ")" [ref=e561] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/9200be61d2d382d229cb83fa8cbe23f49b7a0e38
+                    - cell "Mar 1, 20233 years ago" [ref=e562]:
+                      - generic [ref=e563]: Mar 1, 20233 years ago
+                  - 'row ".nvmrc, (File) [CLI] feat: upgrade node (#15702) Mar 25, 20262 months ago" [ref=e564]':
+                    - cell ".nvmrc, (File)" [ref=e565]:
+                      - generic [ref=e566]:
+                        - img [ref=e567]
+                        - link ".nvmrc, (File)" [ref=e572] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.nvmrc
+                          - text: .nvmrc
+                    - 'cell "[CLI] feat: upgrade node (#15702)" [ref=e573]':
+                      - generic [ref=e575]:
+                        - 'link "[CLI] feat: upgrade node (" [ref=e576] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/de6c730b04aaaf3f9626066669f4d63404122351
+                        - link "#15702" [ref=e577] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15702
+                        - link ")" [ref=e578] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/de6c730b04aaaf3f9626066669f4d63404122351
+                    - cell "Mar 25, 20262 months ago" [ref=e579]:
+                      - generic [ref=e580]: Mar 25, 20262 months ago
+                  - row ".prettierignore, (File) [python-runtime] Vendor runtime dependencies (#14827) Feb 4, 20263 months ago" [ref=e581]:
+                    - cell ".prettierignore, (File)" [ref=e582]:
+                      - generic [ref=e583]:
+                        - img [ref=e584]
+                        - link ".prettierignore, (File)" [ref=e589] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.prettierignore
+                          - text: .prettierignore
+                    - cell "[python-runtime] Vendor runtime dependencies (#14827)" [ref=e590]:
+                      - generic [ref=e592]:
+                        - link "[python-runtime] Vendor runtime dependencies (" [ref=e593] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/e7c5d5fd41e124ef7314978b351696d130e89917
+                        - link "#14827" [ref=e594] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/14827
+                        - link ")" [ref=e595] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/e7c5d5fd41e124ef7314978b351696d130e89917
+                    - cell "Feb 4, 20263 months ago" [ref=e596]:
+                      - generic [ref=e597]: Feb 4, 20263 months ago
+                  - row ".syncpackrc.json, (File) Upgrade @types/node to 20.11.0 and enforce consistency with syncpack ( Jan 21, 20264 months ago" [ref=e598]:
+                    - cell ".syncpackrc.json, (File)" [ref=e599]:
+                      - generic [ref=e600]:
+                        - img [ref=e601]
+                        - link ".syncpackrc.json, (File)" [ref=e606] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.syncpackrc.json
+                          - text: .syncpackrc.json
+                    - cell "Upgrade @types/node to 20.11.0 and enforce consistency with syncpack (" [ref=e607]:
+                      - link "Upgrade @types/node to 20.11.0 and enforce consistency with syncpack (" [ref=e610] [cursor=pointer]:
+                        - /url: /vercel/vercel/commit/8e4b946e795ae36f7b9984edbc5d8cd4887e6fc4
+                        - text: Upgrade @types/node to
+                        - code [ref=e611]: 20.11.0
+                        - text: and enforce consistency with syncpack (
+                    - cell "Jan 21, 20264 months ago" [ref=e612]:
+                      - generic [ref=e613]: Jan 21, 20264 months ago
+                  - row ".vercel.approvers, (File) Update .vercel.approvers (#13678) Aug 5, 20259 months ago" [ref=e614]:
+                    - cell ".vercel.approvers, (File)" [ref=e615]:
+                      - generic [ref=e616]:
+                        - img [ref=e617]
+                        - link ".vercel.approvers, (File)" [ref=e622] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.vercel.approvers
+                          - text: .vercel.approvers
+                    - cell "Update .vercel.approvers (#13678)" [ref=e623]:
+                      - generic [ref=e625]:
+                        - link "Update .vercel.approvers (" [ref=e626] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/a3a9481f878bea669bb8d05d905d8e4333dac763
+                        - link "#13678" [ref=e627] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/13678
+                        - link ")" [ref=e628] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/a3a9481f878bea669bb8d05d905d8e4333dac763
+                    - cell "Aug 5, 20259 months ago" [ref=e629]:
+                      - generic [ref=e630]: Aug 5, 20259 months ago
+                  - row ".vercelignore, (File) [tests] Create tarballs of all packages in Vercel deployment (#7967) Jun 16, 20224 years ago" [ref=e631]:
+                    - cell ".vercelignore, (File)" [ref=e632]:
+                      - generic [ref=e633]:
+                        - img [ref=e634]
+                        - link ".vercelignore, (File)" [ref=e639] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/.vercelignore
+                          - text: .vercelignore
+                    - cell "[tests] Create tarballs of all packages in Vercel deployment (#7967)" [ref=e640]:
+                      - generic [ref=e642]:
+                        - link "[tests] Create tarballs of all packages in Vercel deployment (" [ref=e643] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/8167233c56ab3466f66ac47016e68c0eea110530
+                        - link "#7967" [ref=e644] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/7967
+                        - link ")" [ref=e645] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/8167233c56ab3466f66ac47016e68c0eea110530
+                    - cell "Jun 16, 20224 years ago" [ref=e646]:
+                      - generic [ref=e647]: Jun 16, 20224 years ago
+                  - 'row "AGENTS.md, (File) chore(ci): remove release-canary workflow (#15036) Feb 13, 20263 months ago" [ref=e648]':
+                    - cell "AGENTS.md, (File)" [ref=e649]:
+                      - generic [ref=e650]:
+                        - img [ref=e651]
+                        - link "AGENTS.md, (File)" [ref=e656] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/AGENTS.md
+                          - text: AGENTS.md
+                    - 'cell "chore(ci): remove release-canary workflow (#15036)" [ref=e657]':
+                      - generic [ref=e659]:
+                        - 'link "chore(ci): remove release-canary workflow (" [ref=e660] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/38d86634db008dba779a683a84fa5ee14e539201
+                        - link "#15036" [ref=e661] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15036
+                        - link ")" [ref=e662] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/38d86634db008dba779a683a84fa5ee14e539201
+                    - cell "Feb 13, 20263 months ago" [ref=e663]:
+                      - generic [ref=e664]: Feb 13, 20263 months ago
+                  - 'row "Cargo.lock, (File) chore: bump vercel_runtime version (#15997) Apr 16, 2026last month" [ref=e665]':
+                    - cell "Cargo.lock, (File)" [ref=e666]:
+                      - generic [ref=e667]:
+                        - img [ref=e668]
+                        - link "Cargo.lock, (File)" [ref=e673] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/Cargo.lock
+                          - text: Cargo.lock
+                    - 'cell "chore: bump vercel_runtime version (#15997)" [ref=e674]':
+                      - generic [ref=e676]:
+                        - 'link "chore: bump vercel_runtime version (" [ref=e677] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/bf84b571e9d875569490413106ea644ba78fc7d2
+                        - link "#15997" [ref=e678] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15997
+                        - link ")" [ref=e679] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/bf84b571e9d875569490413106ea644ba78fc7d2
+                    - cell "Apr 16, 2026last month" [ref=e680]:
+                      - generic [ref=e681]: Apr 16, 2026last month
+                  - 'row "Cargo.toml, (File) feat(rust): add actix-web framework preset (#15752) Apr 15, 2026last month" [ref=e682]':
+                    - cell "Cargo.toml, (File)" [ref=e683]:
+                      - generic [ref=e684]:
+                        - img [ref=e685]
+                        - link "Cargo.toml, (File)" [ref=e690] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/Cargo.toml
+                          - text: Cargo.toml
+                    - 'cell "feat(rust): add actix-web framework preset (#15752)" [ref=e691]':
+                      - generic [ref=e693]:
+                        - 'link "feat(rust): add actix-web framework preset (" [ref=e694] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/620c42ffa6d335c9a6e3e57a1e81c522696b7c2c
+                        - link "#15752" [ref=e695] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15752
+                        - link ")" [ref=e696] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/620c42ffa6d335c9a6e3e57a1e81c522696b7c2c
+                    - cell "Apr 15, 2026last month" [ref=e697]:
+                      - generic [ref=e698]: Apr 15, 2026last month
+                  - 'row "DEVELOPING_A_RUNTIME.md, (File) ai: add runtime skill (#14839) Feb 4, 20263 months ago" [ref=e699]':
+                    - cell "DEVELOPING_A_RUNTIME.md, (File)" [ref=e700]:
+                      - generic [ref=e701]:
+                        - img [ref=e702]
+                        - link "DEVELOPING_A_RUNTIME.md, (File)" [ref=e707] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/DEVELOPING_A_RUNTIME.md
+                          - text: DEVELOPING_A_RUNTIME.md
+                    - 'cell "ai: add runtime skill (#14839)" [ref=e708]':
+                      - generic [ref=e710]:
+                        - 'link "ai: add runtime skill (" [ref=e711] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/1f31870e07ded78ff2fe28a1f37ea25cb36a52c1
+                        - link "#14839" [ref=e712] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/14839
+                        - link ")" [ref=e713] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/1f31870e07ded78ff2fe28a1f37ea25cb36a52c1
+                    - cell "Feb 4, 20263 months ago" [ref=e714]:
+                      - generic [ref=e715]: Feb 4, 20263 months ago
+                  - row "LICENSE, (File) Use proper Apache License format (#6189) May 26, 20215 years ago" [ref=e716]:
+                    - cell "LICENSE, (File)" [ref=e717]:
+                      - generic [ref=e718]:
+                        - img [ref=e719]
+                        - link "LICENSE, (File)" [ref=e724] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/LICENSE
+                          - text: LICENSE
+                    - cell "Use proper Apache License format (#6189)" [ref=e725]:
+                      - generic [ref=e727]:
+                        - link "Use proper Apache License format (" [ref=e728] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/001f2f60b8ddcd01699d2aeb96fc98ba077b780e
+                        - link "#6189" [ref=e729] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/6189
+                        - link ")" [ref=e730] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/001f2f60b8ddcd01699d2aeb96fc98ba077b780e
+                    - cell "May 26, 20215 years ago" [ref=e731]:
+                      - generic [ref=e732]: May 26, 20215 years ago
+                  - row "README.md, (File) [CLI] Add signed standalone Vercel CLI binaries (#16085) May 15, 20263 days ago" [ref=e733]:
+                    - cell "README.md, (File)" [ref=e734]:
+                      - generic [ref=e735]:
+                        - img [ref=e736]
+                        - link "README.md, (File)" [ref=e741] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/README.md
+                          - text: README.md
+                    - cell "[CLI] Add signed standalone Vercel CLI binaries (#16085)" [ref=e742]:
+                      - generic [ref=e744]:
+                        - link "[CLI] Add signed standalone Vercel CLI binaries (" [ref=e745] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                        - link "#16085" [ref=e746] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16085
+                        - link ")" [ref=e747] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                    - cell "May 15, 20263 days ago" [ref=e748]:
+                      - generic [ref=e749]: May 15, 20263 days ago
+                  - 'row "biome.jsonc, (File) chore(ci): enable easy rules (#15397) Mar 7, 20262 months ago" [ref=e750]':
+                    - cell "biome.jsonc, (File)" [ref=e751]:
+                      - generic [ref=e752]:
+                        - img [ref=e753]
+                        - link "biome.jsonc, (File)" [ref=e758] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/biome.jsonc
+                          - text: biome.jsonc
+                    - 'cell "chore(ci): enable easy rules (#15397)" [ref=e759]':
+                      - generic [ref=e761]:
+                        - 'link "chore(ci): enable easy rules (" [ref=e762] [cursor=pointer]':
+                          - /url: /vercel/vercel/commit/f4fe237e3ad85610267e0ae46cff1054fad88ee6
+                        - link "#15397" [ref=e763] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15397
+                        - link ")" [ref=e764] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/f4fe237e3ad85610267e0ae46cff1054fad88ee6
+                    - cell "Mar 7, 20262 months ago" [ref=e765]:
+                      - generic [ref=e766]: Mar 7, 20262 months ago
+                  - row "fx-diff-test.txt, (File) [CLI] Add signed standalone Vercel CLI binaries (#16085) May 15, 20263 days ago" [ref=e767]:
+                    - cell "fx-diff-test.txt, (File)" [ref=e768]:
+                      - generic [ref=e769]:
+                        - img [ref=e770]
+                        - link "fx-diff-test.txt, (File)" [ref=e775] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/fx-diff-test.txt
+                          - text: fx-diff-test.txt
+                    - cell "[CLI] Add signed standalone Vercel CLI binaries (#16085)" [ref=e776]:
+                      - generic [ref=e778]:
+                        - link "[CLI] Add signed standalone Vercel CLI binaries (" [ref=e779] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                        - link "#16085" [ref=e780] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16085
+                        - link ")" [ref=e781] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                    - cell "May 15, 20263 days ago" [ref=e782]:
+                      - generic [ref=e783]: May 15, 20263 days ago
+                  - row "package.json, (File) [CLI] Add signed standalone Vercel CLI binaries (#16085) May 15, 20263 days ago" [ref=e784]:
+                    - cell "package.json, (File)" [ref=e785]:
+                      - generic [ref=e786]:
+                        - img [ref=e787]
+                        - link "package.json, (File)" [ref=e792] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/package.json
+                          - text: package.json
+                    - cell "[CLI] Add signed standalone Vercel CLI binaries (#16085)" [ref=e793]:
+                      - generic [ref=e795]:
+                        - link "[CLI] Add signed standalone Vercel CLI binaries (" [ref=e796] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                        - link "#16085" [ref=e797] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16085
+                        - link ")" [ref=e798] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                    - cell "May 15, 20263 days ago" [ref=e799]:
+                      - generic [ref=e800]: May 15, 20263 days ago
+                  - row "pnpm-lock.yaml, (File) [CLI] Add signed standalone Vercel CLI binaries (#16085) May 15, 20263 days ago" [ref=e801]:
+                    - cell "pnpm-lock.yaml, (File)" [ref=e802]:
+                      - generic [ref=e803]:
+                        - img [ref=e804]
+                        - link "pnpm-lock.yaml, (File)" [ref=e809] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/pnpm-lock.yaml
+                          - text: pnpm-lock.yaml
+                    - cell "[CLI] Add signed standalone Vercel CLI binaries (#16085)" [ref=e810]:
+                      - generic [ref=e812]:
+                        - link "[CLI] Add signed standalone Vercel CLI binaries (" [ref=e813] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                        - link "#16085" [ref=e814] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16085
+                        - link ")" [ref=e815] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                    - cell "May 15, 20263 days ago" [ref=e816]:
+                      - generic [ref=e817]: May 15, 20263 days ago
+                  - row "pnpm-workspace.yaml, (File) [python] vercel-workers package CI / release flow wiring (#15168) Feb 25, 20263 months ago" [ref=e818]:
+                    - cell "pnpm-workspace.yaml, (File)" [ref=e819]:
+                      - generic [ref=e820]:
+                        - img [ref=e821]
+                        - link "pnpm-workspace.yaml, (File)" [ref=e826] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/pnpm-workspace.yaml
+                          - text: pnpm-workspace.yaml
+                    - cell "[python] vercel-workers package CI / release flow wiring (#15168)" [ref=e827]:
+                      - generic [ref=e829]:
+                        - link "[python] vercel-workers package CI / release flow wiring (" [ref=e830] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/f49e6aa2bc6f076ca04ae7f33d562e13cedee1ca
+                        - link "#15168" [ref=e831] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15168
+                        - link ")" [ref=e832] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/f49e6aa2bc6f076ca04ae7f33d562e13cedee1ca
+                    - cell "Feb 25, 20263 months ago" [ref=e833]:
+                      - generic [ref=e834]: Feb 25, 20263 months ago
+                  - row "pyproject.toml, (File) [python] vercel-workers package CI / release flow wiring (#15168) Feb 25, 20263 months ago" [ref=e835]:
+                    - cell "pyproject.toml, (File)" [ref=e836]:
+                      - generic [ref=e837]:
+                        - img [ref=e838]
+                        - link "pyproject.toml, (File)" [ref=e843] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/pyproject.toml
+                          - text: pyproject.toml
+                    - cell "[python] vercel-workers package CI / release flow wiring (#15168)" [ref=e844]:
+                      - generic [ref=e846]:
+                        - link "[python] vercel-workers package CI / release flow wiring (" [ref=e847] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/f49e6aa2bc6f076ca04ae7f33d562e13cedee1ca
+                        - link "#15168" [ref=e848] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/15168
+                        - link ")" [ref=e849] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/f49e6aa2bc6f076ca04ae7f33d562e13cedee1ca
+                    - cell "Feb 25, 20263 months ago" [ref=e850]:
+                      - generic [ref=e851]: Feb 25, 20263 months ago
+                  - row "test-cursor-detection.js, (File) mcp command clean up (#13788) Aug 28, 20259 months ago" [ref=e852]:
+                    - cell "test-cursor-detection.js, (File)" [ref=e853]:
+                      - generic [ref=e854]:
+                        - img [ref=e855]
+                        - link "test-cursor-detection.js, (File)" [ref=e860] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/test-cursor-detection.js
+                          - text: test-cursor-detection.js
+                    - cell "mcp command clean up (#13788)" [ref=e861]:
+                      - generic [ref=e863]:
+                        - link "mcp command clean up (" [ref=e864] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/9bb1f50c794784725611aec255b80c77089b7cfa
+                        - link "#13788" [ref=e865] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/13788
+                        - link ")" [ref=e866] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/9bb1f50c794784725611aec255b80c77089b7cfa
+                    - cell "Aug 28, 20259 months ago" [ref=e867]:
+                      - generic [ref=e868]: Aug 28, 20259 months ago
+                  - row "tsconfig.base.json, (File) Add type-check and unify tsconfig (#10667) Oct 9, 20233 years ago" [ref=e869]:
+                    - cell "tsconfig.base.json, (File)" [ref=e870]:
+                      - generic [ref=e871]:
+                        - img [ref=e872]
+                        - link "tsconfig.base.json, (File)" [ref=e877] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/tsconfig.base.json
+                          - text: tsconfig.base.json
+                    - cell "Add type-check and unify tsconfig (#10667)" [ref=e878]:
+                      - generic [ref=e880]:
+                        - link "Add" [ref=e881] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/222710f612800624037fd8bc6abba114403a00b7
+                        - code [ref=e882]:
+                          - link "type-check" [ref=e883] [cursor=pointer]:
+                            - /url: /vercel/vercel/commit/222710f612800624037fd8bc6abba114403a00b7
+                        - link "and unify tsconfig (" [ref=e884] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/222710f612800624037fd8bc6abba114403a00b7
+                        - link "#10667" [ref=e885] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/10667
+                        - link ")" [ref=e886] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/222710f612800624037fd8bc6abba114403a00b7
+                    - cell "Oct 9, 20233 years ago" [ref=e887]:
+                      - generic [ref=e888]: Oct 9, 20233 years ago
+                  - row "turbo.json, (File) Skip windows node 24 unit tests (#14398) Dec 3, 20255 months ago" [ref=e889]:
+                    - cell "turbo.json, (File)" [ref=e890]:
+                      - generic [ref=e891]:
+                        - img [ref=e892]
+                        - link "turbo.json, (File)" [ref=e897] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/turbo.json
+                          - text: turbo.json
+                    - cell "Skip windows node 24 unit tests (#14398)" [ref=e898]:
+                      - generic [ref=e900]:
+                        - link "Skip windows node 24 unit tests (" [ref=e901] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/3995357826d7e0157bc7ecdb272c87cc47a5ce44
+                        - link "#14398" [ref=e902] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/14398
+                        - link ")" [ref=e903] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/3995357826d7e0157bc7ecdb272c87cc47a5ce44
+                    - cell "Dec 3, 20255 months ago" [ref=e904]:
+                      - generic [ref=e905]: Dec 3, 20255 months ago
+                  - row "turbo.node-runtime.json, (File) [CLI] Add signed standalone Vercel CLI binaries (#16085) May 15, 20263 days ago" [ref=e906]:
+                    - cell "turbo.node-runtime.json, (File)" [ref=e907]:
+                      - generic [ref=e908]:
+                        - img [ref=e909]
+                        - link "turbo.node-runtime.json, (File)" [ref=e914] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/turbo.node-runtime.json
+                          - text: turbo.node-runtime.json
+                    - cell "[CLI] Add signed standalone Vercel CLI binaries (#16085)" [ref=e915]:
+                      - generic [ref=e917]:
+                        - link "[CLI] Add signed standalone Vercel CLI binaries (" [ref=e918] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                        - link "#16085" [ref=e919] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16085
+                        - link ")" [ref=e920] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/fbffcb3a5d71787fe83d3f463ad2bc192c319903
+                    - cell "May 15, 20263 days ago" [ref=e921]:
+                      - generic [ref=e922]: May 15, 20263 days ago
+                  - row "uv.lock, (File) Version Packages (#16324) May 16, 20263 days ago" [ref=e923]:
+                    - cell "uv.lock, (File)" [ref=e924]:
+                      - generic [ref=e925]:
+                        - img [ref=e926]
+                        - link "uv.lock, (File)" [ref=e931] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/uv.lock
+                          - text: uv.lock
+                    - cell "Version Packages (#16324)" [ref=e932]:
+                      - generic [ref=e934]:
+                        - link "Version Packages (" [ref=e935] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/b16895484f2f04b79a860111e489e2b0238269d1
+                        - link "#16324" [ref=e936] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16324
+                        - link ")" [ref=e937] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/b16895484f2f04b79a860111e489e2b0238269d1
+                    - cell "May 16, 20263 days ago" [ref=e938]:
+                      - generic [ref=e939]: May 16, 20263 days ago
+                  - row "vercel.json, (File) [tests] add vitest custom reporter (#11882) Jul 26, 20242 years ago" [ref=e940]:
+                    - cell "vercel.json, (File)" [ref=e941]:
+                      - generic [ref=e942]:
+                        - img [ref=e943]
+                        - link "vercel.json, (File)" [ref=e948] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/vercel.json
+                          - text: vercel.json
+                    - cell "[tests] add vitest custom reporter (#11882)" [ref=e949]:
+                      - generic [ref=e951]:
+                        - link "[tests] add vitest custom reporter (" [ref=e952] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/195adb472762de69f5250d96e1250c6c20ea7ef6
+                        - link "#11882" [ref=e953] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/11882
+                        - link ")" [ref=e954] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/195adb472762de69f5250d96e1250c6c20ea7ef6
+                    - cell "Jul 26, 20242 years ago" [ref=e955]:
+                      - generic [ref=e956]: Jul 26, 20242 years ago
+                  - row "vitest.config.mts, (File) Replace Jest with Vitest across workspace tests (#16215) May 6, 20262 weeks ago" [ref=e957]:
+                    - cell "vitest.config.mts, (File)" [ref=e958]:
+                      - generic [ref=e959]:
+                        - img [ref=e960]
+                        - link "vitest.config.mts, (File)" [ref=e965] [cursor=pointer]:
+                          - /url: /vercel/vercel/blob/main/vitest.config.mts
+                          - text: vitest.config.mts
+                    - cell "Replace Jest with Vitest across workspace tests (#16215)" [ref=e966]:
+                      - generic [ref=e968]:
+                        - link "Replace Jest with Vitest across workspace tests (" [ref=e969] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/da93fccb68ef705f866ddb8d4ff596495589442a
+                        - link "#16215" [ref=e970] [cursor=pointer]:
+                          - /url: https://github.com/vercel/vercel/pull/16215
+                        - link ")" [ref=e971] [cursor=pointer]:
+                          - /url: /vercel/vercel/commit/da93fccb68ef705f866ddb8d4ff596495589442a
+                    - cell "May 6, 20262 weeks ago" [ref=e972]:
+                      - generic [ref=e973]: May 6, 20262 weeks ago
+            - generic [ref=e975]:
+              - generic [ref=e976]:
+                - heading "Repository files navigation" [level=2] [ref=e977]
+                - navigation "Repository files" [ref=e978]:
+                  - list [ref=e979]:
+                    - listitem [ref=e980]:
+                      - link "README" [ref=e981] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e983]
+                        - generic [ref=e985]: README
+                    - listitem [ref=e986]:
+                      - link "Code of conduct" [ref=e987] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e989]
+                        - generic [ref=e991]: Code of conduct
+                    - listitem [ref=e992]:
+                      - link "Contributing" [ref=e993] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e995]
+                        - generic [ref=e997]: Contributing
+                    - listitem [ref=e998]:
+                      - link "License" [ref=e999] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1001]
+                        - generic [ref=e1003]: License
+                    - listitem [ref=e1004]:
+                      - link "Security" [ref=e1005] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1007]
+                        - generic [ref=e1009]: Security
+                - button "Outline" [ref=e1010] [cursor=pointer]:
+                  - img [ref=e1011]
+              - article [ref=e1014]:
+                - paragraph [ref=e1015]:
+                  - link [ref=e1016] [cursor=pointer]:
+                    - /url: https://vercel.com
+                    - img [ref=e1017]
+                - generic [ref=e1018]:
+                  - heading "Vercel" [level=3] [ref=e1019]
+                  - 'link "Permalink: Vercel" [ref=e1020] [cursor=pointer]':
+                    - /url: "#vercel"
+                    - img [ref=e1021]
+                - paragraph
+                - paragraph [ref=e1023]: Develop. Preview. Ship.
+                - paragraph [ref=e1024]:
+                  - link "Documentation" [ref=e1025] [cursor=pointer]:
+                    - /url: https://vercel.com/docs
+                    - strong [ref=e1026]: Documentation
+                  - text: ·
+                  - link "Changelog" [ref=e1027] [cursor=pointer]:
+                    - /url: https://vercel.com/changelog
+                    - strong [ref=e1028]: Changelog
+                  - text: ·
+                  - link "Templates" [ref=e1029] [cursor=pointer]:
+                    - /url: https://vercel.com/templates
+                    - strong [ref=e1030]: Templates
+                  - text: ·
+                  - link "CLI" [ref=e1031] [cursor=pointer]:
+                    - /url: https://vercel.com/docs/cli
+                    - strong [ref=e1032]: CLI
+                - generic [ref=e1033]:
+                  - heading "Vercel" [level=2] [ref=e1034]
+                  - 'link "Permalink: Vercel" [ref=e1035] [cursor=pointer]':
+                    - /url: "#vercel-1"
+                    - img [ref=e1036]
+                - paragraph [ref=e1038]: Vercel’s AI Cloud is a unified platform for building modern applications, giving teams the tools to be flexible, move fast, and stay secure while focusing on their products instead of infrastructure.
+                - generic [ref=e1039]:
+                  - heading "Deploy" [level=2] [ref=e1040]
+                  - 'link "Permalink: Deploy" [ref=e1041] [cursor=pointer]':
+                    - /url: "#deploy"
+                    - img [ref=e1042]
+                - paragraph [ref=e1044]:
+                  - text: Get started by
+                  - link "importing a project" [ref=e1045] [cursor=pointer]:
+                    - /url: https://vercel.com/new
+                  - text: ","
+                  - link "choosing a template" [ref=e1046] [cursor=pointer]:
+                    - /url: https://vercel.com/templates
+                  - text: ", or using the"
+                  - link "Vercel CLI" [ref=e1047] [cursor=pointer]:
+                    - /url: https://vercel.com/docs/cli
+                  - text: . Then,
+                  - code [ref=e1048]: git push
+                  - text: to deploy.
+                - generic [ref=e1049]:
+                  - heading "Native CLI binaries" [level=2] [ref=e1050]
+                  - 'link "Permalink: Native CLI binaries" [ref=e1051] [cursor=pointer]':
+                    - /url: "#native-cli-binaries"
+                    - img [ref=e1052]
+                - paragraph [ref=e1054]: "The standard npm installation remains unchanged:"
+                - generic [ref=e1055]:
+                  - generic [ref=e1056]: npm i -g vercel
+                  - button "Copy code to clipboard" [ref=e1058] [cursor=pointer]:
+                    - img [ref=e1059]
+                - paragraph [ref=e1062]:
+                  - text: Native CLI binaries are distributed separately and do not affect the
+                  - code [ref=e1063]: vercel
+                  - text: npm package. To opt into the native binary and replace existing global
+                  - code [ref=e1064]: vercel
+                  - text: and
+                  - code [ref=e1065]: vc
+                  - text: "commands, install the native package explicitly:"
+                - generic [ref=e1066]:
+                  - generic [ref=e1067]: npm i -g @vercel/vc-native --force
+                  - button "Copy code to clipboard" [ref=e1069] [cursor=pointer]:
+                    - img [ref=e1070]
+                - paragraph [ref=e1073]:
+                  - text: The
+                  - code [ref=e1074]: "--force"
+                  - text: flag allows npm to replace existing global
+                  - code [ref=e1075]: vercel
+                  - text: and
+                  - code [ref=e1076]: vc
+                  - text: bin links. Users who do not install
+                  - code [ref=e1077]: "@vercel/vc-native"
+                  - text: continue using the regular Node.js-based CLI from
+                  - code [ref=e1078]: npm i -g vercel
+                  - text: .
+                - paragraph [ref=e1079]: "Platform-specific packages are also available for direct installation when a specific binary is needed:"
+                - generic [ref=e1080]:
+                  - generic [ref=e1081]: npm i -g @vercel/vc-native-darwin-x64 --force
+                  - button "Copy code to clipboard" [ref=e1083] [cursor=pointer]:
+                    - img [ref=e1084]
+                - generic [ref=e1087]:
+                  - heading "Documentation" [level=2] [ref=e1088]
+                  - 'link "Permalink: Documentation" [ref=e1089] [cursor=pointer]':
+                    - /url: "#documentation"
+                    - img [ref=e1090]
+                - paragraph [ref=e1092]:
+                  - text: For details on how to use Vercel, check out our
+                  - link "documentation" [ref=e1093] [cursor=pointer]:
+                    - /url: https://vercel.com/docs
+                  - text: .
+                - generic [ref=e1094]:
+                  - heading "Contributing" [level=2] [ref=e1095]
+                  - 'link "Permalink: Contributing" [ref=e1096] [cursor=pointer]':
+                    - /url: "#contributing"
+                    - img [ref=e1097]
+                - paragraph [ref=e1099]:
+                  - text: This project uses
+                  - link "pnpm" [ref=e1100] [cursor=pointer]:
+                    - /url: https://pnpm.io/
+                  - text: to install dependencies and run scripts.
+                - paragraph [ref=e1101]:
+                  - text: You can use the
+                  - code [ref=e1102]: vercel
+                  - text: script to run local changes as if you were invoking Vercel CLI. For example,
+                  - code [ref=e1103]: vercel deploy --cwd=/path/to/project
+                  - text: could be run with local changes with
+                  - code [ref=e1104]: pnpm vercel deploy --cwd=/path/to/project
+                  - text: .
+                - paragraph [ref=e1105]:
+                  - text: When contributing to this repository, please first discuss the change you wish to make via
+                  - link "Vercel Community" [ref=e1106] [cursor=pointer]:
+                    - /url: https://community.vercel.com/tags/c/community/4/cli
+                  - text: with the owners of this repository before submitting a Pull Request.
+                - paragraph [ref=e1107]:
+                  - text: Please read our
+                  - link "Code of Conduct" [ref=e1108] [cursor=pointer]:
+                    - /url: /vercel/vercel/blob/main/.github/CODE_OF_CONDUCT.md
+                  - text: and follow it in all your interactions with the project.
+                - generic [ref=e1109]:
+                  - heading "Local development" [level=3] [ref=e1110]
+                  - 'link "Permalink: Local development" [ref=e1111] [cursor=pointer]':
+                    - /url: "#local-development"
+                    - img [ref=e1112]
+                - paragraph [ref=e1114]:
+                  - text: This project is configured in a monorepo, where one repository contains multiple npm packages. Dependencies are installed and managed with
+                  - code [ref=e1115]: pnpm
+                  - text: ", not"
+                  - code [ref=e1116]: npm
+                  - text: CLI.
+                - paragraph [ref=e1117]: "To get started, execute the following:"
+                - generic [ref=e1118]:
+                  - generic [ref=e1119]: git clone https://github.com/vercel/vercel cd vercel corepack enable pnpm install pnpm build pnpm lint pnpm test-unit
+                  - button "Copy code to clipboard" [ref=e1121] [cursor=pointer]:
+                    - img [ref=e1122]
+                - paragraph [ref=e1125]: Make sure all the tests pass before making changes.
+                - generic [ref=e1126]:
+                  - heading "Running Vercel CLI Changes" [level=4] [ref=e1127]
+                  - 'link "Permalink: Running Vercel CLI Changes" [ref=e1128] [cursor=pointer]':
+                    - /url: "#running-vercel-cli-changes"
+                    - img [ref=e1129]
+                - paragraph [ref=e1131]:
+                  - text: You can use
+                  - code [ref=e1132]: pnpm vercel
+                  - text: from the
+                  - code [ref=e1133]: cli
+                  - text: "package to invoke Vercel CLI with local changes:"
+                - generic [ref=e1134]:
+                  - generic [ref=e1135]: cd ./packages/cli pnpm vercel <cli-commands...>
+                  - button "Copy code to clipboard" [ref=e1137] [cursor=pointer]:
+                    - img [ref=e1138]
+                - paragraph [ref=e1141]:
+                  - text: See
+                  - link "CLI Local Development" [ref=e1142] [cursor=pointer]:
+                    - /url: /vercel/vercel/blob/packages/cli#local-development
+                  - text: for more details.
+                - generic [ref=e1143]:
+                  - heading "Verifying your change" [level=3] [ref=e1144]
+                  - 'link "Permalink: Verifying your change" [ref=e1145] [cursor=pointer]':
+                    - /url: "#verifying-your-change"
+                    - img [ref=e1146]
+                - paragraph [ref=e1148]: "Once you are done with your changes (we even suggest doing it along the way), make sure all the tests still pass by running:"
+                - generic [ref=e1149]:
+                  - generic [ref=e1150]: pnpm test-unit
+                  - button "Copy code to clipboard" [ref=e1152] [cursor=pointer]:
+                    - img [ref=e1153]
+                - paragraph [ref=e1156]: from the root of the project.
+                - paragraph [ref=e1157]:
+                  - text: If any test fails, make sure to fix it along with your changes. See
+                  - link "Interpreting test errors" [ref=e1158] [cursor=pointer]:
+                    - /url: "#Interpreting-test-errors"
+                  - text: for more information about how the tests are executed, especially the integration tests.
+                - generic [ref=e1159]:
+                  - heading "Pull Request Process" [level=3] [ref=e1160]
+                  - 'link "Permalink: Pull Request Process" [ref=e1161] [cursor=pointer]':
+                    - /url: "#pull-request-process"
+                    - img [ref=e1162]
+                - paragraph [ref=e1164]: Once you are confident that your changes work properly, open a pull request on the main repository.
+                - paragraph [ref=e1165]: The pull request will be reviewed by the maintainers and the tests will be checked by our continuous integration platform.
+                - generic [ref=e1166]:
+                  - heading "Interpreting test errors" [level=3] [ref=e1167]
+                  - 'link "Permalink: Interpreting test errors" [ref=e1168] [cursor=pointer]':
+                    - /url: "#interpreting-test-errors"
+                    - img [ref=e1169]
+                - paragraph [ref=e1171]: There are 2 kinds of tests in this repository – Unit tests and Integration tests.
+                - paragraph [ref=e1172]:
+                  - text: Unit tests are run locally with
+                  - code [ref=e1173]: jest
+                  - text: and execute quickly because they are testing the smallest units of code.
+                - generic [ref=e1174]:
+                  - heading "Integration tests" [level=4] [ref=e1175]
+                  - 'link "Permalink: Integration tests" [ref=e1176] [cursor=pointer]':
+                    - /url: "#integration-tests"
+                    - img [ref=e1177]
+                - paragraph [ref=e1179]:
+                  - text: Integration tests create deployments to your Vercel account using the
+                  - code [ref=e1180]: test
+                  - text: project name. After each test is deployed, the
+                  - code [ref=e1181]: probes
+                  - text: "key is used to check if the response is the expected value. If the value doesn't match, you'll see a message explaining the difference. If the deployment failed to build, you'll see a more generic message like the following:"
+                - generic [ref=e1182]:
+                  - code [ref=e1184]: "[Error: Fetched page https://test-8ashcdlew.vercel.app/root.js does not contain hello Root!. Instead it contains An error occurred with this application. NO_STATUS_CODE_FRO Response headers: cache-control=s-maxage=0 connection=close content-type=text/plain; charset=utf-8 date=Wed, 19 Jun 2019 18:01:37 GMT server=now strict-transport-security=max-age=63072000 transfer-encoding=chunked x-now-id=iad1:hgtzj-1560967297876-44ae12559f95 x-now-trace=iad1]"
+                  - button "Copy code to clipboard" [ref=e1186] [cursor=pointer]:
+                    - img [ref=e1187]
+                - paragraph [ref=e1190]:
+                  - text: In such cases, you can visit the URL of the failed deployment and append
+                  - code [ref=e1191]: /_logs
+                  - text: to see the build error. In the case above, that would be
+                  - link "https://test-8ashcdlew.vercel.app/_logs" [ref=e1192] [cursor=pointer]:
+                    - /url: https://test-8ashcdlew.vercel.app/_logs
+                - paragraph [ref=e1193]: The logs of this deployment will contain the actual error which may help you to understand what went wrong.
+                - generic [ref=e1194]:
+                  - heading "Running integration tests locally" [level=5] [ref=e1195]
+                  - 'link "Permalink: Running integration tests locally" [ref=e1196] [cursor=pointer]':
+                    - /url: "#running-integration-tests-locally"
+                    - img [ref=e1197]
+                - paragraph [ref=e1199]: "While running the full integration suite locally is not recommended, it's sometimes useful to isolate a failing test by running it on your machine. To do so, you'll need to ensure you have the appropriate credentials sourced in your shell:"
+                - list [ref=e1200]:
+                  - listitem [ref=e1201]:
+                    - text: Create an access token. Follow the instructions here
+                    - link "https://vercel.com/docs/rest-api#creating-an-access-token" [ref=e1202] [cursor=pointer]:
+                      - /url: https://vercel.com/docs/rest-api#creating-an-access-token
+                    - text: . Ensure the token scope is for your personal account.
+                  - listitem [ref=e1203]:
+                    - text: Grab the team ID from the Vercel dashboard at
+                    - code [ref=e1204]: https://vercel.com/<MY-TEAM>/~/settings
+                    - text: .
+                  - listitem [ref=e1205]:
+                    - text: "Source these into your shell rc file:"
+                    - code [ref=e1206]: echo 'export VERCEL_TOKEN=<MY-TOKEN> VERCEL_TEAM_ID=<MY-TEAM-ID>' >> ~/.zshrc
+                - paragraph [ref=e1207]: "From there, you should be able to trigger an integration test. Choose one that's already isolated to check that things work:"
+                - generic [ref=e1208]:
+                  - generic [ref=e1209]: cd packages/next
+                  - button "Copy code to clipboard" [ref=e1211] [cursor=pointer]:
+                    - img [ref=e1212]
+                - paragraph [ref=e1215]: "Run the test:"
+                - generic [ref=e1216]:
+                  - generic [ref=e1217]: pnpm test test/fixtures/00-server-build/index.test.js
+                  - button "Copy code to clipboard" [ref=e1219] [cursor=pointer]:
+                    - img [ref=e1220]
+                - generic [ref=e1223]:
+                  - paragraph [ref=e1224]:
+                    - img [ref=e1225]
+                    - text: Note
+                  - paragraph [ref=e1227]:
+                    - text: If you receive a
+                    - code [ref=e1228]: "401"
+                    - text: status code while fetching the deployment, you need to disable
+                    - link "Deployment Protection" [ref=e1229] [cursor=pointer]:
+                      - /url: https://vercel.com/docs/security/deployment-protection
+                    - text: on the project.
+                - generic [ref=e1230]:
+                  - heading "@vercel/nft" [level=4] [ref=e1231]
+                  - 'link "Permalink: @vercel/nft" [ref=e1232] [cursor=pointer]':
+                    - /url: "#vercelnft"
+                    - img [ref=e1233]
+                - paragraph [ref=e1235]:
+                  - text: Some of the Builders use
+                  - code [ref=e1236]: "@vercel/nft"
+                  - text: "to tree-shake files before deployment. If you suspect an error with this tree-shaking mechanism, you can create the following script in your project:"
+                - generic [ref=e1237]:
+                  - generic [ref=e1238]: "const { nodeFileTrace } = require('@vercel/nft'); nodeFileTrace(['path/to/entrypoint.js'], { ts: true, mixedModules: true, }) .then(o => console.log(o.fileList)) .then(e => console.error(e));"
+                  - button "Copy code to clipboard" [ref=e1240] [cursor=pointer]:
+                    - img [ref=e1241]
+                - paragraph [ref=e1244]:
+                  - text: When you run this script, you'll see all the imported files. If files are missing, the bug is in
+                  - link "@vercel/nft" [ref=e1245] [cursor=pointer]:
+                    - /url: https://github.com/vercel/nft
+                  - text: and not the Builder.
+                - generic [ref=e1246]:
+                  - heading "Deploy a Builder with existing project" [level=3] [ref=e1247]
+                  - 'link "Permalink: Deploy a Builder with existing project" [ref=e1248] [cursor=pointer]':
+                    - /url: "#deploy-a-builder-with-existing-project"
+                    - img [ref=e1249]
+                - paragraph [ref=e1251]:
+                  - text: Sometimes you want to test changes to a Builder against an existing project, maybe with
+                  - code [ref=e1252]: vercel dev
+                  - text: or actual deployment. You can avoid publishing every Builder change to npm by uploading the Builder as a tarball.
+                - list [ref=e1253]:
+                  - listitem [ref=e1254]:
+                    - text: Change directory to the desired Builder
+                    - code [ref=e1255]: cd ./packages/node
+                  - listitem [ref=e1256]:
+                    - text: Run
+                    - code [ref=e1257]: pnpm build
+                    - text: to compile typescript and other build steps
+                  - listitem [ref=e1258]:
+                    - text: Run
+                    - code [ref=e1259]: npm pack
+                    - text: to create a tarball file. It is imporant to not use
+                    - code [ref=e1260]: pnpm pack
+                    - text: because it will not preserve the file permissions
+                  - listitem [ref=e1261]: Move the resulting tarball to a directory
+                  - listitem [ref=e1262]:
+                    - text: Run
+                    - code [ref=e1263]: vercel <directory>
+                    - text: to upload the tarball file and get a URL. Remember to append
+                    - code [ref=e1264]: /<tarball name>
+                    - text: to then end of your URL
+                  - listitem [ref=e1265]:
+                    - text: Edit any existing
+                    - code [ref=e1266]: vercel.json
+                    - text: project and replace
+                    - code [ref=e1267]: use
+                    - text: with the URL
+                  - listitem [ref=e1268]:
+                    - text: Run
+                    - code [ref=e1269]: vercel
+                    - text: or
+                    - code [ref=e1270]: vercel dev
+                    - text: to deploy with the experimental Builder
+                - paragraph [ref=e1271]:
+                  - strong [ref=e1272]: "Note:"
+                  - text: You will need to turn off vercel authentication in settings -> deployment protection so the builder can be downloaded
+                - generic [ref=e1273]:
+                  - heading "Reference" [level=2] [ref=e1274]
+                  - 'link "Permalink: Reference" [ref=e1275] [cursor=pointer]':
+                    - /url: "#reference"
+                    - img [ref=e1276]
+                - list [ref=e1278]:
+                  - listitem [ref=e1279]:
+                    - link "Code of Conduct" [ref=e1280] [cursor=pointer]:
+                      - /url: /vercel/vercel/blob/main/.github/CODE_OF_CONDUCT.md
+                  - listitem [ref=e1281]:
+                    - link "Contributing Guidelines" [ref=e1282] [cursor=pointer]:
+                      - /url: /vercel/vercel/blob/main/.github/CONTRIBUTING.md
+                  - listitem [ref=e1283]:
+                    - link "Apache 2.0 License" [ref=e1284] [cursor=pointer]:
+                      - /url: /vercel/vercel/blob/main/LICENSE
+        - generic [ref=e1288]:
+          - generic [ref=e1291]:
+            - heading "About" [level=2] [ref=e1292]
+            - paragraph [ref=e1293]: Develop. Preview. Ship.
+            - generic [ref=e1294]:
+              - img [ref=e1295]
+              - link "vercel.com" [ref=e1298] [cursor=pointer]:
+                - /url: https://vercel.com
+            - heading "Topics" [level=3] [ref=e1299]
+            - generic [ref=e1301]:
+              - link "cli" [ref=e1302] [cursor=pointer]:
+                - /url: /topics/cli
+              - link "cloud" [ref=e1303] [cursor=pointer]:
+                - /url: /topics/cloud
+              - link "command" [ref=e1304] [cursor=pointer]:
+                - /url: /topics/command
+              - link "hosting" [ref=e1305] [cursor=pointer]:
+                - /url: /topics/hosting
+              - link "ship" [ref=e1306] [cursor=pointer]:
+                - /url: /topics/ship
+              - link "jamstack" [ref=e1307] [cursor=pointer]:
+                - /url: /topics/jamstack
+              - link "vercel" [ref=e1308] [cursor=pointer]:
+                - /url: /topics/vercel
+            - heading "Resources" [level=3] [ref=e1309]
+            - link "Readme" [ref=e1311] [cursor=pointer]:
+              - /url: "#readme-ov-file"
+              - img [ref=e1312]
+              - text: Readme
+            - heading "License" [level=3] [ref=e1314]
+            - link "Apache-2.0 license" [ref=e1316] [cursor=pointer]:
+              - /url: "#Apache-2.0-1-ov-file"
+              - img [ref=e1317]
+              - text: Apache-2.0 license
+            - heading "Code of conduct" [level=3] [ref=e1319]
+            - link "Code of conduct" [ref=e1321] [cursor=pointer]:
+              - /url: "#coc-ov-file"
+              - img [ref=e1322]
+              - text: Code of conduct
+            - heading "Contributing" [level=3] [ref=e1324]
+            - link "Contributing" [ref=e1326] [cursor=pointer]:
+              - /url: "#contributing-ov-file"
+              - img [ref=e1327]
+              - text: Contributing
+            - heading "Security policy" [level=3] [ref=e1329]
+            - link "Security policy" [ref=e1331] [cursor=pointer]:
+              - /url: "#security-ov-file"
+              - img [ref=e1332]
+              - text: Security policy
+            - link "Activity" [ref=e1335] [cursor=pointer]:
+              - /url: /vercel/vercel/activity
+              - img [ref=e1336]
+              - text: Activity
+            - link "Custom properties" [ref=e1339] [cursor=pointer]:
+              - /url: /vercel/vercel/custom-properties
+              - img [ref=e1340]
+              - text: Custom properties
+            - heading "Stars" [level=3] [ref=e1342]
+            - link "15.5k stars" [ref=e1344] [cursor=pointer]:
+              - /url: /vercel/vercel/stargazers
+              - img [ref=e1345]
+              - strong [ref=e1347]: 15.5k
+              - text: stars
+            - heading "Watchers" [level=3] [ref=e1348]
+            - link "227 watching" [ref=e1350] [cursor=pointer]:
+              - /url: /vercel/vercel/watchers
+              - img [ref=e1351]
+              - strong [ref=e1353]: "227"
+              - text: watching
+            - heading "Forks" [level=3] [ref=e1354]
+            - link "3.6k forks" [ref=e1356] [cursor=pointer]:
+              - /url: /vercel/vercel/forks
+              - img [ref=e1357]
+              - strong [ref=e1359]: 3.6k
+              - text: forks
+            - link "Report repository" [ref=e1361] [cursor=pointer]:
+              - /url: /contact/report-content?content_url=https%3A%2F%2Fgithub.com%2Fvercel%2Fvercel&report=vercel+%28user%29
+          - generic [ref=e1363]:
+            - heading "Releases 4,209" [level=2] [ref=e1364]:
+              - link "Releases 4,209" [ref=e1365] [cursor=pointer]:
+                - /url: /vercel/vercel/releases
+                - text: Releases
+                - generic "4,209" [ref=e1366]
+            - link "@vercel/python-workers@0.0.23 Latest May 15, 20263 days ago" [ref=e1367] [cursor=pointer]:
+              - /url: /vercel/vercel/releases/tag/%40vercel%2Fpython-workers%400.0.23
+              - img [ref=e1368]
+              - generic [ref=e1370]:
+                - generic [ref=e1371]:
+                  - generic [ref=e1372]: "@vercel/python-workers@0.0.23"
+                  - 'generic "Label: Latest" [ref=e1373]': Latest
+                - generic [ref=e1374]: May 15, 20263 days ago
+            - link "+ 4,208 releases" [ref=e1376] [cursor=pointer]:
+              - /url: /vercel/vercel/releases
+          - generic [ref=e1378]:
+            - heading "Packages" [level=2] [ref=e1379]:
+              - link "Packages" [ref=e1380] [cursor=pointer]:
+                - /url: /orgs/vercel/packages?repo_name=vercel
+            - generic [ref=e1381]: No packages published
+          - generic [ref=e1383]:
+            - heading "Contributors 413" [level=2] [ref=e1384]:
+              - link "Contributors 413" [ref=e1385] [cursor=pointer]:
+                - /url: /vercel/vercel/graphs/contributors
+                - text: Contributors
+                - generic "413" [ref=e1386]
+            - list [ref=e1387]:
+              - listitem [ref=e1388]:
+                - link "@TooTallNate" [ref=e1389] [cursor=pointer]:
+                  - /url: https://github.com/TooTallNate
+                  - img "@TooTallNate" [ref=e1390]
+              - listitem [ref=e1391]:
+                - link "@leo" [ref=e1392] [cursor=pointer]:
+                  - /url: https://github.com/leo
+                  - img "@leo" [ref=e1393]
+              - listitem [ref=e1394]:
+                - link "@styfle" [ref=e1395] [cursor=pointer]:
+                  - /url: https://github.com/styfle
+                  - img "@styfle" [ref=e1396]
+              - listitem [ref=e1397]:
+                - link "@AndyBitz" [ref=e1398] [cursor=pointer]:
+                  - /url: https://github.com/AndyBitz
+                  - img "@AndyBitz" [ref=e1399]
+              - listitem [ref=e1400]:
+                - link "@vercel-release-bot" [ref=e1401] [cursor=pointer]:
+                  - /url: https://github.com/vercel-release-bot
+                  - img "@vercel-release-bot" [ref=e1402]
+              - listitem [ref=e1403]:
+                - link "@github-actions[bot]" [ref=e1404] [cursor=pointer]:
+                  - /url: https://github.com/apps/github-actions
+                  - img "@github-actions[bot]" [ref=e1405]
+              - listitem [ref=e1406]:
+                - link "@ijjk" [ref=e1407] [cursor=pointer]:
+                  - /url: https://github.com/ijjk
+                  - img "@ijjk" [ref=e1408]
+              - listitem [ref=e1409]:
+                - link "@rauchg" [ref=e1410] [cursor=pointer]:
+                  - /url: https://github.com/rauchg
+                  - img "@rauchg" [ref=e1411]
+              - listitem [ref=e1412]:
+                - link "@EndangeredMassa" [ref=e1413] [cursor=pointer]:
+                  - /url: https://github.com/EndangeredMassa
+                  - img "@EndangeredMassa" [ref=e1414]
+              - listitem [ref=e1415]:
+                - link "@trek" [ref=e1416] [cursor=pointer]:
+                  - /url: https://github.com/trek
+                  - img "@trek" [ref=e1417]
+              - listitem [ref=e1418]:
+                - link "@jeffsee55" [ref=e1419] [cursor=pointer]:
+                  - /url: https://github.com/jeffsee55
+                  - img "@jeffsee55" [ref=e1420]
+              - listitem [ref=e1421]:
+                - link "@javivelasco" [ref=e1422] [cursor=pointer]:
+                  - /url: https://github.com/javivelasco
+                  - img "@javivelasco" [ref=e1423]
+              - listitem [ref=e1424]:
+                - link "@onsclom" [ref=e1425] [cursor=pointer]:
+                  - /url: https://github.com/onsclom
+                  - img "@onsclom" [ref=e1426]
+              - listitem [ref=e1427]:
+                - link "@lucleray" [ref=e1428] [cursor=pointer]:
+                  - /url: https://github.com/lucleray
+                  - img "@lucleray" [ref=e1429]
+            - link "+ 399 contributors" [ref=e1431] [cursor=pointer]:
+              - /url: /vercel/vercel/graphs/contributors
+          - generic [ref=e1433]:
+            - heading "Languages" [level=2] [ref=e1434]
+            - list [ref=e1444]:
+              - listitem [ref=e1445]:
+                - link "TypeScript 75.3%" [ref=e1446] [cursor=pointer]:
+                  - /url: /vercel/vercel/search?l=typescript
+                  - img [ref=e1447]
+                  - generic [ref=e1449]: TypeScript
+                  - generic [ref=e1450]: 75.3%
+              - listitem [ref=e1451]:
+                - link "Python 15.5%" [ref=e1452] [cursor=pointer]:
+                  - /url: /vercel/vercel/search?l=python
+                  - img [ref=e1453]
+                  - generic [ref=e1455]: Python
+                  - generic [ref=e1456]: 15.5%
+              - listitem [ref=e1457]:
+                - link "JavaScript 6.2%" [ref=e1458] [cursor=pointer]:
+                  - /url: /vercel/vercel/search?l=javascript
+                  - img [ref=e1459]
+                  - generic [ref=e1461]: JavaScript
+                  - generic [ref=e1462]: 6.2%
+              - listitem [ref=e1463]:
+                - link "Rust 1.1%" [ref=e1464] [cursor=pointer]:
+                  - /url: /vercel/vercel/search?l=rust
+                  - img [ref=e1465]
+                  - generic [ref=e1467]: Rust
+                  - generic [ref=e1468]: 1.1%
+              - listitem [ref=e1469]:
+                - link "HTML 0.5%" [ref=e1470] [cursor=pointer]:
+                  - /url: /vercel/vercel/search?l=html
+                  - img [ref=e1471]
+                  - generic [ref=e1473]: HTML
+                  - generic [ref=e1474]: 0.5%
+              - listitem [ref=e1475]:
+                - link "CSS 0.5%" [ref=e1476] [cursor=pointer]:
+                  - /url: /vercel/vercel/search?l=css
+                  - img [ref=e1477]
+                  - generic [ref=e1479]: CSS
+                  - generic [ref=e1480]: 0.5%
+              - listitem [ref=e1481]:
+                - generic [ref=e1482]:
+                  - img [ref=e1483]
+                  - generic [ref=e1485]: Other
+                  - generic [ref=e1486]: 0.9%
+  - contentinfo [ref=e1488]:
+    - heading "Footer" [level=2] [ref=e1489]
+    - generic [ref=e1490]:
+      - generic [ref=e1491]:
+        - link "GitHub Homepage" [ref=e1492] [cursor=pointer]:
+          - /url: https://github.com
+          - img [ref=e1493]
+        - generic [ref=e1495]: © 2026 GitHub, Inc.
+      - navigation "Footer" [ref=e1496]:
+        - heading "Footer navigation" [level=3] [ref=e1497]
+        - list "Footer navigation" [ref=e1498]:
+          - listitem [ref=e1499]:
+            - link "Terms" [ref=e1500] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/github-terms/github-terms-of-service
+          - listitem [ref=e1501]:
+            - link "Privacy" [ref=e1502] [cursor=pointer]:
+              - /url: https://docs.github.com/site-policy/privacy-policies/github-privacy-statement
+          - listitem [ref=e1503]:
+            - link "Security" [ref=e1504] [cursor=pointer]:
+              - /url: https://github.com/security
+          - listitem [ref=e1505]:
+            - link "Status" [ref=e1506] [cursor=pointer]:
+              - /url: https://www.githubstatus.com/
+          - listitem [ref=e1507]:
+            - link "Community" [ref=e1508] [cursor=pointer]:
+              - /url: https://github.community/
+          - listitem [ref=e1509]:
+            - link "Docs" [ref=e1510] [cursor=pointer]:
+              - /url: https://docs.github.com/
+          - listitem [ref=e1511]:
+            - link "Contact" [ref=e1512] [cursor=pointer]:
+              - /url: https://support.github.com?tags=dotcom-footer
+          - listitem [ref=e1513]:
+            - button "Manage cookies" [ref=e1515] [cursor=pointer]
+          - listitem [ref=e1516]:
+            - button "Do not share my personal information" [ref=e1518] [cursor=pointer]
