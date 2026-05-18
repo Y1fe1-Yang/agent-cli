@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { getTranslations } from 'next-intl/server';
 import { tools } from '@/lib/tools';
 import type { Locale } from '@/lib/types';
@@ -42,7 +43,7 @@ const DEV: FeaturedItem[] = [
 function ToolLogo({ item }: { item: FeaturedItem }) {
   if (item.logo) {
     return (
-      <img
+      <Image
         src={`/logos/${item.logo}.svg`}
         alt={item.service}
         width={28}

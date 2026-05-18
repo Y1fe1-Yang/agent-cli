@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import type { Tool } from '@/lib/types';
 
 const ENVS = [
@@ -21,7 +22,7 @@ export default function AiEnvBadges({
   return (
     <div className="flex items-center gap-1.5">
       {compatible.map(e => (
-        <img
+        <Image
           key={e.key}
           src={e.logo}
           alt={e.name}
