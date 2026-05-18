@@ -4308,22 +4308,43 @@
       {
         "command": "lark-cli calendar +agenda",
         "description": {
-          "en": "View today's calendar agenda",
-          "zh": "查看今日日程"
+          "en": "View today's agenda from Lark calendar",
+          "zh": "查看今天的飞书日历日程"
         }
       },
       {
-        "command": "lark-cli message send --to user@example.com --text \"Hello\"",
+        "command": "lark-cli im +messages-send --chat-id \"oc_xxx\" --text \"Hello\"",
         "description": {
-          "en": "Send a message to a Feishu user",
-          "zh": "向飞书用户发送消息"
+          "en": "Send a message to a Lark chat",
+          "zh": "向飞书群组发送消息"
         }
       },
       {
-        "command": "lark-cli doc create --title \"My Doc\"",
+        "command": "lark-cli im +chat-search --query \"project\"",
         "description": {
-          "en": "Create a new Feishu document",
-          "zh": "新建飞书文档"
+          "en": "Search for chats matching a keyword",
+          "zh": "搜索关键词相关的飞书群组"
+        }
+      },
+      {
+        "command": "lark-cli task +get-my-tasks",
+        "description": {
+          "en": "List pending tasks assigned to me",
+          "zh": "列出分配给我的待办任务"
+        }
+      },
+      {
+        "command": "lark-cli wiki +space-list",
+        "description": {
+          "en": "List all wiki spaces",
+          "zh": "列出所有知识库空间"
+        }
+      },
+      {
+        "command": "lark-cli doc create --title \"Meeting Notes\"",
+        "description": {
+          "en": "Create a new Lark document",
+          "zh": "新建一份飞书文档"
         }
       }
     ],
@@ -4342,24 +4363,24 @@
         "zh": "查看我今天的飞书日历安排"
       },
       {
-        "en": "Send a Lark message to [channel/person]: [content]",
-        "zh": "向飞书 [群名/成员] 发送消息：[内容]"
+        "en": "Send a message to Lark chat [chat name/ID]: [content]",
+        "zh": "向飞书群组 [群名/ID] 发送消息：[内容]"
       },
       {
-        "en": "Create a new Lark doc titled [xxx]",
-        "zh": "在飞书上新建一份文档，标题为 [xxx]"
-      },
-      {
-        "en": "Search Lark wiki for [keyword]",
-        "zh": "搜索飞书知识库中关于 [关键词] 的内容"
+        "en": "Search my Lark chats for [keyword]",
+        "zh": "在飞书中搜索与 [关键词] 相关的群组"
       },
       {
         "en": "List my pending Lark tasks",
         "zh": "列出我的飞书待办任务"
       },
       {
-        "en": "Schedule a Lark meeting at [time] with [people]",
-        "zh": "帮我在飞书安排一个会议，时间 [xxx]，参与者 [xxx]"
+        "en": "List all Lark wiki spaces",
+        "zh": "列出所有飞书知识库空间"
+      },
+      {
+        "en": "Create a new Lark doc titled [xxx]",
+        "zh": "在飞书上新建一份文档，标题为 [xxx]"
       }
     ]
   },
@@ -4395,24 +4416,24 @@
     },
     "examples": [
       {
-        "command": "ntn login",
+        "command": "ntn search \"Q3 OKR\"",
         "description": {
-          "en": "Authenticate with your Notion account via browser",
-          "zh": "通过浏览器登录 Notion 账号"
+          "en": "Search Notion workspace for pages matching a query",
+          "zh": "搜索 Notion 工作区中匹配关键词的页面"
         }
       },
       {
-        "command": "ntn api v1/users/me",
+        "command": "ntn pages create",
         "description": {
-          "en": "Get current user info via Notion API",
-          "zh": "通过 Notion API 获取当前用户信息"
+          "en": "Create a new Notion page",
+          "zh": "新建一个 Notion 页面"
         }
       },
       {
-        "command": "ntn workers deploy",
+        "command": "ntn datasources query --database-id <id>",
         "description": {
-          "en": "Build and deploy a Notion Worker to extend Notion functionality",
-          "zh": "构建并部署 Notion Worker 以扩展 Notion 功能"
+          "en": "Query all entries in a Notion database",
+          "zh": "查询 Notion 数据库中的所有条目"
         }
       }
     ],
@@ -6180,24 +6201,24 @@
     },
     "examples": [
       {
-        "command": "agentmail inbox create --name my-agent",
-        "description": {
-          "en": "Create a new inbox for an agent",
-          "zh": "为 Agent 创建新收件箱"
-        }
-      },
-      {
         "command": "agentmail inbox list",
         "description": {
           "en": "List all agent inboxes",
-          "zh": "列出所有 Agent 收件箱"
+          "zh": "列出所有 Agent 邮箱"
         }
       },
       {
         "command": "agentmail threads list --inbox my-agent@agentmail.to",
         "description": {
           "en": "List email threads in an inbox",
-          "zh": "列出收件箱中的邮件线程"
+          "zh": "列出指定邮箱的邮件对话"
+        }
+      },
+      {
+        "command": "agentmail inboxes:messages send --inbox-id <id> --to user@example.com --subject \"Hello\" --text \"Message body\"",
+        "description": {
+          "en": "Send an email from an agent inbox",
+          "zh": "从 Agent 邮箱发送一封邮件"
         }
       }
     ],
