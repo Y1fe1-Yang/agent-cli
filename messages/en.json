@@ -39,7 +39,8 @@
     "database": "Database",
     "media": "Media",
     "system": "System",
-    "fun": "Fun"
+    "fun": "Fun",
+    "cloud": "Cloud & Deployment"
   },
   "footer": {
     "credit": "Data sourced from awesome-cli-apps and official tool pages"

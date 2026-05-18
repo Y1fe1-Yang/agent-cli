@@ -9,7 +9,8 @@ export type Category =
   | 'database'
   | 'media'
   | 'system'
-  | 'fun';
+  | 'fun'
+  | 'cloud';
 
 export interface Tool {
   slug: string;

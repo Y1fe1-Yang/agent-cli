@@ -39,7 +39,8 @@
     "database": "数据库",
     "media": "媒体",
     "system": "系统",
-    "fun": "娱乐"
+    "fun": "娱乐",
+    "cloud": "云服务 & 部署"
   },
   "footer": {
     "credit": "数据来源：awesome-cli-apps 及各工具官方页面"

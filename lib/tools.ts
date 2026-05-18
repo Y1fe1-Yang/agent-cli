@@ -25,7 +25,7 @@ export function getToolsByCategory(category: Category): Tool[] {
 export function getCategoryCount(): Record<Category, number> {
   const seed = Object.fromEntries(
     (['file-management', 'network', 'git', 'dev-tools', 'productivity',
-      'database', 'media', 'system', 'fun'] as const).map(c => [c, 0])
+      'database', 'media', 'system', 'fun', 'cloud'] as const).map(c => [c, 0])
   ) as Record<Category, number>;
   return tools.reduce((acc, t) => {
     acc[t.category]++;
