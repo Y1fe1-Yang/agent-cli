@@ -1437,6 +1437,27 @@
           "en": "Watch a GitHub Actions run in real-time",
           "zh": "实时监看 GitHub Actions 运行"
         }
+      },
+      {
+        "command": "gh pr list",
+        "description": {
+          "en": "List open pull requests in the current repo",
+          "zh": "列出当前仓库的所有开放 PR"
+        }
+      },
+      {
+        "command": "gh issue create -t 'Bug: login fails' -b 'Steps to reproduce...'",
+        "description": {
+          "en": "Create a new issue without opening a browser",
+          "zh": "直接在终端创建新 Issue，无需打开浏览器"
+        }
+      },
+      {
+        "command": "gh release create v1.0.0 --generate-notes",
+        "description": {
+          "en": "Create a release and auto-generate changelog from merged PRs",
+          "zh": "创建 Release，自动从合并 PR 生成变更日志"
+        }
       }
     ],
     "ai_env": {
@@ -4511,6 +4532,27 @@
           "en": "Pull environment variables locally",
           "zh": "拉取环境变量到本地"
         }
+      },
+      {
+        "command": "vercel ls",
+        "description": {
+          "en": "List all recent deployments with their status",
+          "zh": "列出所有最近部署及其状态"
+        }
+      },
+      {
+        "command": "vercel logs <deployment-url>",
+        "description": {
+          "en": "View logs for a specific deployment",
+          "zh": "查看指定部署的运行日志"
+        }
+      },
+      {
+        "command": "vercel env add SECRET_KEY production",
+        "description": {
+          "en": "Add an environment variable to the production environment",
+          "zh": "向生产环境添加一个环境变量"
+        }
       }
     ],
     "ai_env": {
@@ -4712,6 +4754,27 @@
           "en": "Write a KV store entry",
           "zh": "写入 KV 存储条目"
         }
+      },
+      {
+        "command": "wrangler tail",
+        "description": {
+          "en": "Stream live request logs from a deployed Worker",
+          "zh": "实时查看已部署 Worker 的请求日志"
+        }
+      },
+      {
+        "command": "wrangler r2 bucket list",
+        "description": {
+          "en": "List all R2 object storage buckets in your account",
+          "zh": "列出账号下所有 R2 对象存储桶"
+        }
+      },
+      {
+        "command": "wrangler d1 list",
+        "description": {
+          "en": "List all D1 serverless SQL databases",
+          "zh": "列出所有 D1 无服务器 SQL 数据库"
+        }
       }
     ],
     "ai_env": {
@@ -4789,6 +4852,20 @@
           "en": "Run a command with Railway env vars",
           "zh": "使用 Railway 环境变量运行命令"
         }
+      },
+      {
+        "command": "railway status",
+        "description": {
+          "en": "Show current project, environment, and service info",
+          "zh": "显示当前项目、环境与服务信息"
+        }
+      },
+      {
+        "command": "railway variables",
+        "description": {
+          "en": "List all environment variables for the current service",
+          "zh": "列出当前服务的所有环境变量"
+        }
       }
     ],
     "ai_env": {
@@ -4865,6 +4942,27 @@
         "description": {
           "en": "Generate TypeScript types from schema",
           "zh": "从数据库 schema 生成 TypeScript 类型"
+        }
+      },
+      {
+        "command": "supabase migration new add_users_table",
+        "description": {
+          "en": "Create a new timestamped migration SQL file",
+          "zh": "创建一个带时间戳的新数据库迁移文件"
+        }
+      },
+      {
+        "command": "supabase db diff",
+        "description": {
+          "en": "Show schema changes between local and remote database",
+          "zh": "对比本地与远端数据库的 schema 差异"
+        }
+      },
+      {
+        "command": "supabase functions deploy my-function",
+        "description": {
+          "en": "Deploy a Supabase Edge Function to production",
+          "zh": "将 Edge Function 部署到 Supabase 生产环境"
         }
       }
     ],
